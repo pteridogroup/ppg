@@ -1,0 +1,83 @@
+name: Taxonomic proposal
+description: Propose a taxonomic change
+labels: ["taxonomic proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form should be used for proposing a taxonomic change relative to [PPG I](https://doi.org/10.1111/jse.12229). **All proposed names must be validly published according to the [International Code of Nomenclature for Algae, Fungi, and Plants](https://www.iapt-taxon.org/nomen/main.php).** 
+        
+        Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Rescue of Spicantopsis (Blechnaceae, Polypodiopsida)`).
+
+        For discussions about other topics, please use the [Discussion forum](https://github.com/pteridogroup/ppg-demo/discussions).
+  - type: input
+    id: taxon-name
+    attributes:
+      label: Name of taxon
+    validations:
+      required: true
+  - type: dropdown
+    id: taxon-rank
+    attributes:
+      label: Rank of taxon
+      multiple: false
+      options:
+        - Class
+        - Order
+        - Suborder
+        - Family
+        - Subfamily
+        - Tribe
+        - Subtribe
+        - Genus
+        - Subgenus
+        - Species
+        - Infraspecific
+    validations:
+      required: true
+  - type: input
+    id: num-species
+    attributes:
+      label: Approximate number of species affected
+    validations:
+      required: false
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of change
+      description: |
+        Describe the substance of the change.
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Reason for change
+      description: |
+        Include a thorough description of why the change should be adopted, citing the relevant literature; also mention any contrary arguments that might be relevant.
+    validations:
+      required: true
+  - type: textarea
+    id: reference
+    attributes:
+      label: Reference(s) for publication of the name
+      description: |
+        Only validly published names will be included in PPG. Include link (DOI) if available.
+    validations:
+      required: true
+  - type: input
+    id: other
+    attributes:
+      label: List the numbers of any related issues
+      description: |
+        Every issue is assigned a number. You can find the number in the title of the issue. Enter the number preceded by a hash mark, e.g., `#1`. Separate multiple issues with a comma, e.g., `#1, #2`.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
+      options:
+        - label: I agree to follow the PPG Code of Conduct
+          required: true

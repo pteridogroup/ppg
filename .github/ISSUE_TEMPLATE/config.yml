@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: PPG GitHub Guide
+    url: https://pteridogroup.github.io/github.html
+    about: Please see this guide for how to use GitHub to manage PPG discussions.
