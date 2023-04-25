@@ -8,7 +8,7 @@ For more information about PPG, see the [PPG webpage](https://pteridogroup.githu
 
 ## Format
 
-The database is provided as [a CSV file](ppg.csv) in the [Darwin Core (DwC) format for taxonomic data](https://dwc.tdwg.org/terms/#taxon).
+The database is provided as [a CSV file](ppg.csv) in the [Darwin Core (DwC) format](https://dwc.tdwg.org/terms/#taxon) for taxonomic data.
 
 A human readable summary of the same data is available as [a plain text file](ppg.md) in Markdown format.
 
@@ -16,7 +16,7 @@ Currently, the database includes only names at the genus level and higher, but w
 
 ## Versioning
 
-The data are currently being updated to reflect changes that have taken place since[PPG I (2016)](https://doi.org/10.1111/jse.12229). Once this is done, a version number will be assigned. Therefore, **these data should not be taken as the official PPG system until a version number is assigned**.
+The data are currently being updated to reflect changes that have taken place since [PPG I (2016)](https://doi.org/10.1111/jse.12229). Once this is done, a version number will be assigned. Therefore, **these data should not be taken as the official PPG system until a version number is assigned**.
 
 ## Contributing
 
