@@ -6,6 +6,8 @@ This repo houses the Pteridophyte Phylogeny Group (PPG) taxonomic database for f
 
 For more information about PPG, see the [PPG webpage](https://pteridogroup.github.io/).
 
+IMPORTANT: if you want to [contribute](#contributing), please read the Contribution Guidelines first **FIXME: ADD LINK**.
+
 ## Format
 
 The database is provided as [a CSV file](data/ppg.csv) in the [Darwin Core (DwC) format](https://dwc.tdwg.org/terms/#taxon) for taxonomic data.
