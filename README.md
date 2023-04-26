@@ -6,7 +6,7 @@ This repo houses the Pteridophyte Phylogeny Group (PPG) taxonomic database for f
 
 For more information about PPG, see the [PPG webpage](https://pteridogroup.github.io/).
 
-IMPORTANT: if you want to [contribute](#contributing), please read the Contribution Guidelines first **FIXME: ADD LINK**.
+**IMPORTANT**: if you want to [participate](#contributing), please read the Contribution Guidelines first **FIXME: ADD LINK**.
 
 ## Format
 
