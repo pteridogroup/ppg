@@ -77,7 +77,7 @@ body:
     id: terms
     attributes:
       label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com).
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://pteridogroup.github.io/coc.html).
       options:
         - label: I agree to follow the PPG Code of Conduct
           required: true
