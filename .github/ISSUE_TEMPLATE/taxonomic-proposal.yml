@@ -9,7 +9,7 @@ body:
         
         Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Rescue of Spicantopsis (Blechnaceae, Polypodiopsida)`).
 
-        For discussions about other topics, please use the [Discussion forum](https://github.com/pteridogroup/ppg-demo/discussions).
+        For discussions about other topics, please use the [Discussion forum](https://github.com/pteridogroup/ppg/discussions).
   - type: input
     id: taxon-name
     attributes:
