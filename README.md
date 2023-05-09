@@ -6,7 +6,7 @@ This repo houses the Pteridophyte Phylogeny Group (PPG) taxonomic database for f
 
 For more information about PPG, see the [PPG webpage](https://pteridogroup.github.io/).
 
-**IMPORTANT**: if you want to [participate](#contributing), please read the Contribution Guidelines first **FIXME: ADD LINK**.
+**IMPORTANT**: if you want to [participate](#contributing), please read the [Project Guidelines](https://pteridogroup.github.io/guidelines.html) first.
 
 ## Format
 
@@ -22,7 +22,11 @@ The data are currently being updated to reflect changes that have taken place si
 
 ## Contributing
 
-Anybody is welcome to contribute. All participants must adhere to the Code of Conduct **FIXME: ADD LINK**. Please read the Contribution Guidelines **FIXME: ADD LINK** before contributing.
+All taxonomic decisions are made by the PPG community.
+
+Taxonomic proposals should be submitted as [issues](https://github.com/pteridogroup/ppg/issues/new?assignees=&labels=taxonomic+proposal&template=taxonomic-proposal.yml), which will be voted on monthly. Proposals may be commented upon in the [issue tracker](https://github.com/pteridogroup/ppg/issues). Voting is carried out separately via a Google Form survey circulated on the PPG mailing list. Any proposal receiving >2/3 support will be approved and implemented in the data.
+
+Anybody is welcome to contribute. All participants must adhere to the [Code of Conduct](https://pteridogroup.github.io/coc.html). Please read the [Project Guidelines](https://pteridogroup.github.io/guidelines.html) before contributing.
 
 ## Data sources
 
@@ -34,4 +38,6 @@ Pteridophyte Phylogeny Group I (2016) A community-derived classification for ext
 
 ## License
 
-Data are made available under the **FIXME: ADD LICENSE** license.
+Data (files in `data_raw/` and `data/`) are made available under the [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) license.
+
+Code is under the [MIT](LICENSE) license.
