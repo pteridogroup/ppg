@@ -20,6 +20,8 @@ body:
     id: taxon-rank
     attributes:
       label: Rank of taxon
+      description: |
+        Currently only proposals at the level of subgenus or higher are being considered.
       multiple: false
       options:
         - Class
@@ -31,8 +33,6 @@ body:
         - Subtribe
         - Genus
         - Subgenus
-        - Species
-        - Infraspecific
     validations:
       required: true
   - type: input
