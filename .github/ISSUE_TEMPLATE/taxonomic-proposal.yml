@@ -62,7 +62,7 @@ body:
     attributes:
       label: Reference(s) for publication of the name
       description: |
-        Only validly published names will be included in PPG. Include link (DOI) if available.
+        Only validly published names will be included in PPG. Include link (DOI) if available. You can upload a PDF by dragging it into the text box.
     validations:
       required: true
   - type: input
