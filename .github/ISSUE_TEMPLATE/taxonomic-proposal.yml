@@ -11,6 +11,12 @@ body:
 
         For discussions about other topics, please use the [Discussion forum](https://github.com/pteridogroup/ppg/discussions).
   - type: input
+    id: author-name
+    attributes:
+      label: Author(s) of proposal
+    validations:
+      required: false
+  - type: input
     id: taxon-name
     attributes:
       label: Name of taxon
