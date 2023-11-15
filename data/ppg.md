@@ -1,17 +1,14 @@
-PPG
-================
+# PPG
 
 ## Lycopodiales DC. ex Bercht. & J. Presl -- Prir. Rostlin: 272 (1820)
-
-1 family, 17 genera, ca. 460 spp.
 
 ### Lycopodiaceae P. Beauv. ex Mirb. -- Hist. Nat. Veg. (Lam. & Mirb.) 4: 293 (1802)
 
 17 genera, ca. 470 spp. Phylogeny: Chen et al. (2021).  
-= Huperziaceae Rothm. -- Repert. Spec. Nov. Regni Veg. 66: 236 (1962), nom. nov.  
+= Huperziaceae Rothm. -- Feddes Repert. 66: 236 (1962), nom. nov.  
 = Lycopodiellaceae Val. N. Tikhom. -- Novosti Sist. Vyssh. Rast. 49: 149 (2018)  
 = Phylloglossaceae Kunze -- Bot. Zeitung (Berlin) 1: 722 (1843)  
-= Urostachyaceae Rothm. -- Repert. Spec. Nov. Regni Veg. 54: 58 (1944) (nom. illeg.)
+= Urostachyaceae Rothm. -- Feddes Repert. 54: 58 (1944) (nom. illeg.)
 
 #### Huperzioideae W. H. Wagner & Beitel ex B. Øllg. -- Nordic J. Bot. 33(2): 195 (2014)
 
@@ -99,7 +96,6 @@ Distribution: Holarctic.
 
 ## Isoetales Prantl -- Lehrb. Bot.: 116 (1874)
 
-1 family, 1 genus, ca. 185 spp.  
 = Isoetariae Koidz. -- Acta Phytotax. Geobot. 7: 11 (1938)  
 = Isoeteae Barlinge -- Ord. Nat. Plant. 16 (1830)
 
@@ -120,7 +116,6 @@ Distribution: Worldwide. Many undescribed species remain. Latest checklist: Troi
 
 ## Selaginellales Prantl -- Lehrb. Bot.: 116 (1874)
 
-1 family, 1 genus, ca. 700 spp.  
 = Heterosporae Asch. -- Syn. 1: 149 (1896)  
 = Heterosporeae Prantl -- Lehrb. Bot., 116 (1874)  
 = Selaginellidae Pic. Serm. -- Pteridophyta, Vistas in Botany 456 (1961) (Subclass)  
@@ -129,36 +124,110 @@ Distribution: Worldwide. Many undescribed species remain. Latest checklist: Troi
 
 ### Selaginellaceae Rchb. -- Handb. Nat. Pflanzensyst. 163 (1837)
 
-1 genus, ca. 720 spp. The genus might be split in the future in several genera. Zhou et al. (2016) keep sections.  
-= Selaginellaceae Willk. -- Anleit. Stud. Bot. 2: 163 (1854)
+1-19 genera depending on genus concept, ca. 750 spp. The family has recently been split extensively by X.-M. Zhou & Li-Bing Zhang (2023).
 
-###### Selaginella P. Beauv. -- Magasin Encycl. 9: 478 (1804) et Prodr. Aethéogam. 101 (1805), nom. cons.
+#### Boreoselaginelloideae Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
 
-Distribution: Cosmopolitan. There might be the need to split the large and highly diverse genus in several genera.  
-= Bryodesma Soják -- Preslia 64(2): 154 (1992 publ. 1993)  
-= Carpolepidium P. Beauv. -- Fl. d’Oware, 1: 21, t. 13 (1805)  
-= Didiclis P. Beauv. -- Déterv. Hist. Nat. 3: 477, no. 1899 (1803), ex Lam. & Mirb., Hist. Nat., ed. nov., 4: 314 (1830)  
-= Diplostachyum P. Beauv. -- Prodr. 104, 107 (1805)  
-= Gymnogynum P. Beauv. -- Mag. Encycl. 9, 5: 480 (1804), et Prodr. 103 (1805)  
-= Heterophyllae Spring -- Mart. & Engl., Fl. Bras. 1, 2: 188 (1840)  
-= Heterophyllium Hieron. ex Börner -- Volksflora 110 (gen.), 285 (sp.), fig. 249 (1912)  
-= Heterostachys Warb. -- Monsunia 1: 101 (1900)  
-= Homoeophyllae Spring -- Mart. & Engl., Fl. Bras. 1: 118 (1840)  
-= Homoeophyllum Hieron. & Sadeb. -- Engl. & Prantl, Nat. Pflanzenfam. 1(4): 669 (1902)  
-= Homostachys Warb. -- Monsunia 1: 101 (1900)  
-= Homotropae A. Braun -- App. Ind. Sem. Hort. Berol. 11 ((1857) 1858)  
-= Hypopterygiopsis Sakurai -- Bot. Mag. (Tokyo) 57: 255 (1943)  
-= Lycopodioides Boehm. -- Def. Gen. Pl. ed. Boehmer 485 (1760) (nom. rej.)  
-= Polycocca Hill -- Gen. Hist. Nat. 2 (Hist. Pl.) 112 (1773) (nom. superfl. for Selaginoides)  
-= Selaginoides Ség. -- Pl. Veron. 3: 51. Jul-Dec (1754), nom. rej.  
+###### Boreoselaginella (Warb.) Li Bing Zhang & 887 X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: Himalayas to E-Asia and Siberia
+
+#### Gymnogynoideae Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+###### Afroselaginella Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: Tropical Africa
+
+###### Bryodesma Soják -- Preslia 64(2): 154 (1992 publ. 1993)
+
+Distribution: Almost cosmopolitan, mostly in temperate areas, many in USA
+
+###### Ericetorum (Jermy) Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: Australia, Madagascar, South Africa (1), New Guinea (1)
+
+###### Gymnogynum P. Beauv. -- Mag. Encycl. 9, 5: 480 (1804), et Prodr. 103 (1805)
+
+Distribution: Mostly tropical America, 1 tropical Africa, 1 Asia
+
+###### Lepidoselaginella Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: SW-USA to Costa Rica, mostly Mexico
+
+###### Megaloselaginella Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: Tropical America
+
+#### Lycopodioidoideae Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+###### Didiclis P. Beauv. -- Déterv. Hist. Nat. 3: 477, no. 1899 (1803), ex Lam. & Mirb., Hist. Nat., ed. nov., 4: 314 (1830)
+
+Distribution: Tropical Old World and Pacific, only 1 in Central America
+
+###### Hypopterygiopsis Sakurai -- Bot. Mag. (Tokyo) 57: 255 (1943)
+
+Distribution: tropical Old World including Pacific, north to S-China
+
+###### Lycopodioides Boehm. -- Def. Gen. Pl. ed. Boehmer 485 (1760)
+
+Distribution: Europe and temperate Asia, 1 in Java, 1 tropical Africa  
+= Lycopodioides Kuntze -- Revis. Gen. Pl. 2: 824 (1891), nom. superfl.  
+= Trispermium Hill -- Gen. Hist. Nat. 2 (Hist. Pl.) 112 (1773)
+
+###### Valdespinoa Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: NW-USA
+
+#### Pulvinielloideae Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+###### Pulviniella (Li Bing Zhang & X. M. Zhou) Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: scattered almost cosmopolitan, several in China
+
+#### Selaginelloideae Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+###### Chuselaginella Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: Tropical Asia and Pacific, few S-China, 1 tropical Africa
+
+###### Kungiselaginella Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: Tropical Asia to S-China
+
+###### Selaginella P. Beauv. -- Magasin Encycl. 9: 478 (1804) et Prodr. Aethéogam. 101 (1805), s. str.
+
+Distribution: New World, mostly tropical America, only very few tropical Africa. The genus definition relies on a new lectotype for Selaginella by Zhou & Zhang (2023) who did this in order to avoid recombination of this big genus. Whether this will stand, remains to be seen.  
 = Selago P. Browne -- Civ. Nat. Hist. Jamaica 82 (1756) (nom. illeg., non Selago L. (1753))  
 = Stachygynandrum P. Beauv. -- Mag. Encycl. 9: 482 (1805)  
-= Stachygynandrum P. Beauv. ex Mirb. -- Hist. Nat. Veg. (Lam. & Mirb.) 3: 477 (1803) (nom. rej. against Selaginella P. Beauv. (1805))  
-= Trispermium Hill -- Gen. Hist. Nat. 2 (Hist. Pl.) 112 (1773) (nom. superfl. for Selaginoides)
+= Stachygynandrum P. Beauv. ex Mirb. -- Hist. Nat. Veg. (Lam. & Mirb.) 3: 477 (1803)
+
+###### Selaginella s. l. -- NA
+
+Species which are of unconfirmed status, do obviously not belong to Selaginella s. str. and/or have not yet been reassigned during the split of the genus by Zhou & Zhang (2023)
+
+#### Selaginoidoideae Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+###### Selaginoides Ség. -- Pl. Veron. 3: 51. Jul-Dec (1754)
+
+Distribution: Holarctic (1) and Hawaii (1). This includes the previous type of Selaginella. Whether the approach of Zhou & Zhang (2023) to newly lectotypify Selaginella to avoid mass recombinations will be accepted, is not yet decided.  
+= Polycocca Hill -- Gen. Hist. Nat. 2 (Hist. Pl.) 112 (1773) (nom. superfl. for Selaginoides)
+
+#### Sinoselaginelloideae Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+###### Austroselaginella Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: Australia
+
+###### Korallia Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: Indian Ocean (Madagascar, Mascarenes, Seychelles, Comores)
+
+###### Sinoselaginella Li Bing Zhang & X. M. Zhou -- Plant Diversity, https://doi.org/10.1016/j.pld.2023.07.003 (2023)
+
+Distribution: Himalayas, China, 1 Ethiopia and Arabia
 
 ## Equisetales DC. ex Bercht. & J. Presl -- Prir. Rostlin. 1: 271 (1820) (Equisetaceae)
 
-1 family, 1 genus, 16 spp.  
 = Equisetophyta D. H. Scott -- Stud. Foss. Pl. 13, 489, 492, 493 (1900) (Division)
 
 ### Equisetaceae Michx. ex DC. -- Essai Propr. Méd. Pl. 49 (1804)
@@ -173,8 +242,6 @@ Distribution: Nearly cosmopolitan. Several hybrids are now stabilized and may al
 = Presla Dulac -- Fl. Dépt. Hautes-Pyrenees 25 (1867) (nom. superfl.)
 
 ## Psilotales Prantl -- Lehrb. Bot., ed. 5: 183 (1884) (Psilotaceae)
-
-1 family, 2 genera, 17 species
 
 ### Psilotaceae J. W. Griff. & Henfr. -- Microgr. Dict.: 540 (1855) (Psiloteae)
 
@@ -194,12 +261,11 @@ Distribution: SE-Asia, Australasia, New Zealand (7), New Caledonia, New Guinea, 
 
 ## Ophioglossales Link -- Hort. Berol. 2: 151 (1833) (Ophioglossaceae)
 
-1 family, 5 genera, ca. 110 species  
 = Ophioglossopsida Thomé -- Lehrb. Bot., ed. 4: 205 (1874) (Ophioglosseae) (Class)
 
 ### Ophioglossaceae Martynov -- Tekhno-Bot. Slovar: 438 (1820) (Ophioglosseae)
 
-9 genera, ca. 120 spp. cosmopolitan. Phylogeny: Zhang et al. 2020.  
+Phylogeny: Zhang et al. 2020  
 = Botrychiaceae Horan. -- Char. Ess. Fam.: 15 (1847)  
 = Helminthostachyaceae Ching -- Bull. Fan Mem. Inst. Biol. Bot. 10: 235 (1941)  
 = Ophioglosseae R. Br. -- Prodr. Fl. Nov. Holland. 163 (1810)
@@ -265,7 +331,7 @@ Distribution: Old World
 
 ###### Ophioglossum L. -- Sp. Pl. 2: 1062 (1753) s. str.
 
-Distribution: Almost worldwide. Species delimitation is often highly disputed because of few morphological characters. The split in four genera according to Zhang & Zhang (2022) appears unnecessary because the genus remains monophyletic.  
+Distribution: Almost worldwide. Species delimitation is often highly disputed because of few morphological characters. The split in four genera according to Zhang & Zhang (2022) appears unnecessary because the genus remains monophyletic if they are included.  
 = Cassiopteris H. Karst. -- Linnaea 20: 437 (1847)  
 = Goswamia Li Bing Zhang & Liang Zhang -- Molec. Phylogen. Evol. 173(107512): 23 (2022)  
 = Haukia Li Bing Zhang & Liang Zhang -- Molec. Phylogen. Evol. 173(107512): 24 (2022)  
@@ -279,7 +345,6 @@ Distribution: South Africa
 
 ## Marattiales Link -- Hort. Berol. 2: 148 (1833) (Marattiaceae)
 
-1 family, 6 genera, 110-130 species  
 = Christenseniales Doweld -- Tent. Syst. Pl. Vasc. vii (2001) (Order)
 
 ### Marattiaceae Kaulf. -- Enum. Filic. 31 (1824), nom. cons.
@@ -332,7 +397,6 @@ Distribution: Trop. Old World, many New Guinea
 
 ## Osmundales Link -- Hort. Berol. 2: 138 (1833) (Osmundaceae)
 
-1 family, 4 genera, 24 species  
 = Osmundopsida Doweld -- Tent. Syst. Pl. Vasc. ix (2001) (Class)
 
 ### Osmundaceae Martynov -- Tekhno-Bot. Slovar: 445 (1820)
@@ -378,8 +442,6 @@ Distribution: Asia, North America
 
 ## Hymenophyllales A. B. Frank -- Syn. Pflanzenkd. (Leunis) ed. 2, 3: 1452 (1877) (Hymenophyllaceae)
 
-1 family, 9 genera, ca. 600 species
-
 ### Hymenophyllaceae Mart. -- Consp. Regni Veg. 3 (1835)
 
 9 genera, ca. 620 spp. Circumscription of genera see Ebihara et al. (2006)  
@@ -388,7 +450,7 @@ Distribution: Asia, North America
 
 #### Hymenophylloideae Burnett -- Outlines Bot. 324 (1835)
 
-###### Hymenophyllum J. E. Sm. -- Mém. Acad. Turin 5: 4 (1793)
+###### Hymenophyllum Sm. -- Mém. Acad. Turin 5: 4 (1793)
 
 Distribution: Tropics / south-temperate, mostly neotropical  
 = Acanthotheca Nakai -- Bot. Mag. (Tokyo) 40: 242 (1926)  
@@ -427,7 +489,7 @@ Distribution: Tropics / south-temperate, mostly neotropical
 
 ###### Abrodictyum C. Presl -- Abh. Königl. Böhm. Ges. Wiss. 5(3): 20 (1843)
 
-Distribution: Tropics, mostly Old World  
+Distribution: Tropics, mostly Old World, only few New World  
 = Abrodictyum subgen. Pachychaetum (C. Presl) Ebihara & K. Iwats. -- Blumea 51(2): 242 (2006)  
 = Cephalomanes subgen. Macroglena (C. Presl) K. Iwats. -- Acta Phytotax. Geobot. 35(4-6): 176 (1984)  
 = Habrodictyon Bosch -- Verh. Konigk. Akad. Wetensch. Amsterdam (Hym. Javan.) 9(4): 17 (1861)  
@@ -435,7 +497,7 @@ Distribution: Tropics, mostly Old World
 = Pachychaetum C. Presl -- Abh. Königl. Böhm. Ges. Wiss. 5(3): 16 (1843)  
 = Selenodesmium (Prantl) Copel. -- Philipp. J. Sci. 67: 80 (1938)  
 = Trichomanes subgen. Macroglena C. Presl -- Abh. Königl. Böhm. Ges. Wiss., Math.-Naturw. Cl. V, 5: 5: 333 (1848)  
-= Trichomanes subgen. Selenodesmium Prantl. -- Unters. Morph. Gefässkr. 1: 53 (1875)
+= Trichomanes subgen. Selenodesmium Prantl -- Unters. Morph. Gefässkr. 1: 53 (1875)
 
 ###### Callistopteris Copel. -- Occas. Pap. Bernice Pauahi Bishop Mus. 14: 49 (1938)
 
@@ -448,7 +510,7 @@ Distribution: Tropical Old World
 
 ###### Crepidomanes (C. Presl) C. Presl -- Abh. Königl. Böhm. Ges. Wiss., ser. 5, 6: 258 (1851) s. str.
 
-Distribution: Paleotropical and Pacific.  
+Distribution: Paleotropical and Pacific, only 1 New World  
 = Cephalomanes subgen. Nesopteris (Copel.) K. Iwats. -- Acta Phytotax. Geobot. 35(4-6): 176 (1984)  
 = Crepidium C. Presl -- Abh. Königl. Böhm. Ges. Wiss. 5(3): 23 (1843)  
 = Crepidomanes sect. Crepidium (C. Presl) Ebihara & K. Iwats. -- Blumea 51(2): 239 (2006)  
@@ -456,12 +518,10 @@ Distribution: Paleotropical and Pacific.
 = Crepidophyllum C. F. Reed -- Amer. Fern J. 38: 88 (1948)  
 = Crepidopteris Copel. -- Philipp. J. Sci. 67: 57 (1938) (non C. Presl in Sternb., nec Benth.)  
 = Gonocormus Bosch -- Versl. Akad. Wet. Amsterdam 21: 321 (1861)  
-= Lacostea Bosch -- Versl. Akad. Wet. Amsterdam 11: 320 (1861)  
 = Nesopteris Copel. -- Philipp. J. Sci. 67: 65 (1938)  
 = Reediella Pic. Serm. -- Webbia 24: 718 (1970), nom. nov. for Crepidophyllum C. F. Reed  
 = Taschneria C. Presl -- Abh. Königl. Böhm. Ges. Wiss. 5(6) (Epim. Bot.): 248 (1851)  
-= Trichomanes subgen. Crepidomanes C. Presl -- Abh. Königl. Böhm. Ges. Wiss., ser. 5, 6: 17 (1851)  
-= Trichomanes subgen. Lacostea (Bosch) C. Chr. -- Index Filic. 634 (1906)
+= Trichomanes subgen. Crepidomanes C. Presl -- Abh. Königl. Böhm. Ges. Wiss., ser. 5, 6: 17 (1851)
 
 ###### Didymoglossum Desv. -- Prodr. 330 (1827)
 
@@ -477,7 +537,7 @@ Distribution: Southern temperate and mountain forests of low altitudes
 
 ###### Trichomanes L. -- Sp. Pl. 2: 1097 (1753) s. str.
 
-Distribution: Mostly neotropics, at least 1 trop. Africa and possibly some more Madagascar and Indian Ocean. The remaining Old World species and most of the genus synonyms listed here probably need transfer in other genera.  
+Distribution: Mostly neotropics, but 5 trop. Africa, Madagascar and Indian Ocean (see Dubuisson et al. 2023).  
 = Achomanes Neck. -- Element. Bot. 3: 313 (1790)  
 = Bergera W. Schaffn. ex Fée -- Mém. Foug. 9 (Cat. Foug. Mex.): 30 (1857)  
 = Davalliopsis Bosch -- Versl. Akad. Wet. Amsterdam 11: 323 (1861)  
@@ -486,6 +546,7 @@ Distribution: Mostly neotropics, at least 1 trop. Africa and possibly some more 
 = Holophlebium Christ -- Farnkr. Erde 27 (1897)  
 = Homoeotes C. Presl -- Abh. Königl. Böhm. Ges. Wiss., Math.-Naturw. Cl. V, 5: 5: 331 (1848)  
 = Hymenostachys Bory -- Dict. Class d’Hist. Nat. 6: 588 (1824), 8: 462 (1825)  
+= Lacostea Bosch -- Versl. Akad. Wet. Amsterdam 11: 320 (1861)  
 = Lecanium C. Presl -- Abh. Königl. Böhm. Ges. Wiss. 5(3): 11 (1843)  
 = Leptomanes Prantl -- Unters. Morph. Gefäßkrypt. 1: 52 (1875)  
 = Leucomanes C. Presl -- Abh. Königl. Böhm. Ges. Wiss. 5(6) (Epim. Bot.): 258 (1851)  
@@ -500,6 +561,7 @@ Distribution: Mostly neotropics, at least 1 trop. Africa and possibly some more 
 = Pyxidaria Gled. -- Syst. Pl. 291 (1764)  
 = Ragatelus C. Presl -- Abh. Königl. Böhm. Ges. Wiss. 5(3): 14 (1843)  
 = Trichomanes subgen. Davalliopsis (Bosch) Ebihara & K. Iwats. -- Blumea 51(2): 247 (2006)  
+= Trichomanes subgen. Lacostea (Bosch) C. Chr. -- Index Filic. 634 (1906)  
 = Trigonophyllum (Prantl) Pic. Serm. -- Webbia 31(1): 242(1977)
 
 ###### Vandenboschia Copel. -- Philipp. J. Sci. 67: 51 (1938)
@@ -511,7 +573,6 @@ Distribution: Worldwide tropics and subtropics
 
 ## Gleicheniales Schimp. -- Traité Paléont. Vég. 1: 669 (1869)
 
-3 families, 10 genera, ca. 160 spp.  
 = Dipteridales Doweld -- Tent. Syst. Pl. Vasc. x (2001) (Order)  
 = Gleicheniopsida Doweld -- Tent. Syst. Pl. Vasc. ix (2001) (Class)  
 = Matoniales Pic. Serm. ex Reveal -- Phytologia 74: 175 (1993) (Order)  
@@ -547,8 +608,7 @@ Distribution: Pantropical / austral, mostly Malesia
 = Heteropterygium Diels -- Engl. & Prantl, Nat. Pflanzenfam. 355 (1900)  
 = Hicriopteris C. Presl -- Abh. Königl. Böhm. Ges. Wiss., ser. 5, 6: 26 (1851) (non Ching, nec Copel.)  
 = Holopterygium Diels -- Engl. & Prantl, Nat. Pflanzenfam. 1(4): 353 (1900)  
-= Mesosorus Hassk. -- Fil. Jav. 1: 2 (1856)  
-= Sticherus sect. Hicriopteris (C. Presl) C. Chr. -- Verd., Man. Pterid. 530 (1938)
+= Mesosorus Hassk. -- Fil. Jav. 1: 2 (1856)
 
 ###### Diplopterygium (Diels) Nakai -- Bull. Natl. Sci. Mus. (Tokyo) 29: 47 (1950)
 
@@ -560,7 +620,7 @@ Distribution: SE-Asia, S-China, S-Japan to Queensland and Hawaii, 1 sp. tropical
 Distribution: Trop. America. Valid genus fide Mickel (2004)  
 = Acropterygium (Diels) Nakai -- Bull. Natl. Sci. Mus. Tokyo 29: 5 (1950)
 
-###### Gleichenia J. E. Sm. -- Mém. Acad. Turin 5: 419 (1793) s. str.
+###### Gleichenia Sm. -- Mém. Acad. Turin 5: 419 (1793) s. str.
 
 Distribution: Paleotropical / austral, not in the New World  
 = Calymella C. Presl -- Tent. Pterid. 48 (1836)  
@@ -593,8 +653,6 @@ Distribution: Malesia
 Distribution: E-Malesia
 
 ## Schizaeales Schimp. -- Traité Paléont. Vég. 1: 674 (1869)
-
-3 families, 4 genera, ca. 185 species
 
 ### Anemiaceae Link -- Fil. Spec. 23 (1841)
 
@@ -635,27 +693,26 @@ Distribution: Tropics and south-temperate worldwide, mostly Malesia, trop. Ameri
 
 ### Schizaeaceae Kaulf. -- Wes. d. Farrnkr. 119 (1827)
 
-2 genera, 35 spp.
+3(-4) genera, 35 - 40 spp. Phylogeny: Ke et al. (2022)
 
 ###### Actinostachys R. Br. ex Hook. & Baker -- Gen. Fil., t. 111 (1842)
 
-Distribution: Tropics. The genus is frequently included in Schizaea as subgenus.  
+Distribution: Tropics, many endemics in New Caledonia  
 = Actinostachys R. Br. ex Wall. -- Numer. List no. 1 (1829), nomen  
 = Schizaea subgen. Actinostachys (Wall.) J. W. Sturm -- Mart., Fl. Bras. 1(2): 179 (1859)
 
 ###### Microschizaea C. F. Reed -- Bol. Soc. Broter. Ser. 2, 21: 133 (1948)
 
-Distribution: Malesia, Australia, New Zealand, Pacific, 1 trop. and South Africa, 1 subantarctic and S-South America
+Distribution: Malesia, Australia, New Zealand, Pacific, 1 trop. and South Africa, 1 subantarctic and S-South America. The genus should be recognized fide Ke et al. 2022.
 
-###### Schizaea J. E. Sm. -- Mém. Acad. Turin 5: 419 (1793), nom. cons.
+###### Schizaea Sm. -- Mém. Acad. Turin 5: 419 (1793), nom. cons.
 
-Distribution: Tropical America, E-USA, Chile/Falkland Isl., tropical Old World, Pacific (several New Caledonia), Australia, New Zealand (3)  
+Distribution: Tropical America, E-USA, Chile/Falkland Isl., tropical Old World, Pacific (several New Caledonia), Australia, New Zealand (3). Schizaea pusilla probably belongs in a separate genus (Ke et al. 2022)  
 = Lophidium Rich. -- Act. Soc. Hist. Nat. Paris 11 (1792)  
 = Ripidium Bernh. -- J. Bot. (Schrader) 1800(2): 127 (1801)
 
 ## Salviniales Bartl. -- Mart., Consp. Regn. Veg.: 4 (1835)
 
-2 families, 5 genera, ca. 75 species  
 = Marsileales Bartl. -- Martius, Consp. Regni Veg. 4 (1835) (Marsileaceae) (Order)  
 = Marsileopsida Trevis. -- Bull. Soc. Roy. Bot. Belg. 16: 5 (1877) (Marsigliales) (Class)  
 = Pilulariales Bercht. & J. Presl -- Prir. Rostlin. 1: 272 (1820) (Pilulariae) (Order)  
@@ -701,7 +758,6 @@ Distribution: Old World (3, except SE-Asia/Australia), New World (7-9) north to 
 
 ## Cyatheales A. B. Frank -- Syn. Pflanzenkd. (Leunis) ed. 2, 3: 1452, 1456 (1877) (Cyatheaceae)
 
-8 families, 11-15 genera, ca. 750 species  
 = Cyatheopsida Doweld -- Tent. Syst. Pl. Vasc. xii (2001) (Class)  
 = Dicksoniales Pic. Serm. ex Reveal -- Phytologia 74: 175 (1993) (Order)  
 = Hymenophyllopsida Doweld -- Tent. Syst. Pl. Vasc. ix (2001) (Class)  
@@ -743,9 +799,9 @@ Distribution: Neotropics, W-Mediterranean
 
 Distribution: Pantropics, mostly Old World (many Madagascar). Some species listed here might belong in Cyathea s. str. pending molecular results.
 
-###### Cyathea J. E. Sm. -- Mém. Acad. Turin 5: 4 (1793) (s. str.)
+###### Cyathea Sm. -- Mém. Acad. Turin 5: 4 (1793) (s. str.)
 
-Distribution: Mostly tropical America, very few Old World  
+Distribution: Mostly tropical America, very few Old World (Pacific, Papuasia)  
 = Acanthea Lindig -- Contr. Colomb. Cienc. 2: 34 (1861)  
 = Actinophlebia C. Presl -- Gefässb. Stipes Farrnkr. 47 (1847), et Abh. Königl. Böhm. Ges. Wiss., Math.-Naturw. Cl. V. 6. 355 (1848)  
 = Chnoophora Kaulf. -- Enum. Filic. 250 (1824) (nom. superfl.)  
@@ -837,7 +893,6 @@ Distribution: Juan Fdz. Isl.
 
 ## Polypodiales Link -- Hort. Berol. 2: 5 (1833) (Polypodiaceae)
 
-24 families, 215-243 genera, ca. 9.000 - 9.500 species  
 = Aspleniales Pic. Serm. ex Reveal -- Phytologia 79: 72 (1996) (Order)  
 = Athyriales Shmakov -- Turczaninowia 4: 55 (2001) (Order)  
 = Blechnales Pic. Serm. ex Reveal -- Phytologia 74: 175 (1993) (Order)  
@@ -1119,7 +1174,7 @@ Distribution: North America
 
 Distribution: North America
 
-###### Woodwardia J. E. Sm. -- Mém. Acad. Turin 5: 411 (1793)
+###### Woodwardia Sm. -- Mém. Acad. Turin 5: 411 (1793)
 
 Distribution: Widespread in northern hemisphere, south to Costa Rica, W-Indonesia, mainly E-Asia, America (3)  
 = Chieniopteris Ching -- Acta Phytotax. Sin. 9: 37 (1964)  
@@ -1171,7 +1226,7 @@ Cystopteris x Gymnocarpium
 1-4 genera, ca. 60 spp. In the newest revision by Tsutsumi et al. (2016) all genera are merged into one Davallia sensu lato. Gymnogrammitis and Leucosoria have been moved to other families. As with other genera, we prefer not to merge everything into one monster genus and keep Davallodes separate.  
 = Davallieae Gaudich. -- Voy. Uranie \[Freycinet\] 370 (1829)
 
-###### Davallia J. E. Sm. -- Mém. Acad. Turin 5: 414 (1793) sensu lato
+###### Davallia Sm. -- Mém. Acad. Turin 5: 414 (1793) sensu lato
 
 Distribution: Mostly trop. and subtrop. Asia, some Pacific and Australia, few in Canary Isl. (1) and trop. Africa (1). Systematics in Malesia following for better alternatives mostly Nooteboom (1994), who sank too much into synonymy fide Fraser-Jenkins (2008).  
 = Araiostegiella M. Kato & Tsutsumi -- Acta Phytotax. Geobot. 59(1): 6 (2008)  
@@ -1199,27 +1254,48 @@ Distribution: trop. and subtrop. Asia
 
 ### Dennstaedtiaceae Lotsy -- Vortr. Bot. Stammesgesch. 2: 655 (1909), as ‘Dennstaedtineaceae’
 
-10-11 genera, ca. 230 spp.  
+11 genera, ca. 230 spp. Phylogeny: Triana-Moreno et al. (2023)  
 = Hypolepidaceae Pic. Serm. -- Webbia 24: 705 (1970)  
 = Monachosoraceae Ching -- Acta Phytotax. Sin. 14: 17 (1978)  
 = Pteridiaceae Ching -- Acta Phytotax. Sin. 13: 96 (1975)
 
-###### Blotiella R. M. Tryon -- Contr. Gray Herb. 191: 96 (1962), nom. nov.
+#### Dennstaedtioideae -- NA
 
-Distribution: Africa and Madagascar (19 spp.), 1 sp. Neotropics
-
-###### Dennstaedtia T. Moore -- Index Filic. (T. Moore) 97 (1859), nom. cons., non Bernh. (1800)
+###### Dennstaedtia T. Moore -- Index Filic. (T. Moore) 97 (1859), nom. cons.
 
 Distribution: Mostly tropical/subtropical, 12 neotropical  
-= Adectum Link -- Fil. Spec. 41, 42 (1841)  
-= Coptidipteris Nakai & Momose -- Cytologia, Fujii Jub. Vol. 365 (1937)  
 = Costaricia Christ -- Bull. Soc. bot. Genève, sér. 2, 1: 229 (1909)  
-= Emodiopteris Ching & S. K. Wu -- Acta Phytotax. Sin. 16(4): 21 (1978)  
 = Leptolepia Mett. ex Kuhn -- Festschr. 50jähr. Jubiläum Königst. Realschule zu Berlin \[Chaetopt.\] 348 (1882), nomen, et Mett. ex Diels in Engler & Prantl, Nat. Pflanzenfam. 1(4): 212 (1899)  
 = Litolobium Newman -- The Phytol. 5: 236 (1854) (nom. superfl.)  
 = Oenotrichia Copel. -- Univ. Calif. Publ. Bot. 16: 82 (1929)  
 = Paradennstaedtia Tagawa -- J. Jap. Bot. 27: 213 (1952)  
 = Patania C. Presl -- Tent. Pterid. 137 (1836)
+
+###### Microlepia C. Presl -- Tent. Pterid. 124 (1836)
+
+Distribution: Pantropical, mostly tropical Asia, China (24), 1 adventive to tropical America  
+= Dennstaedtia Bernh. -- J. Bot. (Schrader) 1800(2): 124 (1802) (non T. Moore)  
+= Scyphofilix Thouars -- Gen. Nov. Madagasc.: 1 (1806)  
+= Scypholepia J. Sm. -- Hist. Fil. 261 (1875)  
+= Scyphopteris Raf. -- Princ. Somiol. 26 (1814)
+
+###### Mucura L. A. Triana & Sundue -- Taxon 72(1): 40 (2023)
+
+Distribution: South and Central America north to S-USA
+
+###### Sitobolium Desv. -- Mem. Linn. Soc. Paris 6: 262 (1827) (Sitolobium, emended to Sitobolium by J. Sm., J. Bot. 3: 418 (1841))
+
+Distribution: trop. Asia, E-Asia, 1 temperate North America  
+= Adectum Link -- Fil. Spec. 41, 42 (1841)  
+= Coptidipteris Nakai & Momose -- Cytologia, Fujii Jub. Vol. 365 (1937)  
+= Emodiopteris Ching & S. K. Wu -- Acta Phytotax. Sin. 16(4): 21 (1978)  
+= Fuziifilix Nakai & Momose -- Cytologia,, Fujii Jub. Vol.: 365 (1937)
+
+#### Hypolepidoideae Lovis -- nom. nud.
+
+###### Blotiella R. M. Tryon -- Contr. Gray Herb. 191: 96 (1962), nom. nov.
+
+Distribution: Africa and Madagascar (19 spp.), 1 sp. Neotropics
 
 ###### Histiopteris (J. Agardh) J. Sm. -- Hist. Fil. 294 (1875)
 
@@ -1234,25 +1310,6 @@ Distribution: Malesia (2 spp.), SW-Pacific (1 sp.), trop. America (1 sp.)
 ###### Hypolepis Bernh. -- J. Bot. (Schrader) 1(2): 34 (1806)
 
 Distribution: Worldwide tropical/subtropical
-
-###### Microlepia C. Presl -- Tent. Pterid. 124 (1836)
-
-Distribution: Pantropical, mostly tropical Asia, China (24), 1 to tropical America.  
-= Dennstaedtia Bernh. -- J. Bot. (Schrader) 1800(2): 124 (1802) (non T. Moore)  
-= Fuziifilix Nakai & Momose -- Cytologia,, Fujii Jub. Vol.: 365 (1937)  
-= Scyphofilix Thouars -- Gen. Nov. Madagasc.: 1 (1806)  
-= Scypholepia J. Sm. -- Hist. Fil. 261 (1875)  
-= Scyphopteris Raf. -- Princ. Somiol. 26 (1814)
-
-###### Monachosorum Kunze -- Bot. Zeitung (Berlin) 119 (1848)
-
-Distribution: C-Himalaya and Yunnan to Honshu, Taiwan to Philippines and Borneo, New Guinea  
-= Monachosorella Hayata -- Bot. Mag. (Tokyo) 41: 573, 642f (1927)  
-= Ptilopteris Hance -- J. Bot. 22: 138 (1884)
-
-###### Mucura L. A. Triana & Sundue -- Taxon 72(1): 40 (2022)
-
-Distribution: South and Central America north to S-USA
 
 ###### Paesia A. St.-Hil. -- Voy. Distr. Diam. 1: 381 (1833)
 
@@ -1270,9 +1327,13 @@ Distribution: Worldwide. Fraser-Jenkins et al. (2015) treat most of the taxa as
 = Nymphopteris Webb & Berthel. -- Hist. nat. Canar. 82 (1763)  
 = Ornithopteris (J. Agardh) J. Sm. -- Hist. Fil. 297 (1875) (non Bernh. 1806)
 
-###### Sitobolium Desv. -- Mem. Linn. Soc. Paris 6: 262 (1827) (Sitolobium, emended to Sitobolium by J. Sm., J. Bot. 3: 418 (1841))
+#### Monachosoroideae Crabbe, Jermy & Mickel -- Fern Gaz. 11: 155 (1975)
 
-Distribution: trop. Asia, E-Asia, 1 temperate North America
+###### Monachosorum Kunze -- Bot. Zeitung (Berlin) 119 (1848)
+
+Distribution: C-Himalaya and Yunnan to Honshu, Taiwan to Philippines and Borneo, New Guinea  
+= Monachosorella Hayata -- Bot. Mag. (Tokyo) 41: 573, 642f (1927)  
+= Ptilopteris Hance -- J. Bot. 22: 138 (1884)
 
 ### Desmophlebiaceae Mynssen, A. Vasco, Sylvestre, R. C. Moran & Rouhan -- Taxon 65(1): 27 (2016)
 
@@ -1411,7 +1472,8 @@ Distribution: Nearly worldwide, 55 in trop. America, more than half (224) in Chi
 
 ###### xDryostichum W. H. Wagner -- Canad. J. Bot. 70(2): 247 (1992)
 
-Dryopteris x Polystichum
+Dryopteris x Polystichum  
+= xPolysticalpe Fraser-Jenk. -- New Sp. Syndr. Indian Pteridol.: 300 (1997)
 
 #### Elaphoglossoideae (Pic. Serm.) Crabbe, Jermy & Mickel -- Fern Gaz. 11: 154 (1975)
 
@@ -1568,7 +1630,7 @@ Distribution: Trop. Asia, W-Pacific. Revision: Chen et al. 2021
 = Dennstaedtiaceae Tribus Lindsaeeae Hook. -- (1846)  
 = Dennstaedtiaceae subfam. Lindsaeoideae (Pic. Serm.) Crabbe, Jermy & Mickel -- Fern Gaz. 11: 155 (1975)
 
-###### Lindsaea Dryand. ex J. E. Sm. -- Mém. Acad. Roy. Sci. (Turin) 5: 413 (1793)
+###### Lindsaea Dryand. ex Sm. -- Mém. Acad. Roy. Sci. (Turin) 5: 413 (1793)
 
 Distribution: Few spp. in Africa, America (45 spp.). Assignment of African species to Lindsaea or Odontosoria still unclear.  
 = Guerinia J. Sm. -- Hist. Fil. 272 (1875)  
@@ -1710,17 +1772,17 @@ Distribution: E-Asia
 
 67 genera, ca. 1700 spp. Phylogeny: Wei & Zhang 2022  
 = Drynariaceae Ching -- Acta Phytotax. Sin. 16: 1-37 (1978)  
-= Grammitidaceae Newman -- Hist. Brit. Ferns 7 (1840) (Grammitaceae auct., misubsp.)  
+= Grammitidaceae Newman -- Hist. Brit. Ferns 7 (1840) (Grammitaceae auct., missp.)  
 = Gymnogrammitidaceae Ching -- Acta Phytotax. Sin. 11: 12 (1966)  
 = Pleurosoriopsidaceae Sa. Kurata & Ikebe ex Ching -- Acta Phytotax. Sin. 16(4): 17 (1978)
 
-#### Adetogrammoideae X.C.Zhang & R.Wei -- Taxon 71(2): 301 (2022)
+#### Adetogrammoideae X. C. Zhang & R. Wei -- Taxon 71(2): 301 (2022)
 
 ###### Adetogramma T. E. Almeida -- PhytoKeys 78: 118 (2017)
 
 Distribution: South America
 
-#### Campyloneuroideae X.C.Zhang & R.Wei -- Taxon 71(2): 301 (2022)
+#### Campyloneuroideae X. C. Zhang & R. Wei -- Taxon 71(2): 301 (2022)
 
 ###### Campyloneurum C. Presl -- Tent. Pterid. 189 (1837)
 
@@ -1801,7 +1863,7 @@ Distribution: Temperate southern South America. Circumscription see Schneider et
 
 #### Grammitidoideae Parris & Sundue -- J. Syst. Evol. 54(6): 594 (2016)
 
-31-34 genera, ca. 800 spp. Systematics following Shalisko et al. 2019. Checklist revised for this database by Parris (2020)
+41 genera, ca. 800 spp. Systematics see Zhou et al. 2023. Checklist revised for this database by Parris (2020).
 
 ###### Acrosorus Copel. -- Philipp. J. Sci. 1 (Suppl. 2) 158 (1906)
 
@@ -1813,17 +1875,29 @@ Distribution: Hawaii. Checklist revised for this database by Parris (2020)
 = Adenophorus subgen. Oligadenus L. E. Bishop -- Brittonia 26: 231 (1974)  
 = Amphoradenium Desv. -- Prodr. 335 (1827)
 
+###### Aenigmatogrammitis Parris -- Taxon 72(5): 985 (2023)
+
+Distribution: Moluccas, Australia
+
 ###### Alansmia M. Kessler, Moguel, Sundue & Labiak -- Brittonia 63(2): 238 (2011)
 
 Distribution: Mostly Neotropics, 2 trop. Africa. Revision: Velazquez & Kessler 2013.. Checklist revised for this database by Parris (2020)
 
 ###### Archigrammitis Parris -- Fern Gaz. 19(4): 135 (2013)
 
-Distribution: Pacific (4 spp.), Malesia (2 spp.). Taxonomic position still uncertain. Checklist revised for this database by Parris (2020)
+Distribution: Pacific (4 spp.), Malesia (2 spp.). Checklist revised for this database by Parris (2020)
 
 ###### Ascogrammitis Sundue -- Brittonia 62(4): 361 (2010)
 
 Distribution: Neotropics. Checklist revised for this database by Parris (2020)
+
+###### Boonkerdia Li Bing Zhang, Pollawatn, X. M. Zhou & Liang Zhang -- Taxon 72(5): 986 (2023)
+
+Distribution:
+
+###### Calligrammitis Parris, Sundue, Li Bing Zhang, X. M. Zhou & Ralf Knapp -- Phytotaxa 597(1): 30 (2023)
+
+Distribution: Taiwan, Sri Lanka, Malesia
 
 ###### Calymmodon C. Presl -- Tent. Pterid. 203 (1836) s. str.
 
@@ -1857,6 +1931,10 @@ Distribution: Trop. Old World. Checklist revised for this database by Parris (20
 
 Distribution: Trop. Asia, Pacific. Checklist revised for this database by Parris (2020)
 
+###### Devolia Li Bing Zhang, X. M. Zhou, Jian Jun Yang & Ralf Knapp -- Phytotaxa 597(1): 32 (2023)
+
+Distribution: E-Asia
+
 ###### Enterosora Baker -- Timehri 5: 218 (1886)
 
 Distribution: Neotropics, trop. Africa, Madagascar / Mascarenes. Expansion of genus to include Zygophlebia fide Shalisko et al. (2019). Checklist revised for this database by Parris (2020)  
@@ -1867,18 +1945,26 @@ Distribution: Neotropics, trop. Africa, Madagascar / Mascarenes. Expansion of ge
 
 Distribution: Trop. America. Checklist revised for this database by Parris (2020)
 
+###### Glabrigrammitis Li Bing Zhang, X. M. Zhou, Jian Jun Yang & Parris -- Phytotaxa 597(1): 34 (2023)
+
+Distribution: Taiwan, Sri Lanka, Malesia
+
+###### Grammitastrum (E. Fourn.) Parris, Sundue, Li Bing Zhang & X. M. Zhou -- Taxon 72(5): 989 (2023)
+
+Distribution: New Caledonia
+
 ###### Grammitis Sw. -- J. Bot. (Schrader) 1800(2): 3, 17 (1802) (s. str.)
 
 Distribution: Probably \< 20 spp. tropics. Several remaining species will need recombination in other genera. Checklist revised for this database by Parris (2020)  
 = Nanopteris Vareschi -- Fl. Venezuel. 1: 881 (1969)
 
-###### Grammitis sensu lato, part 1 -- NA
-
-Distribution: Afro-Madagascar and West Indian Ocean species not closely related to the type of Ctenopterella. Checklist revised for this database by Parris (2020)
-
 ###### Grammitis sensu lato, part 2 -- NA
 
-Distribution: South West Pacific Islands. Several species placed here by molecular results and/or morphology outside of Grammitis s. str. and morphologically distinct from Notogrammitis. Checklist revised for this database by Parris (2020)
+Distribution: South West Pacific Islands. Phylogenetic position still uncertain.
+
+###### Howeogrammitis Parris, Sundue, Li Bing Zhang & X. M. Zhou -- Taxon 72(5): 990 (2023)
+
+Distribution: Lord Howe Isl.
 
 ###### Lellingeria A. R. Sm. & R. C. Moran -- Amer. Fern J. 81 (1991)
 
@@ -1892,7 +1978,7 @@ Distribution: Neotropics (5), 1 Madagascar. Checklist revised for this database 
 
 Distribution: Caribbean. Checklist revised for this database by Parris (2020)
 
-###### Luisma Murillo & A. R. Sm. -- Novon 13(3): 313-317 (2003)
+###### Luisma M. T. Murillo & A. R. Sm. -- Novon 13(3): 313-317 (2003)
 
 Distribution: Colombia. Taxonomic position uncertain
 
@@ -1916,6 +2002,10 @@ Distribution: Trop. America, 1 sp. Madagascar. Checklist revised for this databa
 
 Distribution: Neotropics. Checklist revised for this database by Parris (2020)
 
+###### Nanogrammitis Parris, Li Bing Zhang, X. M. Zhou & Liang Zhang -- Taxon 72(5): 991 (2023)
+
+Distribution: E-Africa, Madagascar, Seychelles, Mascarenes
+
 ###### Notogrammitis Parris -- New Zealand J. Bot. 50(4): 465 (2012)
 
 Distribution: Australia, New Zealand, Patagonia (1). Checklist revised for this database by Parris (2020)
@@ -1926,6 +2016,10 @@ Distribution: Trop. Asia, Pacific, Australia. Checklist revised for this databas
 = Radiogrammitis Parris -- Gard. Bull. Singapore 58(2): 240 (2007)  
 = Themelium (T. Moore) Parris -- Kew Bull. 52(3): 737-738 (1997)
 
+###### Oxygrammitis Parris & Sundue -- Taxon 72(5): 992 (2023)
+
+Distribution: Malesia
+
 ###### Parrisia Shalisko & Sundue -- Phytotaxa 394(3): 187 (2019)
 
 Distribution: Neotropics (1), Indian Ocean (1). Checklist revised for this database by Parris (2020)
@@ -1935,6 +2029,10 @@ Distribution: Neotropics (1), Indian Ocean (1). Checklist revised for this datab
 Distribution: Tropical Asia, E-Asia. Checklist revised for this database by Parris (2020)  
 = Ctenopteris Blume -- Fl. Javae, Fil. 132 (1828) ex Kunze, Bot. Zeitung (Berlin) 4: 425 (1846)  
 = Ctenopteris sect. Prosaptia (C. Presl) K. Iwats. -- Fl. Jap. 1: 255 (1995)
+
+###### Rouhania Li Bing Zhang, X. M. Zhou, Jian Jun Yang & Liang Zhang -- Taxon 72(5): 995 (2023)
+
+Distribution: trop. Africa, Madagascar
 
 ###### Scleroglossum Alderw. -- Bull. Jard. Bot. Buitenzorg, sér. 2, 7: 37 (1912)
 
@@ -1948,6 +2046,10 @@ Distribution: Neotropics, Africa, Hawaii, Pacific. Checklist revised for this da
 ###### Terpsichore A. R. Sm. -- Novon 3: 478-489 (1993)
 
 Distribution: Neotropics, 1 to trop. Africa. Checklist revised for this database by Parris (2020)
+
+###### Thalassogrammitis Parris, Sundue, Li Bing Zhang & X. M. Zhou -- Taxon 72(5): 996 (2023)
+
+Distribution: New Caledonia
 
 ###### Tomophyllum (E. Fourn.) Parris -- Gard. Bull. Singapore 58(2): 245 (2007)
 
@@ -2164,7 +2266,7 @@ Distribution: Mainly American tropics, few in Old World. Many neotropical specie
 
 Phlebodium x Pyrrosia
 
-#### Serpocauloideae X.C.Zhang & R.Wei -- Taxon 71(2): 301 (2022)
+#### Serpocauloideae X. C. Zhang & R. Wei -- Taxon 71(2): 301 (2022)
 
 ###### Serpocaulon A. R. Sm. -- Taxon 55: 919-930 (2006)
 
@@ -2595,7 +2697,7 @@ Distribution: Trop. America
 Distribution: Trop. Asia and S-China, 1 to Australia, 1-2 Pacific. A valid genus separate from Monogramma fide Ruhfel et al. (2008) and Schuettpelz et al. (2016).  
 = Diclidopteris Brack. -- U.S. Expl. Exped., Filic. 16: 135 (1854)
 
-###### Vittaria J. E. Sm. -- Mém. Acad. Turin 5: 413 (1793) s. str.
+###### Vittaria Sm. -- Mém. Acad. Turin 5: 413 (1793) s. str.
 
 Distribution: New World, only 1 species Africa  
 = Oetosis Neck. ex Greene -- Pittonia 4: 105 (1900)  
@@ -2677,7 +2779,7 @@ Distribution: Pantropical and south-temperate, America (35-40). Inclusion of man
 = Chlamydogramme Holttum -- Gard. Bull. Singapore 39(2): 157 (1986 publ. 1987)  
 = Cionidium T. Moore -- Gard. Companion Florists’ Guide 1852: 143 (1852)  
 = Ctenitopsis Ching ex Tardieu & Christensen -- Notul. Syst. (Paris) 7: 86 (1938)  
-= Depariopsis Baker -- Ann. Bot. 5: 462 (1891)  
+= Depariopsis Baker -- Ann. Bot. (Oxford) 5: 462 (1891)  
 = Dictyoxiphium Hook. -- Gen. Fil. t. 62 (1840)  
 = Dryomenis Fée -- Mém. Foug. 5. (Gen. Filic.) 225 (1852)  
 = Fadyenia Hook. -- Gen. Fil. t. 53 (1840)  
@@ -2747,7 +2849,7 @@ Distribution: continental SE-Asia, Malesia, Australia, ?Africa
 
 ###### Amauropelta Kunze -- Farrnkr. 1: 109 (1843)
 
-Distribution: Neotropics, few Pacific, trop. Africa and Indian Ocean  
+Distribution: Neotropics, few Nearctic, Pacific, trop. Africa and Indian Ocean  
 = Amauropelta subg. Parathelypteris (H. Ito) S. E. Fawc. & A. R. Sm. -- A generic revision of the Thelypteridaceae: 28 (2021)  
 = Oochlamys Fée -- Mém. Foug. 5 (Gen. Filic.): 297 (1852)  
 = Parathelypteris (H. Itô) Ching -- Acta Phytotax. Sin. 8: 300 (1963)  
@@ -2810,6 +2912,8 @@ Distribution: Neotropics.
 = Thelypteris subgen. Goniopteris (C. Presl) Duek -- Adansonia n. s. 11: 720 (1971)
 
 ###### Grypothrix (Holttum) S. E. Fawc. & A. R. Sm. -- A generic revision of the Thelypteridaceae: 46 (2021)
+
+Distribution: Indochina, Malesia to S-China and Australia
 
 ###### Hoiokula S. E. Fawc. & A. R. Sm. -- A generic revision of the Thelypteridaceae: 48 (2021)
 
@@ -2943,6 +3047,10 @@ Distribution: Sri Lanka, the others India to SE-Asia. There is disagreement abou
 = Cyclosorus subgen. Trigonospora (Holttum) Panigrahi -- Abstr. & Souv. Nation. Symp. Curr. Trends Pterid. 4-6 October 1991: 13 (1991)  
 = Thelypteris sect. Trigonospora (Holttum) Fraser-Jenk. -- Taxon. Revis. Indian Subcontinental Pteridophytes 590 (2008)  
 = Thelypteris subgen. Trigonospora (Holttum) Fraser-Jenk. -- New Species Syndr. Indian Pteridol. 281 (1997)
+
+###### xAbacopterella T. E. Almeida & A. R. Field -- Austrobaileya 13: 43 (2023)
+
+Abacopteris x Christella
 
 ###### xChrinephrium Nakaike -- New Fl. Japan, Pterid. 839 (1992)
 
