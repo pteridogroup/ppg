@@ -22,7 +22,6 @@ body:
       label: Name of taxon
       description: |
         Please provide only the taxon name **without authors** (e.g., `Pellaeopsis`, not `Pellaeopsis J. Sm.`).
-        Please provide a detailed scientific name including author in the details.
         If there are multiple taxa, separate their names with a comma (e.g., `Cornopteris, Pseudathyrium`).
     validations:
       required: true
@@ -57,7 +56,7 @@ body:
     attributes:
       label: Description of change
       description: |
-        Describe the substance of the change.
+        Describe the substance of the change. Please provide the detailed scientific name including author here.
     validations:
       required: true
   - type: textarea
