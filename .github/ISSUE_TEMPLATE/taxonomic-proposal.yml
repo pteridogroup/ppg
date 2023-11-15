@@ -20,6 +20,10 @@ body:
     id: taxon-name
     attributes:
       label: Name of taxon
+      description: |
+        Please provide only the taxon name **without authors** (e.g., `Pellaeopsis`, not `Pellaeopsis J. Sm.`).
+        Please provide a detailed scientific name including author in the details.
+        If there are multiple taxa, separate their names with a comma (e.g., `Cornopteris, Pseudathyrium`).
     validations:
       required: true
   - type: dropdown
