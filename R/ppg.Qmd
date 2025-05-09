@@ -30,10 +30,13 @@ tar_load(ppg)
 #| label: ppg-treatment
 #| results: asis
 
+# Specify all higher taxonomic levels
 higher_tax_levels_all <- c("class", "subclass", "order", "suborder", "family", "subfamily", "tribe", "subtribe", "genus")
 
+# Format PPG data for printing out
 ppg_print <-
   ppg |>
+  # Only keeping higher, accepted taxa
   filter(taxonRank %in% higher_tax_levels_all) |>
   filter(taxonomicStatus == "accepted") |>
   # TODO fix these in Rhakhis
@@ -43,18 +46,35 @@ ppg_print <-
     taxonID != "wfo-1000070090" # Todea Bernh., PPG I has Todea Willd. ex Bernh.
   )
 
+# Identify higher taxonomic levels actually used
 higher_tax_levels_used <- higher_tax_levels_all[higher_tax_levels_all %in% ppg_print$taxonRank]
 
-priority_order <- c(
-  # Class
+# Set priorities for sorting by rank, check that all names are in data
+
+# - class
+priority_class <- c(
   "Lycopodiopsida",
-  "Polypodiopsida",
-  # Subclass
+  "Polypodiopsida"
+)
+
+class_check <- ppg_print |>
+  filter(taxonRank == "class") |>
+  assert(in_set(priority_class), scientificName, success_fun = success_logical)
+
+# - subclass
+priority_subclass <- c(
   "Equisetidae",
   "Ophioglossidae",
   "Marattiidae",
-  "Polypodiidae",
-  # Order
+  "Polypodiidae"
+)
+
+subclass_check <- ppg_print |>
+  filter(taxonRank == "subclass") |>
+  assert(in_set(priority_subclass), scientificName, success_fun = success_logical)
+
+# - order
+priority_order <- c(
   # (Lycopodiopsida)
   "Lycopodiales",
   "Isoetales",
@@ -74,6 +94,31 @@ priority_order <- c(
   "Salviniales",
   "Cyatheales",
   "Polypodiales"
+)
+
+order_check <- ppg_print |>
+  filter(taxonRank == "order") |>
+  assert(in_set(priority_order), scientificName, success_fun = success_logical)
+
+# TODO: Add suborder
+
+# - family
+priority_family <- c(
+  "Lycopodiaceae",
+  "Isoetaceae",
+  "Selaginellaceae",
+  rev(families_in_phy_order))
+
+family_check <- ppg_print |>
+  filter(taxonRank == "family") |>
+  assert(in_set(priority_family), scientificName, success_fun = success_logical)
+
+# Compile all priorities
+priority_sort <- c(
+  priority_class,
+  priority_subclass,
+  priority_order,
+  priority_family
 )
 
 ppg_tl <- ppg_print |>
