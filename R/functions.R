@@ -1,31 +1,3 @@
-# List fern families in rhakhis downloads
-# DEPRECATED
-get_wfo_zip_files <- function(pattern) {
-  url <- "https://list.worldfloraonline.org/rhakhis/api/downloads/dwc/"
-  page <- rvest::read_html(url)
-
-  # Extract all links from the page
-  links_all <- page |>
-    rvest::html_elements("a") |>
-    rvest::html_attr("href")
-
-  links <- links_all[grepl(
-    pattern,
-    links_all
-  )]
-
-  # Filter for links ending with ".zip"
-  zip_links <- links[grepl("\\.zip$", links)]
-
-  # Convert relative links to absolute URLs if necessary
-  zip_urls <- ifelse(
-    grepl("^http", zip_links),
-    zip_links,
-    paste0(url, zip_links)
-  )
-  zip_urls
-}
-
 #' Load PPG Data from WFO Backbone Zip File
 #'
 #' This function extracts and processes a Darwin Core (DwC) classification
