@@ -22,9 +22,15 @@ tar_plan(
   phy_family = make_family_tree(),
   # Get families in 'phylogenetic' order
   families_in_phy_order = get_ladderized_tips(phy_family),
+  # Output data files ----
+  # - Taxonomic treatment (markdown)
   tar_quarto(
-    wf_report,
-    "R/ppg.Qmd",
+    ppg_md,
+    "ppg.Qmd",
     quiet = FALSE
+  ),
+  tar_file(
+    ppg_csv,
+    write_csv_tar(ppg, "data/ppg.csv")
   )
 )
