@@ -58,7 +58,9 @@ clean_ppg <- function(ppg_raw) {
       acceptedNameUsageID,
       # Need to check if this is actually the basionym
       # originalNameUsageID,
-      taxonRemarks,
+      # Exclude taxonRemarks from WFO for now, as we can get them from
+      # the WFO ID and most are not relevant
+      # taxonRemarks,
       created,
       modified
     ) |>
@@ -96,4 +98,71 @@ clean_ppg <- function(ppg_raw) {
 
       check_col_names = TRUE
     )
+}
+
+get_ladderized_tips <- function(tree) {
+  is_tip <- tree$edge[,2] <= length(tree$tip.label)
+  ordered_tips <- tree$edge[is_tip, 2]
+  tree$tip.label[ordered_tips]
+} 
+
+make_family_tree <- function() {
+  require(ftolr)
+  # Load tree
+  phy <- ftolr::ft_tree(branch_len = "ultra", rooted = TRUE, drop_og = TRUE)
+  # Load fern taxonomy
+  taxonomy <- ftol_taxonomy |>
+    # Subset to only species in tree
+    filter(species %in% phy$tip.label) |>
+    select(species, family) |>
+    # Make corrections for new families
+    mutate(
+      family = case_when(
+        str_detect(species, "Arthropteris") ~ "Arthropteridaceae",
+        str_detect(species, "Draconopteris") ~ "Pteridryaceae",
+        str_detect(species, "Malaifilix") ~ "Pteridryaceae",
+        str_detect(species, "Polydictyum") ~ "Pteridryaceae",
+        str_detect(species, "Pteridrys") ~ "Pteridryaceae",
+        .default = family
+      )
+    )
+
+  # Analyze monophyly of each family
+  family_mono_test <- MonoPhy::AssessMonophyly(
+    phy,
+    as.data.frame(taxonomy[, c("species", "family")])
+  )
+
+  # Check that all families are monophyletic or monotypic
+  family_mono_summary <-
+    family_mono_test$family$result |>
+    tibble::rownames_to_column("family") |>
+    as_tibble() |>
+    assert(in_set("Yes", "Monotypic"), Monophyly)
+
+  # Get one exemplar tip (species) per family
+  rep_tips <-
+    taxonomy |>
+    group_by(family) |>
+    slice(1) |>
+    ungroup()
+
+  # Subset phylogeny to one tip per family
+  phy_family <- ape::keep.tip(phy, rep_tips$species)
+
+  # Relabel with family names
+  new_tips <-
+    tibble(species = phy_family$tip.label) |>
+    left_join(rep_tips, by = "species") |>
+    pull(family)
+
+  phy_family$tip.label <- new_tips
+
+  ape::ladderize(phy_family)
+
+}
+
+write_csv_tar <- function(x, file, ...) {
+  readr::write_csv(x = x, file = file, ...)
+  file
 }
