@@ -154,8 +154,9 @@ indent_df <-
   )) |>
   select(level, indent)
 
+# Print out as text
 ppg_tl |>
-  sort_taxa(priority = priority_order) |>
+  sort_taxa(priority = priority_sort) |>
   indented_list(indent = "", print = FALSE) |>
   as_tibble() |>
   select(-indent) |>
