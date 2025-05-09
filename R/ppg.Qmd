@@ -23,7 +23,7 @@ library(taxlist)
 library(taxnames)
 conflicted::conflict_prefer("filter", "dplyr")
 
-tar_load(ppg)
+tar_load(c(ppg, families_in_phy_order), store = here::here("_targets"))
 ```
 
 ```{r}
