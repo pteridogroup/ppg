@@ -64,33 +64,11 @@ load_ppg_from_wfo <- function(wfo_backbone_zip) {
 }
 
 clean_ppg <- function(ppg_raw) {
-  #  Related to Thelypteridoideae, should be fixed when that comes through
-  keep_list <- c(
-    "wfo-4100004576",
-    "wfo-4100004576",
-    "wfo-7000000055",
-    "wfo-7000000174",
-    "wfo-6500000507",
-    "wfo-7000000341",
-    "wfo-7000000433",
-    "wfo-6500000523",
-    "wfo-7000000055",
-    "wfo-7000000433",
-    "wfo-4100004576",
-    "wfo-4100004576",
-    "wfo-4100004576",
-    "wfo-6500000522"
-  )
-
   ppg_raw |>
-    # Exclude those not to process
-    # assert(in_set(c(0,1)), doNotProcess) |>
-    # filter(doNotProcess == 0) |>
     mutate(
       keep = case_when(
-        # Exclude duplicates except those in keep list
+        # Exclude duplicates
         str_detect(doNotProcess_reason, "Duplicate") ~ FALSE,
-        taxonID %in% keep_list ~ TRUE,
         .default = TRUE
       )
     ) |>
