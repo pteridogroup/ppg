@@ -28,6 +28,21 @@ Taxonomic proposals should be submitted as [issues](https://github.com/pteridogr
 
 Anybody is welcome to contribute. All participants must adhere to the [Code of Conduct](https://pteridogroup.github.io/coc.html). Please read the [Project Guidelines](https://pteridogroup.github.io/guidelines.html) before contributing.
 
+## Running with Docker
+
+Launch a container in the background:
+
+```
+docker run \
+  --rm \
+  -dt \
+  -v ${PWD}:/wd \
+  -w /wd \
+  -e USERID=$(id -u) \
+  -e GROUPID=$(id -g) \
+  joelnitta/ppg:latest bash
+```
+
 ## Data sources
 
 Original data were kindly provided by Michael Hassler.
