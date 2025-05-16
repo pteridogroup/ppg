@@ -61,7 +61,7 @@ docker run --rm -dt \
 
 ### Cron job
 
-Run as root to enable the cron job, which will run the `targets` workflow once per week.
+Run as root to enable the cron job, which will run the `targets` workflow once per day.
 
 Gitconfig and ssh are needed to commit and push data files to GitHub.
 
