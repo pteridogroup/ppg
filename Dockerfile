@@ -42,7 +42,7 @@ RUN Rscript -e 'install.packages(c("pak", "renv")); renv::consent(provided = TRU
 ### Cron ###
 ############
 
-# cron is used to run R/digest.R automatically once per week
+# cron is used to run _targets.R automatically
 
 # Copy script to run targets::tar_make() from /wd
 COPY ./make.sh /home/make.sh
@@ -52,21 +52,27 @@ RUN chmod 0644 /home/make.sh
 # Create the log file to be able to run tail
 RUN touch /var/log/cron.log
 
-# Setup cron job: Run at 12:00am on Monday
-RUN (crontab -l ; echo "0 0 * * 1 bash /home/digest.sh >> /var/log/cron.log 2>&1") | crontab
+# Setup cron job: Run at 12:00am each day
+RUN (crontab -l ; echo "0 0 * * * bash /home/make.sh >> /var/log/cron.log 2>&1") | crontab
 
 # To run the cron job, provide the command `cron` to `docker run`:
-# docker run --rm -dt -v ${PWD}:/wd -w /wd --name ppg_make --user root joelnitta/ppg:latest cron -f
+# docker run --rm -dt \
+#   -w /wd \
+#   --name ppg_make \
+#   --user root \
+#   -v ${PWD}:/wd \
+#   -v $HOME/.gitconfig:/root/.gitconfig:ro \
+#   -v $HOME/.ssh:/root/.ssh:ro \
+#   joelnitta/ppg:latest cron -f
 # 
-# as long as the container is up, it will run the job once per week
+# as long as the container is up, it will run the job once per day
 
 ### User settings ###
 
 # Add generic non-root user
 RUN useradd --create-home --shell /bin/bash user
 
-# Set working directory to home of non-root user
-WORKDIR /home/user
-
 # Default to non-root (can override with --user at runtime)
 USER user
+
+WORKDIR /wd
