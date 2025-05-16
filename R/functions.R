@@ -202,3 +202,52 @@ write_csv_tar <- function(x, file, ...) {
   readr::write_csv(x = x, file = file, ...)
   file
 }
+
+#' Check Git Status for Watched Files
+#'
+#' Checks the git status for a set of watched files, optionally excluding a
+#' specific file, and returns the list of modified files and the last commit.
+#'
+#' @param watched_files A character vector of file paths to watch.
+#' @param exclude_file A file to exclude from the check (default: "ppg.Qmd").
+#'
+#' @return A list with `modified_files` and `last_commit.`
+#'
+check_git_status <- function(watched_files, exclude_file = "ppg.Qmd") {
+  res <- gert::git_status() |>
+    filter(file %in% watched_files)
+
+  if (!is.null(exclude_file)) {
+    res <- res |>
+      filter(file != exclude_file)
+  }
+
+  # Return list of modified files and the last commit made
+  list(
+    modified_files = res |> pull(file),
+    last_commit = gert::git_log(max = 1)$commit
+  )
+
+}
+
+#' Commit and Push Modified Files to Git
+#'
+#' Adds, commits, and pushes modified files to the git repository if there are
+#' any changes. If no relevant changes are found, returns the last commit.
+#'
+#' @param modified A character vector of modified file paths.
+#'
+#' @return The commit hash of the last commit made or found.
+#'
+commit_and_push <- function(modified) {
+  # If there are relevant changes, commit and push
+  if (length(modified) > 0) {
+    gert::git_add(files = modified)
+    last_commit <- gert::git_commit(message = paste("Auto-update:", Sys.time()))
+    gert::git_push()
+  } else {
+    last_commit <- gert::git_log(max = 1)$commit
+    message("No relevant changes to commit.")
+  }
+  last_commit
+}

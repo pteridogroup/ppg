@@ -32,5 +32,8 @@ tar_plan(
   tar_file(
     ppg_csv,
     write_csv_tar(ppg, "data/ppg.csv")
-  )
+  ),
+  # Commit and push ppg_md and ppg_csv if modified
+  ppg_data_status = check_git_status(c(ppg_md, ppg_csv)),
+  last_commit = commit_and_push(ppg_data_status$modified_files)
 )
