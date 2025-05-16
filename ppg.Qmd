@@ -42,7 +42,6 @@ ppg_print <-
   # TODO fix these in Rhakhis
   # Remove bad taxa
   filter(
-    taxonID != "wfo-4000030830", # Polystichopsis (J.Sm.) Holttum, PPG I has Polystichopsis (J.Sm.) C.Chr. nolint
     taxonID != "wfo-1000070090" # Todea Bernh., PPG I has Todea Willd. ex Bernh.
   )
 
