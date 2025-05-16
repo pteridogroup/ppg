@@ -50,9 +50,7 @@ Specify user and git files
 
 
 ```
-docker run \
-  --rm \
-  -dt \
+docker run --rm -dt \
   --user $(id -u):$(id -g) \
   -v ${PWD}:/wd \
   -v $HOME/.gitconfig:/home/user/.gitconfig:ro \
@@ -65,12 +63,16 @@ docker run \
 
 Run as root to enable the cron job, which will run the `targets` workflow once per week.
 
+Gitconfig and ssh are needed to commit and push data files to GitHub.
+
 ```
 docker run --rm -dt \
-  -v ${PWD}:/wd \
   -w /wd \
   --name ppg_make \
   --user root \
+  -v ${PWD}:/wd \
+  -v $HOME/.gitconfig:/root/.gitconfig:ro \
+  -v $HOME/.ssh:/root/.ssh:ro \
   joelnitta/ppg:latest cron -f
 ```
 
