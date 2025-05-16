@@ -30,6 +30,8 @@ Anybody is welcome to contribute. All participants must adhere to the [Code of C
 
 ## Running with Docker
 
+### Basic usage
+
 Launch a container in the background:
 
 ```
@@ -38,9 +40,38 @@ docker run \
   -dt \
   -v ${PWD}:/wd \
   -w /wd \
-  -e USERID=$(id -u) \
-  -e GROUPID=$(id -g) \
+  --user root \
   joelnitta/ppg:latest bash
+```
+
+### Development
+
+Specify user and git files
+
+
+```
+docker run \
+  --rm \
+  -dt \
+  --user $(id -u):$(id -g) \
+  -v ${PWD}:/wd \
+  -v $HOME/.gitconfig:/home/user/.gitconfig:ro \
+  -v $HOME/.ssh:/home/user/.ssh:ro \
+  -w /wd \
+  joelnitta/ppg:latest bash
+```
+
+### Cron job
+
+Run as root to enable the cron job, which will run the `targets` workflow once per week.
+
+```
+docker run --rm -dt \
+  -v ${PWD}:/wd \
+  -w /wd \
+  --name ppg_make \
+  --user root \
+  joelnitta/ppg:latest cron -f
 ```
 
 ## Data sources
