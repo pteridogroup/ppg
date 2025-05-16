@@ -1,9 +1,9 @@
 # PPG
 
 
-## Class **Lycopodiopsida** Bartl.
+# Class **Lycopodiopsida** Bartl.
 
-#### Order **Lycopodiales** DC. ex Bercht. & J.Presl
+### Order **Lycopodiales** DC. ex Bercht. & J.Presl
 
 ##### Family **Lycopodiaceae** P.Beauv. ex Mirb.
 
@@ -45,31 +45,31 @@
 
 *Spinulum* A.Haines
 
-#### Order **Isoetales** Prantl
+### Order **Isoetales** Prantl
 
 ##### Family **Isoetaceae** Dumort.
 
 *Isoetes* L.
 
-#### Order **Selaginellales** Prantl
+### Order **Selaginellales** Prantl
 
 ##### Family **Selaginellaceae** Willk.
 
 *Selaginella* P.Beauv.
 
-## Class **Polypodiopsida** Cronquist, Takht. & W.Zimm.
+# Class **Polypodiopsida** Cronquist, Takht. & W.Zimm.
 
-### Subclass **Equisetidae** Warm.
+## Subclass **Equisetidae** Warm.
 
-#### Order **Equisetales** DC. ex Bercht. & J.Presl
+### Order **Equisetales** DC. ex Bercht. & J.Presl
 
 ##### Family **Equisetaceae** Michx. ex DC.
 
 *Equisetum* L.
 
-### Subclass **Ophioglossidae** Klinge
+## Subclass **Ophioglossidae** Klinge
 
-#### Order **Psilotales** Prantl
+### Order **Psilotales** Prantl
 
 ##### Family **Psilotaceae** J.W.Griff. & Henfr.
 
@@ -77,7 +77,7 @@
 
 *Tmesipteris* Bernh.
 
-#### Order **Ophioglossales** Link
+### Order **Ophioglossales** Link
 
 ##### Family **Ophioglossaceae** Martinov
 
@@ -111,9 +111,9 @@
 
 *Ophioglossum* L.
 
-### Subclass **Marattiidae** Klinge
+## Subclass **Marattiidae** Klinge
 
-#### Order **Marattiales** Link
+### Order **Marattiales** Link
 
 ##### Family **Marattiaceae** Kaulf.
 
@@ -129,9 +129,9 @@
 
 *Ptisana* Murdock
 
-### Subclass **Polypodiidae** Cronquist, Takht. & W.Zimm.
+## Subclass **Polypodiidae** Cronquist, Takht. & W.Zimm.
 
-#### Order **Osmundales** Link
+### Order **Osmundales** Link
 
 ##### Family **Osmundaceae** Martinov
 
@@ -151,7 +151,7 @@
 
 *Todea* Willd.
 
-#### Order **Hymenophyllales** A.B.Frank
+### Order **Hymenophyllales** A.B.Frank
 
 ##### Family **Hymenophyllaceae** Mart.
 
@@ -177,7 +177,7 @@
 
 *Vandenboschia* Copel.
 
-#### Order **Gleicheniales** Link
+### Order **Gleicheniales** Link
 
 ##### Family **Gleicheniaceae** C.Presl
 
@@ -207,7 +207,7 @@
 
 *Dipteris* Reinw.
 
-#### Order **Schizaeales** Schimp.
+### Order **Schizaeales** Schimp.
 
 ##### Family **Lygodiaceae** M.Roem.
 
@@ -225,7 +225,7 @@
 
 *Anemia* Sw.
 
-#### Order **Salviniales** Link
+### Order **Salviniales** Link
 
 ##### Family **Salviniaceae** Martinov
 
@@ -241,7 +241,7 @@
 
 *Regnellidium* Lindm.
 
-#### Order **Cyatheales** A.B.Frank
+### Order **Cyatheales** A.B.Frank
 
 ##### Family **Thyrsopteridaceae** C.Presl
 
@@ -287,11 +287,15 @@
 
 *Sphaeropteris* Bernh.
 
-#### Order **Polypodiales** Link
+### Order **Polypodiales** Link
+
+#### Suborder **Saccolomatineae** Hovenkamp
 
 ##### Family **Saccolomataceae** Doweld
 
 *Saccoloma* Kaulf.
+
+#### Suborder **Lindsaeineae** Lehtonen & Tuomisto
 
 ##### Family **Cystodiaceae** J.R.Croft
 
@@ -318,6 +322,8 @@
 *Tapeinidium* (Presl) C.Chr.
 
 *Xyropteris* K.U.Kramer
+
+#### Suborder **Pteridineae** J.Prado & Schuettp.
 
 ##### Family **Pteridaceae** E.D.M.Kirchn.
 
@@ -445,6 +451,8 @@
 
 *Vittaria* Sm.
 
+#### Suborder **Dennstaedtiineae** Schwartsb. & Hovenkamp
+
 ##### Family **Dennstaedtiaceae** Lotsy
 
 ###### Subfamily **Dennstaedtioideae** Pic.Serm.
@@ -474,6 +482,8 @@
 ###### Subfamily **Monachosoroideae** Crabbe, Jermy & Mickel
 
 *Monachosorum* Kunze
+
+#### Suborder **Aspleniineae** H.Schneid. & C.J.Rothf.
 
 ##### Family **Cystopteridaceae** (Payer) Shmakov
 
@@ -689,6 +699,8 @@
 
 *Woodwardia* Sm.
 
+#### Suborder **Polypodiineae** Dumort.
+
 ##### Family **Hypodematiaceae** Ching
 
 *Hypodematium* Kunze
@@ -723,7 +735,7 @@
 
 *Stigmatopteris* C.Chr.
 
-###### Subfamily **Elaphoglossoideae** Crabbe, Jermy & Mickel
+###### Subfamily **Elaphoglossoideae** (Pic.Serm.) Crabbe, Jermy & Mickel
 
 *Bolbitis* Schott
 
@@ -929,21 +941,21 @@
 
 ###### Subfamily **Microsoroideae** B.K.Nayar
 
-####### Tribe **Goniophlebieae** C.C.Chen & H.Schneid.
+Tribe **Goniophlebieae** C.C.Chen & H.Schneid.
 
 *Goniophlebium* (Blume) C.Presl
 
-####### Tribe **Lecanoptereae** C.C.Chen & H.Schneid.
+Tribe **Lecanoptereae** C.C.Chen & H.Schneid.
 
 *Bosmania* Testo
 
 *Lecanopteris* Reinw.
 
-####### Tribe **Lepisoreae** Ching ex E.Hennipman, P.Veldhoen & K.U.Kramer
+Tribe **Lepisoreae** Ching ex E.Hennipman, P.Veldhoen & K.U.Kramer
 
 *Lepisorus* (J.Sm.) Ching
 
-####### Tribe **Microsoreae** V.N.Tu
+Tribe **Microsoreae** V.N.Tu
 
 *Leptochilus* Kaulf.
 
@@ -951,7 +963,7 @@
 
 *Podosorus* Holttum
 
-####### Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
+Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
 
 *Thylacopteris* Kunze ex J.Sm.
 
