@@ -60,4 +60,13 @@ RUN (crontab -l ; echo "0 0 * * 1 bash /home/digest.sh >> /var/log/cron.log 2>&1
 # 
 # as long as the container is up, it will run the job once per week
 
-WORKDIR /home/
+### User settings ###
+
+# Add generic non-root user
+RUN useradd --create-home --shell /bin/bash user
+
+# Set working directory to home of non-root user
+WORKDIR /home/user
+
+# Default to non-root (can override with --user at runtime)
+USER user
