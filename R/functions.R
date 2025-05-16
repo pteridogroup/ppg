@@ -17,7 +17,6 @@
 #'   3. Filters the data to include only rows where the `majorGroup` column
 #'      is either "Lycopodiophyta" or "Polypodiophyta".
 #'   4. Deletes the temporary directory after processing.
-
 load_ppg_from_wfo <- function(wfo_backbone_zip) {
   # Unzip dwc file to temp dir
   unzip_dir <- tempfile()
@@ -35,6 +34,19 @@ load_ppg_from_wfo <- function(wfo_backbone_zip) {
   ppg
 }
 
+#' Clean and Validate PPG Taxonomic Data
+#'
+#' This function processes raw PPG (Pteridophyte Phylogeny Group) taxonomic
+#' data by removing duplicates, selecting relevant columns, standardizing
+#' values, and validating the resulting data frame according to Darwin Core
+#' standards.
+#'
+#' @param ppg_raw A data frame containing raw PPG taxonomic data, typically
+#'   produced by load_ppg_from_wfo().
+#'
+#' @return A cleaned and validated data frame of PPG taxonomic records,
+#'   suitable for downstream analysis.
+#'
 clean_ppg <- function(ppg_raw) {
   ppg_raw |>
     mutate(
@@ -100,12 +112,27 @@ clean_ppg <- function(ppg_raw) {
     )
 }
 
+#' Get Ladderized Tip Labels from a Phylogenetic Tree
+#'
+#' Returns the tip labels of a phylogenetic tree in ladderized order.
+#'
+#' @param tree A phylogenetic tree object of class phylo.
+#'
+#' @return A character vector of tip labels in ladderized order.
 get_ladderized_tips <- function(tree) {
   is_tip <- tree$edge[,2] <= length(tree$tip.label)
   ordered_tips <- tree$edge[is_tip, 2]
   tree$tip.label[ordered_tips]
 } 
 
+#' Make a Family-Level Fern Phylogeny
+#'
+#' Constructs a family-level phylogenetic tree for ferns using the FTOL
+#' backbone and taxonomy, ensuring each family is represented by a single
+#' exemplar species and that all families are monophyletic or monotypic.
+#'
+#' @return A ladderized phylogenetic tree object of class phylo with
+#'   family names as tip labels.
 make_family_tree <- function() {
   require(ftolr)
   # Load tree
@@ -162,6 +189,15 @@ make_family_tree <- function() {
 
 }
 
+#' Write a Data Frame to CSV and Return the File Path
+#'
+#' Writes a data frame to a CSV file and returns the file path.
+#'
+#' @param x A data frame to write.
+#' @param file The file path to write to.
+#' @param ... Additional arguments passed to readr::write_csv().
+#'
+#' @return The file path of the written CSV file.
 write_csv_tar <- function(x, file, ...) {
   readr::write_csv(x = x, file = file, ...)
   file
