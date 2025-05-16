@@ -48,7 +48,8 @@ ppg_print <-
 # Identify higher taxonomic levels actually used
 higher_tax_levels_used <- higher_tax_levels_all[higher_tax_levels_all %in% ppg_print$taxonRank]
 
-# Set priorities for sorting by rank, check that all names are in data
+# Set priorities for sorting by rank ----
+# Also check that all names are in data
 
 # - class
 priority_class <- c(
@@ -99,13 +100,27 @@ order_check <- ppg_print |>
   filter(taxonRank == "order") |>
   assert(in_set(priority_order), scientificName, success_fun = success_logical)
 
-# TODO: Add suborder
+# suborder
+priority_suborder <- c(
+  "Saccolomatineae",
+  "Lindsaeineae",
+  "Pteridineae",
+  "Dennstaedtiineae",
+  "Aspleniineae",
+  "Polypodiineae"
+)
+
+suborder_check <- ppg_print |>
+  filter(taxonRank == "suborder") |>
+  assert(in_set(priority_suborder), scientificName, success_fun = success_logical)
 
 # - family
 priority_family <- c(
+  # Lycophytes
   "Lycopodiaceae",
   "Isoetaceae",
   "Selaginellaceae",
+  # Ferns are determined from FTOL
   rev(families_in_phy_order))
 
 family_check <- ppg_print |>
@@ -117,6 +132,7 @@ priority_sort <- c(
   priority_class,
   priority_subclass,
   priority_order,
+  priority_suborder,
   priority_family
 )
 
@@ -142,15 +158,16 @@ indent_df <-
   rowwise() |>
   mutate(
     indent = paste0(rep("#", indent_num), collapse = ""),
-    indent = paste0(indent, "##", collapse = "")
+    indent = paste0(indent, "#", collapse = "")
   ) |>
   ungroup() |>
-  # The lowest taxonomic level should not have an indent (header)
+  # Markdown does not let us have below 6 levels of header
   mutate(
     indent = case_when(
-      level == first(levels(ppg_tl)) ~ "",
-    .default = indent
-  )) |>
+      nchar(indent) > 6 ~ "",
+      .default = indent
+    )
+  ) |>
   select(level, indent)
 
 # Print out as text
