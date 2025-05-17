@@ -5,6 +5,6 @@
 .Ruserdata
 working
 _targets
-cron-log.txt
+cron-log*
 
 /.quarto/
