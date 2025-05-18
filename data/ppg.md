@@ -765,8 +765,6 @@
 
 *× Cyclobotrya* Engels & Canestraro
 
-*Atalopteris* Maxon & C.Chr.
-
 *Cyclodium* C.Presl
 
 *Maxonia* C.Chr.
