@@ -38,6 +38,18 @@ WORKDIR /tmp/project
 # Install pak and renv, then restore
 RUN Rscript -e 'install.packages(c("pak", "renv")); renv::consent(provided = TRUE); renv::settings$use.cache(FALSE); renv::init(bare = TRUE); renv::restore()'
 
+################
+### gnparser ###
+################
+
+ENV APP_NAME=gnparser
+ENV GNP_VERSION=1.11.6
+ENV DEST=$APP_NAME/$GNP_VERSION
+RUN wget https://github.com/gnames/gnparser/releases/download/v$GNP_VERSION/gnparser-v$GNP_VERSION-linux-x86.tar.gz \
+  && tar xf $APP_NAME-v$GNP_VERSION-linux-x86.tar.gz \
+  && rm $APP_NAME-v$GNP_VERSION-linux-x86.tar.gz \
+  && mv "$APP_NAME" /usr/local/bin/
+
 ############
 ### Cron ###
 ############

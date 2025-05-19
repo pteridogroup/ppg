@@ -4734,6 +4734,35 @@
       "Maintainer": "Jennifer Bryan <jenny@posit.co>",
       "Repository": "RSPM"
     },
+    "rgnparser": {
+      "Package": "rgnparser",
+      "Version": "0.3.0",
+      "Source": "Repository",
+      "Title": "Parse Scientific Names",
+      "Description": "Parse scientific names using 'gnparser' (<https://github.com/gnames/gnparser>), written in Go. 'gnparser' parses scientific names into their component parts; it utilizes a Parsing Expression Grammar specifically for scientific names.",
+      "Authors@R": "c( person(\"Scott\", \"Chamberlain\", role = \"aut\", email = \"sckott@protonmail.com\", comment = c(ORCID = \"0000-0003-1444-9135\")), person(\"Joel H.\", \"Nitta\", role = c(\"aut\",\"cre\"), email = \"joelnitta@gmail.com\", comment = c(ORCID = \"0000-0003-4719-7472\")), person(\"Alban\", \"Sagouis\", role = \"aut\", email = \"alban.sagouis@idiv.de\", comment = c(ORCID = \"0000-0002-3827-1063\")) )",
+      "License": "MIT + file LICENSE",
+      "URL": "https://docs.ropensci.org/rgnparser/, https://github.com/ropensci/rgnparser",
+      "BugReports": "https://github.com/ropensci/rgnparser/issues",
+      "Encoding": "UTF-8",
+      "Language": "en-US",
+      "SystemRequirements": "gnparser (<https://github.com/gnames/gnparser>)",
+      "Imports": [
+        "sys",
+        "tibble",
+        "jsonlite",
+        "readr",
+        "lifecycle"
+      ],
+      "Suggests": [
+        "testthat"
+      ],
+      "RoxygenNote": "7.2.3",
+      "NeedsCompilation": "no",
+      "Author": "Scott Chamberlain [aut] (<https://orcid.org/0000-0003-1444-9135>), Joel H. Nitta [aut, cre] (<https://orcid.org/0000-0003-4719-7472>), Alban Sagouis [aut] (<https://orcid.org/0000-0002-3827-1063>)",
+      "Maintainer": "Joel H. Nitta <joelnitta@gmail.com>",
+      "Repository": "RSPM"
+    },
     "rlang": {
       "Package": "rlang",
       "Version": "1.1.6",
