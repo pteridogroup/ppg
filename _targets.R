@@ -18,6 +18,24 @@ tar_plan(
   # Load and clean PPG data ----
   ppg_raw = load_ppg_from_wfo(wfo_backbone_zip),
   ppg = clean_ppg(ppg_raw),
+  tar_file_read(
+    ppgi_supp_data_raw,
+    "_targets/user/ppgi_data.xlsx",
+    readxl::read_xlsx(!!.x)
+  ),
+  # - original supplemental data from PPG I
+  ppgi_supp_data = clean_ppgi_supp_data(ppgi_supp_data_raw),
+  # - template of supplemental data for PPG II and onwards
+  ppgii_supp_data_template = make_initial_ppgii_supp_data(
+    ppgi_supp_data,
+    ppg_taxdf
+  ),
+  # - read in data from manually filled templae
+  tar_file_read(
+    ppg_supp_data,
+    "_targets/user/ppg_supp_data.csv",
+    readr::read_csv(!!.x)
+  ),
   # Make family-level tree ---
   phy_family = make_family_tree(),
   # Get families in 'phylogenetic' order
@@ -26,7 +44,7 @@ tar_plan(
   # Format data ----
   # - convert DarwinCore format to dataframe in taxonomic order for printing
   #   (only includes accepted taxa at genus and higher)
-  ppg_taxdf = dwc_to_taxdf(ppg, families_in_phy_order),
+  ppg_tl = dwc_to_tl(ppg, families_in_phy_order),
 
   # Output data files ----
   # - Taxonomic treatment (markdown)

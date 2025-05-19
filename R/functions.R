@@ -272,7 +272,7 @@ commit_and_push <- function(modified) {
 #'     \item{taxonRank}{Taxonomic rank (e.g., family, order).}
 #'     \item{indent}{Markdown-style header string for indentation.}
 #'   }
-dwc_to_taxdf <- function(ppg, families_in_phy_order) {
+dwc_to_tl <- function(ppg, families_in_phy_order) {
   require(taxlist)
 
   # Specify all higher taxonomic levels
@@ -414,7 +414,8 @@ dwc_to_taxdf <- function(ppg, families_in_phy_order) {
     priority_family
   )
 
-  ppg_tl <- ppg_print |>
+  # Convert to taxonlist format
+  ppg_print |>
     dplyr::select(
       TaxonConceptID = taxonID,
       TaxonUsageID = taxonID,
@@ -427,45 +428,126 @@ dwc_to_taxdf <- function(ppg, families_in_phy_order) {
     as.data.frame() |>
     taxlist::df2taxlist(levels = rev(higher_tax_levels_used))
 
-  # Format headers (indents) for each taxonomic level
-  indent_df <-
-    tibble(level = rev(levels(ppg_tl))) |>
-    mutate(
-      indent_num = 0:(length(levels(ppg_tl)) - 1)
+}
+
+#' Clean and Parse PPG II Supplementary Data
+#'
+#' Cleans and parses supplementary PPG II data, including type and
+#' lectotypification information.
+#'
+#' @param ppgi_supp_data_raw Raw supplementary data as a data frame.
+#'
+#' @return A data frame with parsed and cleaned columns:
+#'   - scientificName
+#'   - scientificNameAuthorship
+#'   - type_category
+#'   - lectotype_designation
+#'   - type_sci_name
+#'   - type_author
+#'   - circumscription
+#'   - includes
+#'   - monophyly
+#'   - comments
+#'
+clean_ppgi_supp_data <- function(ppgi_supp_data_raw) {
+  res <-
+    ppgi_supp_data_raw |>
+    janitor::clean_names() |>
+    select(
+      scientificName = taxon,
+      scientificNameAuthorship = authority,
+      type_lectotypification_reference,
+      type_species_with_authority_and_basionym,
+      circumscription,
+      monophyly,
+      includes,
+      comments_published
     ) |>
-    rowwise() |>
     mutate(
-      indent = paste0(rep("#", indent_num), collapse = ""),
-      indent = paste0(indent, "#", collapse = "")
-    ) |>
-    ungroup() |>
-    # Markdown does not let us have below 6 levels of header
-    mutate(
-      indent = case_when(
-        nchar(indent) > 6 ~ "",
-        .default = indent
+      across(
+        everything(),
+        ~ na_if(., "TOREMOVE")
       )
     ) |>
-    select(level, indent)
-
-  # Print out as text
-  ppg_tl |>
-    sort_taxa(priority = priority_sort) |>
-    indented_list(indent = "", print = FALSE) |>
-    as_tibble() |>
-    select(-indent) |>
-    janitor::clean_names() |>
-    left_join(
-      indent_df,
-      by = "level",
-      relationship = "many-to-one"
+    mutate(
+      type_category = str_match(
+        type_lectotypification_reference,
+        "Type|Lectotype"
+      )[, 1],
+      lectotype_designation = str_extract(
+        type_lectotypification_reference,
+        "(?<=Lectotype \\(designated by )[^)]+"
+      ),
+      type_species_basionym = stringr::str_extract(
+        type_species_with_authority_and_basionym,
+        "(?<=\\(≡ )[^)]+"
+      ),
+      type_species = stringr::str_remove(
+        type_species_with_authority_and_basionym,
+        " \\(≡ .+\\)"
+      )
     ) |>
     select(
-      taxonID = taxon_concept_id,
-      scientificName = taxon_name,
-      scientificNameAuthorship = author_name,
-      taxonRank = level,
-      indent
+      scientificName,
+      scientificNameAuthorship,
+      type_category,
+      lectotype_designation,
+      type_species,
+      type_species_basionym,
+      circumscription,
+      includes,
+      monophyly,
+      comments = comments_published
+    )
+  # Parse type species into sciName + authorship
+  type_name_parsed <- res |>
+    filter(!is.na(type_species)) |>
+    pull(type_species) |>
+    unique() |>
+    gn_parse_tidy() |>
+    select(
+      type_sci_name = canonicalfull,
+      type_author = authorship,
+      type_species = verbatim
+    )
+
+  # Add type name with authorship
+  res |>
+    left_join(
+      type_name_parsed,
+      by = "type_species"
+    ) |>
+    select(
+      scientificName,
+      scientificNameAuthorship,
+      type_category,
+      lectotype_designation,
+      type_sci_name,
+      type_author,
+      circumscription,
+      includes,
+      monophyly,
+      comments
     )
 }
 
+#' Prepare initial suppelementary PPG II data
+#'
+#' Use this as a template to start filling in supplemental data for PPG II
+#'
+#' @param ppgi_supp_data Cleaned PPG I supplementary data (from
+#'   clean_ppgi_supp_data()).
+#' @param ppg_taxdf Taxonomic data frame with at least columns
+#'   taxonID, taxonRank, scientificName, and scientificNameAuthorship.
+#'
+#' @return A data frame joining taxonomic and supplementary data
+#'
+make_initial_ppgii_supp_data <- function(ppgi_supp_data, ppg_taxdf) {
+  ppg_taxdf |>
+    select(taxonID, taxonRank, scientificName, scientificNameAuthorship) |>
+    left_join(
+      ppgi_supp_data,
+      by = c("scientificName", "scientificNameAuthorship"),
+      relationship = "one-to-one"
+    )
+}

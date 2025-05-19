@@ -23,13 +23,53 @@ library(taxlist)
 library(taxnames)
 conflicted::conflict_prefer("filter", "dplyr")
 
-tar_load(c(ppg_taxdf), store = here::here("_targets"))
+tar_load(c(ppg_tl), store = here::here("_targets"))
 ```
 
 ```{r}
 #| label: ppg-treatment
 #| results: asis
-ppg_taxdf |>
+
+# Format headers (indents) for each taxonomic level
+indent_df <-
+  tibble(level = rev(levels(ppg_tl))) |>
+  mutate(
+    indent_num = 0:(length(levels(ppg_tl)) - 1)
+  ) |>
+  rowwise() |>
+  mutate(
+    indent = paste0(rep("#", indent_num), collapse = ""),
+    indent = paste0(indent, "#", collapse = "")
+  ) |>
+  ungroup() |>
+  # Markdown does not let us have below 6 levels of header
+  mutate(
+    indent = case_when(
+      nchar(indent) > 6 ~ "",
+      .default = indent
+    )
+  ) |>
+  select(level, indent)
+
+# Print out as text
+ppg_tl |>
+  sort_taxa(priority = priority_sort) |>
+  indented_list(indent = "", print = FALSE) |>
+  as_tibble() |>
+  select(-indent) |>
+  janitor::clean_names() |>
+  left_join(
+    indent_df,
+    by = "level",
+    relationship = "many-to-one"
+  ) |>
+  select(
+    taxonID = taxon_concept_id,
+    scientificName = taxon_name,
+    scientificNameAuthorship = author_name,
+    taxonRank = level,
+    indent
+  ) |>
   mutate(
     formatted_name = case_when(
       taxonRank == "genus" ~ glue::glue(
