@@ -22,6 +22,12 @@ tar_plan(
   phy_family = make_family_tree(),
   # Get families in 'phylogenetic' order
   families_in_phy_order = get_ladderized_tips(phy_family),
+
+  # Format data ----
+  # - convert DarwinCore format to dataframe in taxonomic order for printing
+  #   (only includes accepted taxa at genus and higher)
+  ppg_taxdf = dwc_to_taxdf(ppg, families_in_phy_order),
+
   # Output data files ----
   # - Taxonomic treatment (markdown)
   tar_quarto(

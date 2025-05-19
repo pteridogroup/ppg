@@ -249,3 +249,223 @@ commit_and_push <- function(modified) {
   }
   last_commit
 }
+
+#' Convert Darwin Core Taxonomy to Indented Taxonomic Data Frame
+#'
+#' Converts a cleaned PPG (Pteridophyte Phylogeny Group) Darwin Core
+#' taxonomy data frame to an indented, ordered taxonomic data frame
+#' suitable for printing or reporting. The function selects higher
+#' taxonomic ranks, orders them according to phylogenetic and
+#' classification priorities, and formats the output with markdown-style
+#' indentation for each rank.
+#'
+#' @param ppg A cleaned data frame of PPG taxonomic data, typically the
+#'   output of clean_ppg().
+#' @param families_in_phy_order A character vector of family names in
+#'   phylogenetic order (as returned by make_family_tree()).
+#'
+#' @return A tibble with columns:
+#'   \describe{
+#'     \item{taxonID}{Unique taxon identifier.}
+#'     \item{scientificName}{Scientific name of the taxon.}
+#'     \item{scientificNameAuthorship}{Authorship of the scientific name.}
+#'     \item{taxonRank}{Taxonomic rank (e.g., family, order).}
+#'     \item{indent}{Markdown-style header string for indentation.}
+#'   }
+dwc_to_taxdf <- function(ppg, families_in_phy_order) {
+  require(taxlist)
+
+  # Specify all higher taxonomic levels
+  higher_tax_levels_all <- c(
+    "class",
+    "subclass",
+    "order",
+    "suborder",
+    "family",
+    "subfamily",
+    "tribe",
+    "subtribe",
+    "genus"
+  )
+
+  # Format PPG data for printing out
+  ppg_print <-
+    ppg |>
+    # Only keeping higher, accepted taxa
+    filter(taxonRank %in% higher_tax_levels_all) |>
+    filter(taxonomicStatus == "accepted") |>
+    # TODO fix these in Rhakhis
+    # Remove bad taxa
+    filter(
+      taxonID != "wfo-1000070090" # Todea Bernh., PPG I has Todea Willd. ex Bernh.
+    )
+
+  # Identify higher taxonomic levels actually used
+  higher_tax_levels_used <- higher_tax_levels_all[
+    higher_tax_levels_all %in% ppg_print$taxonRank
+  ]
+
+  # Set priorities for sorting by rank ----
+  # Also check that all names are in data
+
+  # - class
+  priority_class <- c(
+    "Lycopodiopsida",
+    "Polypodiopsida"
+  )
+
+  class_check <- ppg_print |>
+    filter(taxonRank == "class") |>
+    assert(
+      in_set(priority_class),
+      scientificName,
+      success_fun = success_logical
+    )
+
+  # - subclass
+  priority_subclass <- c(
+    "Equisetidae",
+    "Ophioglossidae",
+    "Marattiidae",
+    "Polypodiidae"
+  )
+
+  subclass_check <- ppg_print |>
+    filter(taxonRank == "subclass") |>
+    assert(
+      in_set(priority_subclass),
+      scientificName,
+      success_fun = success_logical
+    )
+
+  # - order
+  priority_order <- c(
+    # (Lycopodiopsida)
+    "Lycopodiales",
+    "Isoetales",
+    "Selaginellales",
+    # (Equisetidae)
+    "Equisetales",
+    # (Ophioglossidae)
+    "Psilotales",
+    "Ophioglossales",
+    # (Marattiidae)
+    "Marattiales",
+    # (Polypodiidae)
+    "Osmundales",
+    "Hymenophyllales",
+    "Gleicheniales",
+    "Schizaeales",
+    "Salviniales",
+    "Cyatheales",
+    "Polypodiales"
+  )
+
+  order_check <- ppg_print |>
+    filter(taxonRank == "order") |>
+    assert(
+      in_set(priority_order),
+      scientificName,
+      success_fun = success_logical
+    )
+
+  # suborder
+  priority_suborder <- c(
+    "Saccolomatineae",
+    "Lindsaeineae",
+    "Pteridineae",
+    "Dennstaedtiineae",
+    "Aspleniineae",
+    "Polypodiineae"
+  )
+
+  suborder_check <- ppg_print |>
+    filter(taxonRank == "suborder") |>
+    assert(
+      in_set(priority_suborder),
+      scientificName,
+      success_fun = success_logical
+    )
+
+  # - family
+  priority_family <- c(
+    # Lycophytes
+    "Lycopodiaceae",
+    "Isoetaceae",
+    "Selaginellaceae",
+    # Ferns are determined from FTOL
+    rev(families_in_phy_order)
+  )
+
+  family_check <- ppg_print |>
+    filter(taxonRank == "family") |>
+    assert(
+      in_set(priority_family),
+      scientificName,
+      success_fun = success_logical
+    )
+
+  # Compile all priorities
+  priority_sort <- c(
+    priority_class,
+    priority_subclass,
+    priority_order,
+    priority_suborder,
+    priority_family
+  )
+
+  ppg_tl <- ppg_print |>
+    dplyr::select(
+      TaxonConceptID = taxonID,
+      TaxonUsageID = taxonID,
+      TaxonName = scientificName,
+      AuthorName = scientificNameAuthorship,
+      Level = taxonRank,
+      Parent = parentNameUsageID
+    ) |>
+    mutate(AcceptedName = TRUE) |>
+    as.data.frame() |>
+    taxlist::df2taxlist(levels = rev(higher_tax_levels_used))
+
+  # Format headers (indents) for each taxonomic level
+  indent_df <-
+    tibble(level = rev(levels(ppg_tl))) |>
+    mutate(
+      indent_num = 0:(length(levels(ppg_tl)) - 1)
+    ) |>
+    rowwise() |>
+    mutate(
+      indent = paste0(rep("#", indent_num), collapse = ""),
+      indent = paste0(indent, "#", collapse = "")
+    ) |>
+    ungroup() |>
+    # Markdown does not let us have below 6 levels of header
+    mutate(
+      indent = case_when(
+        nchar(indent) > 6 ~ "",
+        .default = indent
+      )
+    ) |>
+    select(level, indent)
+
+  # Print out as text
+  ppg_tl |>
+    sort_taxa(priority = priority_sort) |>
+    indented_list(indent = "", print = FALSE) |>
+    as_tibble() |>
+    select(-indent) |>
+    janitor::clean_names() |>
+    left_join(
+      indent_df,
+      by = "level",
+      relationship = "many-to-one"
+    ) |>
+    select(
+      taxonID = taxon_concept_id,
+      scientificName = taxon_name,
+      scientificNameAuthorship = author_name,
+      taxonRank = level,
+      indent
+    )
+}
+
