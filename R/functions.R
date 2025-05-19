@@ -120,10 +120,10 @@ clean_ppg <- function(ppg_raw) {
 #'
 #' @return A character vector of tip labels in ladderized order.
 get_ladderized_tips <- function(tree) {
-  is_tip <- tree$edge[,2] <= length(tree$tip.label)
+  is_tip <- tree$edge[, 2] <= length(tree$tip.label)
   ordered_tips <- tree$edge[is_tip, 2]
   tree$tip.label[ordered_tips]
-} 
+}
 
 #' Make a Family-Level Fern Phylogeny
 #'
@@ -186,7 +186,6 @@ make_family_tree <- function() {
   phy_family$tip.label <- new_tips
 
   ape::ladderize(phy_family)
-
 }
 
 #' Write a Data Frame to CSV and Return the File Path
@@ -227,7 +226,6 @@ check_git_status <- function(watched_files, exclude_file = "ppg.Qmd") {
     modified_files = res |> pull(file),
     last_commit = gert::git_log(max = 1)$commit
   )
-
 }
 
 #' Commit and Push Modified Files to Git
