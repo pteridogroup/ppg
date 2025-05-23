@@ -28,7 +28,7 @@ tar_plan(
   # - template of supplemental data for PPG II and onwards
   ppgii_supp_data_template = make_initial_ppgii_supp_data(
     ppgi_supp_data,
-    ppg_taxdf
+    ppg
   ),
   # - read in data from manually filled templae
   tar_file_read(

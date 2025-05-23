@@ -305,6 +305,36 @@ dwc_to_tl <- function(ppg, families_in_phy_order) {
     higher_tax_levels_all %in% ppg_print$taxonRank
   ]
 
+  # Convert to taxonlist format
+  ppg_print |>
+    dplyr::select(
+      TaxonConceptID = taxonID,
+      TaxonUsageID = taxonID,
+      TaxonName = scientificName,
+      AuthorName = scientificNameAuthorship,
+      Level = taxonRank,
+      Parent = parentNameUsageID
+    ) |>
+    mutate(AcceptedName = TRUE) |>
+    as.data.frame() |>
+    taxlist::df2taxlist(levels = rev(higher_tax_levels_used))
+}
+
+#' Set Taxon Priority Order for Sorting
+#'
+#' Determines the priority order of higher taxonomic ranks (class, subclass,
+#' order, suborder, family) for sorting and reporting, and checks that all
+#' expected taxa are present in the provided data. The function returns a
+#' character vector of taxon names in the desired order for sorting.
+#'
+#' @param ppg A cleaned data frame of PPG taxonomic data, typically the output
+#'   of clean_ppg().
+#' @param families_in_phy_order A character vector of family names in
+#'   phylogenetic order, as returned by make_family_tree().
+#'
+#' @return A character vector of taxon names in the desired priority order for
+#'   sorting.
+set_taxon_priority <- function(ppg, families_in_phy_order) {
   # Set priorities for sorting by rank ----
   # Also check that all names are in data
 
@@ -314,8 +344,9 @@ dwc_to_tl <- function(ppg, families_in_phy_order) {
     "Polypodiopsida"
   )
 
-  class_check <- ppg_print |>
+  class_check <- ppg |>
     filter(taxonRank == "class") |>
+    filter(taxonomicStatus == "accepted") |>
     assert(
       in_set(priority_class),
       scientificName,
@@ -330,8 +361,9 @@ dwc_to_tl <- function(ppg, families_in_phy_order) {
     "Polypodiidae"
   )
 
-  subclass_check <- ppg_print |>
+  subclass_check <- ppg |>
     filter(taxonRank == "subclass") |>
+    filter(taxonomicStatus == "accepted") |>
     assert(
       in_set(priority_subclass),
       scientificName,
@@ -361,8 +393,9 @@ dwc_to_tl <- function(ppg, families_in_phy_order) {
     "Polypodiales"
   )
 
-  order_check <- ppg_print |>
+  order_check <- ppg |>
     filter(taxonRank == "order") |>
+    filter(taxonomicStatus == "accepted") |>
     assert(
       in_set(priority_order),
       scientificName,
@@ -379,8 +412,9 @@ dwc_to_tl <- function(ppg, families_in_phy_order) {
     "Polypodiineae"
   )
 
-  suborder_check <- ppg_print |>
+  suborder_check <- ppg |>
     filter(taxonRank == "suborder") |>
+    filter(taxonomicStatus == "accepted") |>
     assert(
       in_set(priority_suborder),
       scientificName,
@@ -397,8 +431,9 @@ dwc_to_tl <- function(ppg, families_in_phy_order) {
     rev(families_in_phy_order)
   )
 
-  family_check <- ppg_print |>
+  family_check <- ppg |>
     filter(taxonRank == "family") |>
+    filter(taxonomicStatus == "accepted") |>
     assert(
       in_set(priority_family),
       scientificName,
@@ -406,28 +441,13 @@ dwc_to_tl <- function(ppg, families_in_phy_order) {
     )
 
   # Compile all priorities
-  priority_sort <- c(
+  c(
     priority_class,
     priority_subclass,
     priority_order,
     priority_suborder,
     priority_family
   )
-
-  # Convert to taxonlist format
-  ppg_print |>
-    dplyr::select(
-      TaxonConceptID = taxonID,
-      TaxonUsageID = taxonID,
-      TaxonName = scientificName,
-      AuthorName = scientificNameAuthorship,
-      Level = taxonRank,
-      Parent = parentNameUsageID
-    ) |>
-    mutate(AcceptedName = TRUE) |>
-    as.data.frame() |>
-    taxlist::df2taxlist(levels = rev(higher_tax_levels_used))
-
 }
 
 #' Clean and Parse PPG II Supplementary Data
@@ -542,8 +562,23 @@ clean_ppgi_supp_data <- function(ppgi_supp_data_raw) {
 #'
 #' @return A data frame joining taxonomic and supplementary data
 #'
-make_initial_ppgii_supp_data <- function(ppgi_supp_data, ppg_taxdf) {
-  ppg_taxdf |>
+make_initial_ppgii_supp_data <- function(ppgi_supp_data, ppg) {
+  # Specify all higher taxonomic levels
+  higher_tax_levels_all <- c(
+    "class",
+    "subclass",
+    "order",
+    "suborder",
+    "family",
+    "subfamily",
+    "tribe",
+    "subtribe",
+    "genus"
+  )
+
+  ppg |>
+    filter(taxonomicStatus == "accepted") |>
+    filter(taxonRank %in% higher_tax_levels_all) |>
     select(taxonID, taxonRank, scientificName, scientificNameAuthorship) |>
     left_join(
       ppgi_supp_data,
