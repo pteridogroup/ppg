@@ -16450,7 +16450,7 @@ wfo-0000161514,Asplenium woodwardioides,(C.Presl) Baker,species,NA,illegitimate,
 wfo-0000161530,Adiantum radicans,L.,species,NA,NA,Fl. Jamaic. (Linnaeus) 23. 1759 [22 Dec 1759],unchecked,NA,2022-04-16,2024-06-04
 wfo-0000161531,Asplenium woodwardioideum,Gardner,species,NA,NA,London J. Bot. 1: 547 (1842),synonym,wfo-0001109359,2022-04-16,2024-12-16
 wfo-0000161549,Asplenium × woynarianum,Asch. & Graebn.,species,wfo-4000003342,valid,"Syn. Mitteleur. Fl. [Ascherson & Graebner] ed. 2, 1: 126 (1912)",accepted,NA,2022-04-16,2025-03-19
-wfo-0000161604,Asplenium septentrionale,Litard.,species,wfo-4000003342,valid,"Bull. Soc. bot. Deux-Sevres 1909-10: 100, t.1 (1909)",accepted,NA,2022-04-16,2025-03-19
+wfo-0000161604,Asplenium septentrionale,Litard.,species,NA,NA,"Bull. Soc. bot. Deux-Sevres 1909-10: 100, t.1 (1909)",unchecked,NA,2022-04-16,2025-05-30
 wfo-0000161613,Adiantum ramyam,B.K.Nayar & Geev.,species,NA,NA,Bull. Bot. Surv. India 28(1-4): 133 (1988),synonym,wfo-0001109470,2022-04-16,2025-03-19
 wfo-0000161614,Asplenium trichomanes,Milde,species,NA,NA,Verh. zool. bot. Ges. 14. 165. t. 4. 1864 1864,unchecked,NA,2022-04-16,2024-06-04
 wfo-0000161624,Asplenium viride,Asch.,species,wfo-4000003342,valid,Syn. Mitteleur. Fl. [Ascherson & Graebner] 1: 59 (1896),accepted,NA,2022-04-16,2025-03-19
@@ -18198,7 +18198,7 @@ wfo-0001038827,Asplenium semivarians,Viane & Reichst.,species,NA,NA,"Pteridol. N
 wfo-0001038830,Asplenium hopei,Viane & Reichst.,species,NA,valid,Pteridol. New Millennium 85 (87-88; f.6) (2003),synonym,wfo-0001404400,2022-04-16,2025-03-19
 wfo-0001038929,Asplenium lacei,Viane & Reichst.,species,NA,valid,Pteridol. New Millennium 88 (-89) (2003),synonym,wfo-0001404401,2022-04-16,2025-03-19
 wfo-0001038930,Asplenium chasei,Viane & Reichst.,species,NA,valid,Pteridol. New Millennium 89 (2003),synonym,wfo-0001404399,2022-04-16,2025-03-19
-wfo-0001038931,Asplenium septentrionale subsp. caucasicum,Fraser-Jenk. & Lovis,subspecies,wfo-0000161604,valid,Notes Roy. Bot. Gard. Edinburgh 38(2): 281 (1980),accepted,NA,2022-04-16,2024-12-16
+wfo-0001038931,Asplenium septentrionale subsp. caucasicum,Fraser-Jenk. & Lovis,subspecies,wfo-0001109358,valid,Notes Roy. Bot. Gard. Edinburgh 38(2): 281 (1980),accepted,NA,2022-04-16,2025-05-30
 wfo-0001038932,Asplenium caucasicum,(Fraser-Jenk. & Lovis) Viane,species,NA,NA,Pteridol. New Millennium 89 (2003),synonym,wfo-0001038931,2022-04-16,2025-03-19
 wfo-0001038933,Asplenium dirense,Viane & Reichst.,species,NA,valid,Pteridol. New Millennium 90 (2003),synonym,wfo-0001404408,2022-04-16,2025-03-19
 wfo-0001038934,Cyathea sharmae,"T.Bandyop., T.Sen & U.Sen",species,NA,NA,"Pteridol. New Millennium 100 (-126), f.1-2 (2003)",synonym,wfo-1000048920,2022-04-16,2025-03-19
@@ -57759,7 +57759,7 @@ wfo-0001404404,Asplenium petrarchae subsp. diazii,Fern.Areces & Pérez Carro,sub
 wfo-0001404405,Asplenium reuteri subsp. aprutianum,"(Lovis, H.Melzer & Reichst.) Viane & Reichst.",subspecies,wfo-0000158542,valid,Biol. Jaarb. 59: 163. 1991,accepted,NA,2022-04-16,2024-12-16
 wfo-0001404406,Asplenium reuteri subsp. stiriacum,(D.E.Mey.) Viane & Reichst.,subspecies,NA,invalid,Biol. Jaarb. 59: 163 (1992),synonym,wfo-0000159665,2022-04-16,2025-03-19
 wfo-0001404407,Asplenium ruta-muraria subsp. baldense,"(Sleep, Vida & Reichst.) Muñoz Garm.",subspecies,wfo-0001109353,valid,Anales Jard. Bot. Madrid 42(1): 257 (1985),accepted,NA,2022-04-16,2025-03-19
-wfo-0001404408,Asplenium septentrionale subsp. rehmanii,Fraser-Jenk.,subspecies,wfo-0000161604,valid,Taxon. Revis. Indian Subcontinental Pteridophytes 175 (2008),accepted,NA,2022-04-16,2025-03-19
+wfo-0001404408,Asplenium septentrionale subsp. rehmanii,Fraser-Jenk.,subspecies,wfo-0001109358,valid,Taxon. Revis. Indian Subcontinental Pteridophytes 175 (2008),accepted,NA,2022-04-16,2025-05-30
 wfo-0001404409,Asplenium stiriacum subsp. aprutianum,"(Lovis, Melzer & Reichst.) Muñoz Garm.",subspecies,NA,valid,Anales Jard. Bot. Madrid 42(1): 257 (1985),synonym,wfo-0001404405,2022-04-16,2025-03-19
 wfo-0001404410,Asplenium trichomanes subsp. barreraense,"Rasbach, K.Rasbach, Reichst. & Bennert",subspecies,NA,valid,Willdenowia 19(2): 473 (1990),synonym,wfo-1000075062,2022-04-16,2025-03-19
 wfo-0001404411,Asplenium trichomanes subsp. lovisianum,S.Jess.,subspecies,NA,valid,Ber. Bayer. Bot. Ges. 65: 120 (1995),synonym,wfo-1000075065,2022-04-16,2025-03-19
@@ -57859,7 +57859,7 @@ wfo-0001407540,Dryopteris cambrensis subsp. cambrensis,NA,subspecies,wfo-0001040
 wfo-0001407543,Dryopteris sparsa subsp. sparsa,NA,subspecies,wfo-0001115069,valid,Revis. Gen. Pl. 2: 613 (1891),accepted,NA,2022-04-16,2024-12-16
 wfo-0001407544,Asplenium laciniatum subsp. laciniatum,NA,subspecies,wfo-0001116299,valid,Prodr. Fl. Nepal. 8 (1824),accepted,NA,2022-04-16,2024-12-16
 wfo-0001407557,Asplenium cuneifolium subsp. cuneifolium,NA,subspecies,wfo-0001115843,valid,"Fragm. Fl. Ital. 16, t. 18 (1806)",accepted,NA,2022-04-16,2024-12-16
-wfo-0001407558,Asplenium septentrionale subsp. septentrionale,NA,subspecies,wfo-0000161604,valid,Deutschl. Fl. 2: 12 (1796),accepted,NA,2022-04-16,2024-12-16
+wfo-0001407558,Asplenium septentrionale subsp. septentrionale,NA,subspecies,wfo-0001109358,valid,Deutschl. Fl. 2: 12 (1796),accepted,NA,2022-04-16,2025-05-30
 wfo-0001408289,Botrychium ternatum subvar. intermedium,D.C.Eaton,subvariety,NA,NA,"Ferns N. Amer. 1: 149. 1878 , without definite locality",synonym,wfo-0001118484,2022-04-16,2024-12-16
 wfo-0001408317,Filix-mas thelypteris subvar. frondosa,Farw.,subvariety,NA,valid,Amer. Midl. Naturalist 12: 258. 1931,synonym,wfo-0001359279,2022-04-16,2024-12-16
 wfo-0001408327,Hippochaete praealta subvar. neopolystachya,Farw.,subvariety,NA,NA,Amer. Fern J. 27: 17. 1937,synonym,wfo-0001107313,2022-04-16,2024-12-16
@@ -61760,7 +61760,6 @@ wfo-4000008237,Chrysopteris,Link,genus,NA,NA,"Fil. Spec. 116, 120. 1841 (1841)",
 wfo-4000008293,Cibotium,Kaulf.,genus,wfo-7000000133,valid,Berlin. Jahrb. Pharm. Verbundenen Wiss. 21: 53 (1820),accepted,NA,2022-04-16,2025-03-19
 wfo-4000008327,Cincinalis,Gled.,genus,NA,NA,Syst. Pl. : 290 (1764),synonym,wfo-4000031876,2022-04-16,2024-12-16
 wfo-4000008349,Cionidium,T.Moore,genus,NA,NA,Gard. Companion Florists' Guide 143 (1852),synonym,wfo-4000037670,2022-04-16,2025-03-19
-wfo-4000008573,Clementea,Cav.,genus,NA,NA,Descr. Pl. (Cavanilles) 553 (1803),synonym,wfo-4000002097,2022-04-16,2025-03-19
 wfo-4000008681,Cnemidaria,C.Presl,genus,NA,NA,Tent. Pterid. 56 (1836),synonym,wfo-4000010177,2022-04-16,2025-03-19
 wfo-4000008746,Cochlidium,Kaulf.,genus,wfo-6500000509,valid,Berlin. Jahrb. Pharm. Verbundenen Wiss. 21: 36 (1820),accepted,NA,2022-04-16,2024-12-16
 wfo-4000008918,Colina,Greene,genus,NA,NA,Erythea 1: 247 (1893),synonym,wfo-4000002042,2022-04-16,2025-03-19
