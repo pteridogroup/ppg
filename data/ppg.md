@@ -381,6 +381,8 @@
 
 *Pentagramma* Yatsk., Windham & E.Wollenw.
 
+*Quechuapteris* Windham
+
 *Trachypteris* André
 
 ###### Subfamily **Cryptogrammoideae** S.Linds.

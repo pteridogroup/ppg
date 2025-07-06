@@ -23991,7 +23991,7 @@ wfo-0001112378,Adiantopsis radiata,(L.) Fée,species,wfo-4000000687,valid,"Mém.
 wfo-0001112379,Alsophila aterrima,Hook.,species,NA,NA,Syn. Fil. (Hooker & Baker) 38 (1866),synonym,wfo-0001112394,2022-04-16,2025-03-19
 wfo-0001112380,Cheilanthes poeppigiana,Mett. ex Kuhn,species,wfo-4000007749,valid,Linnaea 36(1): 84 (1869),accepted,NA,2022-04-16,2025-03-19
 wfo-0001112381,Cheilanthes orbignyana,Mett.,species,NA,NA,Linnaea 36(1): 82 (1869),synonym,wfo-0001334142,2022-04-16,2025-03-19
-wfo-0001112382,Cheilanthes rufopunctata,Rosenst.,species,wfo-4000007749,valid,Meded. Rijks-Herb. 19: 9 (1913),accepted,NA,2022-04-16,2025-04-01
+wfo-0001112382,Cheilanthes rufopunctata,Rosenst.,species,NA,valid,Meded. Rijks-Herb. 19: 9 (1913),synonym,wfo-1000079695,2022-04-16,2025-07-02
 wfo-0001112383,Cheilanthes marginata,Kunth,species,NA,NA,Nov. Gen. Sp. [H.B.K.] 1: 22 (1815),synonym,wfo-0001335519,2022-04-16,2025-03-19
 wfo-0001112384,Notholaena peruviana,Desv.,species,NA,NA,Mém. Soc. Linn. Paris 6(3): 220 (1827),synonym,wfo-0001114228,2022-04-16,2024-12-16
 wfo-0001112385,Notholaena brackenridgei,Baker,species,NA,NA,Syn. Fil. (Hooker & Baker) 371 (1868),synonym,wfo-0001114228,2022-04-16,2025-03-19
@@ -59584,7 +59584,7 @@ wfo-0001422672,Hemionitis ilwan,Christenh.,species,NA,valid,Global Fl. 4: 15 (20
 wfo-0001422673,Grammitis axioche,Christenh.,species,NA,valid,Global Fl. 4: 41 (2018),synonym,wfo-0001040072,2022-04-16,2025-03-19
 wfo-0001422674,Thelypteris subcordata,(Holttum) Christenh.,species,NA,valid,Global Fl. 4: 38 (2018),synonym,wfo-0000153073,2022-04-16,2025-03-19
 wfo-0001422675,Hemionitis contracta,(Kunze) Christenh.,species,NA,valid,Global Fl. 4: 12 (2018),synonym,wfo-1200105039,2022-04-16,2025-03-19
-wfo-0001422676,Hemionitis rufopunctata,(Rosenst.) Christenh.,species,NA,valid,Global Fl. 4: 20 (2018),synonym,wfo-0001112382,2022-04-16,2025-03-19
+wfo-0001422676,Hemionitis rufopunctata,(Rosenst.) Christenh.,species,NA,valid,Global Fl. 4: 20 (2018),synonym,wfo-1000079695,2022-04-16,2025-07-02
 wfo-0001422677,Grammitis ceylanica,(Parris) Christenh.,species,NA,valid,Global Fl. 4: 42 (2018),synonym,wfo-0000145480,2022-04-16,2025-03-19
 wfo-0001422678,Thelypteris damingshanensis,(Ching ex Y.X.Lin) Christenh.,species,NA,valid,Global Fl. 4: 29 (2018),synonym,wfo-0001127308,2022-04-16,2025-03-19
 wfo-0001422679,Thelypteris auctipinna,(Holttum) Christenh.,species,NA,valid,Global Fl. 4: 27 (2018),synonym,wfo-0000152781,2022-04-16,2025-03-19
@@ -77263,6 +77263,16 @@ wfo-1000079683,Pellaeopsis schippersii,(Verdc.) Windham,species,NA,valid,Taxon 7
 wfo-1000079684,Pellaeopsis tomentosa,(Bonap.) Windham,species,NA,valid,Taxon 74(2): 280 (2025),unchecked,NA,2025-04-01,2025-05-06
 wfo-1000079685,Pellaeopsis similis,(F.Ballard) Windham,species,NA,valid,Taxon 74(2): 280 (2025),unchecked,NA,2025-04-01,2025-05-06
 wfo-1000079686,Pellaeopsis schweinfurthii,(Hieron. ex Diels) Windham,species,NA,valid,Taxon 74(2): 280 (2025),unchecked,NA,2025-04-01,2025-05-06
+wfo-4100005088,Quechuapteris,Windham,genus,wfo-6500000504,valid,Taxon 74(2): 280 (2025),accepted,NA,2025-04-01,2025-07-02
+wfo-1000079687,Quechuapteris andina,(Hook.) Windham,species,NA,valid,Taxon 74(2): 280 (2025),unchecked,NA,2025-04-01,2025-05-06
+wfo-1000079688,Quechuapteris buchtienii,(Rosenst.) Windham,species,NA,valid,Taxon 74(2): 280 (2025),unchecked,NA,2025-04-01,2025-05-06
+wfo-1000079689,Quechuapteris fraseri,(Mett. ex Kuhn) Windham,species,NA,valid,Taxon 74(2): 281 (2025),unchecked,NA,2025-04-01,2025-05-06
+wfo-1000079690,Quechuapteris glauca,(Cav.) Windham,species,NA,valid,Taxon 74(2): 281 (2025),unchecked,NA,2025-04-01,2025-05-06
+wfo-1000079691,Quechuapteris glutinosa,(M.Kessler & A.R.Sm.) Windham,species,NA,valid,Taxon 74(2): 281 (2025),unchecked,NA,2025-04-01,2025-05-06
+wfo-1000079692,Quechuapteris hypoleuca,(Kunze) Windham,species,NA,valid,Taxon 74(2): 281 (2025),unchecked,NA,2025-04-01,2025-05-06
+wfo-1000079693,Quechuapteris pilosa,(Goldm.) Windham,species,NA,valid,Taxon 74(2): 281 (2025),unchecked,NA,2025-04-01,2025-05-06
+wfo-1000079694,Quechuapteris pruinata,(Kaulf.) Windham,species,NA,valid,Taxon 74(2): 281 (2025),unchecked,NA,2025-04-01,2025-05-06
+wfo-1000079695,Quechuapteris rufopunctata,(Rosenst.) Windham,species,wfo-4100005088,valid,Taxon 74(2): 281 (2025),accepted,NA,2025-04-01,2025-07-02
 wfo-1200111863,Monogramma paradoxa var. novoguineensis,Rosenst.,variety,NA,valid,Repert. Spec. Nov. Regni Veg. 8: 164 (1910),unchecked,NA,2025-04-01,2025-04-01
 wfo-1200111868,Abrodictyum dentatum var. pumilum,"(Bosch) Yanan Zhao, Bouch.-Dubuisson, Rouhan, K.Iwats., Ebihara, Hennequin & Dubuisson",variety,NA,valid,Bot. Lett. 172(1): 78 (2024),unchecked,NA,2025-04-01,2025-04-01
 wfo-1200111869,Abrodictyum obscurum f. extravagans,"(Copel.) Yanan Zhao, Bouch.-Dubuisson, Rouhan, K.Iwats., Ebihara, Hennequin & Dubuisson",form,NA,valid,Bot. Lett. 172(1): 82 (2024),unchecked,NA,2025-04-01,2025-04-01
@@ -77284,7 +77294,7 @@ wfo-1000080330,Davallia urceolata,(Copel.) comb. ined.,species,wfo-4000010866,va
 wfo-1200112500,Sitobolium zeylanicum var. glabrescens,(Ching) Y.H.Chang & P.Fong Lu,variety,NA,valid,Fern Gaz. 22(4): 186 (2024),unchecked,NA,2025-05-01,2025-05-06
 wfo-1200112511,Gleichenia dichotoma var. tomentosa,Luerss.,variety,NA,valid,Flora 58: 419 (1875),unchecked,NA,2025-05-01,2025-05-06
 wfo-1200112512,Dicranopteris linearis var. tomentosa,(Luerss.) Miles K.Thomas,variety,NA,valid,Amer. Fern J. 115(1): 89 (2025),unchecked,NA,2025-05-01,2025-05-06
-wfo-1000080792,Mucura dissecta,(Desv.) N.T.L.Pena & Schwartsb.,species,NA,valid,Amer. Fern J. 115(1): 35 (2025),unchecked,NA,2025-05-01,2025-05-06
+wfo-1000080792,Mucura dissecta,(Desv.) N.T.L.Pena & Schwartsb.,species,wfo-4100002053,valid,Amer. Fern J. 115(1): 35 (2025),accepted,NA,2025-05-01,2025-07-01
 wfo-1000080793,Mucura tamandarei,(Rosenst.) N.T.L.Pena & Schwartsb.,species,NA,valid,Amer. Fern J. 115(1): 37 (2025),unchecked,NA,2025-05-01,2025-05-06
 wfo-1000080794,Mucura tenera,(C.Presl) N.T.L.Pena & Schwartsb.,species,NA,valid,Amer. Fern J. 115(1): 38 (2025),unchecked,NA,2025-05-01,2025-05-06
 wfo-1200112528,Acrostichum jamesonii var. obtusatum,(Carmich.) Fée,variety,NA,valid,"Mém. Foug., 2. Hist. Acrostich. 52, t. 14, f. 5 (1845)",unchecked,NA,2025-05-01,2025-05-06
