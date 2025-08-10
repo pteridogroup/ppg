@@ -3955,7 +3955,7 @@ wfo-0000143371,Dryopteris stipitata,(Mett.) Kuntze,species,NA,NA,Revis. Gen. Pl.
 wfo-0000143372,Dryopteris stokesii,E.Brown,species,NA,NA,"Bull. Bernice P. Bishop Mus. 89: 20, f.6 (1931)",synonym,wfo-0000152849,2022-04-16,2025-03-19
 wfo-0000143373,Cheilanthes yunnanensis,Brause,species,NA,NA,"Hedwigia 54: 204, t.4 F,G (1914)",synonym,wfo-1000067480,2022-04-16,2025-03-19
 wfo-0000143374,Dryopteris strigosissima,Copel.,species,NA,NA,Univ. Calif. Publ. Bot. 18: 221 (1942),synonym,wfo-0001375126,2022-04-16,2025-03-19
-wfo-0000143375,Dryopteris stuebelii,Hieron.,species,NA,NA,"Hedwigia 46: 340, pl. 6, fig. 13 (1907)",unchecked,NA,2022-04-16,2025-07-29
+wfo-0000143375,Dryopteris stuebelii,Hieron.,species,NA,NA,"Hedwigia 46: 340, pl.6, f.13 (1907)",unchecked,NA,2022-04-16,2025-08-03
 wfo-0000143376,Dryopteris sturmii,(Phil.) C.Chr.,species,NA,NA,Index Filic. 295 (1905),synonym,wfo-1200105080,2022-04-16,2025-05-22
 wfo-0000143377,Dryopteris subalpina,Alderw.,species,NA,NA,Bull. Buit. III(5): 200 (1922),synonym,wfo-0000153070,2022-04-16,2025-03-19
 wfo-0000143378,Dryopteris subappendiculata,Copel.,species,NA,NA,Univ. Calif. Publ. Bot. 18: 220 (1942),synonym,wfo-1000029046,2022-04-16,2025-03-19
@@ -10207,7 +10207,7 @@ wfo-0000149684,Pityrogramma cubensis,Domin,species,NA,NA,"Rozpr. Ceske Akad. Ved
 wfo-0000149685,Polypodium menae,Mille,species,NA,NA,Revista Colegio Nac. Vicente Rocafuerte 9: 200 (1927),synonym,wfo-0001276854,2022-04-16,2025-03-19
 wfo-0000149686,Polypodium menisciicarpon,Hook.,species,NA,NA,Sp. Fil. [W. J. Hooker] 5: 86 (1863),synonym,wfo-0001115959,2022-04-16,2025-03-19
 wfo-0000149687,Polypodium mettenianum,Ces.,species,NA,NA,Atti Acad. Napoli 7(8): 27 (1876),synonym,wfo-0001115940,2022-04-16,2025-03-19
-wfo-0000149688,Polypodium mettenii,Copel.,species,NA,NA,Univ. Calif. Publ. Bot. 14: 368 (1929),synonym,wfo-0001286848,2022-04-16,2025-03-19
+wfo-0000149688,Polypodium mettenii,Copel.,species,NA,NA,Univ. Calif. Publ. Bot. 14(16): 368 (1929),synonym,wfo-0001286848,2022-04-16,2025-08-03
 wfo-0000149689,Polypodium microcarpum,Willem.,species,NA,NA,Ann. 18: 63. 1796,unchecked,NA,2022-04-16,2024-06-04
 wfo-0000149690,Pityrogramma decomposita,(Baker) Domin,species,NA,NA,Spisy Přír. Fak. Karlovy Univ. 1928(88): 7 (1928),synonym,wfo-0001112283,2022-04-16,2025-05-22
 wfo-0000149691,Polypodium microphyllinum,Mett. ex Baker,species,NA,NA,Syn. Fil. (Hooker & Baker) 339 (1867),synonym,wfo-1000033725,2022-04-16,2025-03-19
@@ -10416,7 +10416,7 @@ wfo-0000149895,Pityrogramma speciosissima,Domin,species,NA,NA,1929,unchecked,NA,
 wfo-0000149896,Polypodium pteryoides,Bory,species,NA,NA,Ess. Isles Fortun. 311 (1803),synonym,wfo-1000067476,2022-04-16,2025-03-19
 wfo-0000149897,Pityrogramma stelzneri,Domin,species,NA,NA,1929,unchecked,NA,2022-04-16,2024-06-04
 wfo-0000149898,Polypodium pubigerum,Wall.,species,NA,NA,Numer. List [Wallich] n. 7078 (1832),synonym,wfo-0001115312,2022-04-16,2025-03-19
-wfo-0000149899,Pityrogramma stuebelii,Domin,species,NA,NA,"Spisy Prír. Fak. Karlovy Univ. 1928, pt. 88: 7 (1928)",unchecked,NA,2022-04-16,2025-07-29
+wfo-0000149899,Pityrogramma stuebelii,(Hieron.) Domin,species,NA,NA,Spisy Přír. Fak. Karlovy Univ. 1928(88): 7 (1928),unchecked,NA,2022-04-16,2025-08-03
 wfo-0000149900,Polypodium pubinerve,(Blume) Christ,species,NA,NA,Ann. Jard. Bot. Buitenzorg 15(1): 146 (1898),synonym,wfo-0001337982,2022-04-16,2025-03-19
 wfo-0000149901,Polypodium pulcherrimum,Copel.,species,NA,NA,Leafl. Philipp. Bot. 3: 841 (1910),synonym,wfo-1000023897,2022-04-16,2025-03-19
 wfo-0000149902,Polypodium pumilio,Hieron.,species,NA,NA,Hedw. 44: 102 (1905),synonym,wfo-1000056153,2022-04-16,2025-03-19
@@ -12000,7 +12000,7 @@ wfo-0000151500,Asplenium aequibasis,(C.Chr.) J.P.Roux,species,wfo-4000003342,val
 wfo-0000151501,Christella deversa,(Kunze) Pic.Serm.,species,NA,NA,Webbia 60(1): 180 (2005),synonym,wfo-1000028327,2022-04-16,2024-12-16
 wfo-0000151502,Christella erubescens,(Wall. ex Hook.) H.Lév.,species,NA,NA,Fl. Kouy-Tcheou 474 (1915),synonym,wfo-0001107315,2022-04-16,2025-03-19
 wfo-0000151503,Christella esquirolii,(Christ) H.Lév.,species,NA,NA,Fl. Kouy-Tcheou 474 (1915),synonym,wfo-0001120912,2022-04-16,2025-03-19
-wfo-0000151504,Asplenium aequilaterale,(Hieron.) Viane,species,NA,NA,Biol. Jaarb. 59: 157 (1991),synonym,wfo-0001120295,2022-04-16,2025-03-19
+wfo-0000151504,Asplenium aequilaterale,(Hieron.) Viane,species,NA,NA,Biol. Jaarb. 59: 157 (1992),synonym,wfo-0001120295,2022-04-16,2025-08-03
 wfo-0000151505,Christella flaccida,(Blume) H.Lév.,species,NA,NA,Fl. Kouy-Tcheou 474 (1915),synonym,wfo-0001115289,2022-04-16,2025-03-19
 wfo-0000151506,Christella friesii,(Brause) Holttum,species,wfo-4000008133,valid,J. S. African Bot. 40: 145 (1974),accepted,NA,2022-04-16,2024-12-16
 wfo-0000151507,Christella glanduligera,(Kunze) H.Lév.,species,NA,NA,Fl. Kouy-Tcheou 474 (1915),synonym,wfo-1000020418,2022-04-16,2025-03-19
@@ -12939,7 +12939,7 @@ wfo-0000152444,Macrothelypteris rectangularis,(Zoll.) Pic.Serm.,species,NA,NA,We
 wfo-0000152445,Macrothelypteris subaurita,(Tagawa) Pic.Serm.,species,NA,NA,Webbia 24(2): 716 (1970),synonym,wfo-0001117158,2022-04-16,2025-03-19
 wfo-0000152446,Macrothelypteris × subviridifrons,(Seriz.) Nakaike,species,wfo-4000022793,valid,New Fl. Jap. Pterid. 842 (1992),accepted,NA,2022-04-16,2025-01-23
 wfo-0000152447,Macrothelypteris sumatrana,(Holttum) Pic.Serm.,species,NA,valid,Webbia 24(2): 716 (1970),synonym,wfo-0001267132,2022-04-16,2025-03-19
-wfo-0000152448,Asplenium atuntzeense,Viane & Reichst.,species,wfo-4000003342,valid,Biol. Jaarb. 59: 158 (1991),accepted,NA,2022-04-16,2024-12-16
+wfo-0000152448,Asplenium atuntzeense,Viane & Reichst.,species,wfo-4000003342,valid,Biol. Jaarb. 59: 158 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000152449,Macrothelypteris yungkweiensis,(Ching) Pic.Serm.,species,NA,NA,Webbia 24(2): 716 (1970),synonym,wfo-1000069410,2022-04-16,2025-03-19
 wfo-0000152450,Meniscium consobrinum,(Maxon & C.V.Morton) Pic.Serm.,species,wfo-4000023731,valid,Webbia 23(1): 180 (1968),accepted,NA,2022-04-16,2024-12-16
 wfo-0000152451,Meniscium deltigerum,(Hook.) Wall. ex C.B.Clarke,species,NA,NA,Numer. List [Wallich] n. 59 (1829),unchecked,NA,2022-04-16,2025-03-19
@@ -14653,7 +14653,7 @@ wfo-0000154171,Athyrium rapense,(E.Brown) Copel.,species,NA,NA,Occas. Pap. Berni
 wfo-0000154172,Athyrium regium,(L.) Spreng.,species,NA,NA,Anleit. Kenntn. Gew. 3: 139 (1804),synonym,wfo-0001111187,2022-04-16,2025-03-19
 wfo-0000154173,Athyrium regulare,Koidz.,species,NA,NA,Bot. Mag. (Tokyo) 38: 111 (1924),synonym,wfo-0001116731,2022-04-16,2024-12-16
 wfo-0000154174,Athyrium rhaeticum,Sadler,species,NA,NA,Descr. pl. epiph. Hung. 22 (1820),synonym,wfo-0001111187,2022-04-16,2025-03-19
-wfo-0000154175,Athyrium rhaeticum,(L.) Dalla Torre,species,NA,illegitimate,Anl. wiss. Beob. Alpenr. 2: 348. 1882,synonym,wfo-0001112807,2022-04-16,2024-12-16
+wfo-0000154175,Athyrium rhaeticum,Dalla Torre,species,NA,illegitimate,Anleit. Beob. Alpenreis. 2: 348 (1882),synonym,wfo-0001112807,2022-04-16,2025-08-03
 wfo-0000154176,Athyrium rhaeticum,(L.) Roth,species,NA,NA,Tent. Fl. Germ. 3(1.1): 67. 1799 [Jun-Sep 1799],synonym,wfo-0001112807,2022-04-16,2024-12-16
 wfo-0000154177,Athyrium rigidulum,Nakai,species,NA,NA,Journ. Jap. Bot. 16: 61. 1940,unchecked,NA,2022-04-16,2024-06-04
 wfo-0000154178,Athyrium riparium,(Holttum) Holttum,species,NA,NA,"Rev. Fl. Malaya 2: 554, f.326 (1955)",synonym,wfo-0000154671,2022-04-16,2025-03-19
@@ -15131,21 +15131,21 @@ wfo-0000154650,Diplazium propinquum,(Copel.) Alderw.,species,wfo-4000011939,vali
 wfo-0000154651,Diplazium protensum,Rosenst.,species,wfo-4000011939,valid,Repert. Spec. Nov. Regni Veg. 12: 169 (1913),accepted,NA,2022-04-16,2025-03-19
 wfo-0000154652,Diplazium pseudoarboreum,(Copel.) C.Chr.,species,NA,NA,Index Suppl. prel.,synonym,wfo-0001109587,2022-04-16,2024-12-16
 wfo-0000154653,Adiantum luddemannianum,Moore,species,NA,NA,Florist & Pomol. 1876: 93 cum fig. 1876 (1876),unchecked,NA,2022-04-16,2024-06-04
-wfo-0000154654,Asplenium dielerectum,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 159 (1991),accepted,NA,2022-04-16,2025-03-19
+wfo-0000154654,Asplenium dielerectum,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 159 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000154655,Diplazium pseudocrinipes,Panigrahi & Sarn.Singh,species,NA,NA,Ferns Fern-Allies Arunachal Pradesh 1: 179 (181-182; f.59) (2005),synonym,wfo-0001337464,2022-04-16,2025-03-19
 wfo-0000154656,Diplazium pseudocyatheifolium,Rosenst.,species,wfo-4000011939,valid,Meded. Rijks-Herb. 31: 4 (1917),accepted,NA,2022-04-16,2025-03-19
 wfo-0000154657,Diplazium pseudoshepherdioides,Hieron.,species,wfo-4000011939,valid,Bot. Jahrb. Syst. 56(1): 134 (1920),accepted,NA,2022-04-16,2025-03-19
 wfo-0000154658,Diplazium pseudosylvaticum,Panigrahi,species,wfo-4000011939,valid,Phytologia 31: 255 (1975),accepted,NA,2022-04-16,2025-03-19
 wfo-0000154659,Diplazium psilopteron,Klotzsch,species,NA,NA,msc.,unchecked,NA,2022-04-16,2024-06-04
-wfo-0000154660,Asplenium dielfalcatum,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 159 (1991),accepted,NA,2022-04-16,2025-03-19
+wfo-0000154660,Asplenium dielfalcatum,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 159 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000154661,Diplazium pubigerum,J.Sm.,species,NA,NA,Cat. Kew Ferns 1856,unchecked,NA,2022-04-16,2024-06-04
 wfo-0000154662,Diplazium pulcherrimum,Raddi,species,NA,NA,"Opusc. Sci. 3: 292, t.12, f.2 (1819)",synonym,wfo-0000142577,2022-04-16,2025-03-19
 wfo-0000154663,Diplazium purdieanoides,Hieron.,species,NA,NA,Hedwigia 47: 221 (1908),synonym,wfo-0001119821,2022-04-16,2024-12-16
 wfo-0000154664,Diplazium purdieanum,Hieron.,species,NA,NA,Hedwigia 47: 221 (1908),synonym,wfo-0001119821,2022-04-16,2025-03-19
-wfo-0000154665,Asplenium diellaciniatum,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 159 (1991),accepted,NA,2022-04-16,2025-03-19
+wfo-0000154665,Asplenium diellaciniatum,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 159 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000154666,Diplazium rapense,E.Brown,species,wfo-4000011939,valid,"Bull. Bernice P. Bishop Mus. 89: 57, t.11 (1931)",accepted,NA,2022-04-16,2025-03-19
 wfo-0000154667,Diplazium repens,Raddi,species,NA,NA,Opusc. Sci. 3: 292 (1819),synonym,wfo-0001109588,2022-04-16,2025-03-19
-wfo-0000154668,Asplenium dielmannii,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 160 (1991),accepted,NA,2022-04-16,2025-03-19
+wfo-0000154668,Asplenium dielmannii,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 160 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000154669,Diplazium ribae,(Pacheco & R.C.Moran) Lellinger,species,wfo-4000011939,valid,Amer. Fern J. 93(3): 147 (2003),accepted,NA,2022-04-16,2025-03-19
 wfo-0000154670,Diplazium ridleyi,(Copel.) C.Chr.,species,NA,NA,Index Suppl. prel.,synonym,wfo-0001248013,2022-04-16,2024-12-16
 wfo-0000154671,Diplazium riparium,Holttum,species,wfo-4000011939,valid,"Gard. Bull. Straits Settlem. 11: 97, f.5 (1940)",accepted,NA,2022-04-16,2025-03-19
@@ -15529,7 +15529,7 @@ wfo-0000155177,Asplenium francii,Rosenst.,species,wfo-4000003342,valid,Repert. S
 wfo-0000155188,Asplenium frondosum,Wall.,species,NA,NA,"Numer. List [Wallich] p. 63, n. 230 (1829)",synonym,wfo-0001122922,2022-04-16,2025-03-19
 wfo-0000155190,Asplenium frondosum,Ettingsh.,species,NA,NA,"Denkschr. Kaiserl. Akad. Wiss., Wien. Math.-Naturwiss. Kl. 23: 85 (1864)",synonym,wfo-0001115254,2022-04-16,2024-12-16
 wfo-0000155192,Asplenium fruticosum,Vell.,species,NA,NA,Fl. Flumin. Icon. 11: t.104 (1831),synonym,wfo-1000049103,2022-04-16,2025-03-19
-wfo-0000155196,Asplenium fujianensoides,Viane,species,NA,NA,Biol. Jaarb. 59: 160 (1991),synonym,wfo-0001107228,2022-04-16,2025-03-19
+wfo-0000155196,Asplenium fujianensoides,Viane,species,NA,NA,Biol. Jaarb. 59: 160 (1992),synonym,wfo-0001107228,2022-04-16,2025-08-03
 wfo-0000155207,Asplenium funckii,Fée,species,wfo-4000003342,valid,Huitieme Mem. Fam. Fouger. 84 (1857),accepted,NA,2022-04-16,2025-03-19
 wfo-0000155280,Asplenium gardneri,Baker,species,wfo-4000003342,valid,Gard. Chron. 1873: 712 (1873),accepted,NA,2022-04-16,2024-12-16
 wfo-0000155299,Asplenium gastoni-gautieri,Litard.,species,wfo-4000003342,valid,Bull. Géogr. Bot. 21: 274 (1911),accepted,NA,2022-04-16,2024-12-16
@@ -15671,9 +15671,9 @@ wfo-0000156855,Asplenium langsdorffii,(Mart. ex Baker) Sehnem,species,NA,NA,Sell
 wfo-0000156872,Adiantum myriophyllum,C.Presl,species,NA,NA,Tent. Pterid. 158 (1836),synonym,wfo-0001111915,2022-04-16,2025-03-19
 wfo-0000156896,Asplenium lassum,Raddi,species,NA,NA,"Pl. Bras. Nov. Gen. 37, t.22, bis f.4 (1825)",synonym,wfo-0000161635,2022-04-16,2025-03-19
 wfo-0000156915,Asplenium latibasis,(Ching & Shing) Nakaike,species,NA,NA,"Bull. Natl. Sci. Mus. Tokyo, B 12(2): 45 (1986)",synonym,wfo-0001128836,2022-04-16,2024-06-04
-wfo-0000156919,Asplenium latibasis,(Ching) Viane,species,NA,illegitimate,Biol. Jaarb. 59: 160 (1991),synonym,wfo-0000151908,2022-04-16,2024-12-16
-wfo-0000156930,Asplenium latilobum,Viane,species,NA,NA,Biol. Jaarb. 59: 160 (1991),synonym,wfo-1200102163,2022-04-16,2024-12-16
-wfo-0000156934,Asplenium latipes,(Ching ex S.H.Wu) Viane,species,NA,NA,Biol. Jaarb. 59: 160 (1991),synonym,wfo-0001122737,2022-04-16,2025-03-19
+wfo-0000156919,Asplenium latibasis,(Ching) Viane,species,NA,illegitimate,Biol. Jaarb. 59: 160 (1992),synonym,wfo-0000151908,2022-04-16,2025-08-03
+wfo-0000156930,Asplenium latilobum,Viane,species,NA,NA,Biol. Jaarb. 59: 160 (1992),synonym,wfo-1200102163,2022-04-16,2025-08-03
+wfo-0000156934,Asplenium latipes,(Ching ex S.H.Wu) Viane,species,NA,NA,Biol. Jaarb. 59: 160 (1992),synonym,wfo-0001122737,2022-04-16,2025-08-03
 wfo-0000156944,Asplenium lauterbachii,Christ,species,NA,NA,Fl. Schutzgeb. Südsee [Schumann & Lauterbach] 130 (1901),synonym,wfo-0000153086,2022-04-16,2025-03-19
 wfo-0000156954,Asplenium laxifolium,Alderw.,species,wfo-4000003342,valid,Nova Guinea 14: 8 (1924),accepted,NA,2022-04-16,2024-12-16
 wfo-0000156956,Asplenium laxivenum,Copel.,species,NA,NA,"Philipp. J. Sci., C 2: 132 (1907)",synonym,wfo-0000159612,2022-04-16,2024-12-16
@@ -15702,14 +15702,14 @@ wfo-0000157161,Asplenium × lobmingense,"Lovis, Melzer & Reichst.",species,wfo-4
 wfo-0000157187,Asplenium lofgrenii,Gand.,species,NA,NA,Bull. Soc. Bot. France 66: 305 (1920),synonym,wfo-0001110145,2022-04-16,2024-12-16
 wfo-0000157198,Adiantum nervosum,Kuhn,species,NA,NA,Jahrb. Königl. Bot. Gart. Berlin 1: 342 (an Sw.) (1881),synonym,wfo-0001112562,2022-04-16,2024-12-16
 wfo-0000157199,Asplenium loherianum,Christ,species,NA,NA,Bull. Herb. Boissier 6: 152 (1898),synonym,wfo-0001109315,2022-04-16,2025-03-19
-wfo-0000157205,Asplenium lolegnamense,(Gibby & Lovis) Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 161 (1991),accepted,NA,2022-04-16,2025-03-19
+wfo-0000157205,Asplenium lolegnamense,(Gibby & Lovis) Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 161 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000157217,Asplenium longicarpum,(Kodama) Ching,species,NA,NA,"Index Filic., Suppl. Tert. 35 (1934)",synonym,wfo-0001116767,2022-04-16,2025-03-19
 wfo-0000157242,Adiantum nervosum,Sw.,species,NA,NA,Syn. Fil. (Swartz) 123 (1806),synonym,wfo-0001107915,2022-04-16,2025-03-19
 wfo-0000157252,Asplenium longipes,Fée,species,wfo-4000003342,valid,"Mém. Foug., 5. Gen. Filic. 195 (1852)",accepted,NA,2022-04-16,2025-03-19
 wfo-0000157261,Asplenium longissimum,Blume,species,wfo-4000003342,valid,Enum. Pl. Javae 2: 178 (1828),accepted,NA,2022-04-16,2024-12-16
 wfo-0000157267,Asplenium longissimum,Baker,species,NA,NA,"Ann. Bot. (Oxford) 5(3): 301. 1891 [Aug 1891] , err.",unchecked,NA,2022-04-16,2024-06-04
 wfo-0000157278,Asplenium longissimum,Johow,species,NA,NA,NA,unchecked,NA,2022-04-16,2024-06-04
-wfo-0000157289,Asplenium longistipes,(Ching ex S.H.Wu) Viane,species,NA,NA,Biol. Jaarb. 59: 161 (1991),synonym,wfo-0001275647,2022-04-16,2025-03-19
+wfo-0000157289,Asplenium longistipes,(Ching ex S.H.Wu) Viane,species,NA,NA,Biol. Jaarb. 59: 161 (1992),synonym,wfo-0001275647,2022-04-16,2025-08-03
 wfo-0000157309,Asplenium × longmenense,Z.R.Wang & K.Q.Wang,species,wfo-4000003342,valid,Acta Bot. Sin. 45(1): 8 (2003),accepted,NA,2022-04-16,2024-12-16
 wfo-0000157310,Asplenium longum,Alderw.,species,wfo-4000003342,valid,"Bull. Jard. Bot. Buitenzorg sér. 2, 28: 8 (1918)",accepted,NA,2022-04-16,2025-03-19
 wfo-0000157327,Asplenium loriforme,Hook.,species,NA,NA,Icon. Pl. 10: t.926 (1854),synonym,wfo-0001115022,2022-04-16,2025-03-19
@@ -15949,7 +15949,7 @@ wfo-0000157890,Ctenitis hirtula,(Kunze) Brade,species,NA,NA,Bradea 1: 209. 1972,
 wfo-0000157891,Asplenium morlanense,Bergeret,species,NA,NA,Fl. Basses-Pyrenees nouv. ed. 764. 1909,unchecked,NA,2022-04-16,2024-06-04
 wfo-0000157892,Dryopteris neowherryi,W.Wagner,species,NA,NA,"Castanea 31: 136, f.4E-H,5,6,8G,H. 1966",unchecked,NA,2022-04-16,2024-06-04
 wfo-0000157893,Asplenium morobense,Copel.,species,NA,valid,Univ. Calif. Publ. Bot. 18: 222 (1942),synonym,wfo-0000161391,2022-04-16,2025-03-19
-wfo-0000157894,Asplenium morogorense,Viane,species,NA,NA,Biol. Jaarb. 59: 161 (1991),synonym,wfo-0001110837,2022-04-16,2025-03-19
+wfo-0000157894,Asplenium morogorense,Viane,species,NA,NA,Biol. Jaarb. 59: 161 (1992),synonym,wfo-0001110837,2022-04-16,2025-08-03
 wfo-0000157895,Asplenium mortonii,Duek,species,wfo-4000003342,valid,"Adansonia sér. 2, 11(4): 718 (1971)",accepted,NA,2022-04-16,2025-03-19
 wfo-0000157896,Dryopteris podotricha,Sehnem,species,NA,NA,Fl. Ilustr. Catarin. 1(Aspid.): 232 (1979),synonym,wfo-0001318644,2022-04-16,2024-12-16
 wfo-0000157897,Dryopteris oligophylloides,Sehnem,species,NA,NA,Fl. Ilustr. Catarin. fasc. ASPI: 124 (1979),synonym,wfo-1200008382,2022-04-16,2025-03-19
@@ -16047,7 +16047,7 @@ wfo-0000157998,Elaphoglossum macrorhizum,C.Chr.,species,NA,NA,Index Filic. 310 (
 wfo-0000157999,Elaphoglossum miersii,C.Chr.,species,wfo-4000013129,valid,Index Filic. 311 (1905),accepted,NA,2022-04-16,2025-03-19
 wfo-0000158000,Adiantum ovalescens,Fée,species,wfo-4000000695,valid,"Mém. Foug., 8. Ic. Esp. Nouv. : 72 (1857)",accepted,NA,2022-04-16,2024-12-16
 wfo-0000158001,Asplenium neogranatense,Fée,species,NA,NA,1857,synonym,wfo-0001109326,2022-04-16,2024-12-16
-wfo-0000158002,Asplenium neohainanense,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 161 (1991),accepted,NA,2022-04-16,2024-12-16
+wfo-0000158002,Asplenium neohainanense,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 161 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000158003,Elaphoglossum salvinii,C.Chr.,species,NA,NA,Index Filic. 315 (1905),synonym,wfo-0001112942,2022-04-16,2025-03-19
 wfo-0000158004,Lomariopsis hugelii,(Fée) C.Presl,species,NA,NA,1849,unchecked,NA,2022-04-16,2024-11-21
 wfo-0000158005,Asplenium nephelephyllum,Copel.,species,NA,NA,"Philipp. J. Sci., C 9: 440 (1914)",synonym,wfo-0001109357,2022-04-16,2024-12-16
@@ -16055,7 +16055,7 @@ wfo-0000158006,Bolbitis curupirae,Ching,species,NA,NA,"Index Filic., Suppl. Tert
 wfo-0000158007,Bolbitis dentata,(Fée) Ching,species,NA,NA,"Index Filic., Suppl. Tert. 3: 48 (1934)",synonym,wfo-0001115006,2022-04-16,2025-03-19
 wfo-0000158008,Bolbitis opaca,(Mett.) Ching,species,NA,NA,"Index Filic., Suppl. Tert. 3: 49 (1934)",synonym,wfo-0001109504,2022-04-16,2025-03-19
 wfo-0000158009,Bolbitis pellucens,Ching,species,NA,NA,"Index Filic., Suppl. Tert. 3: 49 (1934)",synonym,wfo-0001040094,2022-04-16,2025-03-19
-wfo-0000158010,Bolbitis stuebelii,C.Chr.,species,NA,NA,"Index Filic., Suppl. Tert. 50 (1934)",synonym,wfo-0001040096,2022-04-16,2025-03-19
+wfo-0000158010,Bolbitis stuebelii,C.Chr.,species,NA,valid,"Index Filic., Suppl. Tert. 50 (1934)",synonym,wfo-0001040096,2022-04-16,2025-08-03
 wfo-0000158011,Asplenium nephrolepioides,Christ,species,wfo-4000003342,valid,"J. Bot. (Morot) sér. 2, 1: 232. 264 (1908)",accepted,NA,2022-04-16,2025-03-19
 wfo-0000158012,Elaphoglossum assurgens,(Baker) C.Chr.,species,NA,NA,"Index Filic., Suppl. Tert. : 102 (1934)",unchecked,NA,2022-04-16,2024-06-04
 wfo-0000158013,Lacaussadea rhizophylla,Gaud.,species,NA,NA,1846,unchecked,NA,2022-04-16,2024-06-04
@@ -16119,7 +16119,7 @@ wfo-0000158204,Asplenium pallidum,Blume,species,NA,NA,Enum. Pl. Javae 2: 177 (18
 wfo-0000158205,Asplenium palmatifidum,T.Moore,species,NA,NA,Index Fil. : 151 (1859),unchecked,NA,2022-04-16,2024-06-04
 wfo-0000158207,Asplenium palmatum,Lam.,species,NA,NA,Encycl. [J. Lamarck & al.] 2(1): 302 (1786),synonym,wfo-0001114329,2022-04-16,2025-03-19
 wfo-0000158208,Asplenium paludosum,T.Moore,species,NA,NA,Index Fil. (T.Moore) 7: 152 (1860),synonym,wfo-0001118691,2022-04-16,2025-03-19
-wfo-0000158209,Asplenium papaverifolium,(Kunze) Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 161 (1991),accepted,NA,2022-04-16,2025-03-19
+wfo-0000158209,Asplenium papaverifolium,(Kunze) Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 161 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000158210,Asplenium pappei,T.Moore,species,NA,NA,Index Fil. (T.Moore) 7: 152 (1860),synonym,wfo-0000154139,2022-04-16,2025-03-19
 wfo-0000158211,Asplenium papuanum,Copel.,species,wfo-4000003342,valid,"Philipp. J. Sci., C 6: 79 (1911)",accepted,NA,2022-04-16,2024-12-16
 wfo-0000158213,Asplenium papyraceum,Jermy & T.G.Walker,species,wfo-4000003342,valid,Ann. Missouri Bot. Gard. 80: 33 (1993),accepted,NA,2022-04-16,2024-12-16
@@ -16129,7 +16129,7 @@ wfo-0000158219,Asplenium paradoxum,Beauverd,species,NA,NA,Bull. Soc. bot. Geneve
 wfo-0000158221,Asplenium parallelum,Wall.,species,NA,NA,Numer. List [Wallich] n. 228 (1829),synonym,wfo-0001126299,2022-04-16,2025-03-19
 wfo-0000158222,Asplenium parallelum,Baker,species,NA,valid,"Syn. Fil. (Hooker & Baker), ed. 2. 486. 1874",synonym,wfo-0001402848,2022-04-16,2024-12-16
 wfo-0000158223,Asplenium parksii,Copel.,species,wfo-4000003342,valid,"Univ. Calif. Publ. Bot. 12: 380, t.49b (1931)",accepted,NA,2022-04-16,2025-03-19
-wfo-0000158224,Asplenium parvifolium,(Benl & G.Kunkel) Vida & Reichst.,species,NA,NA,Biol. Jaarb. 59: 162 (1991),synonym,wfo-0001425748,2022-04-16,2025-03-19
+wfo-0000158224,Asplenium parvifolium,(Benl & G.Kunkel) Vida & Reichst.,species,NA,NA,Biol. Jaarb. 59: 162 (1992),synonym,wfo-0001425748,2022-04-16,2025-08-03
 wfo-0000158225,Asplenium grandidentatum,Goodding,species,NA,NA,Muhlenbergia 8. 92. 1912 (1912),unchecked,NA,2022-04-16,2024-06-04
 wfo-0000158230,Asplenium parvum,Watts,species,NA,valid,"Proc. Linn. Soc. New South Wales 39: 784, t.87, f.7 (1915)",synonym,wfo-0001225885,2022-04-16,2025-03-19
 wfo-0000158231,Asplenium paucidens,Alderw.,species,wfo-4000003342,valid,"Bull. Jard. Bot. Buitenzorg Ser. 2,  VII: 6 (1912)",accepted,NA,2022-04-16,2025-03-19
@@ -16335,7 +16335,7 @@ wfo-0000159665,Asplenium × stiriacum,D.E.Mey.,species,wfo-4000003342,valid,"Ber
 wfo-0000159710,Adiantum prionophyllum,M.Martens & Galeotti,species,NA,NA,NA,synonym,wfo-0001111531,2022-04-16,2024-12-16
 wfo-0000159720,Asplenium strangeanum,Pic.Serm.,species,NA,NA,Webbia 32(1): 83 (1977),synonym,wfo-0001110840,2022-04-16,2024-12-16
 wfo-0000159772,Adiantum prionophyllum,Kunth,species,NA,NA,Nov. Gen. Sp. 1: 20 (1815),synonym,wfo-0001111531,2022-04-16,2024-06-04
-wfo-0000159797,Asplenium subantiquum,(Ching ex S.H.Wu) Viane,species,NA,NA,Biol. Jaarb. 59: 163 (1991),synonym,wfo-0000151908,2022-04-16,2024-12-16
+wfo-0000159797,Asplenium subantiquum,(Ching ex S.H.Wu) Viane,species,NA,NA,Biol. Jaarb. 59: 163 (1992),synonym,wfo-0000151908,2022-04-16,2025-08-03
 wfo-0000159799,Asplenium subaquatile,Ces.,species,wfo-4000003342,valid,"Atti Reale Accad. Sci. Fis. 7(8): 20, t.3, f.5 (1876)",accepted,NA,2022-04-16,2025-05-06
 wfo-0000159809,Asplenium subavenium,Hook.,species,NA,NA,"Sp. Fil. [W. J. Hooker] 3: 143, t.181B (1860)",synonym,wfo-1200097197,2022-04-16,2025-03-19
 wfo-0000159828,Asplenium subemarginatum,Rosenst.,species,wfo-4000003342,valid,Repert. Spec. Nov. Regni Veg. 5: 372 (1908),accepted,NA,2022-04-16,2024-12-16
@@ -16379,7 +16379,7 @@ wfo-0000160499,Asplenium tinarooense,S.B.Andrews,species,NA,NA,"Ferns of Queensl
 wfo-0000160534,Asplenium tonkinense,C.Chr.,species,NA,NA,Index Filic. 135 (1905),synonym,wfo-0001116665,2022-04-16,2025-03-19
 wfo-0000160561,Asplenium torresianum,Gaudich.,species,NA,NA,Voy. Uranie [Freycinet] 317 (1828),synonym,wfo-1200097197,2022-04-16,2025-03-19
 wfo-0000160569,Asplenium tosaense,Sa.Kurata,species,wfo-4000003342,valid,J. Geobot. 11: 101 (1963),accepted,NA,2022-04-16,2024-12-16
-wfo-0000160579,Asplenium translucens,(Holttum) Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 163 (1991),accepted,NA,2022-04-16,2025-03-19
+wfo-0000160579,Asplenium translucens,(Holttum) Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 163 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000160600,Asplenium travancoricum,Baker,species,NA,NA,Ann. Bot. (Oxford) 5(3): 310 (1891),synonym,wfo-0001115257,2022-04-16,2025-03-19
 wfo-0000160606,Asplenium tremulum,Hombr. & Jacq.,species,NA,NA,"Voy. an Pole sud t.3, bis f.D (1852)",synonym,wfo-0001121375,2022-04-16,2025-03-19
 wfo-0000160614,Asplenium trettenerianum,Jan,species,NA,NA,Flora 18(1): 32 (1835),synonym,wfo-0001116478,2022-04-16,2024-12-16
@@ -16409,7 +16409,7 @@ wfo-0000161006,Asplenium umbrosum,Vill.,species,NA,NA,Hist. Pl. Dauphiné (Villa
 wfo-0000161009,Asplenium umbrosum,Schrad.,species,NA,NA,Gött. Gel. Anz. 1824. 870; Klf. Enum. 168. 18 (1824),synonym,wfo-0001108083,2022-04-16,2024-12-16
 wfo-0000161012,Asplenium umbrosum,(Aiton) J.Sm.,species,NA,NA,J. Bot. (Hooker) 4: 174 (1841),synonym,wfo-0001116340,2022-04-16,2024-12-16
 wfo-0000161013,Asplenium umbrosum,(Moritzi) Mett.,species,NA,illegitimate,Fil. Hort. Bot. Lips. : 74 (1856),synonym,wfo-0001109577,2022-04-16,2024-12-16
-wfo-0000161038,Asplenium unisorum,(W.H.Wagner) Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 163 (1991),accepted,NA,2022-04-16,2024-12-16
+wfo-0000161038,Asplenium unisorum,(W.H.Wagner) Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 163 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0000161044,Asplenium urbani,Christ,species,NA,NA,Bot. Jahrb. Syst. 24(1): 108 (1897),synonym,wfo-0000154742,2022-04-16,2024-12-16
 wfo-0000161046,Asplenium urophyllum,Wall.,species,NA,NA,Numer. List [Wallich] n. 192 (1829),synonym,wfo-0001110133,2022-04-16,2025-03-19
 wfo-0000161050,Asplenium usambarense,Hieron.,species,NA,NA,Hedwigia 60: 227 (1918),synonym,wfo-0001110836,2022-04-16,2025-03-19
@@ -20937,7 +20937,7 @@ wfo-0001109299,Aspidotis carlotta-halliae,(W.H.Wagner & E.F.Gilbert) Lellinger,s
 wfo-0001109300,Aspidotis densa,(Brack.) Lellinger,species,wfo-4000003334,valid,Amer. Fern J. 58(3): 141 (1968),accepted,NA,2022-04-16,2025-03-19
 wfo-0001109301,Asplenium abscissum,Willd.,species,wfo-4000003342,valid,"Sp. Pl., ed. 4 [Willdenow] 5: 321 (1810)",accepted,NA,2022-04-16,2025-03-19
 wfo-0001109302,Asplenium acuminatum,Hook. & Arn.,species,wfo-4000003342,valid,Bot. Beechey Voy. 106 (1832),accepted,NA,2022-04-16,2024-12-16
-wfo-0001109303,Asplenium adiantum-nigrum,L.,species,wfo-4000003342,valid,Sp. Pl. : 1081 (1753),accepted,NA,2022-04-16,2024-12-16
+wfo-0001109303,Asplenium adiantum-nigrum,L.,species,wfo-4000003342,valid,Sp. Pl. [Linnaeus] 2: 1081 (1753),accepted,NA,2022-04-16,2025-08-03
 wfo-0001109304,Asplenium auriculatum,Sw.,species,wfo-4000003342,valid,Kongl. Vetensk. Acad. Handl. 1817: 68 (1817),accepted,NA,2022-04-16,2024-12-16
 wfo-0001109305,Asplenium biscaynianum,(D.C.Eaton) A.A.Eaton,species,wfo-4000003342,valid,Fern Bull. 12: 45 (1904),accepted,NA,2022-04-16,2025-05-22
 wfo-0001109306,Asplenium bradleyi,D.C.Eaton,species,wfo-4000003342,valid,Bull. Torrey Bot. Club 4(3): 11 (1873),accepted,NA,2022-04-16,2024-12-16
@@ -21633,7 +21633,7 @@ wfo-0001110002,Asplenium linearipinnatum,Bonap.,species,NA,NA,Notes Pteridol. 5:
 wfo-0001110003,Asplenium flaccidum,Bonap.,species,wfo-4000003342,valid,Notes Pteridol. 16: 60 1925,accepted,NA,2022-04-16,2023-11-24
 wfo-0001110004,Asplenium gautieri,Hook.,species,NA,NA,Sp. Fil. 3. 88 t. 144. 1860. HB. 193. (1860),synonym,wfo-0001119917,2022-04-16,2024-12-16
 wfo-0001110005,Asplenium repandum,Mett. ex Kuhn,species,NA,NA,Filic. Afr. 114 (1868),synonym,wfo-0001119917,2022-04-16,2025-03-19
-wfo-0001110006,Asplenium annobonense,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 158 (1991) (1991),accepted,NA,2022-04-16,2024-12-16
+wfo-0001110006,Asplenium annobonense,Viane,species,wfo-4000003342,valid,Biol. Jaarb. 59: 158 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0001110007,Asplenium dufourii,Fée,species,NA,NA,"Mem. Foug., Ic. Esp. Nouv. 10: 26, t. 35, f. 1 1865",synonym,wfo-1000067940,2022-04-16,2024-12-16
 wfo-0001110008,Asplenium rectangulare,Bonap.,species,NA,illegitimate,"Notes Ptéridol. 16. 189. 1925, C. Chr. Dansk (1925)",synonym,wfo-0001108058,2022-04-16,2024-06-04
 wfo-0001110009,Asplenium opacum,Kunze,species,NA,NA,Linnaea 24(3): 261 (1851),synonym,wfo-0001108058,2022-04-16,2025-03-19
@@ -26291,7 +26291,7 @@ wfo-0001114684,Selaginella pubens,A.R.Sm.,species,wfo-4000034966,valid,"Ann. Mis
 wfo-0001114685,Selaginella sobolifera,A.R.Sm.,species,wfo-4000034966,valid,"Ann. Missouri Bot. Gard. 77: 269, fig. 9E-J (1990)",accepted,NA,2022-04-16,2024-12-16
 wfo-0001114686,Selaginella thysanophylla,A.R.Sm.,species,wfo-4000034966,valid,"Ann. Missouri Bot. Gard. 77: 270, f.90-S (1990)",accepted,NA,2022-04-16,2025-03-19
 wfo-0001114687,Selaginella versatilis,A.R.Sm.,species,wfo-4000034966,valid,"Ann. Missouri Bot. Gard. 77: 270 (-271), f.10 (1990)",accepted,NA,2022-04-16,2025-03-19
-wfo-0001114688,Thelypteris peradenia,A.R.Sm.,species,NA,valid,"Ann. Missouri Bot. Gard. 77: 272, f.11 (1984)",synonym,wfo-0001344148,2022-04-16,2025-03-19
+wfo-0001114688,Thelypteris peradenia,A.R.Sm.,species,NA,valid,"Ann. Missouri Bot. Gard. 77(2): 272, f. 11 (1990)",synonym,wfo-0001344148,2022-04-16,2025-08-03
 wfo-0001114689,Gymnogramma viscosa,Nutt. ex D.C.Eaton,species,NA,NA,Ferns N. Amer. 2: 16 1879,synonym,wfo-1000067505,2022-04-16,2024-12-16
 wfo-0001114690,Aspidium guianense,Klotzsch,species,NA,NA,Linnaea 20: 364 (1847),synonym,wfo-0001110920,2022-04-16,2025-03-19
 wfo-0001114691,Vittaria appalachiana,Farrar & Mickel,species,wfo-4000040387,valid,Amer. Fern J. 81(3): 72 (69-75; figs. 1-2) (1991),accepted,NA,2022-04-16,2024-12-16
@@ -28655,7 +28655,7 @@ wfo-0001117066,Polystichum ovatopaleaceum var. coraiense,(Christ) Sa.Kurata,vari
 wfo-0001117067,Polystichum ovatopaleaceum f. myokoense,(Sa.Kurata) Nakaike,form,wfo-0001117063,valid,"Enum. Pterid. Jap., Fil. 254 1975",accepted,NA,2022-04-16,2022-04-18
 wfo-0001117068,Polystichum ovatopaleaceum var. myokoense,Sa.Kurata,variety,NA,NA,Sci. Rep. Yokosuka City Mus. 10: 36 1964,synonym,wfo-0001117067,2022-04-16,2022-04-20
 wfo-0001117069,Aspidium polyblepharum,Roem. ex Kunze,species,NA,NA,Bot. Zeitung (Berlin) 6: 572–573 1848,unchecked,NA,2022-04-16,2024-12-13
-wfo-0001117070,Polystichum polyblepharon,C.Presl,species,NA,valid,Epimel. Bot. 56 (1851),synonym,wfo-0001108311,2022-04-16,2025-07-29
+wfo-0001117070,Polystichum polyblepharon,(Roem. ex Kunze) C.Presl,species,NA,valid,Epimel. Bot. 56 (1851),synonym,wfo-0001108311,2022-04-16,2025-08-03
 wfo-0001117071,Polystichum pseudomakinoi,Tagawa,species,wfo-4000030832,valid,Acta Phytotax. Geobot. 5(4): 257 (1936),accepted,NA,2022-04-16,2025-03-19
 wfo-0001117072,Polystichum rigens,Tagawa,species,wfo-4000030832,valid,Acta Phytotax. Geobot. 6(2): 91 (1937),accepted,NA,2022-04-16,2025-03-19
 wfo-0001117073,Polystichum tagawanum,Sa.Kurata,species,wfo-4000030832,valid,J. Geobot. 7: 41 (1958),accepted,NA,2022-04-16,2025-03-19
@@ -31201,7 +31201,7 @@ wfo-0001119633,Lellingeria shaferi,(Maxon) A.R.Sm. & R.C.Moran,species,NA,NA,Ame
 wfo-0001119634,Lellingeria simacensis,(Rosenst.) A.R.Sm. & R.C.Moran,species,wfo-4000020962,valid,Amer. Fern J. 81(3): 87 (1991),accepted,NA,2022-04-16,2025-03-19
 wfo-0001119635,Lellingeria sinuosa,(A.R.Sm.) A.R.Sm. & R.C.Moran,species,wfo-4000020962,valid,Amer. Fern J. 81(3): 87 (1991),accepted,NA,2022-04-16,2025-03-19
 wfo-0001119636,Lellingeria strangeana,(Pic.Serm.) A.R.Sm. & R.C.Moran,species,NA,NA,Amer. Fern J. 81(3): 87 (1991),synonym,wfo-0001041424,2022-04-16,2025-03-19
-wfo-0001119637,Lellingeria stuebelii,(Hieron.) A.R.Sm. & R.C.Moran,species,NA,NA,Amer. Fern J. 81(3): 87 (1991): (1991),unchecked,NA,2022-04-16,2024-12-13
+wfo-0001119637,Lellingeria stuebelii,(Hieron.) A.R.Sm. & R.C.Moran,species,NA,NA,Amer. Fern J. 81(3): 87 (1991),unchecked,NA,2022-04-16,2025-08-03
 wfo-0001119638,Lellingeria subcoriacea,(Copel.) A.R.Sm. & R.C.Moran,species,NA,NA,Amer. Fern J. 81(3): 87 (1991),synonym,wfo-0001041425,2022-04-16,2025-03-19
 wfo-0001119639,Lellingeria subsessilis,(Baker) A.R.Sm. & R.C.Moran,species,wfo-4000020962,valid,Amer. Fern J. 81(3): 87 (1991),accepted,NA,2022-04-16,2025-03-19
 wfo-0001119640,Lellingeria suprasculpta,(Christ) A.R.Sm. & R.C.Moran,species,wfo-4000020962,valid,Amer. Fern J. 81(3): 87 (1991),accepted,NA,2022-04-16,2025-03-19
@@ -32491,7 +32491,7 @@ wfo-0001120932,Alsophila sprucei,Hook.,species,NA,NA,Syn. Fil. (Hooker & Baker) 
 wfo-0001120933,Cyathea crassipes,Sodiro,species,NA,NA,Recens. Crypt. Vasc. Quit. 10 (1883),synonym,wfo-0001112429,2022-04-16,2025-03-19
 wfo-0001120934,Cyathea bonapartii,Rosenst.,species,NA,NA,Repert. Spec. Nov. Regni Veg. 7: 289 (1909),synonym,wfo-0001112429,2022-04-16,2024-12-16
 wfo-0001120935,Alsophila paucifolia,Baker,species,NA,NA,"Syn. Fil. (Hooker & Baker), ed. 2. 456 (1874)",synonym,wfo-0000140069,2022-04-16,2025-03-19
-wfo-0001120936,Cyathea stuebelii,Hieron.,species,NA,NA,"Hedwigia 45: 229, pl. 12 (1906)",unchecked,NA,2022-04-16,2024-06-04
+wfo-0001120936,Cyathea stuebelii,Hieron.,species,NA,NA,"Hedwigia 45: 229, pl. 12, f. 2 (1906)",unchecked,NA,2022-04-16,2025-08-03
 wfo-0001120937,Nephelea erinacea var. purpurascens,(Sodiro) Gastony,variety,NA,NA,Contr. Gray Herb. 203: 122 (1973),synonym,wfo-0001112437,2022-04-16,2024-12-16
 wfo-0001120938,Cyathea purpurascens,Sodiro,species,NA,NA,Crypt. Vasc. Quit. 503 (1893),synonym,wfo-0001112437,2022-04-16,2025-03-19
 wfo-0001120939,Nephelea purpurascens,(Sodiro) R.M.Tryon,species,NA,NA,Contr. Gray Herb. 200: 40 (1970),synonym,wfo-0001112437,2022-04-16,2024-12-16
@@ -34674,7 +34674,7 @@ wfo-0001123123,Dicksonia divaricata,Sodiro,species,NA,NA,Crypt. Vasc. Quit. 48 (
 wfo-0001123124,Dicksonia scandens var. isostoma,Sodiro,variety,NA,NA,Anales Univ. Centr. Ecuador 7: 86 (1893),synonym,wfo-0001122067,2022-04-16,2024-12-16
 wfo-0001123125,Diplazium avitaguense,Hieron.,species,wfo-4000011939,valid,"Hedwigia 47: 216, pl.2, f.7 (1908)",accepted,NA,2022-04-16,2025-03-19
 wfo-0001123126,Diplazium pastazense,Hieron.,species,NA,NA,"Hedwigia 47: 212, pl.1, f.2 (1908)",synonym,wfo-0001119866,2022-04-16,2025-03-19
-wfo-0001123127,Diplazium stuebelii,Hieron.,species,wfo-4000011939,valid,"Hedwigia 47: 217, pl.2, f.5. 1908",accepted,NA,2022-04-16,2024-12-16
+wfo-0001123127,Diplazium stuebelii,Hieron.,species,wfo-4000011939,valid,"Hedwigia 47: 217, pl.2, f.5 (1908)",accepted,NA,2022-04-16,2025-08-03
 wfo-0001123128,Diplazium wolfii,Hieron.,species,wfo-4000011939,valid,"Hedwigia 47: 220, pl.2, f.6 (1908)",accepted,NA,2022-04-16,2025-03-19
 wfo-0001123129,Elaphoglossum corazonense,Christ,species,wfo-4000013129,valid,Monogr. Elaphoglossum 86 (1899),accepted,NA,2022-04-16,2025-03-19
 wfo-0001123130,Elaphoglossum glutinosum,(Spruce) Christ.,species,NA,NA,Monogr. Elaphoglossum 120 (1899),synonym,wfo-0001116880,2022-04-16,2025-03-19
@@ -36322,7 +36322,7 @@ wfo-0001124778,Leucostegia parvipinnula,Hayata,species,NA,NA,"Icon. Pl. Formosan
 wfo-0001124779,Araiostegia parvipinnula,Copel.,species,NA,NA,Philipp. J. Sci. 34: 241 (1927),synonym,wfo-0001122318,2022-04-16,2024-12-16
 wfo-0001124780,Leucostegia clarkei var. faberiana,C.Chr.,variety,NA,NA,Contr. U.S. Natl. Herb. 26: 294 (1931),synonym,wfo-0001122318,2022-04-16,2025-03-19
 wfo-0001124781,Humata perdurans,(Christ) Hieron.,species,NA,NA,Hedwigia 62: 12 (1920),synonym,wfo-0001122318,2022-04-16,2025-05-22
-wfo-0001124782,Araiostegia perdurans,(Christ) Copel.,species,NA,NA,Philipp. J. Sci. 34: 400 (1931),synonym,wfo-0001122318,2022-04-16,2025-05-22
+wfo-0001124782,Araiostegia perdurans,(Christ) Copel.,species,NA,NA,Univ. Calif. Publ. Bot. 12(no. 14): 397 (1931),synonym,wfo-0001122318,2022-04-16,2025-08-03
 wfo-0001124783,Notholaena laevis,M.Martens & Galeotti,species,NA,NA,Mém. Foug. Mexique 46 (1842),synonym,wfo-0001274044,2022-04-16,2025-03-19
 wfo-0001124784,Microlepia pteropus,Bedd.,species,NA,NA,Ferns Brit. India 3: t.313 (1869),synonym,wfo-0001122460,2022-04-16,2025-04-08
 wfo-0001124785,Notholaena sinuata var. integra,Liebm.,variety,NA,NA,"Kongel. Danske Vidensk. Selsk. Skr., Naturvidensk. Math. Afd., ser. 5 1: 213 1849",synonym,wfo-0001274044,2022-04-16,2024-12-16
@@ -43319,7 +43319,7 @@ wfo-0001229750,Elaphoglossum stramineum,(Mett.) Christ,species,NA,NA,Monogr. Ela
 wfo-0001229751,Acrostichum stramineum,Mett.,species,NA,NA,"Ann. Sci. Nat., Bot. sér. 5, 2: 200 (1864)",synonym,wfo-0001112971,2022-04-16,2025-03-19
 wfo-0001229753,Elaphoglossum strictum,(Raddi) T.Moore,species,NA,NA,Index Fil. (T.Moore) 3: 15 (1857),synonym,wfo-0001269094,2022-04-16,2025-03-19
 wfo-0001229754,Acrostichum strictum,Raddi,species,NA,NA,"Pl. Bras. Nov. Gen. 1: 3, t.15, f.3 (1825)",synonym,wfo-0001269094,2022-04-16,2025-03-19
-wfo-0001229755,Elaphoglossum stuebelii,Hieron.,species,NA,NA,"Hedwigia 48: 277, pl. 14, fig. 24 (1909)",unchecked,NA,2022-04-16,2024-06-04
+wfo-0001229755,Elaphoglossum stuebelii,Hieron.,species,NA,NA,"Hedwigia 48: 277, pl.14, f.24 (1909)",unchecked,NA,2022-04-16,2025-08-03
 wfo-0001229756,Elaphoglossum tenerum,(Baker) Christ,species,NA,NA,Monogr. Elaphoglossum : 62 (1899),synonym,wfo-0001116412,2022-04-16,2024-12-16
 wfo-0001229757,Acrostichum tenerum,Fée ex Kuhn,species,NA,NA,Linnaea 36: 52. 1869 (1869),synonym,wfo-0001116412,2022-04-16,2024-12-12
 wfo-0001229758,Elaphoglossum tolimense,Kuhn ex Christ,species,wfo-4000013129,valid,Monogr. Elaphoglossum 124 (1899),accepted,NA,2022-04-16,2025-03-19
@@ -49385,7 +49385,7 @@ wfo-0001274031,Nephrodium pseudothelypteris,Rosenst.,species,NA,NA,Hedwigia 43: 
 wfo-0001274032,Lastrea rivularioides,(Fée) Copel.,species,NA,NA,Gen. Fil. [Copeland] 140 (1947),synonym,wfo-1200010698,2022-04-16,2025-01-23
 wfo-0001274033,Nephrodium pseudothelypteris var. crenatum,Rosenst.,variety,NA,NA,Hedwigia 43: 226 (1904),synonym,wfo-1200010698,2022-04-16,2024-12-16
 wfo-0001274034,Dryopteris pseudothelypteris,C.Chr.,species,NA,NA,Index Filic. 286 (1905),synonym,wfo-1200010698,2022-04-16,2025-03-19
-wfo-0001274037,Asplenium scolopendrium var. lindenii,"(Hook.) Viane, Rasbach & Reichst.",variety,NA,NA,Biol. Jaarb. 59: 162 (1991),synonym,wfo-1200041314,2022-04-16,2025-03-19
+wfo-0001274037,Asplenium scolopendrium var. lindenii,"(Hook.) Viane, Rasbach & Reichst.",variety,NA,NA,Biol. Jaarb. 59: 162 (1992),synonym,wfo-1200041314,2022-04-16,2025-08-03
 wfo-0001274039,Asplenium tryonii,Correll,species,wfo-4000003342,valid,"Wrightia 2: 200, f.36(4-9) (1961)",accepted,NA,2022-04-16,2025-03-19
 wfo-0001274040,Asplenium ultimum,A.R.Sm.,species,wfo-4000003342,valid,"Mem. New York Bot. Gard. 88: 128 (-129, f.41C-D) (2004)",accepted,NA,2022-04-16,2025-03-19
 wfo-0001274041,Asplenium venturae,A.R.Sm.,species,wfo-4000003342,valid,"Mem. New York Bot. Gard. 88: 129 (-130, f.40A) (2004)",accepted,NA,2022-04-16,2025-03-19
@@ -50764,7 +50764,7 @@ wfo-0001286844,Marsilea mutica,Mett.,species,wfo-4000023208,valid,"Ann. Sci. Nat
 wfo-0001286845,Colysis ampla,(F.Muell. ex Benth.) Copel.,species,NA,NA,Gen. Fil. [Copeland] 199 (1947),synonym,wfo-1000027573,2022-04-16,2025-03-19
 wfo-0001286846,Colysis sayeri,(F.Muell. & Baker) Copel.,species,NA,NA,Gen. Fil. [Copeland] 199 (1947),synonym,wfo-1000027580,2022-04-16,2025-03-19
 wfo-0001286847,Crypsinus simplicissimus,(F.Muell.) S.B.Andrews,species,NA,NA,Austrobaileya 1(1): 12 (1977),synonym,wfo-0000150326,2022-04-16,2024-12-16
-wfo-0001286848,Dictymia brownii,(Wikstr.) Copel.,species,wfo-4000011564,valid,Univ. Calif. Publ. Bot. 16: 114 (1929),accepted,NA,2022-04-16,2025-03-19
+wfo-0001286848,Dictymia brownii,(Wikstr.) Copel.,species,wfo-4000011564,valid,Univ. Calif. Publ. Bot. 16(2). 114 (1929),accepted,NA,2022-04-16,2025-08-03
 wfo-0001286849,Microsorum australiense,(F.M.Bailey) Bostock,species,wfo-4000024217,valid,Fl. Australia 48: 715 (1998),accepted,NA,2022-04-16,2024-12-16
 wfo-0001286850,Phymatosorus grossus,(Langsd. & Fisch.) Brownlie,species,NA,valid,Nova Hedwigia 55: -- (1977),synonym,wfo-0000148652,2022-04-16,2025-03-19
 wfo-0001286851,Phymatosorus membranifolius,(R.Br.) Tindale,species,NA,NA,Austral. Syst. Bot. 15(6): 904 (2002) (2002),synonym,wfo-0001247849,2022-04-16,2024-12-16
@@ -54011,7 +54011,7 @@ wfo-0001359026,Lycopodium clavatum subsp. megastachyon,(Fernald & Bissell) Á.L�
 wfo-0001359027,Lycopodium complanatum subsp. flabelliforme,(Fernald) R.T.Clausen,subspecies,NA,NA,Amer. Fern J. 35: 17 (1945),synonym,wfo-0001116199,2022-04-16,2024-12-16
 wfo-0001359028,Lycopodium selago subsp. appressum,(La Pylaie ex Desv.) Hultén,subspecies,NA,NA,Ark. Bot. (n. s.) 7(1): 7 (1968),synonym,wfo-0001358926,2022-04-16,2024-12-16
 wfo-0001359030,Asplenium subglandulosum subsp. subglandulosum,NA,subspecies,NA,NA,NA,unchecked,NA,2022-04-16,2024-06-04
-wfo-0001359088,Platycerium bifurcatum subsp. bifurcatum,NA,subspecies,wfo-0001227002,valid,A monograph of the fern genus Platycerium (Polypodiaceae) (1982),accepted,NA,2022-04-16,2025-03-19
+wfo-0001359088,Platycerium bifurcatum subsp. bifurcatum,Hennipman & M.C.Roos,subspecies,wfo-0001227002,valid,Monogr. Fern Genus Platycerium (Polypodiac.) 90 (1982),accepted,NA,2022-04-16,2025-08-03
 wfo-0001359095,Nephrodium asplenioides subsp. sclerophyllum,(Poepp. ex Spreng.) Jenman,subspecies,NA,NA,Bull. Bot. Dept. Jamaica 3: 211 (1896),synonym,wfo-0001114715,2022-04-16,2025-05-22
 wfo-0001359097,Isoetes drummondii subsp. drummondii,NA,subspecies,wfo-0001123834,valid,Monatsber. Königl. Preuss. Akad. Wiss. Berlin 593 (1863),accepted,NA,2022-04-16,2024-12-16
 wfo-0001359098,Nephrolepis pectinata subsp. pendula,Jenman,subspecies,NA,NA,Bull. Bot. Dept. Jamaica 3: 261 (1896),synonym,wfo-1000070062,2022-04-16,2025-03-19
@@ -54035,8 +54035,8 @@ wfo-0001359144,Pteridium caudatum subsp. yarrabense,(Domin) Parris,subspecies,NA
 wfo-0001359145,Isoetes coromandelina subsp. brachyglossa,(A.Braun) Panigrahi,subspecies,NA,NA,Biol. Mem. 6(2): 131. 1981 [1981?],synonym,wfo-0001360582,2022-04-16,2024-12-16
 wfo-0001359146,Asplenium fontanum subsp. pseudofontanum,(Kossinsky) Reichst. & Schneller,subspecies,wfo-0001107218,valid,Candollea 37(1): 124 (1982),accepted,NA,2022-04-16,2024-12-16
 wfo-0001359147,Asplenium subglandulosum subsp. hispanicum,"(Coss.) Salvo, Prada & Diaz",subspecies,NA,NA,Fl. Pterid. Andalucia: et in Candollea 286 (1982),synonym,wfo-0000156055,2022-04-16,2025-03-19
-wfo-0001359148,Platycerium bifurcatum subsp. veitchii,(Underwood) Hennipman & M.C.Roos,subspecies,NA,NA,Monogr. fern genus Platycerium (Polypodiac.) 91 (1982),synonym,wfo-0001286855,2022-04-16,2025-03-19
-wfo-0001359149,Platycerium bifurcatum subsp. willinckii,(T.Moore) Hennipman & M.C.Roos,subspecies,wfo-0001227002,valid,Monogr. fern genus Platycerium (Polypodiac.) 92 (1982),accepted,NA,2022-04-16,2025-03-19
+wfo-0001359148,Platycerium bifurcatum subsp. veitchii,(Underwood) Hennipman & M.C.Roos,subspecies,NA,NA,Monogr. Fern Genus Platycerium (Polypodiac.) 91 (1982),synonym,wfo-0001286855,2022-04-16,2025-08-03
+wfo-0001359149,Platycerium bifurcatum subsp. willinckii,(T.Moore) Hennipman & M.C.Roos,subspecies,wfo-0001227002,valid,Monogr. Fern Genus Platycerium (Polypodiac.) 92 (1982),accepted,NA,2022-04-16,2025-08-03
 wfo-0001359150,Polypodium vulgare subsp. zuvandicum,(Askerov & A.E.Bobrov) Askerov,subspecies,NA,NA,"Zametki Sist. Geogr. Rast. 39: 4. 1983 , without basionym page",synonym,wfo-0001107395,2022-04-16,2024-12-16
 wfo-0001359151,Polypodium vulgare subsp. rotundatum,(Milde) Askerov,subspecies,NA,valid,Zametki Sist. Geogr. Rast. 39: 4. 1983,synonym,wfo-0001107395,2022-04-16,2024-12-16
 wfo-0001359152,Polypodium australe subsp. subintegrum,(Fom.) Askerov,subspecies,NA,NA,Zametki Sist. Geogr. Rast. 39: 4 (1983),synonym,wfo-0001109241,2022-04-16,2024-12-16
@@ -54174,7 +54174,7 @@ wfo-0001359283,Nephrolepis exaltata subsp. hawaiiensis,W.H.Wagner,subspecies,wfo
 wfo-0001359284,Davallia tasmanii subsp. cristata,"von Konrat, Braggins & de Lange",subspecies,wfo-0000140642,valid,New Zealand J. Bot. 37(4): 586. 1999,accepted,NA,2022-04-16,2024-12-16
 wfo-0001359285,Huperzia chinensis subsp. miyoshiana,(Makino) Tzvelev,subspecies,NA,NA,Bot. Zhurn. (Moscow & Leningrad) 84(1): 84 (1999),synonym,wfo-0001116191,2022-04-16,2024-12-16
 wfo-0001359286,Athyrium filix-femina subsp. sinense,(Rupr.) Tzvelev,subspecies,NA,NA,Novosti Sist. Vyssh. Rast. 32: 182 (2000),synonym,wfo-0001122801,2022-04-16,2025-03-19
-wfo-0001359287,Asplenium scolopendrium subsp. japonicum,"(Kom.) Rasbach, Reichst. & Viane",subspecies,wfo-0001110391,valid,Biol. Jaarb. 59: 162 (1991),accepted,NA,2022-04-16,2024-12-16
+wfo-0001359287,Asplenium scolopendrium subsp. japonicum,"(Kom.) Rasbach, Reichst. & Viane",subspecies,wfo-0001110391,valid,Biol. Jaarb. 59: 162 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0001359288,Blechnum melanocaulon subsp. pallens,T.C.Chambers & P.A.Farrant,subspecies,NA,valid,Blumea 46(2): 321 (2001),synonym,wfo-1200007368,2022-04-16,2024-12-16
 wfo-0001359488,Botrychium lunaria subsp. alpina,(Krylov) Shmakov,subspecies,wfo-0001109054,valid,Flora Rastitel'nost' Altaya 1995: 36.,accepted,NA,2022-04-16,2024-06-04
 wfo-0001359550,Adiantum reniforme subsp. pusillum,(Bolle) Rivas Mart.,subspecies,wfo-0001109953,valid,Itinera Geobot. 15(2): 697 (2002) (2002),accepted,NA,2022-04-16,2024-12-16
@@ -55678,7 +55678,7 @@ wfo-0001375447,Cyclosorus truncatus var. loyalii,(Holttum) Panigrahi,variety,NA,
 wfo-0001375448,Asplenium gueinzianum var. depauperatum,(C.B.Clarke) Panigrahi,variety,NA,NA,Pl. Sci. Res. (India) 20(1-2): 37 (1998),synonym,wfo-0001042381,2022-04-16,2024-12-16
 wfo-0001375449,Asplenium gueinzianum var. subintegrifolium,(Hook.) Panigrahi,variety,NA,NA,Pl. Sci. Res. (India) 20(1-2): 37 (1998),synonym,wfo-0001042381,2022-04-16,2025-03-19
 wfo-0001375450,Asplenium bullatum var. shikokianum,(Makino) Ching & S.H.Wu,variety,NA,NA,Fl. Reipubl. Popularis Sin. 4(2): 75 (1999),synonym,wfo-0001114730,2022-04-16,2025-03-19
-wfo-0001375451,Asplenium scolopendrium var. antri-jovis,"(Kümmerle) Reichst., Rasbach & Viane",variety,NA,NA,Biol. Jaarb. 59: 162 (1991),synonym,wfo-0001425752,2022-04-16,2024-12-16
+wfo-0001375451,Asplenium scolopendrium var. antri-jovis,"(Kümmerle) Reichst., Rasbach & Viane",variety,NA,NA,Biol. Jaarb. 59: 162 (1992),synonym,wfo-0001425752,2022-04-16,2025-08-03
 wfo-0001375494,Osmunda cinnamomea var. achilleifolia,Hook.,variety,NA,NA,Gard. Ferns tab. 45 (1861),synonym,wfo-0001425735,2022-04-16,2025-03-19
 wfo-0001375495,Osmunda cinnamomea var. bipinnatifida,Clute,variety,NA,NA,Fern Bull. 14: 45 (1906),synonym,wfo-0001425735,2022-04-16,2024-12-16
 wfo-0001375496,Osmunda cinnamomea var. glandulosa,Waters,variety,NA,NA,Fern Bull. 10: 21 (1902),unchecked,NA,2022-04-16,2024-06-04
@@ -57753,7 +57753,7 @@ wfo-0001404401,Asplenium laciniatum subsp. lacei,"(Viane & Reichst.) Fraser-Jenk
 wfo-0001404402,Asplenium laciniatum subsp. laciniocaule,"Z.R.Wang & W.M.Chu ex Fraser-Jenk., Pangtey & Khullar",subspecies,wfo-0001116299,valid,Indian Fern J. 27(1-2): 188 (2011),accepted,NA,2022-04-16,2025-03-19
 wfo-0001404403,Asplenium nieschalkii subsp. litardierei,(Bennert & D.E.Mey.) Muñoz Garm.,subspecies,NA,valid,Anales Jard. Bot. Madrid 42(1): 257 (1985),synonym,wfo-0000157127,2022-04-16,2025-03-19
 wfo-0001404404,Asplenium petrarchae subsp. diazii,Fern.Areces & Pérez Carro,subspecies,wfo-0001116106,valid,Anales Jard. Bot. Madrid 50(1): 21 (1992),accepted,NA,2022-04-16,2025-03-19
-wfo-0001404405,Asplenium reuteri subsp. aprutianum,"(Lovis, H.Melzer & Reichst.) Viane & Reichst.",subspecies,wfo-0000158542,valid,Biol. Jaarb. 59: 163. 1991,accepted,NA,2022-04-16,2024-12-16
+wfo-0001404405,Asplenium reuteri subsp. aprutianum,"(Lovis, Melzer & Reichst.) Viane & Reichst.",subspecies,wfo-0000158542,valid,Biol. Jaarb. 59: 163 (1992),accepted,NA,2022-04-16,2025-08-03
 wfo-0001404406,Asplenium reuteri subsp. stiriacum,(D.E.Mey.) Viane & Reichst.,subspecies,NA,invalid,Biol. Jaarb. 59: 163 (1992),synonym,wfo-0000159665,2022-04-16,2025-03-19
 wfo-0001404407,Asplenium ruta-muraria subsp. baldense,"(Sleep, Vida & Reichst.) Muñoz Garm.",subspecies,wfo-0001109353,valid,Anales Jard. Bot. Madrid 42(1): 257 (1985),accepted,NA,2022-04-16,2025-03-19
 wfo-0001404408,Asplenium septentrionale subsp. rehmanii,Fraser-Jenk.,subspecies,wfo-0001109358,valid,Taxon. Revis. Indian Subcontinental Pteridophytes 175 (2008),accepted,NA,2022-04-16,2025-05-30
@@ -64334,7 +64334,7 @@ wfo-1000036286,Davallia similis,(Copel.) C.W.Chen,species,wfo-4000010866,valid,U
 wfo-1000036297,Lycopodium halconensis,Copel.,species,NA,NA,"Philipp. J. Sci., C 2: 149 (1907)",synonym,wfo-0001328381,2022-08-15,2025-03-19
 wfo-1000036300,Isoetes × brochonii,Motelay,species,wfo-4000019273,valid,Actes Soc. Linn. Bordeaux 45: 45 (1892),accepted,NA,2022-08-15,2024-12-16
 wfo-1000036301,Diplazium magnificum,(Copel.) M.G.Price,species,wfo-4000011939,valid,Unknown Publ. (1982),accepted,NA,2022-08-15,2025-03-19
-wfo-1000036318,Angiopteris cadierei,(C.Chr. & Tardieu) Govaerts & Christenh.,species,wfo-4000002097,valid,Unknown Publ.,accepted,NA,2022-08-15,2024-12-16
+wfo-1000036318,Angiopteris cadierei,(C.Chr. & Tardieu) Govaerts & Christenh.,species,wfo-4000002097,valid,ined.  (),accepted,NA,2022-08-15,2025-08-03
 wfo-1000036319,Selaginella copelandii,Hieron.,species,wfo-4000034966,valid,Repert. Spec. Nov. Regni Veg. 10: 106 (1911),accepted,NA,2022-08-15,2025-03-19
 wfo-1000036323,Elaphoglossum karinae,A.Rojas,species,NA,NA,Amer. J. Pl. Sci. 8(6): 1332 (2017),synonym,wfo-1000032079,2022-08-15,2025-03-19
 wfo-1000036324,Goniophlebium decurrentiadnatum,(Rosenst.) Panigrahi,species,NA,NA,Pl. Sci. Res. (India) 20th Ann. Conf. Orissa: 54 (1996),synonym,wfo-0001337490,2022-08-15,2025-03-19
@@ -66303,7 +66303,7 @@ wfo-1200101569,Isoetes coromandelina subsp. thanensis,"S.K.Shukla, Sarv.K.Singh,
 wfo-1200101570,Isoetes lacustris var. longifolia,Motelay & Vendryès,variety,NA,NA,Actes Soc. Linn. Bordeaux 36: 327 (1883),synonym,wfo-0001107321,2024-08-13,2025-03-19
 wfo-1200101571,Isoetes lacustris var. stricta,Motelay & Vendryès,variety,NA,NA,Actes Soc. Linn. Bordeaux 36: 327. 1883,synonym,wfo-0001108956,2024-08-13,2024-12-16
 wfo-1000067359,Isoetes phaeospora,Durieu,species,NA,NA,Bulletin de la Soci?t? Botanique de France 11 (1864),synonym,wfo-0001331329,2024-08-13,2025-03-19
-wfo-1000067360,Isoetes phrygia,(Boiss.) Hausskn.,species,wfo-4000019273,valid,Mitt. Thüring. Bot. Vereins 13: 72 (1899),accepted,NA,2024-08-13,2025-04-03
+wfo-1000067360,Isoetes phrygia,(Boiss.) Hausskn.,species,wfo-4000019273,valid,Mitth. Thüring. Bot. Vereins 13: 72 (1899),accepted,NA,2024-08-13,2025-08-03
 wfo-1000067362,Isoetes stephanseniae,A.V.Duthie,species,wfo-4000019273,valid,Trans. Roy. Soc. South Africa 17: 330 (1929),accepted,NA,2024-08-13,2025-03-19
 wfo-1200101573,Isoetes taiwanensis var. kinmenensis,"F.Y.Lu, H.H.Chen & Y.L.Hsueh",variety,wfo-0001107324,valid,Fl. Kinmen 1: 26 (2011),accepted,NA,2024-08-13,2025-03-19
 wfo-1200101574,Japanobotrychum lanuginosum var. nepalense,Nishida,variety,NA,NA,J. Jap. Bot. 41: 319 (1997),synonym,wfo-0000147691,2024-08-13,2025-03-19
@@ -72282,7 +72282,7 @@ wfo-1000070060,Elaphoglossum simplex,(Sw.) Schott,species,wfo-4000013129,valid,G
 wfo-1200105072,Equisetum arvense subsp. arvense,NA,subspecies,wfo-0001108914,valid,Sp. Pl. 2: 1061 (1753),accepted,NA,2024-08-14,2024-12-16
 wfo-1200105074,Goniophlebium amoenum,(Wall. ex Mett) J.Sm.,species,wfo-4000016002,valid,"Hook. & Baker, Gen. Fil. t. 51 (1840)",accepted,NA,2024-08-14,2024-12-16
 wfo-1200105075,Goniophlebium wattii,(Bedd.) Panigrahi,species,wfo-4000016002,valid,"Abstr. 20th Ann. Conf., Pl. Sci. Res. Orissa 54 (1996)",accepted,NA,2024-08-14,2025-03-05
-wfo-1200105076,Goniopteris poiteana,(Bory) C.Presl,species,wfo-4000016007,valid,Tent. Pterid. 183 (1836),accepted,NA,2024-08-14,2024-12-16
+wfo-1200105076,Goniopteris poiteana,(Bory) C.Presl,species,wfo-4000016007,valid,Tent. Pterid. 183 (1836),accepted,NA,2024-08-14,2025-08-03
 wfo-1200105077,Goniopteris riograndensis,(Lindm.) Ching,species,wfo-4000016007,valid,Sunyatsenia 5: 239 (1940),accepted,NA,2024-08-14,2025-03-19
 wfo-1200105078,Hymenophyllum crispatum,Wall.,species,wfo-4000018687,valid,Numer. List [Wallich] n. 169 (1829),accepted,NA,2024-08-14,2025-03-19
 wfo-1200105079,Hymenophyllum schomburgkii,C.Presl ex J.W.Sturm,species,wfo-4000018687,valid,"Mart., Fl. Bras. 1(2): 290 (1859)",accepted,NA,2024-08-14,2024-12-16
@@ -72726,7 +72726,7 @@ wfo-1200106231,Asplenium ruta-muraria prol. multicaule,(C.Presl) Rouy,prole,NA,N
 wfo-1200106232,Asplenium ruta-muraria var. angustifolium,Haller ex Christ,variety,NA,NA,Hedwigia 42: 159 (1903),synonym,wfo-0001407497,2024-09-12,2024-12-16
 wfo-1200106233,Asplenium ruta-muraria var. microphyllum,Wallr.,variety,NA,NA,Fl. Crypt. Germ. 1: 22 (1831),synonym,wfo-0001407497,2024-09-12,2024-12-16
 wfo-1200106234,Asplenium ruta-muraria var. pseudogermanicum,Heufl.,variety,NA,NA,Verh. Zool.-Bot. Vereins Wien 1856: 338 (1856),synonym,wfo-0001407497,2024-09-12,2024-12-16
-wfo-1200106236,Asplenium scolopendrium var. americanum,"(Fernald) Reichst., Rasbach & Viane",variety,NA,illegitimate,Biol. Jaarb. 59: 162 (1991),synonym,wfo-1200041314,2024-09-12,2025-01-09
+wfo-1200106236,Asplenium scolopendrium var. americanum,"(Fernald) Reichst., Rasbach & Viane",variety,NA,illegitimate,Biol. Jaarb. 59: 162 (1992),synonym,wfo-1200041314,2024-09-12,2025-08-03
 wfo-1200106238,Asplenium seelosii var. catalaunicum,O.Bolòs & Vigo,variety,NA,NA,Butl. Inst. Catalana Hist. Nat. 38: 64 (1974),synonym,wfo-1200102216,2024-09-12,2024-12-16
 wfo-1200106239,Asplenium seelosii var. glabrum,Litard. & Maire,variety,NA,NA,Bull. Soc. Sci. Nat. Maroc 8: 143 (1929),synonym,wfo-1200102216,2024-09-12,2024-12-16
 wfo-1200106241,Asplenium tenuifrons var. tenellum,Wall. ex T.Moore ex R.Sim,variety,NA,NA,Priced Cat. Stove Greenh. Hardy Exot. Ferns 6: 22 (1859),synonym,wfo-0001122800,2024-09-12,2024-12-16
@@ -74368,7 +74368,7 @@ wfo-1000072501,Acrostichum hirtipes,Sodiro,species,NA,illegitimate,Crypt. Vasc. 
 wfo-1000072502,Alsophila contracta,Hieron.,species,NA,illegitimate,"Hedwigia 45: 236, t. 15, f. 18 (1906)",synonym,wfo-0001410996,2024-09-13,2024-12-16
 wfo-1000072503,Acrostichum insigne,Baker,species,NA,illegitimate,J. Bot. 25: 167 (1887),synonym,wfo-0001114786,2024-09-13,2024-12-16
 wfo-1000072504,Acrostichum tenerum,Baker,species,NA,illegitimate,J. Bot. 16: 302 (1878),synonym,wfo-0001116412,2024-09-13,2024-12-16
-wfo-1000072505,Asplenium lanceolatum,Huds.,species,NA,illegitimate,Fl. Angl. ed. 2: 454 (1778),synonym,wfo-0001359203,2024-09-13,2024-12-16
+wfo-1000072505,Asplenium lanceolatum,Huds.,species,NA,illegitimate,Fl. Angl. (Hudson) (ed. 2) 2: 454 (1778),synonym,wfo-0001359203,2024-09-13,2025-08-03
 wfo-1000072506,Asplenium melanolepis,Baker,species,NA,illegitimate,J. Bot. 28: 264 (1890),synonym,wfo-0001116665,2024-09-13,2024-12-16
 wfo-1000072507,Asplenium melanolepis,Colenso,species,NA,illegitimate,Trans. & Proc. New Zealand Inst. 20: 227 (1888),synonym,wfo-1000036258,2024-09-13,2024-12-16
 wfo-1000072508,Asplenium subnudum,Baker,species,NA,illegitimate,Syst. 483 (1874),synonym,wfo-0001119812,2024-09-13,2024-12-16
@@ -74958,7 +74958,7 @@ wfo-1000073110,Asplenium coriaceum,Roxb.,species,NA,illegitimate,Calcutta J. Nat
 wfo-1000073111,Aspidium mauritianum,(Fée) Kuhn,species,NA,illegitimate,Filic. Afr. 136 (1868),synonym,wfo-1200104823,2024-09-13,2024-12-16
 wfo-1000073112,Antrophyum reticulatum,Roxb.,species,NA,illegitimate,"Griffith, Calcutta J. Nat. Hist. 4: 501 (1844)",synonym,wfo-0001128390,2024-09-13,2024-12-16
 wfo-1000073113,Asplenium trichomanoides,Lumn.,species,NA,illegitimate,Fl. Poson. 1020 (1791),synonym,wfo-0001425744,2024-09-13,2024-12-16
-wfo-1000073114,Asplenium lanceolatum,Peter,species,NA,illegitimate,"Repert. Spec. Nov. Regni Veg., Beiheft 40,1: 72, Anhang: 5, t. V, fig. 3 (1929)",synonym,wfo-0000158250,2024-09-13,2024-12-16
+wfo-1000073114,Asplenium lanceolatum,Peter,species,NA,illegitimate,Repert. Spec. Nov. Regni Veg. Beih. 40(1): 72 (1929),synonym,wfo-0000158250,2024-09-13,2025-08-03
 wfo-1000073115,Asplenium consimile,J.J.Veitch,species,NA,illegitimate,Cat. New Beautiful Pl. 1863: 8 (1863),synonym,wfo-0000159505,2024-09-13,2024-12-16
 wfo-1000073116,Acrostichum australe,Vahl,species,NA,illegitimate,"Symbolae botanicae 1: 84, pl. 25 (1790)",synonym,wfo-0001107816,2024-09-13,2024-12-16
 wfo-1000073117,Acrostichum viviparum,Buch.-Ham. ex Spreng.,species,NA,illegitimate,Linnaeus Syst. Veg. 4: 36 (1827),synonym,wfo-0000146778,2024-09-13,2024-12-16
@@ -75087,7 +75087,7 @@ wfo-1000073244,Asplenium coriaceum,Bory,species,NA,NA,Voy. Indes Or. [Bélanger]
 wfo-1000073245,Asplenium cuneatum,Hook. & Grev.,species,NA,NA,Icon. Filic. t.189 (1830),synonym,wfo-0001425745,2024-09-13,2025-03-19
 wfo-1000073246,Asplenium cuneatum,W.J.Rob,species,NA,NA,non Lam.,synonym,wfo-0001109325,2024-09-13,2024-12-16
 wfo-1000073247,Asplenium dubium,Gaudich.,species,NA,NA,Voy. Uranie [Freycinet] 314 (1828),synonym,wfo-0001219237,2024-09-13,2025-03-19
-wfo-1000073248,Asplenium dulongjiangense,Viane,species,NA,NA,Biol. Jaarb. 59: 160 (1991),synonym,wfo-1200102163,2024-09-13,2025-03-19
+wfo-1000073248,Asplenium dulongjiangense,Viane,species,NA,superfluous,Biol. Jaarb. 59: 160 (1992),synonym,wfo-1200102163,2024-09-13,2025-08-03
 wfo-1000073249,Asplenium ensiforme,Wall.,species,NA,NA,Numer. List [Wallich] n. 200 (1829),synonym,wfo-0001116665,2024-09-13,2025-03-19
 wfo-1000073250,Asplenium finlaysonianum,Wall.,species,NA,NA,Numer. List [Wallich] n. 191 (1829),synonym,wfo-0000159283,2024-09-13,2025-03-19
 wfo-1000073251,Asplenium firmum,Fée,species,NA,NA,"Mém. Foug., 5. Gen. Filic. 197 (1852)",synonym,wfo-0000158298,2024-09-13,2025-03-19
@@ -77395,3 +77395,4 @@ wfo-1200113601,Asplenium adiantum-nigrum var. cuneifolium,(Viv.) Pollini,variety
 wfo-1200113632,Grypothrix pseudoliukiuensis,(Seriz.) Z.H.Feng,species,NA,valid,Plant 13(2): 94 (2025),unchecked,NA,2025-07-30,2025-07-30
 wfo-1200113707,Pteris scalaris,Mett.,species,NA,valid,Abh. Senckenberg. Naturf. Ges. 2(2): 282 (1858),unchecked,NA,2025-07-30,2025-07-30
 wfo-1000082800,Leptochilus heterophyllus,(S.K.Wu & L.K.Phan) R.Kr.Singh & V.K.Rawat,species,NA,valid,J. Biodivers. Conservation 9(2): 74 (2025),unchecked,NA,2025-07-30,2025-07-30
+wfo-1200113873,Aspidium rotundatum,Vahl ex Hornem.,species,NA,valid,De Indole Pl. Guin. 8 (1819),unchecked,NA,2025-08-03,2025-08-03
