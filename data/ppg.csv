@@ -25610,7 +25610,7 @@ wfo-0001114002,Hemiphlebium membranaceum,(L.) Prantl,species,NA,NA,Unters. Morph
 wfo-0001114003,Lecanolepis membranacea,(L.) Pic.Serm.,species,NA,NA,Webbia 28(2): 449 (1973),synonym,wfo-0001112274,2022-04-16,2024-12-16
 wfo-0001114004,Trichomanes schaffneri,Schltdl.,species,NA,NA,Linnaea 26(3): 368 (1854),synonym,wfo-0001114005,2022-04-16,2025-03-19
 wfo-0001114005,Didymoglossum petersii,(A.Gray) Copel.,species,wfo-4000011648,valid,Philipp. J. Sci. 67: 78 (1938),accepted,NA,2022-04-16,2024-12-16
-wfo-0001114006,Neuromanes pinnatum,(Hedw.) Trevis.,species,NA,NA,Herb. Crypt. Trevis. 4 1851,synonym,wfo-0001109611,2022-04-16,2022-04-20
+wfo-0001114006,Neuromanes pinnatum,(Hedw.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 4 (1851),synonym,wfo-0001109611,2022-04-16,2025-09-18
 wfo-0001114007,Trichomanes sinuosum,Rich. ex Willd.,species,NA,NA,"Sp. Pl., ed. 4 [Willdenow] 5: 502 (1810)",synonym,wfo-0001108976,2022-04-16,2025-03-19
 wfo-0001114008,Trichomanes mexicanum,Bosch,species,NA,NA,Ned. Kruidk. Arch. 5(2): 164 (1861),synonym,wfo-0001112225,2022-04-16,2025-03-19
 wfo-0001114009,Lomaria arguta,Fée,species,NA,NA,Mém. Foug. 8: 70 1857,synonym,wfo-0001113086,2022-04-16,2024-12-16
@@ -28051,7 +28051,7 @@ wfo-0001116462,Polypodium brevifolium,Lodd.; Link,species,NA,NA,Hort. Berol. [Li
 wfo-0001116463,Equisetum arcticum,Rupr.,species,NA,NA,Beitr. Pflanzenk. Russ. Reiches 21 1845,synonym,wfo-1200105072,2022-04-16,2024-12-16
 wfo-0001116464,Equisetum majus,Garsault,species,NA,NA,"Descr. Vertus Pl. 2: 166, t. 258A (1767)",synonym,wfo-0001108925,2022-04-16,2025-03-19
 wfo-0001116465,Equisetum ramosum,Schleich. ex DC.,species,NA,superfluous,"Fl. Franc. [de Candolle & Lamarck], ed. 3. 6: 245 (1815)",synonym,wfo-0001107314,2022-04-16,2025-03-19
-wfo-0001116466,Equisetum elongatum,Willd.,species,NA,NA,Sp. Pl. 5: 8 1810,synonym,wfo-0001107314,2022-04-16,2024-12-16
+wfo-0001116466,Equisetum elongatum,Willd.,species,NA,valid,"Sp. Pl., ed. 4. 5: 8 (1810)",synonym,wfo-0001107314,2022-04-16,2025-09-18
 wfo-0001116467,Selaginella spinulosa,A.Braun ex Döll,species,wfo-4000034966,valid,Rhein. Fl. 38 (-39) (1843),accepted,NA,2022-04-16,2024-12-16
 wfo-0001116468,Lycopodium boreale,Kaulf.,species,NA,NA,Enum. Filic. 17 (-18) (1824),synonym,wfo-0001226418,2022-04-16,2025-03-19
 wfo-0001116469,Selaginella aitchisonii,Hieron.,species,wfo-4000034966,valid,Nat. Pflanzenfam. [Engler & Prantl] 1(4): 674 (1901),accepted,NA,2022-04-16,2025-03-19
@@ -39380,7 +39380,7 @@ wfo-0001127854,Aspidium scolopendrioides var. incisum,(Sw.) Mett.,variety,NA,NA,
 wfo-0001127855,Cystopteris alata,Ching,species,NA,NA,Fl. Tsinling. 2: 211 (1974),synonym,wfo-0001117796,2022-04-16,2024-12-16
 wfo-0001127856,Lunathyrium kanghsienense,Ching & Y.P.Hsu,species,NA,NA,Fl. Tsinling. 2: 212 (1974),synonym,wfo-0001337410,2022-04-16,2024-12-16
 wfo-0001127857,Lunathyrium ningshenense,Ching,species,NA,NA,Fl. Tsinling. 2: 213 (1974),synonym,wfo-0001226852,2022-04-16,2024-12-16
-wfo-0001127858,Isoetes sinensis,T.C.Palmer,species,wfo-4000019273,valid,Amer. Fern J. 17: 111 (1927),accepted,NA,2022-04-16,2024-12-16
+wfo-0001127858,Isoetes sinensis,T.C.Palmer,species,wfo-4000019273,valid,Amer. Fern J. 17: 111 (1927),accepted,NA,2022-04-16,2025-09-18
 wfo-0001127859,Elaphoglossum glabratum,(Mett.) T.Moore,species,wfo-4000013129,valid,Index Fil. (T.Moore) 17-18: 357 (1862),accepted,NA,2022-04-16,2025-03-19
 wfo-0001127860,Allantodia parawichurae,Ching,species,NA,NA,Jiang su zhi wu zhi (Rec. Fl. Jiangsu (Kiangsu) Prov.) 1: 465 (1977),synonym,wfo-0001384890,2022-04-16,2025-03-19
 wfo-0001127861,Asplenium kobayashii,Tagawa,species,NA,NA,Acta Phytotax. Geobot. 1(4): 309 (1932),synonym,wfo-0001122427,2022-04-16,2025-03-19
@@ -61890,7 +61890,7 @@ wfo-4000013875,Eriosonia,Pic.Serm.,genus,NA,valid,Webbia 31(1): 242. 1977.,synon
 wfo-4000013876,Eriosoriopsis,(Kitag.) Ching & S.H.Wu,genus,NA,NA,Fern Fam. Gen. China 402 (1991),synonym,wfo-4000040814,2022-04-16,2025-03-19
 wfo-4000013877,Eriosorus,Fée,genus,NA,NA,"Mém. Foug., 5. Gen. Filic. 152 (1852)",synonym,wfo-4000019485,2022-04-16,2025-03-19
 wfo-4000014020,Eschatogramme,Trevisan.,genus,NA,NA,Dansk Bot. Ark. 6(3): 34-38 (1929),synonym,wfo-4000030272,2022-04-16,2025-04-09
-wfo-4000014240,Eupodium,J.Sm.,genus,wfo-7000000362,valid,J. Bot. (Hooker) 3: 318 (1841),accepted,NA,2022-04-16,2025-03-19
+wfo-4000014240,Eupodium,J.Sm.,genus,wfo-7000000362,valid,J. Bot. (Hooker) 4: 190 (1841),accepted,NA,2022-04-16,2025-09-19
 wfo-4000014247,Eupteris,Newman,genus,NA,NA,Phytologist 2: 278 (1845),synonym,wfo-4000031876,2022-04-16,2024-12-16
 wfo-4000014537,Fadyenia,Hook.,genus,NA,NA,Gen. Fil. (Hooker) 1840.,synonym,wfo-4000037670,2022-04-16,2024-06-04
 wfo-4000014645,Feea,Bory,genus,NA,NA,Dict. Class. Hist. Nat. [Bory] 6: 446 (1824),synonym,wfo-4000039008,2022-04-16,2025-03-19
@@ -70385,7 +70385,7 @@ wfo-1200103980,Onychium cryptogrammoides subsp. cryptogrammoides,Christ,subspeci
 wfo-1200103981,Onychium cryptogrammoides subsp. fragile,(S.C.Verma & Khullar) Fraser-Jenk. & Matsumoto,subspecies,wfo-0001123956,valid,Ferns and Fern-allies of Nepal 1: 291 (2015),accepted,NA,2024-08-13,2024-12-16
 wfo-1200103982,Onychium japonicum var. intermedium,C.B.Clarke,variety,NA,NA,"Trans. Linn. Soc. London, Bot., ser. 2, 1: 457 (1880)",synonym,wfo-1200103980,2024-08-13,2024-12-16
 wfo-1200103983,Ophioderma pendula f. ramosa,Nakai,form,NA,NA,NA,synonym,wfo-0001109728,2024-08-13,2024-12-16
-wfo-1000069162,Ophioderma subsessile,Amoroso & Coritico,species,wfo-4000026936,valid,Philipp. J. Sci. 150 (S1): 216 (2020),accepted,NA,2024-08-13,2024-12-16
+wfo-1000069162,Ophioderma subsessile,Amoroso & Coritico,species,wfo-4000026936,valid,Philipp. J. Sci. 150(S1): 216 (2021),accepted,NA,2024-08-13,2025-09-18
 wfo-4100004505,Ophioglosseae,Hook. & Lindl. ex Duby,tribe,NA,NA,Bot. Gall. 1: 536 (1828),synonym,wfo-6500000518,2024-08-13,2024-12-16
 wfo-1200103984,Ophioglossum inconspicuum f. majus,Alderw.,form,NA,NA,Bull. Dépt. Agric. Indes Néerl. 21: 9 (1908),synonym,wfo-0001115188,2024-08-13,2024-12-16
 wfo-1000069163,Ophioglossum konkanense,S.Patil & M.Dongare,species,NA,NA,Field Guide Pterid. Northern W. Ghats: 130 (2017),synonym,wfo-0001115190,2024-08-13,2024-12-16
@@ -72375,7 +72375,7 @@ wfo-1200106030,Polypodium vulgare subvar. alatum,NA,subvariety,NA,NA,50 (1900),s
 wfo-1200106031,Cyrtomium caryotideum subvar. hastosum,NA,subvariety,NA,NA,Mém. Soc. Bot. France 1 [Hist. Acrostich.]: 32-33 (1905),synonym,wfo-0001108317,2024-09-05,2024-12-16
 wfo-1000071277,Vittaria sect. Haplopteris,(C.Presl) Ching,section,NA,NA,Sinensia 1: 176 (1931),synonym,wfo-4000016887,2024-09-05,2024-12-16
 wfo-1000071278,Todea sect. Leptopteris,(C.Presl) T.Moore,section,NA,NA,Index Fil. [T. Moore] 120 (1857),synonym,wfo-4000021324,2024-09-05,2024-12-16
-wfo-1000071279,Lomaria Plagiogyria,NA,species,NA,NA,"Farnkräuter 2: 61, 63 (1850)",synonym,wfo-4000029986,2024-09-05,2024-12-16
+wfo-1000071279,Lomaria sect. Plagiogyria,Kunze,section,NA,valid,"Farrnkräuter 2: 61, 63 (1850)",synonym,wfo-4000029986,2024-09-05,2025-09-18
 wfo-1000071280,Meniscium sect. Ampelopteris,NA,section,NA,NA,"Mem. Coll. Sci. Univ. Kyoto, Ser. B, Biol. 31: 39 (1964)",synonym,wfo-4000001673,2024-09-05,2024-12-16
 wfo-1000071281,Notholaena sect. Argyrochosma,J.Sm.,section,NA,NA,J. Bot. (Hooker) 4: 50 (1841),synonym,wfo-4000003007,2024-09-05,2024-12-16
 wfo-1000071282,Parathelypteris sect. Melanostipes,(C.Presl) T.Moore,section,NA,NA,Acta Phytotax. Sin. 8: 301 (1963) (p. p.),synonym,wfo-4000009422,2024-09-05,2024-12-16
@@ -74398,7 +74398,7 @@ wfo-1000072531,Asplenium rhizophyllum,(Thunb.) Kunze,species,NA,illegitimate,Lin
 wfo-1000072532,Acrostichum heterophyllum,Raddi,species,NA,illegitimate,"Pl. Bras. 1: 5, t. 17 (1825)",synonym,wfo-0001346651,2024-09-13,2024-12-16
 wfo-1000072533,Acrostichum crinitum,M.Martens & Galeotti,species,NA,illegitimate,Mém. Acad. Roy. Sci. Bruxelles 16: 25 (1842),synonym,wfo-0001109108,2024-09-13,2024-12-16
 wfo-1000072534,Acrostichum lanceolatum,(Fée) Hook.,species,NA,illegitimate,Sp. 6: 276 (1864),synonym,wfo-0001117264,2024-09-13,2024-12-16
-wfo-1000072535,Asplenium trichomanes,Thunb.,species,NA,illegitimate,Fl. Jap. 334 (1794),synonym,wfo-0001114556,2024-09-13,2024-12-16
+wfo-1000072535,Asplenium trichomanes,Thunb.,species,NA,valid,Fl. Jap. (Thunberg) 334 (1784),synonym,wfo-0001114556,2024-09-13,2025-09-19
 wfo-1000072536,Acrostichum marginatum,Wall. ex Fée,species,NA,illegitimate,Acrost. 31 (1845),synonym,wfo-0001125335,2024-09-13,2024-12-16
 wfo-1000072537,Acrostichum dichotomum,Forssk.,species,NA,illegitimate,Fl. Aegypt.-Arab. 184 (1775),synonym,wfo-0001107816,2024-09-13,2024-12-16
 wfo-1000072538,Acrostichum aculeatum,(Blume) Racib.,species,NA,illegitimate,Fl. Buitenz. 1: 53 (1898),synonym,wfo-0001257046,2024-09-13,2024-12-16
@@ -74784,7 +74784,7 @@ wfo-1000072933,Aspidium pilosulum,Klotzsch & H.Karst.,species,NA,NA,"Kunze, Linn
 wfo-1000072935,Aspidium rufescens,(C.Presl) Kaulf.,species,NA,NA,"Sieb., Syn. Fil. exs. nr. 187 (1827)",synonym,wfo-0001109383,2024-09-13,2024-12-16
 wfo-1000072937,Acrostichum incisum,(Link) Hook.,species,NA,NA,Sp. Fil. 5: 245 (1864),synonym,wfo-0001113748,2024-09-13,2024-12-16
 wfo-1000072938,Allosorus alabamensis,(Buckley) Farw.,species,NA,NA,Amer. Midl. Naturalist 12: 284 (1911),synonym,wfo-0001337785,2024-09-13,2024-12-16
-wfo-1000072939,Allosorus gracilis,(Michx.) Farw.,species,NA,NA,Mich. Acad. Sci. Rep. 21: 345 (1919),synonym,wfo-0001107262,2024-09-13,2024-12-16
+wfo-1000072939,Allosorus gracilis,(Fée) Farw.,species,NA,illegitimate,Rep. (Annual) Michigan Acad. Sci. 21: 345 (1920),synonym,wfo-0001107262,2024-09-13,2025-09-19
 wfo-1000072941,Aspidium cochleatum,(D.Don) Christ,species,NA,NA,Bull. Herb. Boissier 6: 967 (1898),synonym,wfo-0001115265,2024-09-13,2024-12-16
 wfo-1000072942,Aspidium glanduliferum,(Brack.) Kuhn,species,NA,NA,Verh. K. K. Zool.-Bot. Ges. Wien 19: 577 (1869),synonym,wfo-0000152800,2024-09-13,2024-12-16
 wfo-1000072943,Asplenium bipinnatum,(Sledge) Azeez & Madhus.,species,NA,NA,"Spleenworts S. India 122, fig. 9A-E, t. 12 A-E (2008)",synonym,wfo-0000157972,2024-09-13,2024-12-16
@@ -75261,7 +75261,7 @@ wfo-1000073421,Lindsaea seemannii,Carruth.,species,NA,NA,"Seem., Fl. Vit. 338 (1
 wfo-1000073422,Cyathea jamaicensis,Baker,species,NA,NA,Ann. Bot. 6: 184 (1891),synonym,wfo-0001124990,2024-09-13,2024-12-16
 wfo-1000073423,Cyathea straminea,(A.Gepp) Alderw.,species,NA,NA,"Bull. Jard. Bot. Buitenzorg, sér. 2, 28: 14 (1918)",synonym,wfo-0001255017,2024-09-13,2024-12-16
 wfo-1000073424,Marsilea villosa,Burch. ex Bremek. & Oberm.,species,NA,NA,Ann. Transvaal Mus. 16: 400 (1935),synonym,wfo-0001110771,2024-09-13,2024-12-16
-wfo-1000073425,Cheilanthes gracilis,(Fée) Riehl ex Mett.,species,NA,NA,"Abh. Senckenb. Naturforsch. Ges. 3, 1: 36, n. 43 (1859)",synonym,wfo-0001109848,2024-09-13,2024-12-16
+wfo-1000073425,Cheilanthes gracilis,(Fée) Riehl ex Mett.,species,NA,illegitimate,Abh. Senckenberg. Naturf. Ges. 3: 80; n. 43 (1859),synonym,wfo-0001109848,2024-09-13,2025-09-19
 wfo-1000073426,Lomaria pumila,Raoul,species,NA,NA,"Ann. Sci. Nat., Bot. III, 2: 115 (1844)",synonym,wfo-1200007369,2024-09-13,2024-12-16
 wfo-1000073427,Lomaria longifolia,Schltdl. ex M.Martens & Galeotti,species,NA,NA,Mém. Acad. Roy. Sci. Bruxelles 15: 49 (1842),synonym,wfo-0001346921,2024-09-13,2024-12-16
 wfo-1000073428,Lycopodium pygmaeum,Zoll. & Moritz,species,NA,NA,"Naturk. Arch. Neerl. Ind. 2: 207, no. 1 (1845)",synonym,wfo-1000064260,2024-09-13,2024-12-16
@@ -75760,7 +75760,7 @@ wfo-1000073948,Dennstaedtia concinna,Rosenst.,species,NA,NA,Hedwigia 66: 349 (19
 wfo-1000073949,Coniogramme japonica,(Thunb.) Diels ex Hieron.,species,NA,NA,Hedwigia 67: 323 (1916),synonym,wfo-0001114562,2024-09-13,2024-12-16
 wfo-1000073950,Colysis dilatata,(Wall. ex Bedd.) J.Sm.,species,NA,NA,Hist. Fil. 101 (1875),synonym,wfo-0001035943,2024-09-13,2024-12-16
 wfo-1000073951,Phymatopsis laciniata,(C.Presl) J.Sm.,species,NA,NA,Hist. Fil. 105 (1875),synonym,wfo-0000150301,2024-09-13,2024-12-16
-wfo-1000073952,Myriopteris lanuginosa,(Nutt. ex Hook.) J.Sm.,species,NA,NA,Hist. Fil. 280 (1875),synonym,wfo-0001109848,2024-09-13,2024-12-16
+wfo-1000073952,Myriopteris lanuginosa,(Nutt. ex Hook.) J.Sm.,species,NA,illegitimate,Hist. Fil. 280 (1875),synonym,wfo-0001109848,2024-09-13,2025-09-19
 wfo-1000073953,Lycopodium plumosum,Dill.,species,NA,NA,"Hist. Musc., t. 66, f. 10 (1714)",synonym,wfo-0001119983,2024-09-13,2024-12-16
 wfo-1000073954,Nephrodium deflexum,J.Sm.,species,NA,NA,"Hook. & Baker, Syn. 292, in adnota (1867)",synonym,wfo-0000151982,2024-09-13,2024-12-16
 wfo-1000073955,Hymenophyllum spectabile,Moritz,species,NA,NA,"Hook. & Baker, Syn. 65 (1867)",synonym,wfo-0001112194,2024-09-13,2024-12-16
@@ -76769,7 +76769,7 @@ wfo-1200107139,Lindsaea trapeziformis,Langsd. & Fisch.,species,NA,NA,"(1959), no
 wfo-1200107140,Isoetes saracochensis,H.P.Fuchs,species,NA,NA,"(1960), nom. nud.",synonym,wfo-0001269126,2024-09-16,2024-12-16
 wfo-1200107141,Grammitis capillaris,(Desv.) F.Seym.,species,NA,NA,"(1965) (nom. illeg., non Grammitis capillaris (Desv.) Proctor (1965))",synonym,wfo-0001115504,2024-09-16,2024-12-16
 wfo-1200107142,Pleopeltis subconfluens,(Ching) Tagawa & K.Iwats.,species,NA,NA,"(1967), isonym",synonym,wfo-0001122375,2024-09-16,2024-12-16
-wfo-1200107143,Bolbitis guianensis,(Aubl.) K.U.Kramer ex Vareschi,species,NA,NA,(1968 publ. 1969),synonym,wfo-0001040092,2024-09-16,2024-12-16
+wfo-1200107143,Bolbitis guianensis,(Aubl.) K.U.Kramer ex Vareschi,species,NA,valid,Fl. Venez. [Lasser] 1(1): 376 (1969),synonym,wfo-0001040092,2024-09-16,2025-09-18
 wfo-1200107144,Lastrea nervosa,(Klotzsch) Vareschi,species,NA,NA,(1968) (comb. illeg.),synonym,wfo-0001119317,2024-09-16,2024-12-16
 wfo-1200107145,Athyrium confertum,Ching,species,NA,NA,"(1976), nom. nud.",synonym,wfo-0001122774,2024-09-16,2024-12-16
 wfo-1200107146,Athyrium crassiusculum,Ching,species,NA,NA,"(1976), nom. nud.",synonym,wfo-0001122794,2024-09-16,2024-12-16
@@ -76940,7 +76940,7 @@ wfo-1000075004,Ceradenia kegeliana,(Kunze) comb. ined.,species,wfo-4000007305,va
 wfo-1000075005,Cheilanthes solitaria,(R. M. Tryon) comb. ined.,species,wfo-4000007749,valid,NA,accepted,NA,2024-09-16,2024-12-16
 wfo-1000075006,Christella cuneata,(K. H. Shing) comb. ined.,species,wfo-4000008133,valid,NA,accepted,NA,2024-09-16,2024-12-16
 wfo-1200107305,Christella hispidula var. versicolor,(R.P.St.John) comb.ined.,variety,wfo-0001114709,valid,NA,accepted,NA,2024-09-16,2024-12-16
-wfo-1000075007,Christella thailandica,(S. Linds.) comb. ined.,species,wfo-4000008133,valid,NA,accepted,NA,2024-09-16,2024-12-16
+wfo-1000075007,Christella thailandica,(S.Linds.) R.Ojha,species,wfo-4000008133,valid,Phytotaxa 712(3): 298 (2025),accepted,NA,2024-09-16,2025-09-18
 wfo-1000075008,Coryphopteris changbaishanensis,(Ching ex K. H. Shing) comb. ined.,species,wfo-4000009422,valid,NA,accepted,NA,2024-09-16,2024-12-16
 wfo-1000075009,Coryphopteris quinlingensis,(Ching ex K. H. Shing) comb. ined.,species,wfo-4000009422,valid,NA,accepted,NA,2024-09-16,2024-12-16
 wfo-1200107306,Crepidomanes parvulum var. mascarenensis,(Pynee & Dubuisson) comb.ined.,variety,wfo-1000026526,valid,NA,accepted,NA,2024-09-16,2024-12-16
@@ -77430,3 +77430,39 @@ wfo-1200114028,Dryopteris complexa var. contorta,(Fraser-Jenk.) Fraser-Jenk.,var
 wfo-1200114029,Dryopteris complexa f. Dryopteris,(Fraser-Jenk.) Fraser-Jenk.,form,NA,valid,Fern Gaz. 22(5): 237 (2024),unchecked,NA,2025-08-15,2025-08-20
 wfo-1200114030,Dryopteris complexa f. Dryopteris,(S.Jess. & Bujnoch) Fraser-Jenk.,form,NA,valid,Fern Gaz. 22(5): 237 (2024),unchecked,NA,2025-08-15,2025-08-20
 wfo-1200114040,Polypodium lineatum,Colebr. ex A.Braun,species,NA,valid,Z. Deutsch. Geol. Ges. 4(3): 557 (1852),unchecked,NA,2025-08-15,2025-08-20
+wfo-1000083525,Christella clavata,(K.H.Shing) R.Ojha,species,NA,valid,Phytotaxa 712(3): 298 (2025),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083526,Polystichum hirtum,(Sw.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 7 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083527,Polystichum nemorosum,(Willd.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 7 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083528,Polystichum pauciflorum,(Kaulf.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 7 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083529,Polystichum subincisum,(Willd.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 8 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083530,Sphaerocionium asplenioides,(Sw.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 3 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083531,Sphaerocionium subtilissimum,(Kunze) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 4 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083532,Sphaerocionium poeppigianum,(C.Presl) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 4 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083533,Neuromanes spectabile,(Klotzsch) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 4 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083534,Schizoloma membranaceum,(Kunze) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 8 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083535,Acrostichum integrifolium,(Kaulf.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 13 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083536,Phymatodes willdenowii,(Bory) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 12 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083537,Pteris allosorus,Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 11 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083538,Polystichum serra,(Sw.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 7 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083545,Didymoglossum radiatum,"Chokrass., Kraichak & Jaruwatt.",species,NA,valid,PhytoKeys 261: 61 (2025),unchecked,NA,2025-09-18,2025-09-18
+wfo-1200114085,Polypodium vulgare var. bifidum,R.Sim,variety,NA,valid,Florist Gard. Misc. 1850: 230 (1850),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083619,Polypodium macropus,Kunze ex A.Braun,species,NA,valid,Z. Deutsch. Geol. Ges. 4(3): 555 (1852),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083620,Aspidium fecundum,Wall. ex A.Braun,species,NA,valid,Z. Deutsch. Geol. Ges. 4(3): 560 (1852),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083628,Diplazium clivicolum,H.J.Wei & Z.Y.Zuo,species,NA,valid,PhytoKeys 261: 128 (2025),unchecked,NA,2025-09-18,2025-09-18
+wfo-1200114209,Lygodium palmatum subsp. puskariorum,Metzgar,subspecies,NA,valid,PhytoKeys 262: 36 (2025),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083908,Leptochilus phanerophlebius,"Liang Zhang, Z.L.Liang & Zhi Y.Yu",species,NA,valid,Phytotaxa 716(2): 132 (2025),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083911,Polybotrya lowii,R.Hogg & J.Spencer,species,NA,valid,Florist & Pomol. 1862: 42 (1862),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083924,Polystichum polyphyllum,(Kaulf.) Trevis.,species,NA,illegitimate,Herb. Crypt. Trevis. 1: 7 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083925,Aspidium haenkeanum,(C.Presl) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 7 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083926,Polystichum oppositum,(Kaulf. ex Spreng.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 7 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083929,Sphaerocionium obtusum,(Hook. & Arn.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 3 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083930,Leptocionium serrulatum,(C.Presl) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 4 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083931,Neuromanes vittaria,(DC. ex Poir.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 4 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083932,Acrostichum variabile,(Willd.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 13 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083933,Cyclophorus rupestris,(R.Br.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 11 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083934,Marginaria lepidopteris,(Langsd. & Fisch.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 12 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083935,Selaginella dregei,(C.Presl) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 16 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1000083937,Blechnum cyatheoides,(Kaulf.) Trevis.,species,NA,valid,Herb. Crypt. Trevis. 1: 9 (1851),unchecked,NA,2025-09-18,2025-09-18
+wfo-1200114301,Cheilanthes lanuginosa,Nutt. ex Hook. & Baker,species,NA,illegitimate,Syn. Fil. (Hooker & Baker) 139 (1868),unchecked,NA,2025-09-18,2025-09-18
+wfo-1200114360,Adiantum tinctum,Veitch ex R.Hogg & J.Spencer,species,NA,valid,Florist & Pomol. 1862: 143 (1862),unchecked,NA,2025-09-18,2025-09-18
+wfo-4100006189,Eupodium,J.Sm. ex Hook.,genus,wfo-7000000362,valid,Gen. Fil. [Hooker] t. 118 (1842),accepted,NA,2025-09-19,2025-09-19
