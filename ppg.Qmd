@@ -26,6 +26,108 @@ conflicted::conflict_prefer("filter", "dplyr")
 tar_load(c(ppg_tl, ppg, families_in_phy_order), store = here::here("_targets"))
 ```
 
+##
+
+Pteridophytes (ferns and lycophytes) are a globally important group of plants.
+Early taxonomic classification of pteridophytes relied on characteristics of spores and sporangia.
+After Darwin's theory of evolution became widely recognized, taxonomists sought to recognize natural groups, i.e., clades.
+Understanding of the phylogentic relationships of ferns and lycophytes were revolutionized by DNA sequencing, starting with the plastid *rbcL* gene.
+In particular, DNA analysis revealed that ferns are sister to seed plants (thus "pteridophytes" are not a natural group) and that horsetails and whisk ferns are not merely "fern allies" but nested within ferns.
+The first major taxonomic revision of the molecular era was Smith et al (2006), but this only treated taxa at the level of family and higher.
+The next major taxonomy was Pteridophyte Phylogeny Group (PPG) I (2016), which extended the taxonomic scope to genera.
+PPG I was remarkable for its community-based approach, which sought to obtain consensus among the expert community by including nearly 90 co-authors.
+Since the publication of PPG I, taxonomic novelties and clarification of phylogenetic relationships have significantly accrued.
+Accordingly, the PPG community here puts forth a revised taxonomic system for ferns and lycophytes, PPG v2.0 (equivalently, PPG II).
+
+## Methods
+
+To enable maximal participation in taxonomic discussions and ensure that the reasons for each taxonomic decision are openly available, we have implemented a system that is to our knowledge unique amongst taxonomic communities.
+We briefly discuss this below.
+Further technical details will be made available in another publication.
+
+### Discussion forum and voting
+
+We set up a GitHub repo (https://www.github.com/pteridogroup/ppg) to solicit taxonomic proposals from the PPG community.
+We used GitHub's "issue" functionality to track and discuss proposals; GitHub issues are normally used to track bugs during software development, but we have found they work well for managing taxonomic discussions as well.
+We designed a custom issue template to ensure that all proposals include standard information such as the proposed taxon, (approximate) number of affected species, reason for the change, and citations of relevant literature.
+Anybody may submit a proposal providing they agree to our Code of Conduct and the proposal meets the following criteria: the proposal must be change relative to PPG I (2016); the proposal must only include names that have already been validly published under the International Code for Plants, Fungi, and etc.; the proposal is a change to name at the genus level or higher.
+Proposals meeting the criteria for inclusion are then subject to a discussion period of at least one month.
+During this time, anybody who agrees to our Code of Conduct may comment on the proposal.
+
+Following the discussion period, voting on proposals is conducted via Google Forms.
+For each proposal, PPG members may choose to agree, disagree, or abstain.
+Proposals receiving 2/3 agreement pass and are recognized by PPG.
+All taxonomic discussions and results of voting are available for anybody to access on our GitHub repo.
+The discussion and voting process runs continuously, with a ballot issued monthly.
+
+### Database management
+
+To maintain taxonomic data, PPG uses a database editor provided by World Flora Online (WFO), a large-scale project to provide a consensus taxonomy for all plants.
+World Flora Online relies on a network of taxonomic experts, called TENs (taxonomic expert network) to provide expert opinion on taxonomy of various plant groups.
+PPG is the TEN for ferns and lycophytes.
+As such, all taxonomic decisions made by PPG also become the taxonomy used by WFO.
+
+The database editor provided by WFO is called Rhakhis ().
+Notably, Rhakhis is taxonomy-aware; that is, it enforces taxonomic rules, for example, that synonyms must map on to an accepted name (not another synonym).
+Furthermore, Rhakhis is available as a live, web-based database.
+This means that PPG members can collaboratively edit the data in real-time, with no need for synchronizing database files across multiple machines.
+
+The initial version of the database a copy of the World Ferns database provided by Michael Hassler.
+It was imported into Rhakhis and edited to reflect taxonomic proposals that passed voting.
+
+## Results
+
+The higher taxonomic levels of PPG II are largely unchanged compared to PPG I: we recognize two classes of pteridophytes: Lycopodiopsida (lycophytes) and Polypodiopsida (ferns).
+Notably, these two classes are distinct lineages; ferns are actually more closely related to seed plants than they are to lycophytes.
+However, lycophytes and ferns have historically been studied together as seed-free vascular plants and we continue in that tradition.
+Recognition of four subclasses, 14 orders, and six suborders is also the same between PPG I and II.
+
+Changes to PPG II become apparent at the level of family, where 53 families are recognized versus 51 in PPG I (Table 1).
+The number of subfamilies and genera are also larger in PPG II vs. PPG I (39 vs. 28 and 374 vs. 337, respectively).
+Most taxonomic changes are additions of new names, i.e., splitting (Table 2).
+A smaller number of changes are subsumption of existing names, i.e., lumping (Table 2).
+
+## Discussion
+
+### An open, community-based approach to taxonomy
+
+PPG is unique in its open, community-based approach to taxonomy.
+To our knowledge, no other taxonomic group exists with a similar number of members that makes its discussions and results completely transparent and available.
+It is our hope that this approach has, and will continue to, result in a high-quality taxonomy that is widely used by stakeholders spanning a broad range of backgrounds, including researchers, conservationists, local botanists, curators, teachers, and others.
+This is not to say that the community approach is not without shortcomings.
+In some cases, unilateral decisions may result in a more standardized system (such as the evolutionary depth at which to recognize various taxa above the rank of species).
+However, during the discussion period, we have frequently seen participants engaging in discussions where the proposed circumscription is compared with previous cases and the arguments for and against are presented.
+We are confident that ours is a self-correcting system that ultimately results in a taxonomy that most closely aligns with consensus expert opinion, and is therefore worthwhile to be used by the broader botanical community.
+One clear benefit of the community approach is the ability to keep up with the rapid pace of systematic research.
+We live in an age where the generation of data far exceeds the ability of any single individual to comprehensively track such a large and heterogeneous group as pteridophytes.
+The community approach allows us to distribute the workload and stay abreast of the latest advances in the systematics of pteridophytes, which leads to a continuously updated, maximally useful taxonomy.
+
+### Areas of uncertainty
+
+There are still parts of the pteridophyte taxonomy that need resolution.
+One complicated case concerns *Lecanopteris* and related lineages.
+Recent phylogenies show that *Lecanopteris* is nested within a clade that includes taxa formerly placed in *Microsorum*, but that this clade is distinct from the lineage containing the type species of *Microsorum*.
+During voting, multiple competing proposals were put forward, including recognition of *Lecanopteris* sensu stricto and recognition of separate genera for each of the former *Microsorum* lineages, as well as a broadly circumscribed *Lecanopteris* that would subsume the former *Microsorum* lineages.
+Ultimately, *Lecanopteris* sensu lato was rejected, but only one of the segregate generea, *Bosmania* was recognized, leaving *Microsorum* paraphyletic.
+We anticipate that further systematic studies of this group will provide more robust results that will eventually allow for a recognition of monophyletic genera.
+
+One advantage of the current approach is that a taxonomic proposal may submitted at any time, and proposals that did not pass may be revisited in the future.
+Furthermore, the taxonomy can be updated and circulated online (see Next Steps) with a much greater frequency than possible under a model of only publishing each version as a scientific paper.
+This will allow us to revisit taxonomic areas of uncertainty and revise them as soon as new data come to light.
+
+### Next steps
+
+A major difference in approach between PPG I and PPG II is that further updates to PPG II will be made online instead as a full scientific paper.
+Starting with PPG II (PPG 2.0.0), we are implementing a semantic versioning system, where the smallest digit indicates changes to the taxonomy at species or below, the middle digit indicates changes at the level of genus to family, and the largest digit indicates major changes (order and higher, or major rearrangements of the taxonomic hierarchy). 
+We anticipate that updates (new versions) will be published much more frequently than the time that has elapsed between PPG I and PPG II.
+This will greatly benefit stakeholders who need an up-to-date, standardized taxonomy for ferns and lycophytes.
+
+Another major change is that starting with PPG II, the taxonomy will include names at the level of species and below (PPG I treated only to genus).
+This amount of data is too large to include in a traditional publication so it is omitted here, but it may be found online at our website or World Flora Online.
+The large number of species (ca. 12,000 accepted names) makes it infeasible to vote on every proposed change at the species level and below.
+Therefore, we have established committees of specialists who are each responsible for maintaining taxonomic data at the species level and below for particular groups within pteridophytes (typically the genus or family level).
+This work will continue indefinitely with the publication of PPG II.
+
 ```{r}
 #| label: ppg-treatment
 #| results: asis
