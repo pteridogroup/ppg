@@ -6,5 +6,8 @@
 working
 _targets
 cron-log*
+data/*
+!data/ppg.csv
+!data/ppg.md
 
 /.quarto/
