@@ -263,6 +263,7 @@ commit_and_push <- function(modified) {
 #'   output of clean_ppg().
 #' @param families_in_phy_order A character vector of family names in
 #'   phylogenetic order (as returned by make_family_tree()).
+#' @param higher_tax_levels Character vector; taxonomic levels to include
 #'
 #' @return A tibble with columns:
 #'   \describe{
@@ -272,11 +273,10 @@ commit_and_push <- function(modified) {
 #'     \item{taxonRank}{Taxonomic rank (e.g., family, order).}
 #'     \item{indent}{Markdown-style header string for indentation.}
 #'   }
-dwc_to_tl <- function(ppg, families_in_phy_order) {
-  require(taxlist)
-
-  # Specify all higher taxonomic levels
-  higher_tax_levels_all <- c(
+dwc_to_tl <- function(
+  ppg,
+  families_in_phy_order,
+  higher_tax_levels = c(
     "class",
     "subclass",
     "order",
@@ -287,22 +287,27 @@ dwc_to_tl <- function(ppg, families_in_phy_order) {
     "subtribe",
     "genus"
   )
+) {
+  require(taxlist)
 
   # Format PPG data for printing out
   ppg_print <-
     ppg |>
     # Only keeping higher, accepted taxa
-    filter(taxonRank %in% higher_tax_levels_all) |>
+    filter(taxonRank %in% higher_tax_levels) |>
     filter(taxonomicStatus == "accepted") |>
     # TODO fix these in Rhakhis
     # Remove bad taxa
     filter(
-      taxonID != "wfo-1000070090" # Todea Bernh., PPG I has Todea Willd. ex Bernh.
+      taxonID != "wfo-1000070090", # Todea Bernh., PPG I has Todea Willd. ex Bernh.
+      taxonID != "wfo-0001114160", # Duplicate of Selaginella sanguinolenta (L.) Spring in different publication
+      taxonID != "wfo-0001110737", # Todea barbara, unplaced and lacks parent
+      taxonID != "wfo-0001118486" # Todea papuana, unplaced and lacks parent
     )
 
   # Identify higher taxonomic levels actually used
-  higher_tax_levels_used <- higher_tax_levels_all[
-    higher_tax_levels_all %in% ppg_print$taxonRank
+  higher_tax_levels_used <- higher_tax_levels[
+    higher_tax_levels %in% ppg_print$taxonRank
   ]
 
   # Convert to taxonlist format
@@ -585,4 +590,210 @@ make_initial_ppgii_supp_data <- function(ppgi_supp_data, ppg) {
       by = c("scientificName", "scientificNameAuthorship"),
       relationship = "one-to-one"
     )
+}
+
+# function for counting taxa within a group
+count_children_single <- function(tax_list, taxon, level) {
+  require(taxlist)
+
+  taxon_select <- taxon
+  level_select <- level
+
+  # Do subset without subset()
+  tax_filter <- tax_list
+  tax_filter@taxonNames <- tax_list@taxonNames[
+    tax_list@taxonNames$TaxonName == taxon_select,
+  ]
+  tax_filter <- taxlist::clean(tax_filter)
+  tax_filter <- get_children(tax_list, tax_filter)
+
+  # Now count children
+  return(taxlist::count_taxa(tax_filter, level = level_select))
+}
+
+# vectorized version of count_children_single that accepts a character vector
+# of taxa to count
+count_children <- function(tax_list, taxon, level) {
+  purrr::map_dbl(taxon, ~ count_children_single(tax_list, .x, level))
+}
+
+count_children_ppg <- function(ppg, families_in_phy_order) {
+  # Filter to accepted names and convert to taxlist
+  ppg_for_counting_tl <- dwc_to_tl(
+    ppg,
+    families_in_phy_order,
+    c(
+      "class",
+      "subclass",
+      "order",
+      "suborder",
+      "family",
+      "subfamily",
+      "tribe",
+      "genus",
+      "species"
+    )
+  )
+
+  # Also need a dataframe at genus and higher
+  ppg_for_counting_df <- taxlist::taxlist2df(ppg_for_counting_tl) |>
+    as_tibble() |>
+    janitor::clean_names() |>
+    mutate(level = as.character(level)) |>
+    filter(level != "species")
+
+  # Loop through dataframe and count number of children taxa at different
+  # levels. Exclude if the level to count equals or exceeds the target taxon.
+  ppg_for_counting_df |>
+    mutate(
+      n_species = count_children(ppg_for_counting_tl, taxon_name, "species"),
+      n_genera = case_when(
+        level == "genus" ~ NaN,
+        TRUE ~ count_children(ppg_for_counting_tl, taxon_name, "genus")
+      ),
+      n_tribe = case_when(
+        level == "genus" ~ NaN,
+        level == "tribe" ~ NaN,
+        TRUE ~ count_children(ppg_for_counting_tl, taxon_name, "tribe")
+      ),
+      n_subfamily = case_when(
+        level == "genus" ~ NaN,
+        level == "tribe" ~ NaN,
+        level == "subfamily" ~ NaN,
+        TRUE ~ count_children(ppg_for_counting_tl, taxon_name, "subfamily")
+      ),
+      n_family = case_when(
+        level == "genus" ~ NaN,
+        level == "tribe" ~ NaN,
+        level == "subfamily" ~ NaN,
+        level == "family" ~ NaN,
+        TRUE ~ count_children(ppg_for_counting_tl, taxon_name, "family")
+      ),
+      n_suborder = case_when(
+        level == "genus" ~ NaN,
+        level == "tribe" ~ NaN,
+        level == "subfamily" ~ NaN,
+        level == "family" ~ NaN,
+        level == "suborder" ~ NaN,
+        TRUE ~ count_children(ppg_for_counting_tl, taxon_name, "suborder")
+      ),
+      n_order = case_when(
+        level == "genus" ~ NaN,
+        level == "tribe" ~ NaN,
+        level == "subfamily" ~ NaN,
+        level == "family" ~ NaN,
+        level == "suborder" ~ NaN,
+        level == "order" ~ NaN,
+        TRUE ~ count_children(ppg_for_counting_tl, taxon_name, "order")
+      ),
+      n_subclass = case_when(
+        level == "genus" ~ NaN,
+        level == "tribe" ~ NaN,
+        level == "subfamily" ~ NaN,
+        level == "family" ~ NaN,
+        level == "suborder" ~ NaN,
+        level == "order" ~ NaN,
+        level == "subclass" ~ NaN,
+        TRUE ~ count_children(ppg_for_counting_tl, taxon_name, "subclass")
+      )
+    ) |>
+    select(taxonID = taxon_concept_id, contains("n_"))
+}
+
+# Helper function for format_ppg_taxa_count()
+remove_na_elements <- function(
+  lst,
+  drop_empty = FALSE,
+  coerce_character = FALSE
+) {
+  out <- lapply(lst, function(x) {
+    if (coerce_character) {
+      x <- as.character(x)
+    }
+    x[!is.na(x)]
+  })
+  if (drop_empty) {
+    out <- out[lengths(out) > 0]
+  }
+  out
+}
+
+# Helper function for format_ppg_taxa_count()
+make_rank_plural <- function(x) {
+  patterns <- c(
+    genus = "genera",
+    tribe = "tribes",
+    subfamily = "subfamilies",
+    family = "families",
+    order = "orders",
+    suborder = "suborders",
+    subclass = "subclasses"
+  )
+
+  patterns_whole <- setNames(
+    object = unname(patterns),
+    nm = paste0("\\b", names(patterns), "\\b")
+  )
+
+  str_replace_all(
+    x,
+    patterns_whole
+  )
+}
+
+format_ppg_taxa_count <- function(children_tally) {
+  children_tally |>
+    select(taxonID, starts_with("n_")) |>
+    pivot_longer(names_to = "level", values_to = "n", starts_with("n_")) |>
+    filter(!is.na(n)) |>
+    filter(n != 0) |>
+    mutate(
+      level = str_remove(level, "n_") |>
+        str_replace_all("genera", "genus"),
+      level_eng = case_when(
+        n > 1 ~ make_rank_plural(level),
+        .default = level
+      ),
+      n_eng = case_when(
+        n < 10 ~ as.character(english::english(n)),
+        .default = scales::number(n, big.mark = ",")
+      ),
+      text = glue("{n_eng} {level_eng}"),
+      text = str_replace_all(text, "one species", "monotypic")
+    ) |>
+    select(taxonID, level, text) |>
+    pivot_wider(
+      names_from = level,
+      values_from = text
+    ) |>
+    rowwise() |>
+    mutate(
+      text_list = list(do.call(
+        c,
+        list(
+          subclass,
+          order,
+          suborder,
+          family,
+          subfamily,
+          tribe,
+          genus,
+          species
+        )
+      ))
+    ) |>
+    ungroup() |>
+    mutate(text_list = remove_na_elements(text_list)) |>
+    mutate(
+      text_c = map_chr(
+        text_list,
+        ~ knitr::combine_words(words = .x)
+      ) |>
+        str_to_sentence() |>
+        str_replace_all(
+          "One genus and monotypic",
+          "Single monotypic genus"
+        )
+    ) |>
+    select(taxonID, taxon_count = text_c)
 }
