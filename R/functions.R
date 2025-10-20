@@ -286,7 +286,8 @@ dwc_to_tl <- function(
     "tribe",
     "subtribe",
     "genus"
-  )
+  ),
+  return_taxlist = TRUE
 ) {
   require(taxlist)
 
@@ -311,7 +312,8 @@ dwc_to_tl <- function(
   ]
 
   # Convert to taxonlist format
-  ppg_print |>
+  res <- 
+    ppg_print |>
     dplyr::select(
       TaxonConceptID = taxonID,
       TaxonUsageID = taxonID,
@@ -323,6 +325,12 @@ dwc_to_tl <- function(
     mutate(AcceptedName = TRUE) |>
     as.data.frame() |>
     taxlist::df2taxlist(levels = rev(higher_tax_levels_used))
+
+    if (return_taxlist) {
+      return(res)
+    }
+    
+    ppg_print    
 }
 
 #' Set Taxon Priority Order for Sorting
@@ -796,4 +804,85 @@ format_ppg_taxa_count <- function(children_tally) {
         )
     ) |>
     select(taxonID, taxon_count = text_c)
+}
+
+count_ppgi <- function(ppgi) {
+  ppgi |>
+    filter(notes == "original PPGI 2016") |>
+    select(class:genus) |>
+    mutate(across(everything(), ~n_distinct(., na.rm = TRUE))) |>
+    unique() |>
+    pivot_longer(
+      names_to = "rank",
+      values_to = "n",
+      everything()
+    )
+}
+
+#' Count the number of parent taxa in a DwC-style taxonomic dataset
+#'
+#' Given a Darwin Core (DwC) style table of taxa with `taxonID` and
+#' `parentNameUsageID` columns, this function computes the number of
+#' parent taxa (ancestors) for each record by traversing the parent-child
+#' relationships as a directed graph.
+#'
+#' The function uses \pkg{igraph} to build a single graph of all taxa and
+#' computes distances from a synthetic root node, making it much faster
+#' than recursive row-by-row methods even for large datasets.
+#'
+#' @param ppg A data frame or tibble containing at least two columns:
+#'   - `taxonID`: unique identifier for each taxon (character)
+#'   - `parentNameUsageID`: the taxonID of the immediate parent (may be `NA` or
+#'     empty for root taxa)
+#'
+#' @return A tibble identical to `ppg` but with an additional integer column:
+#'   - `n_parents`: the number of parent taxa (ancestors) for each record.
+#'
+#' @details
+#' If cycles exist in the parent relationships (e.g., data errors),
+#' those taxa will receive `NA` for `n_parents` and a warning will be issued.
+#'
+#' Empty strings in `parentNameUsageID` are treated as missing (`NA`).
+#'
+#' @examples
+#' \dontrun{
+#' library(dplyr)
+#' library(igraph)
+#'
+#' ppg_with_counts <- count_taxon_parents(ppg)
+#' }
+count_taxon_parents <- function(ppg) {
+  # Requires: dplyr, tibble, igraph
+  
+  # 1) Build a parent→child edge list and add a synthetic ROOT
+  edges <- ppg %>%
+    dplyr::transmute(
+      parent = dplyr::coalesce(dplyr::na_if(parentNameUsageID, ""), "ROOT"),
+      child  = taxonID
+    )
+  
+  # 2) Create vertex table and construct directed graph
+  verts <- tibble::tibble(name = unique(c(edges$parent, edges$child)))
+  g <- igraph::graph_from_data_frame(edges, directed = TRUE, vertices = verts)
+  
+  # 3) Compute distances (levels) from ROOT to all nodes
+  if (!igraph::is_dag(g)) {
+    warning("Cycle(s) detected in parent links; affected taxa will get NA for n_parents.")
+  }
+  
+  d <- igraph::distances(g, v = "ROOT", to = igraph::V(g), mode = "out")[1, ]
+  depth <- as.numeric(d) - 1
+  depth[is.infinite(depth)] <- NA_real_
+  
+  # 4) Attach results back to original table
+  ppg %>%
+    dplyr::mutate(n_parents = as.integer(depth[match(taxonID, names(d))]))
+}
+
+rep_collapse_single <- function(x, n) {
+  rep(x, n) |> paste(collapse = "")
+}
+
+rep_collapse <- function(x, n) {
+  map_chr(n, ~rep_collapse_single(x, .))
 }

@@ -189,21 +189,32 @@ children_taxa_count <- format_ppg_taxa_count(children_tally)
 
 priority_sort <- set_taxon_priority(ppg, families_in_phy_order)
 
+parent_taxon_count <-
+  ppg |>
+  dwc_to_tl(families_in_phy_order, return_taxlist = FALSE) |>
+  count_taxon_parents() |>
+  select(taxonID, n_parents) |>
+  assert(not_na, everything()) |>
+  assert(is_uniq, taxonID)
+
 ppg_tl |>
   sort_taxa(priority = priority_sort) |>
-  indented_list(indent = " ", print = FALSE) |>
+  indented_list(print = FALSE) |>
   as_tibble() |>
   janitor::clean_names() |>
-  mutate(indent = glue::glue("{indent}* ") |> as.character()) |>
   select(
     taxonID = taxon_concept_id,
     scientificName = taxon_name,
     scientificNameAuthorship = author_name,
-    taxonRank = level,
-    indent
+    taxonRank = level
   ) |>
   left_join(
     children_taxa_count,
+    by = "taxonID",
+    relationship = "one-to-one"
+  ) |>
+  left_join(
+    parent_taxon_count,
     by = "taxonID",
     relationship = "one-to-one"
   ) |>
@@ -218,7 +229,9 @@ ppg_tl |>
   ) |>
   mutate(
     taxonRank_print = str_replace_all(taxonRank, "genus", "") |>
-      str_to_sentence()
+      str_to_sentence(),
+    indent = rep_collapse("  ", n_parents),
+    indent = paste0(indent, "* ")
   ) |>
   mutate(
     # genera in bold italics, everything else in bold
