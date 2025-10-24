@@ -339,6 +339,8 @@
 
 *Aleuritopteris* Fée
 
+*Anthonya* Windham & Pryer
+
 *Argyrochosma* (J.Sm.) Windham
 
 *Aspidotis* (Nutt. ex Hook.) Copel.
@@ -349,13 +351,23 @@
 
 *Bommeria* E.Fourn.
 
+*Brasiliopteris* J.Prado, Schuettp. & Yatsk.
+
 *Calciphilopteris* Yesilyurt & H.Schneid.
+
+*Carlottahallia* Windham
 
 *Cheilanthes* Sw.
 
 *Cheiloplecton* Fée
 
+*Choristosoria* Mett. ex Kuhn
+
+*Christenhuszia* Schuettp. & J.Prado
+
 *Doryopteris* J.Sm.
+
+*Estrella* Windham
 
 *Gaga* Pryer, Fay W.Li & Windham
 
@@ -369,6 +381,8 @@
 
 *Myriopteris* Fée
 
+*Namaquapteris* Windham & Pryer
+
 *Notholaena* R.Br.
 
 *Oeosporangium* Vis.
@@ -380,6 +394,8 @@
 *Parahemionitis* Panigrahi
 
 *Pellaea* Link
+
+*Pellaeopsis* J.Sm.
 
 *Pentagramma* Yatsk., Windham & E.Wollenw.
 
