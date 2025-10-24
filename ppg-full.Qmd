@@ -1,6 +1,7 @@
 ---
 title: "PPG II: An open, community-derived classification for ferns and lycophytes"
 format: docx
+bibliography: references.yaml
 params:
   tax_level: "species"
 execute: 
@@ -67,9 +68,9 @@ Ferns and lycophytes--forming together the paraphyletic pteridophytes--are globa
 Early taxonomic classification of pteridophytes relied on macroscopic characteristics, in particular, the form and arrangement of sporangia and spores.
 After Darwin’s theory of evolution became widely recognized, taxonomists sought to recognize natural groups, which was subsequently facilitated by the introduction of phylogenetic analyses to identify clades.
 Understanding of the phylogentic relationships of ferns and lycophytes were revolutionized by DNA sequencing, starting with the plastid *rbcL* gene.
-In particular, DNA analysis revealed that ferns are sister to seed plants (thus "pteridophytes" are not a natural group) and that horsetails and whisk ferns are not merely "fern allies" but nested within ferns [@Pryer2001].
-The first major revised classification of the molecular-phylogenetic era was @Smith2006a, but this only treated taxa at the level of family and higher.
-The next major taxonomy was Pteridophyte Phylogeny Group (PPG) I [-@PteridophytePhylogenyGroupI2016], which extended the taxonomic scope to genera.
+In particular, DNA analysis revealed that ferns are sister to seed plants (thus "pteridophytes" are not a natural group) and that horsetails and whisk ferns are not merely "fern allies" but nested within ferns [@@pryer2001horsetails].
+The first major revised classification of the molecular-phylogenetic era was @@smith2006classification, but this only treated taxa at the level of family and higher.
+The next major taxonomy was Pteridophyte Phylogeny Group (PPG) I [-@pteridophytephylogenygroupi2016communityderived], which extended the taxonomic scope to genera.
 PPG I was remarkable for its expert community-based approach, which sought to obtain consensus among fern and lycophyte experts by including nearly 90 co-authors.
 Since the publication of PPG I, taxonomic novelties and clarification of phylogenetic relationships have significantly accrued.
 Accordingly, the PPG community here puts forth a revised taxonomic system for ferns and lycophytes, PPG v2.0 (equivalently, PPG II).
@@ -122,7 +123,7 @@ Changes to PPG II become apparent at the level of family, where 53 families are 
 The number of subfamilies and genera are also greater in PPG II vs. PPG I (39 vs. 28 and 374 vs. 337, respectively).
 Most taxonomic changes are additions of new names, i.e., splitting (Table 2).
 A smaller number of changes are subsumption of existing names, i.e., lumping (Table 2).
-Another change is the recognition of XX nothogenera, which were not treated at all in PPG I [-@PteridophytePhylogenyGroupI2016].
+Another change is the recognition of XX nothogenera, which were not treated at all in PPG I [-@pteridophytephylogenygroupi2016communityderived].
 
 ## Discussion
 
@@ -143,7 +144,7 @@ The community approach allows us to distribute the workload and stay abreast of 
 
 There are still parts of the pteridophyte taxonomy that need resolution, or at least improvements to overcome ambiguities.
 One complicated case concerns *Lecanopteris* and related lineages.
-Recent phylogenies show that the myrmecophilous *Lecanopteris* s.s. is nested within a clade that includes taxa formerly placed in *Microsorum*, but that this clade is distinct from the lineage containing the type species of *Microsorum* [@Chen2020; @Perrie2021].
+Recent phylogenies show that the myrmecophilous *Lecanopteris* s.s. is nested within a clade that includes taxa formerly placed in *Microsorum*, but that this clade is distinct from the lineage containing the type species of *Microsorum* [@chen2020exploring; @perrie2021expansion].
 During voting, multiple competing proposals were put forward, including recognition of *Lecanopteris* s.s. and recognition of separate genera for each of the former *Microsorum* lineages, as well as a broadly circumscribed *Lecanopteris* that would subsume the former *Microsorum* lineages.
 Ultimately, *Lecanopteris* sensu lato was rejected, but only one of the segregate generea, *Bosmania* was recognized, leaving *Microsorum* paraphyletic.
 We anticipate that further systematic studies of this group will provide more robust results that will eventually allow for a recognition of monophyletic genera.
@@ -182,10 +183,13 @@ All taxa are considered monophyletic unless otherwise mentioned.
 #| label: ppg-treatment
 #| results: asis
 
-ppg_supp_data_no_na <- ppg_supp_data |>
-  mutate(across(everything(), ~ tidyr::replace_na(.x, "")))
+comments <- read_csv("data/ppg-comments.csv") |>
+  filter(!is.na(comment)) |>
+  select(taxonID, comment)
 
-children_taxa_count <- format_ppg_taxa_count(children_tally)
+children_taxa_count <- format_ppg_taxa_count(children_tally) |>
+  assert(not_na, taxon_count) |>
+  mutate(taxon_count = paste0(taxon_count, "."))
 
 priority_sort <- set_taxon_priority(ppg, families_in_phy_order)
 
@@ -227,11 +231,18 @@ ppg_tl |>
     by = "taxonID",
     relationship = "one-to-one"
   ) |>
+  left_join(
+    comments,
+    by = "taxonID",
+    relationship = "one-to-one"
+  ) |>
   mutate(
     taxonRank_print = str_replace_all(taxonRank, "genus", "") |>
       str_to_sentence(),
     indent = rep_collapse("  ", n_parents),
-    indent = paste0(indent, "* ")
+    indent = paste0(indent, "* "),
+    comment = tidyr::replace_na(comment, ""),
+    taxon_count = tidyr::replace_na(taxon_count, "")
   ) |>
   mutate(
     # genera in bold italics, everything else in bold
@@ -240,7 +251,7 @@ ppg_tl |>
       .default = glue("**{scientificName}**")
     ),
     pretty = glue(
-      "{taxonRank_print} {name_print}　{scientificNameAuthorship}, {namePublishedIn}. {taxon_count}."
+      "{taxonRank_print} {name_print}　{scientificNameAuthorship}, {namePublishedIn}. {taxon_count} {comment}"
     ) |>
       as.character() |>
       str_replace_all("\\.+", ".") |>
@@ -251,3 +262,5 @@ ppg_tl |>
   pull(pretty) |>
   cat(sep = "\n")
 ```
+
+## References
