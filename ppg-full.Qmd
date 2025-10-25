@@ -263,4 +263,10 @@ ppg_tl |>
   cat(sep = "\n")
 ```
 
+## Tables
+
+Table 1: Number of taxa in PPG II vs. PPG I by taxonomic status (accepted or synonym). Complete synonymy was not presented in PPG I so this is not shown. PPG I did not treat nothotaxa.
+
+Table 2: Count of taxonomic changes approved by voting in PPG II by rank, with the effect on the total number of taxa in each rank brought about by each change. Types of change include the following, conserve: conserves one name over another; sink: subsumes one taxon into another; split: recognizes a new taxon; transfer: moves a taxon into a different place in the hierarchy.
+
 ## References
