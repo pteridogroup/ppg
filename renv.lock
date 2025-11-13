@@ -65,7 +65,7 @@
       "NeedsCompilation": "no",
       "Author": "Martin Morgan [aut] (<https://orcid.org/0000-0002-5874-8148>), Marcel Ramos [aut, cre] (<https://orcid.org/0000-0002-3242-0582>)",
       "Maintainer": "Marcel Ramos <marcel.ramos@sph.cuny.edu>",
-      "Repository": "https://p3m.dev/cran/__linux__/noble/latest"
+      "Repository": "RSPM"
     },
     "BiocVersion": {
       "Package": "BiocVersion",
@@ -2171,16 +2171,15 @@
       "LazyData": "true",
       "LazyDataCompression": "bzip2",
       "Config/testthat/edition": "3",
+      "Author": "Joel Nitta [aut, cre] (ORCID: <https://orcid.org/0000-0003-4719-7472>)",
+      "Maintainer": "Joel Nitta <joelnitta@gmail.com>",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "ftolr",
       "RemoteUsername": "fernphy",
       "RemotePkgRef": "fernphy/ftolr",
       "RemoteRef": "HEAD",
-      "RemoteSha": "e6f8e9b2273b3c205562b30cc769045f64113b71",
-      "NeedsCompilation": "no",
-      "Author": "Joel Nitta [aut, cre] (ORCID: <https://orcid.org/0000-0003-4719-7472>)",
-      "Maintainer": "Joel Nitta <joelnitta@gmail.com>"
+      "RemoteSha": "e6f8e9b2273b3c205562b30cc769045f64113b71"
     },
     "gargle": {
       "Package": "gargle",
@@ -5618,16 +5617,15 @@
       "Collate": "'imports.R' 'internal.R' 'sort_taxa.R' 'levels.R' 'prune_levels.R' 'deprecated-functions.R' 'id_generator.R' 'replace_x.R' 'reindex.R' 'insert_rows.R' 'dissect_name.R' 'clean_strings.R' 'taxlist-class.R' 'matched_names-class.R' 'clean.R' 'coerce-methods.R' 'taxon_views.R' 'count_taxa.R' 'taxon_names.R' 'taxon_relations.R' 'add_concept.R' 'taxon_traits.R' 'accepted_name.R' 'get_children.R' 'merge_to_parent.R' 'merge_taxa.R' 'Extract.R' 'subset.R' 'backup_object.R' 'summary.R' 'df2taxlist.R' 'tv2taxlist.R' 'tax2traits.R' 'match_names.R' 'print_name.R' 'indented_list.R' 'Easplist-data.R' 'taxlist-package.R' 'taxlist2df.R' 'parents.R'",
       "VignetteBuilder": "knitr",
       "RoxygenNote": "7.3.2",
+      "Author": "Miguel Alvarez [aut, cre] (ORCID: <https://orcid.org/0000-0003-1500-1834>), Zachary Foster [ctb] (ORCID: <https://orcid.org/0000-0002-5075-0948>), Sam Levin [rev], Margaret Siple [rev]",
+      "Maintainer": "Miguel Alvarez <kamapu78@gmail.com>",
       "RemoteType": "github",
       "RemoteHost": "api.github.com",
       "RemoteRepo": "taxlist",
       "RemoteUsername": "ropensci",
       "RemotePkgRef": "ropensci/taxlist",
       "RemoteRef": "HEAD",
-      "RemoteSha": "89b6c41bd30c1ad68e6a27bf51dcb7c2f13f82a4",
-      "NeedsCompilation": "no",
-      "Author": "Miguel Alvarez [aut, cre] (ORCID: <https://orcid.org/0000-0003-1500-1834>), Zachary Foster [ctb] (ORCID: <https://orcid.org/0000-0002-5075-0948>), Sam Levin [rev], Margaret Siple [rev]",
-      "Maintainer": "Miguel Alvarez <kamapu78@gmail.com>"
+      "RemoteSha": "89b6c41bd30c1ad68e6a27bf51dcb7c2f13f82a4"
     },
     "taxnames": {
       "Package": "taxnames",

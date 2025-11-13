@@ -5,7 +5,7 @@ source("R/functions.R")
 timeout_old <- getOption("timeout")
 options(timeout = 1200)
 on.exit({
-  timeout = timeout_old
+  timeout <- timeout_old
 })
 
 tar_plan(
@@ -38,11 +38,6 @@ tar_plan(
   tar_quarto(
     ppg_md,
     "ppg.Qmd",
-    quiet = FALSE
-  ),
-  tar_quarto(
-    ppg_full_md,
-    "ppg-full.Qmd",
     quiet = FALSE
   ),
   tar_file(
