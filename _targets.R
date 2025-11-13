@@ -32,8 +32,6 @@ tar_plan(
   # - convert DarwinCore format to dataframe in taxonomic order for printing
   #   (only includes accepted taxa at genus and higher)
   ppg_tl = dwc_to_tl(ppg, families_in_phy_order),
-  # - count number of children taxa
-  children_tally = count_children_ppg(ppg, families_in_phy_order),
 
   # Output data files ----
   # - Taxonomic treatment (markdown)
