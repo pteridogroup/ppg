@@ -46,8 +46,8 @@ docker run \
 
 ### Development
 
-Specify user and git files
-
+Specify user and git files, otherwise you won't have permission to make changes
+to the git cache.
 
 ```
 docker run --rm -dt \
@@ -67,13 +67,11 @@ Gitconfig and ssh are needed to commit and push data files to GitHub.
 
 ```
 docker run --rm -dt \
-  -w /wd \
-  --name ppg_make \
-  --user root \
   -v ${PWD}:/wd \
-  -v $HOME/.gitconfig:/root/.gitconfig:ro \
-  -v $HOME/.ssh:/root/.ssh:ro \
-  joelnitta/ppg:latest cron -f
+  -v $HOME/.gitconfig:/home/user/.gitconfig:ro \
+  -v $HOME/.ssh:/home/user/.ssh:ro \
+  --name ppg_make \
+  joelnitta/ppg:latest
 ```
 
 ## Data sources
