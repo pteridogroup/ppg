@@ -97,8 +97,6 @@
 
 *Helminthostachys* Kaulf.
 
-*Helmithostachys* Kaulf.
-
 ###### Subfamily **Mankyuoideae** J.R.Grant & B.Dauphin
 
 *Mankyua* B.Y.Sun, M.H.Kim & C.H.Kim
@@ -122,8 +120,6 @@
 *Christensenia* Maxon
 
 *Danaea* Sm.
-
-*Eupodium* J.Sm.
 
 *Eupodium* J.Sm. ex Hook.
 
@@ -375,8 +371,6 @@
 
 *Lytoneuron* (Klotzsch) Yesilyurt
 
-*Mildella* Trevis.
-
 *Mineirella* Ponce & Scataglini
 
 *Myriopteris* Fée
@@ -384,8 +378,6 @@
 *Namaquapteris* Windham & Pryer
 
 *Notholaena* R.Br.
-
-*Oeosporangium* Vis.
 
 *Ormopteris* J.Sm. ex J.Sm.
 
@@ -402,6 +394,8 @@
 *Quechuapteris* Windham
 
 *Trachypteris* André
+
+*Ynesmexia* Fauskee & Windham
 
 ###### Subfamily **Cryptogrammoideae** S.Linds.
 
@@ -475,19 +469,9 @@
 
 ##### Family **Dennstaedtiaceae** Lotsy
 
-###### Subfamily **Dennstaedtioideae** Pic.Serm.
+*Blotiella* R.M.Tryon
 
 *Dennstaedtia* T.Moore
-
-*Microlepia* C.Presl
-
-*Mucura* L.A.Triana & Sundue
-
-*Sitobolium* Desv.
-
-###### Subfamily **Hypolepidoideae** Lovis
-
-*Blotiella* R.M.Tryon
 
 *Histiopteris* (J.Agardh) J.Sm.
 
@@ -495,13 +479,17 @@
 
 *Hypolepis* Bernh.
 
+*Microlepia* C.Presl
+
+*Monachosorum* Kunze
+
+*Mucura* L.A.Triana & Sundue
+
 *Paesia* A.St.-Hil.
 
 *Pteridium* Gleditsch; Scopoli
 
-###### Subfamily **Monachosoroideae** Crabbe, Jermy & Mickel
-
-*Monachosorum* Kunze
+*Sitobolium* Desv.
 
 #### Suborder **Aspleniineae** H.Schneid. & C.J.Rothf.
 
@@ -959,21 +947,13 @@
 
 ###### Subfamily **Microsoroideae** B.K.Nayar
 
-Tribe **Goniophlebieae** C.C.Chen & H.Schneid.
+*Bosmania* Testo
 
 *Goniophlebium* (Blume) C.Presl
 
-Tribe **Lecanoptereae** C.C.Chen & H.Schneid.
-
-*Bosmania* Testo
-
 *Lecanopteris* Reinw.
 
-Tribe **Lepisoreae** Ching ex E.Hennipman, P.Veldhoen & K.U.Kramer
-
 *Lepisorus* (J.Sm.) Ching
-
-Tribe **Microsoreae** V.N.Tu
 
 *Leptochilus* Kaulf.
 
@@ -981,9 +961,9 @@ Tribe **Microsoreae** V.N.Tu
 
 *Podosorus* Holttum
 
-Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
-
 *Thylacopteris* Kunze ex J.Sm.
+
+Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
 
 ###### Subfamily **Platycerioideae** B.K.Nayar
 
@@ -994,8 +974,6 @@ Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
 *Pyrrosia* Mirb.
 
 ###### Subfamily **Polypodioideae** B.K.Nayar
-
-*× Phlebosia* Viane & Pompe
 
 *Pecluma* M.G.Price
 
