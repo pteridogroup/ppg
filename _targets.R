@@ -23,19 +23,6 @@ tar_plan(
     "_targets/user/ppgi_data.xlsx",
     readxl::read_xlsx(!!.x)
   ),
-  # - original supplemental data from PPG I
-  ppgi_supp_data = clean_ppgi_supp_data(ppgi_supp_data_raw),
-  # - template of supplemental data for PPG II and onwards
-  ppgii_supp_data_template = make_initial_ppgii_supp_data(
-    ppgi_supp_data,
-    ppg
-  ),
-  # - read in data from manually filled templae
-  tar_file_read(
-    ppg_supp_data,
-    "_targets/user/ppg_supp_data.csv",
-    readr::read_csv(!!.x)
-  ),
   # Make family-level tree ---
   phy_family = make_family_tree(),
   # Get families in 'phylogenetic' order
