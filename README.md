@@ -14,11 +14,9 @@ The database is provided as [a CSV file](data/ppg.csv) in the [Darwin Core (DwC)
 
 A human readable summary of the same data is available as [a plain text file](data/ppg.md) in Markdown format.
 
-Currently, the database includes only names at the genus level and higher, but we intend to include species and infraspecific taxa in the future.
-
 ## Versioning
 
-The data are currently being updated to reflect changes that have taken place since [PPG I (2016)](https://doi.org/10.1111/jse.12229). Once this is done, a version number will be assigned. Therefore, **these data should not be taken as the official PPG system until a version number is assigned**.
+The data are currently being updated to reflect changes that have taken place since [PPG I (2016)](https://doi.org/10.1111/jse.12229). Once this is done, a version number starting with 2 (i.e., PPG II) will be assigned. Therefore, **these data should not be taken as the official PPG II system until a version number is assigned >= 2**.
 
 ## Contributing
 
