@@ -14546,7 +14546,7 @@ wfo-0000154064,Athyrium kunzeanum,Milde,species,NA,NA,Nomencl. Gefässkrypt. 110
 wfo-0000154065,Athyrium kutaiense,C.Chr.,species,wfo-4000003575,valid,Dansk Bot. Ark. 9(3): 55 (1937),accepted,NA,2022-04-16,2025-03-19
 wfo-0000154066,Athyrium laetum,Gray,species,NA,NA,Nat. Arr. Brit. Pl. 2: 10 (1821),synonym,wfo-0001112807,2022-04-16,2025-03-19
 wfo-0000154067,Athyrium lanceolatum,Heufl.,species,NA,NA,Verh. Zool.-Bot. Vereins Wien 6: 345 (1856),synonym,wfo-0001359203,2022-04-16,2024-12-16
-wfo-0000154068,Athyrium × langtangense,Fraser-Jenk.,species,wfo-4000003575,valid,Taxon. Revis. Indian Subcontinental Pteridophytes 222 (2008),accepted,NA,2022-04-16,2025-03-19
+wfo-0000154068,Athyrium langtangense,Fraser-Jenk.,species,NA,invalid,Taxon. Revis. Indian Subcontinental Pteridophytes 222 (2008),synonym,wfo-0001042398,2022-04-16,2025-11-19
 wfo-0000154069,Athyrium latifolium,C.Presl,species,NA,NA,Tent. Pterid. 98 t. 3 f. 4. 1836; Epim. 66. (1836),unchecked,NA,2022-04-16,2024-06-04
 wfo-0000154070,Athyrium latifolium,Milde,species,NA,NA,Bot. Zeitung (Berlin) 28: 354 (1870),unchecked,NA,2022-04-16,2024-06-04
 wfo-0000154071,Athyrium latilobum,Copel.,species,NA,NA,Univ. Calif. Publ. Bot. 18: 222 (1942),synonym,wfo-0000154541,2022-04-16,2025-03-19
@@ -50973,7 +50973,7 @@ wfo-0001318617,Goniopteris bradei,Salino,species,wfo-4000016007,valid,Brittonia 
 wfo-0001318642,Amauropelta patula,(Fée) Salino & T.E.Almeida,species,wfo-4000001490,valid,PhytoKeys 57: 29 (2015),accepted,NA,2022-04-16,2025-03-19
 wfo-0001318643,Amauropelta pleiophylla,(Sehnem) Salino & T.E.Almeida,species,wfo-4000001490,valid,PhytoKeys 57: 30 (2015),accepted,NA,2022-04-16,2025-03-19
 wfo-0001318644,Amauropelta podotricha,(Sehnem) Salino & T.E.Almeida,species,wfo-4000001490,valid,PhytoKeys 57: 30 (2015),accepted,NA,2022-04-16,2025-03-19
-wfo-0001318645,Amauropelta amambayensis,(Ponce) Salino & T.E.Almeida,species,wfo-4000001490,invalid,PhytoKeys 57: 16. 2015 [2 Dec 2015] [epublished],accepted,NA,2022-04-16,2024-12-16
+wfo-0001318645,Amauropelta amambayensis,(Ponce) Salino & T.E.Almeida,species,wfo-4000001490,valid,PhytoKeys 57: 16. 2015 [2 Dec 2015] [epublished],accepted,NA,2022-04-16,2025-11-15
 wfo-0001318646,Amauropelta araucariensis,(Ponce) Salino & T.E.Almeida,species,wfo-4000001490,valid,PhytoKeys 57: 16 (2015),accepted,NA,2022-04-16,2025-03-19
 wfo-0001318647,Amauropelta eriosorus,(Fée) Salino & T.E.Almeida,species,wfo-4000001490,valid,PhytoKeys 57: 21 (2015),accepted,NA,2022-04-16,2025-03-19
 wfo-0001318648,Amauropelta heineri,(C.Chr.) Salino & T.E.Almeida,species,wfo-4000001490,valid,PhytoKeys 57: 23 (2015),accepted,NA,2022-04-16,2025-03-19
@@ -76178,7 +76178,7 @@ wfo-1000074421,Equisetum aquaticum,Noronha,species,NA,NA,Verh. Batav. Genootsch.
 wfo-1000074422,Cheilanthes monticola,Mart. ex Prantl,species,NA,NA,Bot. Jahrb. Syst. 3: 422 (1882),synonym,wfo-1000005231,2024-09-13,2024-12-16
 wfo-1000074423,Cassebeera microphylla,Christ,species,NA,NA,"Schwacke, Pl. Nov. Mineiras 2: 25 (1900)",synonym,wfo-1000005231,2024-09-13,2024-12-16
 wfo-1000074424,Davallia villosa,Wall. ex Hook.,species,NA,NA,"Sp. Fil. [W. J. Hooker] 1: 172, t. 48A (1846)",synonym,wfo-0001107360,2024-09-13,2024-12-16
-wfo-1000074425,Cyclosorus procurrens,(Mett.) Ching,species,NA,NA,Acta Phytotax. Sin. 8: 328 (1963),synonym,wfo-0000151532,2024-09-13,2024-12-16
+wfo-1000074425,Cyclosorus procurrens,(Mett.) Ching,species,NA,NA,Acta Phytotax. Sin. 8: 328 (1963),unchecked,NA,2024-09-13,2025-11-15
 wfo-1000074426,Cyclosorus extensus,(Blume) Ching,species,NA,NA,Bull. Fan Mem. Inst. Biol. Bot. 8: 182 (1938),synonym,wfo-0001041817,2024-09-13,2024-12-16
 wfo-1000074427,Cyclosorus interruptus,(Willd.) Ching,species,NA,NA,Bull. Fan Mem. Inst. Biol. Bot. 8: 184 (1938),synonym,wfo-0001110853,2024-09-13,2024-12-16
 wfo-1000074428,Cyclosorus acuminatus,(Houtt.) Ching,species,NA,NA,Bull. Fan Mem. Inst. Biol. Bot. 8: 189 (1938),synonym,wfo-0001125964,2024-09-13,2024-12-16
@@ -77527,3 +77527,8 @@ wfo-1200114892,Lastrea dilatata var. collina,(Newman) T.Moore,variety,NA,valid,H
 wfo-1000085143,Cystopteris montana,(Lam.) Bernh. ex Desv.,species,NA,invalid,Neues J. Bot. 1(2): 26 (1805),unchecked,NA,2025-11-03,2025-11-03
 wfo-1000085160,Polystichum peregrinum,Barrington & A.R.Sm.,species,NA,valid,Amer. Fern J. 115(3): 180 (2025),unchecked,NA,2025-11-03,2025-11-03
 wfo-1000085502,Lycopodiella shortii,D.D.Spauld.,species,NA,valid,Paysonia 6: 9 (2025),unchecked,NA,2025-11-03,2025-11-03
+wfo-1000085721,Lepisorus hederaceus,(Christ) R.Wei & X.C.Zhang,species,NA,valid,Cladistics 37(6):722 (2021): Appendix S3,synonym,wfo-1000032984,2025-11-15,2025-11-15
+wfo-1000085722,Christella procurrens,NA,species,NA,NA,NA,unchecked,NA,2025-11-15,2025-11-15
+wfo-1000085723,Cibotium sinoburmaense,X.C.Zhang & S.Q.Liang,species,wfo-4000008293,valid,Front. Plant Sci. 14 (2023),accepted,NA,2025-11-15,2025-11-15
+wfo-1200115226,Bosmania membranacea var. carinata,(W.M.Chu & Z.R.He) R.Wei & X.C.Zhang,variety,wfo-1000020684,valid,Cladistics 37(6): 722 (2021): Appendix S3,accepted,NA,2025-11-15,2025-11-15
+wfo-0001042398,Athyrium × langtangense,Fraser-Jenk.,species,wfo-4000003575,valid,Indian Fern J. 26: 123 (2010),accepted,NA,2025-11-19,2025-11-19
