@@ -42259,7 +42259,7 @@ wfo-0001227003,Pleocnemia conjugata,C.Presl,species,wfo-4000030264,valid,Epimel.
 wfo-0001227007,Selaginella canaliculata,(L.) Spring,species,wfo-4000034966,valid,Flora 21(13): 201 (1838),accepted,NA,2022-04-16,2025-03-19
 wfo-0001227008,Selaginella longicauda,Warb.,species,NA,NA,"Monsunia 1: 123, t. 4, f. C 1900",synonym,wfo-0001119977,2022-04-16,2024-12-16
 wfo-0001227009,Selaginella leptophylla var. wichurae,(Warb.) Tagawa,variety,NA,NA,Acta Phytotax. Geobot. 10(3): 194 1941,synonym,wfo-0001119981,2022-04-16,2024-12-16
-wfo-0001227010,Selaginella hachijoensis,Nakai,species,NA,NA,Bot. Mag. (Tokyo) 35: 149 (1921),synonym,wfo-0001119982,2022-04-16,2025-03-19
+wfo-0001227010,Selaginella hachijoensis,Nakai,species,NA,NA,Bot. Mag. (Tokyo) 35: 149 (1921),synonym,wfo-0001119982,2022-04-16,2025-11-28
 wfo-0001227011,Selaginella henryi,Koidz.,species,NA,NA,Fl. Symb. Orient.-Asiat. 85 1930,synonym,wfo-0001119983,2022-04-16,2024-12-16
 wfo-0001227012,Pteris liboensis,P.S.Wang,species,wfo-4000031909,valid,Acta Bot. Yunnan. 9(4): 398 (1987),accepted,NA,2022-04-16,2024-12-16
 wfo-0001227013,Aleuritopteris qianguiensis,W.M.Chu & H.G.Zhou,species,NA,NA,Guihaia 12(4): 321 (fig. 1) (1992),synonym,wfo-0001117683,2022-04-16,2025-03-19
@@ -65182,6 +65182,7 @@ wfo-1000062811,Hypopterygiopsis heterostachys,(Baker) Li Bing Zhang & X.M.Zhou,s
 wfo-1000062969,Cheiropleuria compacta,Bolkh.,species,NA,NA,NA,unchecked,NA,2024-04-09,2024-12-06
 wfo-1000062970,Cheiropleuria congregata,Bolkh.,species,NA,NA,NA,unchecked,NA,2024-04-09,2024-12-06
 wfo-1000062971,Cheiropleuria parilis,Bolkh.,species,NA,NA,NA,unchecked,NA,2024-04-09,2024-12-06
+wfo-1000063316,Lycopodium novomexicanum,R.Y.Anderson,species,NA,NA,"Memoir, State Bureau of Mines and Mineral Resources, New Mexico Institute of Mining and Technology, Campus Station 6: 14. 1960.",unchecked,NA,2024-04-09,2025-11-24
 wfo-1000063613,Selaginella matura,Bolkh.,species,NA,NA,"Trudy Geologičeskogo Instituta, Akademija Nauk SSSR 1959(24): 85. 1960.",unchecked,NA,2024-04-09,2024-12-06
 wfo-1000063614,Selaginella utrigera,Bolkh.,species,NA,NA,NA,unchecked,NA,2024-04-09,2024-12-06
 wfo-1000063987,Selaginella elegans,L.Krasnova,species,NA,NA,NA,unchecked,NA,2024-04-09,2024-12-06
@@ -65960,7 +65961,7 @@ wfo-1000067170,Asplenium × crinolinense,Fraser-Jenk.,species,wfo-4000003342,val
 wfo-1000067171,Asplenium × mickelii,Viane & Reichst.,species,wfo-4000003342,valid,Fl. China 2-3: 293 (2013),accepted,NA,2024-08-13,2025-03-19
 wfo-1000067172,Asplenium × rajbhandarii,Fraser-Jenk. & Kandel,species,wfo-4000003342,valid,Annot. Checkl. Ind. Pterid. 1: 374 (2016),accepted,NA,2024-08-13,2025-03-19
 wfo-1000067173,Asplenium wudangshanense,"Viane, Reichst., Rasbach & Y.X.Lin",species,wfo-4000003342,valid,Fl. China 2-3: 304 (2013),accepted,NA,2024-08-13,2025-03-19
-wfo-1000067174,Athyrium acutipinnulum,Kodama ex Nakai,species,wfo-4000003575,valid,Rep. Veg. Ooryongto 13 (1919),accepted,NA,2024-08-13,2025-03-19
+wfo-1000067174,Athyrium acutipinnulum,Kodama ex Nakai,species,wfo-4000003575,valid,Rep. Veg. Ooryongto 13 (1919),accepted,NA,2024-08-13,2025-11-28
 wfo-1000067175,Athyrium mackinnoniorum,(C.Hope) C.Chr.,species,wfo-4000003575,valid,Index Filic. 143 (1905),accepted,NA,2024-08-13,2025-03-19
 wfo-1200101409,Athyrium sarasinorum var. philippinense,Christ,variety,NA,NA,Bull. Herb. Boissier 6: 154 (1898),synonym,wfo-0000154108,2024-08-13,2025-03-19
 wfo-1200101410,Athyrium wardii var. inadae,Tagawa,variety,NA,NA,Acta Phytotax. Geobot. 16: 178 (1956),synonym,wfo-0001116128,2024-08-13,2025-03-19
@@ -66242,7 +66243,7 @@ wfo-1200101562,Equisetum palustre var. nudum,Opiz,variety,NA,NA,Kratos 1(4): 9 (
 wfo-1200101563,Equisetum palustre var. ramosum,Opiz,variety,NA,NA,Kratos 1(4): 9 (1819),synonym,wfo-0001108921,2024-08-13,2025-03-19
 wfo-1000067314,Equisetum × dycei,C.N.Page,species,wfo-4000013663,valid,Fern Gaz. 12(3): 178 (1981),accepted,NA,2024-08-13,2025-03-19
 wfo-1000067315,Equisetum hybridum,Huter,species,NA,NA,Oesterr. Bot. Z. 58: 34 (1908),synonym,wfo-0001108921,2024-08-13,2025-03-19
-wfo-1000067316,Equisetum × lofotense,Lubienski,species,wfo-4000013663,valid,Nordic J. Bot. 28(5): 531 (530-539; figs.) (2010),accepted,NA,2024-08-13,2025-03-19
+wfo-1000067316,Equisetum × lofotense,Lubienski,species,wfo-4000013663,valid,Nordic J. Bot. 28(5): 531 (530-539; figs.) (2010),accepted,NA,2024-08-13,2025-11-28
 wfo-1000067317,Equisetum × montellii,Hiitonen,species,wfo-4000013663,valid,Suom. Kasvio 771 (1933),accepted,NA,2024-08-13,2025-03-19
 wfo-1000067318,Equisetum naegelianum,W.Koch ex Rothm.,species,NA,NA,Feddes Repert. Spec. Nov. Regni Veg. 54: 81 (1944),synonym,wfo-0001329347,2024-08-13,2025-03-19
 wfo-1000067319,Eriosoriopsis andersonii,(Bedd.) Shmakov,species,NA,NA,Turczaninowia 18(2): 15 (2015),synonym,wfo-0001127313,2024-08-13,2025-03-19
@@ -67475,7 +67476,7 @@ wfo-1000067942,Asplenium schmidtii,C.Chr.,species,NA,NA,Bot. Tidsskr. 32: 346 (1
 wfo-1200102213,Asplenium scolopendrium subsp. officinale,Ehrh.,subspecies,NA,NA,"Hannover. Mag. 18(15): 235 (1780), nom. inval.",synonym,wfo-0001425751,2024-08-13,2024-12-16
 wfo-1200102214,Asplenium scolopendrium var. crispum,Borkh.,variety,NA,NA,Arch. Bot. (Roemer) 1(3): 11 (1798),synonym,wfo-0001425751,2024-08-13,2024-12-16
 wfo-1200102215,Asplenium scolopendrium var. multifidum,Borkh.,variety,NA,NA,Arch. Bot. (Roemer) 1(3): 11 (1798),synonym,wfo-0001425751,2024-08-13,2024-12-16
-wfo-1200102216,Asplenium seelosii subsp. glabrum,(Litard. & Maire) Rothm.,subspecies,wfo-0000159035,valid,"Cadev. & Font-Quer, Fl. Catalun. 6: 339 (1937)",accepted,NA,2024-08-13,2024-12-16
+wfo-1200102216,Asplenium seelosii subsp. glabrum,(Litard. & Maire) Rothm.,subspecies,wfo-0000159035,valid,"Cadev. & Font-Quer, Fl. Catalun. 6: 339 (1937)",accepted,NA,2024-08-13,2025-11-28
 wfo-1200102218,Asplenium septentrionale var. depauperatum,Christ,variety,NA,NA,"Beitr. Kryptogamenfl. Schweiz 1, Heft 2: 104 (1900)",synonym,wfo-0001407558,2024-08-13,2024-12-16
 wfo-1200102219,Asplenium septentrionale var. sasakii,(Hayata) C.Chr.,variety,NA,NA,"Index Filic., Suppl. Tert.: 24 (1934)",synonym,wfo-0001407558,2024-08-13,2024-12-16
 wfo-1200102220,Asplenium serpentini var. angustilobum,Tausch,variety,NA,NA,477 (1839),synonym,wfo-0001407557,2024-08-13,2024-12-16
@@ -73986,7 +73987,7 @@ wfo-1000072129,Pteris recurvata,Wall. ex J.Agardh,species,NA,NA,Recens. Spec. Pt
 wfo-1000072130,Pteris reticulata,Mett.,species,NA,illegitimate,"Kuhn, Linnaea 36: 91 (1869)",synonym,wfo-0001112645,2024-09-12,2024-12-16
 wfo-1000072131,Pteris sericea,Fée,species,NA,NA,Bull. Herb. Boissier 2: 551. 1902,synonym,wfo-0001112646,2024-09-12,2024-12-16
 wfo-1000072132,Pteris serrulata,(R.H.Miao) Y.H.Yan,species,NA,illegitimate,"Bull. Bot. Res., Harbin 27: 261 (2007)",synonym,wfo-0001109294,2024-09-12,2024-12-16
-wfo-1000072133,Pteris serrulata,L.f.,species,NA,illegitimate,Suppl. Pl.: 445 (1782),synonym,wfo-0001109294,2024-09-12,2024-12-16
+wfo-1000072133,Pteris serrulata,L.f.,species,NA,illegitimate,Suppl. Pl.: 445 (1782),synonym,wfo-0001109294,2024-09-12,2025-11-28
 wfo-1000072134,Pteris setifera,Hook.,species,NA,NA,Sp. Fil. [W. J. Hooker] 2: 224 (1858),synonym,wfo-0001113158,2024-09-12,2025-03-19
 wfo-1000072135,Pteris sinuata,(Brack.) Wall. ex Hook.,species,NA,illegitimate,Sp. Fil. 2: 232 (1858),synonym,wfo-0001107320,2024-09-12,2024-12-16
 wfo-1000072136,Pteris sinuata,Blanco,species,NA,illegitimate,Fl. Filip. 80 (1837),synonym,wfo-0000147518,2024-09-12,2024-12-16
@@ -74259,7 +74260,7 @@ wfo-1000072410,Urostachys polaris,(Nessel) Herter,species,NA,NA,Est. Bot. Reg. U
 wfo-1000072411,Urostachys sutchuenianus,(Herter) Herter ex Nessel,species,NA,NA,Bärlappgew. 53 (1939),synonym,wfo-0001125394,2024-09-12,2024-12-16
 wfo-1000072412,Urostachys transilla,(Baker) Herter ex Nessel,species,NA,NA,Bärlappgew. 106 (1939),synonym,wfo-0001333510,2024-09-12,2024-12-16
 wfo-1000072413,Vittaria angustifolia,(Sw.) Baker,species,NA,NA,"Mart., Fl. Bras. 1(2): 644 (1870)",synonym,wfo-0001109124,2024-09-12,2024-12-16
-wfo-1000072414,Vittaria angustifrons,Bory,species,NA,illegitimate,Voy. 2: 324 (1804),synonym,wfo-0001241528,2024-09-12,2024-12-16
+wfo-1000072414,Vittaria angustifrons,Bory,species,NA,illegitimate,Voy. 2: 324 (1804),synonym,wfo-0001241528,2024-09-12,2025-11-28
 wfo-1000072416,Vittaria lanceolata,(L.) Baker,species,NA,NA,"Mart., Fl. Bras. 1(2): 544 (1870)",synonym,wfo-0001425557,2024-09-12,2024-12-16
 wfo-1000072417,Vittaria latifolia,Ching,species,NA,NA,"Acta Phytotax. Sin. 8(2): 171, t.24(32) (1959)",synonym,wfo-0001423239,2024-09-12,2025-03-19
 wfo-1000072418,Vittaria plantaginea,Hook. & Grev.,species,NA,illegitimate,Icon. Filic. 2: t. 187 (1830),synonym,wfo-0001252683,2024-09-12,2024-12-16
@@ -76504,7 +76505,7 @@ wfo-1000074789,Davallia parallela,Wall.,species,NA,NA,Numer. List [Wallich] n. 2
 wfo-1000074790,Dennstaedtia lambertieana,(J.Rémy) Christ,species,NA,NA,Farnkr. Erde 312 (1897),synonym,wfo-0001111450,2024-09-13,2025-03-19
 wfo-1000074792,Dicksonia pilosiuscula,Raddi,species,NA,NA,Opusc. Sci. 3: 296 (1819),synonym,wfo-1000044506,2024-09-13,2025-03-19
 wfo-1000074794,Dicranopteris nervosa,(Kaulf.) Ching,species,NA,NA,Sunyatsenia 5: 275 (1940),synonym,wfo-0001112041,2024-09-13,2025-03-19
-wfo-1000074797,Diplazium praestans,(Copel.) Maxon ex C.V.Morton,species,NA,NA,Contr. U.S. Natl. Herb. 38: 41 (1967),synonym,wfo-1000027428,2024-09-13,2025-03-19
+wfo-1000074797,Diplazium praestans,(Copel.) Maxon ex C.V.Morton,species,NA,NA,Contr. U.S. Natl. Herb. 38: 41 (1967),synonym,wfo-1000027428,2024-09-13,2025-11-28
 wfo-1000074798,Doryopteris arifolia,Christ,species,NA,NA,Pl. Nov. Mineir. 2: 25 (1900),synonym,wfo-1200105060,2024-09-13,2025-03-19
 wfo-1000074799,Doryopteris paradoxa,Christ,species,NA,NA,"Bull. Herb. Boissier ser. 2, 2: 546 (1902)",synonym,wfo-0001330224,2024-09-13,2025-03-19
 wfo-1000074800,Dryoathyrium erectum,(Z.R.Wang) W.M.Chu & Z.R.Wang ex P.S.Wang & X.Y.Wang,species,NA,NA,Pterid. Fl. Guizhou 288 (2001),synonym,wfo-0001226865,2024-09-13,2025-03-19
