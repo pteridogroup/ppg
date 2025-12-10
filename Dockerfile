@@ -70,5 +70,11 @@ RUN crontab -u ${USERNAME} -l 2>/dev/null; \
 USER root
 WORKDIR /wd
 
+# Add entrypoint script to fix permissions on container start
+COPY ./entrypoint.sh /usr/local/bin/entrypoint.sh
+RUN chmod +x /usr/local/bin/entrypoint.sh
+
+ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+
 # Cron in foreground for containerized use
 CMD ["cron", "-f"]

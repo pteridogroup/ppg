@@ -68,6 +68,7 @@ docker run --rm -dt \
   -v ${PWD}:/wd \
   -v $HOME/.gitconfig:/home/user/.gitconfig:ro \
   -v $HOME/.ssh:/home/user/.ssh:ro \
+  -w /wd \
   --name ppg_make \
   joelnitta/ppg:latest
 ```
