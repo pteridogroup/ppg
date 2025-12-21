@@ -147,8 +147,6 @@
 
 *Plenasium* C.Presl
 
-*Todea* Willd.
-
 ### Order **Hymenophyllales** A.B.Frank
 
 ##### Family **Hymenophyllaceae** Mart.
@@ -962,8 +960,6 @@
 *Podosorus* Holttum
 
 *Thylacopteris* Kunze ex J.Sm.
-
-Tribe **Thylacoptereae** C.C.Chen & H.Schneid.
 
 ###### Subfamily **Platycerioideae** B.K.Nayar
 
