@@ -795,6 +795,8 @@
 
 *Lomariopsis* Fée
 
+*Thysanosoria* A.Gepp
+
 ##### Family **Nephrolepidaceae** Pic.Serm.
 
 *Nephrolepis* Schott
@@ -956,8 +958,6 @@
 *Leptochilus* Kaulf.
 
 *Microsorum* Link
-
-*Podosorus* Holttum
 
 *Thylacopteris* Kunze ex J.Sm.
 
