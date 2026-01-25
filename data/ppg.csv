@@ -8350,7 +8350,7 @@ wfo-0000147823,Plenasium oxyodon,(Miq.) A.E.Bobrov,species,NA,NA,Bot. Zhurn. (Mo
 wfo-0000147824,Plenasium pilosum,(Wall. ex Hook. & Grev.) C.Presl,species,NA,NA,Abh. Boehm. Ges. Wiss. V.5: 325. 1848,synonym,wfo-1200093576,2022-04-16,2024-12-16
 wfo-0000147825,Plenasium vachellii,C.Presl,species,wfo-4000030259,valid,Abh. Königl. Böhm. Ges. Wiss. V.5: 325 (1848),accepted,NA,2022-04-16,2025-03-19
 wfo-0000147826,Plenasium zeylanicum,(Kunze) A.E.Bobrov,species,NA,NA,Bot. Zhurn. (Moscow & Leningrad) 52: 1606 (1967),synonym,wfo-0000147818,2022-04-16,2024-12-16
-wfo-0000147827,Todea africana,Bernh.,species,NA,NA,J. Bot. (Schrader) 1800(2): 126. 1801,unchecked,NA,2022-04-16,2024-11-04
+wfo-0000147827,Todea africana,Bernh.,species,NA,illegitimate,J. Bot. (Schrader) 1800(2): 126. 1801,unchecked,NA,2022-04-16,2026-01-19
 wfo-0000147828,Todea africana,Willd.,species,NA,NA,"Abh. Kurfürstl.-Mainz. Akad. Nützl. Wiss. Erfurt 2(5): 14, t.3, f.1 (1802)",synonym,wfo-0001110737,2022-04-16,2025-03-19
 wfo-0000147830,Todea alpina,Baker,species,NA,NA,Bull. Misc. Inform. Kew 1899(151-152): 121 (1901),synonym,wfo-0001117731,2022-04-16,2025-03-19
 wfo-0000147831,Todea antarctica,Andre,species,NA,NA,L'Illustration Horticole 18 (1871),synonym,wfo-0001110737,2022-04-16,2025-03-19
@@ -20565,7 +20565,7 @@ wfo-0001108922,Equisetum pratense,Ehrh.,species,wfo-4000013663,valid,Hannover. M
 wfo-0001108923,Equisetum scirpoides,Michx.,species,wfo-4000013663,valid,Fl. Bor.-Amer. (Michaux) 2: 281 (1803),accepted,NA,2022-04-16,2025-12-15
 wfo-0001108924,Equisetum sylvaticum,L.,species,wfo-4000013663,valid,Sp. Pl. 2: 1061 (1753),accepted,NA,2022-04-16,2025-12-15
 wfo-0001108925,Equisetum telmateia,Ehrh.,species,wfo-4000013663,valid,Hannover. Mag. 18: 287 (1783),accepted,NA,2022-04-16,2025-12-15
-wfo-0001108926,Equisetum trachyodon,(A.Braun) W.D.J.Koch,species,wfo-4000013663,valid,Syn. Fl. Germ. Helv. (ed. 2) 3: 967 1845,accepted,NA,2022-04-16,2024-06-04
+wfo-0001108926,Equisetum × trachyodon,(A.Braun) W.D.J.Koch,species,wfo-4000013663,valid,Syn. Fl. Germ. Helv. (ed. 2) 3: 967 1845,accepted,NA,2022-04-16,2026-01-24
 wfo-0001108927,Equisetum variegatum,Schleich. ex F.Weber & D.Mohr,species,wfo-4000013663,valid,"Bot. Taschenb. : 60, 447 (1807)",accepted,NA,2022-04-16,2025-12-15
 wfo-0001108928,Equisetum variegatum var. alaskanum,A.A.Eaton,variety,NA,NA,Harriman Alaska Exped. 5: 390 (1904),synonym,wfo-0001110973,2022-04-16,2024-12-16
 wfo-0001108929,Gleichenia bifida,(Willd.) Spreng.,species,NA,NA,"Syst. Veg., ed. 16 [Sprengel] 4(1): 27 (1827)",synonym,wfo-0001111999,2022-04-16,2025-03-19
@@ -28749,12 +28749,12 @@ wfo-0001117157,Dryopteris subaurita,Tagawa,species,NA,NA,Acta Phytotax. Geobot. 
 wfo-0001117158,Pseudophegopteris subaurita,(Tagawa) Ching,species,wfo-4000031624,valid,Acta Phytotax. Sin. 8(4): 315 (1963),accepted,NA,2022-04-16,2025-03-19
 wfo-0001117159,Thelypteris angulariloba,Ching,species,NA,valid,Bull. Fan Mem. Inst. Biol. Bot. 6: 323 (1936),synonym,wfo-0001335485,2022-04-16,2025-03-19
 wfo-0001117160,Equisetum × mildeanum,Rothm.,species,wfo-4000013663,valid,Feddes Repert. Spec. Nov. Regni Veg. 54: 78 (1944),accepted,NA,2022-04-16,2024-12-16
-wfo-0001117161,Equisetum moorei,Newman,species,wfo-4000013663,valid,Phytologist 5: 19 (1854),accepted,NA,2022-04-16,2025-12-15
+wfo-0001117161,Equisetum × moorei,Newman,species,wfo-4000013663,valid,Phytologist 5: 19 (1854),accepted,NA,2022-04-16,2026-01-24
 wfo-0001117162,Nephrodium beddomei,Baker,species,NA,NA,Syn. Fil. (Hooker & Baker) 267 (1867),synonym,wfo-1000020417,2022-04-16,2025-03-19
 wfo-0001117163,Equisetum ramosissimum subsp. moorei,(Newman) Maire,subspecies,NA,NA,Fl. Afrique N. 1: 99 (1952),synonym,wfo-1200106100,2022-04-16,2024-12-16
 wfo-0001117164,Dryopteris castanea,Tagawa,species,NA,NA,Acta Phytotax. Geobot. 4(3): 132 (1935),synonym,wfo-1000040952,2022-04-16,2025-03-19
 wfo-0001117165,Thelypteris castanea,(Tagawa) Ching,species,NA,NA,Bull. Fan Mem. Inst. Biol. Bot. 6: 315 (1936),synonym,wfo-1000040952,2022-04-16,2025-03-19
-wfo-0001117166,Equisetum torgesianum,Rothm.,species,wfo-4000013663,valid,Repert. Spec. nov. Regni Veg. 54: 77 (1944),accepted,NA,2022-04-16,2024-12-16
+wfo-0001117166,Equisetum × torgesianum,Rothm.,species,wfo-4000013663,valid,Repert. Spec. nov. Regni Veg. 54: 77 (1944),accepted,NA,2022-04-16,2026-01-24
 wfo-0001117167,Equisetum trachyodon,A.Braun,species,NA,valid,Flora 22(20): 305 (1839),synonym,wfo-1200106101,2022-04-16,2025-12-15
 wfo-0001117168,Thelypteris cystopteroides,(D.C.Eaton) Ching,species,NA,valid,Bull. Fan Mem. Inst. Biol. Bot. 6: 316 (1936),synonym,wfo-1000025426,2022-04-16,2025-12-15
 wfo-0001117169,Polypodium erubescens,Wall. ex Hook.,species,NA,NA,Sp. Fil. 4: 236. 1862,synonym,wfo-0001107315,2022-04-16,2024-12-16
@@ -30071,7 +30071,7 @@ wfo-0001118482,Ophioglossum thermale var. bucharicum,H.P.Fuchs,variety,NA,NA,NA,
 wfo-0001118483,Ophioglossum vulgatum var. bucharicum,O.Fedtsch. & B.Fedtsch.,variety,NA,NA,NA,synonym,wfo-0001115187,2022-04-16,2024-12-16
 wfo-0001118484,Sceptridium multifidum,(S.G.Gmel.) M.Nishida,species,wfo-4000034272,valid,J. Jap. Bot. 33(7): 200 (1958),accepted,NA,2022-04-16,2024-12-16
 wfo-0001118485,Sceptridium multifidum var. robustum,(Rupr.) M.Nishida,variety,NA,NA,J. Jap. Bot. 33: 201 (1958),synonym,wfo-0001118477,2022-04-16,2024-06-04
-wfo-0001118486,Todea papuana,Hennipman,species,wfo-1000070090,valid,"Blumea 16: 105, f. 1 (1968)",accepted,NA,2022-04-16,2024-12-16
+wfo-0001118486,Todea papuana,Hennipman,species,wfo-1000070090,valid,"Blumea 16: 105, f. 1 (1968)",accepted,NA,2022-04-16,2026-01-19
 wfo-0001118490,Bolbitis kanarensis,B.K.Nayar & P.Chandra,species,NA,NA,"Amer. Fern J. 54(1): 9, f.1-9 (1964)",synonym,wfo-0000146764,2022-04-16,2025-03-19
 wfo-0001118491,Pyrrosia nayariana,Ching & P.Chandra ex P.Chandra,species,NA,NA,"Amer. Fern J. 54(2): 62, f.1-10 (1964)",synonym,wfo-0001227401,2022-04-16,2025-03-19
 wfo-0001118494,Goniopteris tabaquitensis,"Jermy & Walker, Trevor George",species,NA,NA,"Bull. Brit. Mus. (Nat. Hist.), Bot. 13(2): 264 1985",unchecked,NA,2022-04-16,2022-04-20
@@ -60364,7 +60364,7 @@ wfo-0001428988,Woodsia fragilis,(Trevis.) T.Moore,species,wfo-4000040814,valid,I
 wfo-0001429005,Blechnum ambiguum,C.Presl,species,wfo-4000004744,valid,Tent. Pterid. : 103 (1836),accepted,NA,2022-04-16,2024-06-04
 wfo-0001429028,Cystopteris chinensis,(Ching) X.C.Zhang & R.Wei,species,wfo-4000010579,valid,J. Syst. Evol. 52(4): 454 (2014),accepted,NA,2022-04-16,2025-03-19
 wfo-0001429031,Diplazium gracilescens,(Mett.) Moore ex R.Knuth,species,wfo-4000011939,valid,Repert. Spec. Nov. Regni Veg. Beih. 43: 34 (1926),accepted,NA,2022-04-16,2024-12-16
-wfo-0001429065,Onoclea struthiopteris,Roth,species,wfo-4000026881,valid,Ann. Bot. (Usteri) 10: 54 (1794),accepted,NA,2022-04-16,2024-06-04
+wfo-0001429065,Onoclea struthiopteris,Roth,species,NA,valid,Ann. Bot. (Usteri) 10: 54 (1794),unchecked,NA,2022-04-16,2026-01-24
 wfo-0001429087,Pyrrosia abbreviata,(Zoll.) Tagawa,species,wfo-4000032323,valid,Acta Phytotax. Geobot. 25: 180 (1973),accepted,NA,2022-04-16,2024-12-16
 wfo-0001429093,Selaginella apoda,Spring,species,wfo-4000034966,valid,Fl. Bras. 1(2): 119 (1840),accepted,NA,2022-04-16,2024-12-16
 wfo-0001429149,Ctenitis hispida,(Kuhn) Li Bing Zhang & Yi F.Duan,species,wfo-4000009957,valid,Ann. Missouri Bot. Gard. 102(1): 42 (2017),accepted,NA,2022-04-16,2025-04-11
@@ -64445,7 +64445,7 @@ wfo-1000041433,Gymnosphaera saxicola,S.Y.Dong & Z.Y.Zuo,species,wfo-4000016526,v
 wfo-1000041434,Gymnosphaera bachmaensis,S.Y.Dong,species,wfo-4000016526,valid,J. Syst. Evol. 60(2): 441 (2020),accepted,NA,2022-12-01,2025-03-19
 wfo-1000041435,Gymnosphaera bonii,(Christ) S.Y.Dong,species,wfo-4000016526,valid,J. Syst. Evol. 60(2): 442 (2020),accepted,NA,2022-12-01,2025-03-19
 wfo-1000041496,Dryopteris carpatica,S.Jess. & Bujnoch,species,wfo-4000012657,valid,Fern Gaz. 21(8): 462 (2022),accepted,NA,2022-12-01,2025-03-19
-wfo-1200024939,Equisetum moorei subsp. nipponicum,Lubienski,subspecies,wfo-0001117161,valid,Fern Gaz. 21(8): 474. 2022 [21 Oct 2022],accepted,NA,2022-12-01,2024-12-16
+wfo-1200024939,Equisetum × moorei nothosubsp. nipponicum,Lubienski,subspecies,wfo-0001117161,valid,Fern Gaz. 21(8): 474. 2022 [21 Oct 2022],accepted,NA,2022-12-01,2024-12-16
 wfo-1200024940,Asplenium lepturus f. filiforme,Salgado,form,wfo-1200105033,valid,Fern Gaz. 21(8): 495 (2022),accepted,NA,2022-12-01,2025-03-19
 wfo-1000041515,Polystichum × dycei,Sleep,species,wfo-4000030832,valid,Pteridologist 3(3): 52 (1998),accepted,NA,2022-12-01,2025-03-19
 wfo-1000041517,Austroblechnum bullatum,J.Murillo & L.A.Triana,species,wfo-4000043328,valid,Phytotaxa 572(3): 269 (2022),accepted,NA,2022-12-01,2025-03-19
@@ -72304,7 +72304,7 @@ wfo-1000070085,Selaginelloideae,Milde,subfamily,NA,valid,"Fil. Eur. & Atl.: 5, 2
 wfo-1000070086,Selliguea rigida,(Hook.) Parris,species,wfo-4000035000,valid,Malayan Nat. J. 50(4): 267 (1997),accepted,NA,2024-08-15,2025-03-19
 wfo-1000070087,Taenitis,Willd. ex Spreng.,genus,wfo-1200009692,valid,Anleit. Kenntn. Gew. 3: 374 (1804),accepted,NA,2024-08-15,2025-03-19
 wfo-1000070088,Tectaria siifolia,Copel.,species,wfo-4000037670,valid,Contr. U.S. Natl. Herb. 10: 414 (1908),accepted,NA,2024-08-15,2025-03-19
-wfo-1000070090,Todea,Bernh.,genus,wfo-7000000433,valid,J. Bot. (Schrader) 1800(2): 126 (1801),accepted,NA,2024-08-15,2025-03-19
+wfo-1000070090,Todea,Willd. ex Bernh.,genus,wfo-7000000433,valid,J. Bot. (Schrader) 1800(2): 126 (1801),accepted,NA,2024-08-15,2026-01-19
 wfo-1000070091,Trichomanes superbum,Backh. ex T.Moore,species,wfo-4000039008,valid,Gard. Chron. 1862: 44 (1862),accepted,NA,2024-08-15,2024-12-16
 wfo-1000070092,Vandenboschia gigantea,(Bory ex Willd.) Pic.Serm.,species,wfo-4000039997,valid,Webbia 23(1): 197 (1968),accepted,NA,2024-08-15,2024-12-16
 wfo-1200105097,Asplenium × centovallense nothosubsp. centovallense,NA,subspecies,wfo-0000153688,valid,Ber. Deutsch. Bot. Ges. 81: 102 (1968) [nothossp.],accepted,NA,2024-08-15,2024-12-16
@@ -72313,7 +72313,7 @@ wfo-1200105099,Asplenium gracile,(E. Fourn.) Hemsl.,species,wfo-4000003342,valid
 wfo-1200105100,Asplenium kuemmerlei,(Vida) Soó,species,wfo-4000003342,valid,"Acta Bot. Acad. Sci. Hung. 9: 419 (1963), as 'kümmerlei'",accepted,NA,2024-08-15,2024-12-16
 wfo-1200105101,Asplenium shmakovii,Viane,species,wfo-4000003342,valid,NA,accepted,NA,2024-08-15,2024-12-16
 wfo-1200105102,Dryopteris × convoluta nothosubsp. convoluta,(Fraser-Jenk.) Fraser-Jenk.,subspecies,wfo-0000142762,valid,Fern Gaz. 18(1): 11 (2007) [nothossp.],accepted,NA,2024-08-15,2024-12-16
-wfo-1200105103,Equisetum font-queri,Rothm.,species,wfo-4000013663,valid,Feddes Repert. Regni Veg. 54: 79 (1944),accepted,NA,2024-08-15,2024-12-16
+wfo-1200105103,Equisetum × font-queri,Rothm.,species,wfo-4000013663,valid,Feddes Repert. Regni Veg. 54: 79 (1944),accepted,NA,2024-08-15,2026-01-24
 wfo-1200105105,Polypodium mantoniae,Rothm.,species,wfo-4000030796,valid,"Kulturpflanze, Beih. 3: 246 (1962)",accepted,NA,2024-08-15,2024-12-16
 wfo-1200105106,× Chrinephrium gogoii,(Fraser-Jenk.) Mazumdar,species,wfo-4000008130,valid,Ann. Bot. Fenn. 50(6): 398 (2013),accepted,NA,2024-08-15,2025-03-12
 wfo-1200105107,Asplenium javorkae subsp. javorkae,NA,subspecies,wfo-0000156495,valid,"Bot. Közlem. 20: 108 (1923) (nomen), et Magyar Bot. Lapok 21: 1 (1923) [nothossp.]",accepted,NA,2024-08-15,2024-12-16
@@ -72510,7 +72510,7 @@ wfo-1200106096,Aspidium densum,Wall.,species,NA,NA,Numer. List [Wallich] n. 390 
 wfo-1200106097,Aspidium elatum,Bojer,species,NA,NA,Hortus Maurit. 390 (1837),synonym,wfo-1200104823,2024-09-10,2025-03-19
 wfo-1200106098,Asplenium obtusatum subvar. acutifolium,(E.Fourn.) Bonap.,subvariety,NA,NA,"Nova Caledonia, Bot. 1(1): 42 (1914)",synonym,wfo-0001119812,2024-09-10,2024-12-16
 wfo-1200106099,Asplenium obtusatum subvar. integrum,Bonap.,subvariety,NA,NA,"Nova Caledonia, Bot. 1(1): 42 (1914), as 'integra'",synonym,wfo-0001119812,2024-09-10,2024-12-16
-wfo-1200106100,Equisetum moorei subsp. moorei,NA,subspecies,wfo-0001117161,valid,Phytologist 5: 19 (1856),accepted,NA,2024-09-10,2024-12-16
+wfo-1200106100,Equisetum × moorei nothosubsp. moorei,NA,subspecies,wfo-0001117161,valid,Phytologist 5: 19 (1856),accepted,NA,2024-09-10,2024-12-16
 wfo-1200106101,Equisetum × mackayi nothosubsp. mackayi,NA,subspecies,wfo-0001120025,valid,Phytologist 1: 369 (1842),accepted,NA,2024-09-10,2024-12-16
 wfo-1200106102,Asplenium auritum var. obtusum,NA,variety,NA,NA,Crypt. Vasc. Bresil 67 (1869),synonym,wfo-0001108083,2024-09-10,2025-03-19
 wfo-1000071413,Athyrium cyclosorum,(Rupr.) Gilbert,species,wfo-4000003575,valid,Fernwort Pap. 27 (1900) [Dec. 20],accepted,NA,2024-09-11,2024-12-16
