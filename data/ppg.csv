@@ -2136,7 +2136,7 @@ wfo-0000141535,Dicksonia erythrorachis,Christ,species,NA,NA,"Ann. Jard. Bot. Bui
 wfo-0000141536,Dicksonia exaltata,Kunze,species,NA,NA,Bot. Zeitung (Berlin) 8: 59 (1850),synonym,wfo-1000044506,2022-04-16,2024-12-16
 wfo-0000141537,Dicksonia expansa,Kaulf.,species,NA,NA,"Mém. Foug., 5. Gen. Filic. 335 (1852)",synonym,wfo-0001112095,2022-04-16,2025-03-19
 wfo-0000141538,Dicksonia fallax,Kaulf.,species,NA,NA,Syn. n. 111,synonym,wfo-0001115550,2022-04-16,2025-03-19
-wfo-0000141539,Dicksonia fibrosia,Col.,species,wfo-4000011468,valid,Tasmanian J. Nat. Sci. 2(8): 179 (1845),accepted,NA,2022-04-16,2025-03-19
+wfo-0000141539,Dicksonia fibrosa,Colenso,species,wfo-4000011468,valid,Tasmanian J. Nat. Sci. 2(8): 179 (1845),accepted,NA,2022-04-16,2026-01-27
 wfo-0000141540,Dicksonia flaccida,(G.Forst.) Sw.,species,NA,NA,J. Bot. (Schrader) 1800(2): 90 (1801),synonym,wfo-0001125060,2022-04-16,2024-12-16
 wfo-0000141541,Dicksonia flaccida,Raddi,species,NA,NA,Opusc. Sci. 3. 296. 1819 (1819),synonym,wfo-1000044506,2022-04-16,2024-12-16
 wfo-0000141542,Dicksonia flaccida,Hook. & Arn.,species,NA,NA,Bot. Beechey Voy. 108. 1832 [Oct-Nov 1832],unchecked,NA,2022-04-16,2024-06-04
@@ -15295,7 +15295,7 @@ wfo-0000154814,Onoclea crispa,(L.) Hoffm.,species,NA,NA,"Deutschl. Fl., Theil 2 
 wfo-0000154815,Onoclea discolor,(G.Forst.) Sw.,species,NA,NA,Syn. Fil. (Swartz) 111 (1806),synonym,wfo-0000163411,2022-04-16,2025-05-22
 wfo-0000154816,Onoclea nodulosa,Michx.,species,NA,NA,Fl. Bor.-Amer. (Michaux) 2: 272 (1803),synonym,wfo-1200105092,2022-04-16,2025-03-19
 wfo-0000154817,Onoclea nodulosa,Schkuhr,species,NA,NA,Deutschl. Krypt. Gew. 1: 95 (1809),synonym,wfo-0001109164,2022-04-16,2024-12-16
-wfo-0000154818,Onoclea pensylvatica,(Willd.) Sm.,species,wfo-4000026881,valid,"Cycl. [A. Rees], (London ed.) 25(3). 1813",accepted,NA,2022-04-16,2024-11-08
+wfo-0000154818,Onoclea pensylvatica,(Willd.) Sm.,species,NA,invalid,"Cycl. [A. Rees], (London ed.) 25(3). 1813",unchecked,NA,2022-04-16,2026-01-29
 wfo-0000154819,Onoclea procera,(G.Forst.) Spreng.,species,NA,NA,J. Bot. (Schrader) 1799(2): 267 (1799),synonym,wfo-0001274046,2022-04-16,2025-03-19
 wfo-0000154820,Onoclea quercifolia,(Retz.) Willd.,species,NA,NA,Schrift. Akad. Erf. 27 (1802),synonym,wfo-0001422025,2022-04-16,2025-03-19
 wfo-0000154821,Onoclea scandens,Sw.,species,NA,NA,"Syn. Fil. (Swartz) 112, 309 (1806)",synonym,wfo-0001115653,2022-04-16,2025-03-19
@@ -22985,12 +22985,12 @@ wfo-0001111359,Gymnocarpium dryopteris var. pumilum,(DC.) B.Boivin,variety,NA,NA
 wfo-0001111360,Polypodium calcareum,Sm.,species,NA,NA,Brit. Fl. 1117 (1804),synonym,wfo-0001109141,2022-04-16,2025-03-19
 wfo-0001111361,Phegopteris calcareum,Sm.,species,NA,NA,NA,unchecked,NA,2022-04-16,2022-04-20
 wfo-0001111362,Matteuccia pensylvanica,(Willd.) Raymond,species,wfo-4000023333,valid,Naturaliste Canad. 77: [55] (1950),accepted,NA,2022-04-16,2024-12-16
-wfo-0001111363,Struthiopteris germanica var. pensylvanica,Lowe,variety,NA,NA,NA,synonym,wfo-0000154818,2022-04-16,2022-04-20
+wfo-0001111363,Struthiopteris germanica var. pensylvanica,Lowe,variety,NA,NA,NA,synonym,wfo-0001111362,2022-04-16,2026-01-29
 wfo-0001111364,Pteretis struthiopteris,(L.) Nieuwl.,species,NA,NA,Amer. Midl. Naturalist 3: 197 (1914),synonym,wfo-0001109164,2022-04-16,2025-05-22
 wfo-0001111365,Pteretis struthiopteris var. pennsylvanica,Farw.,variety,NA,NA,Rep. (Annual) Michigan Acad. Sci. 21: 346 (1920),synonym,wfo-0001111362,2022-04-16,2024-12-16
-wfo-0001111366,Pteretis nodulosa var. pubescens,Clute,variety,NA,NA,NA,synonym,wfo-0000154818,2022-04-16,2022-04-20
+wfo-0001111366,Pteretis nodulosa var. pubescens,Clute,variety,NA,NA,NA,synonym,wfo-0001111362,2022-04-16,2026-01-29
 wfo-0001111367,Struthiopteris nodulosa,(Michx.) Desv.,species,NA,NA,Mém. Soc. Linn. Paris 6(3): 287 (1827),synonym,wfo-1200105092,2022-04-16,2025-05-22
-wfo-0001111368,Struthiopteris nodulosa var. pubescens,Clute,variety,NA,NA,NA,synonym,wfo-0000154818,2022-04-16,2022-04-20
+wfo-0001111368,Struthiopteris nodulosa var. pubescens,Clute,variety,NA,NA,NA,synonym,wfo-0001111362,2022-04-16,2026-01-29
 wfo-0001111369,Onoclea obtusilobata,Schkuhr,species,NA,NA,Deutschl. Krypt. Gew. 1: 95 (1809),synonym,wfo-0001109206,2022-04-16,2024-12-16
 wfo-0001111370,Phyllitis fernaldiana,Á.Löve,species,NA,NA,Svensk Bot. Tidskr. 48: 214 (1954),synonym,wfo-1200041314,2022-04-16,2024-12-16
 wfo-0001111371,Gymnogramma oregana,Nutt.,species,NA,NA,NA,unchecked,NA,2022-04-16,2022-04-20
@@ -45583,7 +45583,7 @@ wfo-0001246921,Onoclea struthiopteris f. obtusilobata,Clute,form,NA,NA,Bull. Soc
 wfo-0001246922,Pteretis nodulosa f. obtusilobata,Fernald,form,NA,NA,Rhodora 37: 219 (1935),synonym,wfo-0001111362,2022-04-16,2024-12-16
 wfo-0001246923,Pteretis nodulosa f. foliacea,(Farw.) M.Broun,form,NA,NA,Index No. Amer. Ferns 150 (1938),synonym,wfo-0001111362,2022-04-16,2025-03-19
 wfo-0001246924,Struthiopteris germanica f. pubescens,Terry,form,NA,NA,"Fern Bull. 16: 5, 49 (1908)",synonym,wfo-0001111362,2022-04-16,2024-12-16
-wfo-0001246925,Onoclea struthiopteris var. pubescens,(Terry) Clute,variety,NA,NA,Fern Bull. 16: 47 1908,synonym,wfo-0000154818,2022-04-16,2022-04-20
+wfo-0001246925,Onoclea struthiopteris var. pubescens,(Terry) Clute,variety,NA,NA,Fern Bull. 16: 47 1908,synonym,wfo-0001111362,2022-04-16,2026-01-29
 wfo-0001246926,Struthiopteris pubescens,Clute,species,NA,NA,Fern Bull. 16: 48 (1908),synonym,wfo-0001111362,2022-04-16,2024-12-16
 wfo-0001246927,Struthiopteris pensylvanica f. pubescens,Clute,form,NA,NA,Fern Bull. 16: 48 (1908),synonym,wfo-0001111362,2022-04-16,2024-12-16
 wfo-0001246928,Matteuccia pubescens,Clute,species,NA,NA,Fern Bull. 16: 48 (1908),synonym,wfo-0001111362,2022-04-16,2024-12-16
@@ -58313,8 +58313,8 @@ wfo-0001412182,Selaginella albiduta var. macrostachya,Hieron.,variety,NA,NA,Nat.
 wfo-0001412183,Selaginella apoda var. ludoviciana,(A.Braun) B.F.Hansen & Wunderlin,variety,NA,NA,Phytologia 85(4): 301 (2000),synonym,wfo-0001109653,2022-04-16,2025-03-19
 wfo-0001412184,Selaginella armata var. eatonii,(Hieron. ex Small) B.F.Hansen & Wunderlin,variety,NA,NA,Phytologia 85(4): 300 (1998),synonym,wfo-0001109643,2022-04-16,2025-03-19
 wfo-0001412303,Spicanta fraxinea var. gracilis,Kuntze,variety,NA,NA,Revis. Gen. Pl. 2: 821 (1891),synonym,wfo-0001113391,2022-04-16,2025-03-19
-wfo-0001412350,Struthiopteris germanica var. pubescens,A.A.Eaton,variety,NA,NA,Fern Bull. 16: 47. 1908,synonym,wfo-0000154818,2022-04-16,2024-06-05
-wfo-0001412351,Struthiopteris struthiopteris var. pensylvanica,Farw.,variety,NA,NA,Amer. Midl. Naturalist 12: 252. 1931,synonym,wfo-0000154818,2022-04-16,2024-06-04
+wfo-0001412350,Struthiopteris germanica var. pubescens,A.A.Eaton,variety,NA,NA,Fern Bull. 16: 47. 1908,synonym,wfo-0001111362,2022-04-16,2026-01-29
+wfo-0001412351,Struthiopteris struthiopteris var. pensylvanica,Farw.,variety,NA,NA,Amer. Midl. Naturalist 12: 252. 1931,synonym,wfo-0001111362,2022-04-16,2026-01-29
 wfo-0001412418,Tectaria martinicensis var. pilosa,Domin,variety,NA,NA,"Rozpr. Kral. Ceske Spolecn. Nauk, Tr. Mat.-Prir. n.s., 2: 231 (1929)",synonym,wfo-0001120018,2022-04-16,2025-03-19
 wfo-0001412450,Thelypteris clypeolutata var. holmei,(Baker) A.R.Sm.,variety,NA,valid,Univ. Calif. Publ. Bot. 76: 11 (1980),synonym,wfo-0001385573,2022-04-16,2025-03-19
 wfo-0001412451,Thelypteris confluens var. pubescens,(G.Lawson) J.S.Pringle,variety,NA,NA,Tech. Bull. Roy. Bot. Gards. Hamilton 4: 42 (1969),synonym,wfo-0001359279,2022-04-16,2025-03-19
