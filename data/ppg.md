@@ -187,6 +187,8 @@
 
 *Rouxopteris* Hong M.Liu
 
+*Sticheroides* L.V.Lima, Salino & T.E.Almeida
+
 *Sticherus* C.Presl
 
 *Stromatopteris* Mett.
@@ -315,7 +317,7 @@
 
 *Sphenomeris* Maxon
 
-*Tapeinidium* (Presl) C.Chr.
+*Tapeinidium* (C.Presl) C.Chr.
 
 *Xyropteris* K.U.Kramer
 
@@ -887,7 +889,7 @@
 
 *Enterosora* Baker
 
-*Galactodenia* Dundue & Labiak
+*Galactodenia* Sundue & Labiak
 
 *Glabrigrammitis* Li Bing Zhang, X.M.Zhou, Jian Jun Yang & Parris
 
@@ -949,6 +951,8 @@
 
 *Bosmania* Testo
 
+*Dendroconche* Copel.
+
 *Goniophlebium* (Blume) C.Presl
 
 *Lecanopteris* Reinw.
@@ -960,6 +964,8 @@
 *Microsorum* Link
 
 *Thylacopteris* Kunze ex J.Sm.
+
+*Zealandia* Testo & A.R.Field
 
 ###### Subfamily **Platycerioideae** B.K.Nayar
 
