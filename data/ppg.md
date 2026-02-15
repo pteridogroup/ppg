@@ -213,7 +213,7 @@
 
 ##### Family **Schizaeaceae** Kaulf.
 
-*Actinostachys* R.Br. ex Hook. & Baker
+*Actinostachys* Wall.
 
 *Microschizaea* C.F.Reed
 
@@ -487,7 +487,7 @@
 
 *Paesia* A.St.-Hil.
 
-*Pteridium* Gleditsch; Scopoli
+*Pteridium* Gled. ex Scop.
 
 *Sitobolium* Desv.
 
