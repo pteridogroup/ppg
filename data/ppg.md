@@ -651,7 +651,7 @@
 
 ##### Family **Blechnaceae** Newman
 
-###### Subfamily **Blechnoideae** Hook.
+###### Subfamily **Blechnoideae** Gasper, V.A.O.Dittrich & Salino
 
 *Austroblechnum* Gasper & V.A.O.Dittrich
 
