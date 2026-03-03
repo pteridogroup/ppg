@@ -11,3 +11,4 @@ data/*
 !data/ppg.md
 
 /.quarto/
+/.vscode/
