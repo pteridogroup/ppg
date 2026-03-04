@@ -1,0 +1,97 @@
+name: Curator request
+description: Request a curator to edit a taxon
+labels: ["curator request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This form should be used for requesting a change to a taxon **at the species level or below** on [Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html), the database used by PPG for handling taxonomic data.
+     
+        Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Synonymize Crepidomanes minutum under Crepidomanes parvulum`).
+        
+        To propose a taxonomic change at the level of genus or higher, click on "New Issue" -> "Taxonomic proposal".
+
+        For discussions about other topics, please use the [Discussion forum](https://github.com/pteridogroup/ppg/discussions).
+   
+        For more information about Rhakhis, see the [PPG Curator's Guide](https://pteridogroup.github.io/curators.html).
+  - type: input
+    id: author-name
+    attributes:
+      label: Name of the person(s) making the request
+    validations:
+      required: false
+  - type: input
+    id: taxon-name
+    attributes:
+      label: Name of taxon
+      description: |
+        Please provide the name of the taxon that needs to be edited **with authors** (e.g., `Crepidomanes minutum (Blume) K.Iwats.`).
+        If there are multiple taxa, separate their names with a comma.
+    validations:
+      required: true
+  - type: input
+    id: wfo-id
+    attributes:
+      label: WFO ID
+      description: |
+        Please provide WFO ID of the taxon that needs to be edited. This is the last part of the URL of the taxon in Rhakhis.
+        For example, the WFO ID of `https://list.worldfloraonline.org/rhakhis/ui/index.html#wfo-0001226953` is `wfo-0001226953`.
+        If there are multiple taxa, separate their IDs with a comma.
+    validations:
+      required: true
+  - type: dropdown
+    id: taxon-rank
+    attributes:
+      label: Rank of taxon
+      description: |
+        Only requests at the level of species and below are considered
+      multiple: false
+      options:
+        - Species
+        - Subspecies
+        - Variety
+        - Cultivar
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: change-type
+    attributes:
+      label: Type of change
+      description: |
+        Which best describes the type of change being requested? Check all that apply.
+      multiple: true
+      options:
+        - Sink into synonymy
+        - Raise to accepted
+        - Transfer to another genus or higher taxon
+        - Correction of basionym
+        - Correction of author
+        - Correction of publication
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Description of change
+      description: |
+        Describe the substance of the change, including the reason it is necessary.
+    validations:
+      required: true
+  - type: input
+    id: other
+    attributes:
+      label: List the numbers of any related issues
+      description: |
+        Every issue is assigned a number. You can find the number in the title of the issue. Enter the number preceded by a hash mark, e.g., `#1`. Separate multiple issues with a comma, e.g., `#1, #2`.
+    validations:
+      required: false
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Code of Conduct
+      description: By submitting this issue, you agree to follow our [Code of Conduct](https://pteridogroup.github.io/coc.html).
+      options:
+        - label: I agree to follow the PPG Code of Conduct
+          required: true
