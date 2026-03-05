@@ -1,5 +1,5 @@
-name: Curator request
-description: Request a curator to edit a taxon
+name: Taxonomic request
+description: Request a change to a taxon at species level or below
 labels: ["curator request"]
 body:
   - type: markdown
@@ -40,21 +40,6 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: taxon-rank
-    attributes:
-      label: Rank of taxon
-      description: |
-        Only requests at the level of species and below are considered
-      multiple: false
-      options:
-        - Species
-        - Subspecies
-        - Variety
-        - Cultivar
-        - Other
-    validations:
-      required: true
-  - type: dropdown
     id: change-type
     attributes:
       label: Type of change
@@ -65,6 +50,7 @@ body:
         - Sink into synonymy
         - Raise to accepted
         - Transfer to another genus or higher taxon
+        - Deletion of name
         - Correction of basionym
         - Correction of author
         - Correction of publication

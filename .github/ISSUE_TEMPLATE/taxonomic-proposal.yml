@@ -1,5 +1,5 @@
 name: Taxonomic proposal
-description: Propose a taxonomic change
+description: Propose a taxonomic change at genus level or higher
 labels: ["taxonomic proposal"]
 body:
   - type: markdown
