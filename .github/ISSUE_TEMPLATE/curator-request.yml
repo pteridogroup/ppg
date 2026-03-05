@@ -5,15 +5,13 @@ body:
   - type: markdown
     attributes:
       value: |
-        This form should be used for requesting a change to a taxon **at the species level or below** on [Rhakhis](https://list.worldfloraonline.org/rhakhis/ui/index.html), the database used by PPG for handling taxonomic data.
+        This form should be used for requesting a change to a taxon **at the species level or below** in PPG.
      
         Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Synonymize Crepidomanes minutum under Crepidomanes parvulum`).
         
         To propose a taxonomic change at the level of genus or higher, click on "New Issue" -> "Taxonomic proposal".
 
         For discussions about other topics, please use the [Discussion forum](https://github.com/pteridogroup/ppg/discussions).
-   
-        For more information about Rhakhis, see the [PPG Curator's Guide](https://pteridogroup.github.io/curators.html).
   - type: input
     id: author-name
     attributes:
@@ -34,8 +32,8 @@ body:
     attributes:
       label: WFO ID
       description: |
-        Please provide WFO ID of the taxon that needs to be edited. This is the last part of the URL of the taxon in Rhakhis.
-        For example, the WFO ID of `https://list.worldfloraonline.org/rhakhis/ui/index.html#wfo-0001226953` is `wfo-0001226953`.
+        Please provide WFO ID of the taxon that needs to be edited. This is the last part of the URL of the taxon in Rhakhis or World Flora Online.
+        For example, the WFO ID of `https://list.worldfloraonline.org/rhakhis/ui/index.html#wfo-0001226953` (Rhakhis) or `https://www.worldfloraonline.org/taxon/wfo-0001226953` (World Flora Online) is `wfo-0001226953`.
         If there are multiple taxa, separate their IDs with a comma.
     validations:
       required: true
