@@ -9,7 +9,7 @@ body:
         
         Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Rescue of Spicantopsis (Blechnaceae, Polypodiopsida)`).
 
-        To request an edit at the level of species or lower, submit a [taxonomic request](https://github.com/pteridogroup/ppg/issues/new?template=curator-request.yml).
+        To request an edit at the level of species or lower, submit a [taxonomic request](https://github.com/pteridogroup/ppg/issues/new?template=taxonomic-request.yml).
 
         For discussions about other topics, please use the [Discussion forum](https://github.com/pteridogroup/ppg/discussions).
   - type: input
