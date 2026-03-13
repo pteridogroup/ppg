@@ -28,24 +28,10 @@ Anybody is welcome to contribute. All participants must adhere to the [Code of C
 
 ## Running with Docker
 
-### Basic usage
+### Interactive development
 
-Launch a container in the background:
-
-```
-docker run \
-  --rm \
-  -dt \
-  -v ${PWD}:/wd \
-  -w /wd \
-  --user root \
-  joelnitta/ppg:latest bash
-```
-
-### Development
-
-Specify user and git files, otherwise you won't have permission to make changes
-to the git cache.
+Run as your host user to avoid permission issues with git operations.
+Mount gitconfig and ssh for authentication:
 
 ```
 docker run --rm -dt \
@@ -57,9 +43,18 @@ docker run --rm -dt \
   joelnitta/ppg:latest bash
 ```
 
+Then attach to the container:
+
+```
+docker exec -it $(docker ps -q --filter ancestor=joelnitta/ppg:latest) bash
+```
+
 ### Cron job
 
-Run as root to enable the cron job, which will run the `targets` workflow once per day.
+Run as root to enable the cron service, which will run the `targets` 
+workflow once per day. The cron jobs execute as a non-root user and the 
+entrypoint automatically fixes file ownership to match, preventing 
+permission issues.
 
 Gitconfig and ssh are needed to commit and push data files to GitHub.
 
