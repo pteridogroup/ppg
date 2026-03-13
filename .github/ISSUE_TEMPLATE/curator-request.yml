@@ -1,6 +1,6 @@
 name: Taxonomic request
 description: Request a change to a taxon at species level or below
-labels: ["curator request"]
+labels: ["taxonomic request"]
 body:
   - type: markdown
     attributes:
