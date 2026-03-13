@@ -17,6 +17,8 @@
 
 ###### Subfamily **Lycopodielloideae** W.H.Wagner & Beitel ex B.Øllg.
 
+*Brownseya* Li Bing Zhang, L.D.Sheph., D.K.Chen, X.M.Zhou & H.He
+
 *Lateristachys* Holub
 
 *Lycopodiella* Holub
@@ -962,6 +964,8 @@
 *Leptochilus* Kaulf.
 
 *Microsorum* Link
+
+*Podosorus* Holttum
 
 *Thylacopteris* Kunze ex J.Sm.
 
