@@ -1,3 +1,24 @@
+#' Download WFO Backbone File
+#'
+#' Downloads the World Flora Online backbone ZIP file using wget with SSL
+#' certificate verification disabled. This workaround is necessary because
+#' the WFO server has an incomplete SSL certificate chain (missing
+#' intermediate certificates).
+#'
+#' @param url A string specifying the URL to download from.
+#' @param dest A string specifying the destination file path.
+#'
+#' @return The destination file path (invisibly).
+#'
+#' @details Uses wget with --no-check-certificate flag to bypass SSL
+#'   verification. The directory for the destination file is created if it
+#'   doesn't exist.
+download_wfo_backbone <- function(url, dest) {
+  dir.create(dirname(dest), showWarnings = FALSE, recursive = TRUE)
+  system2("wget", c("--no-check-certificate", "-O", dest, url))
+  invisible(dest)
+}
+
 #' Load PPG Data from WFO Backbone Zip File
 #'
 #' This function extracts and processes a Darwin Core (DwC) classification
@@ -312,7 +333,7 @@ dwc_to_tl <- function(
   ]
 
   # Convert to taxonlist format
-  res <- 
+  res <-
     ppg_print |>
     dplyr::select(
       TaxonConceptID = taxonID,
@@ -326,11 +347,11 @@ dwc_to_tl <- function(
     as.data.frame() |>
     taxlist::df2taxlist(levels = rev(higher_tax_levels_used))
 
-    if (return_taxlist) {
-      return(res)
-    }
-    
-    ppg_print    
+  if (return_taxlist) {
+    return(res)
+  }
+
+  ppg_print
 }
 
 #' Set Taxon Priority Order for Sorting

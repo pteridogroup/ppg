@@ -10,10 +10,13 @@ on.exit({
 
 tar_plan(
   # Download WFO backbone exported from Rhakhis
-  tar_download(
+  tar_target(
     wfo_backbone_zip,
-    urls = "https://list.worldfloraonline.org/rhakhis/api/downloads/dwc/_uber.zip", # nolint
-    paths = "_targets/user/_uber.zip"
+    download_wfo_backbone(
+      url = "https://list.worldfloraonline.org/rhakhis/api/downloads/dwc/_uber.zip", # nolint
+      dest = "_targets/user/_uber.zip"
+    ),
+    format = "file"
   ),
   # Load and clean PPG data ----
   ppg_raw = load_ppg_from_wfo(wfo_backbone_zip),
