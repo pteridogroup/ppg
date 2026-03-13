@@ -9,7 +9,7 @@ body:
      
         Please include the name of the taxon in the title above. The title should concisely describe the change (e.g., `Synonymize Crepidomanes minutum under Crepidomanes parvulum`).
         
-        To propose a taxonomic change at the level of genus or higher, click on "New Issue" -> "Taxonomic proposal".
+        To propose a taxonomic change at the level of genus or higher, file a [taxonomic proposal](https://github.com/pteridogroup/ppg/issues/new?template=taxonomic-proposal.yml).
 
         For discussions about other topics, please use the [Discussion forum](https://github.com/pteridogroup/ppg/discussions).
   - type: input
