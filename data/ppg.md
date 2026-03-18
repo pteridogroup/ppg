@@ -639,7 +639,7 @@
 
 *Ephemeropteris* R.C.Moran & Sundue
 
-*Pseudathyrium* Newm.
+*Pseudathyrium* Newman
 
 ##### Family **Onocleaceae** Pic.Serm.
 
@@ -657,7 +657,7 @@
 
 *Austroblechnum* Gasper & V.A.O.Dittrich
 
-*Blechnidium* Moore
+*Blechnidium* T.Moore
 
 *Blechnopsis* C.Presl
 
@@ -825,7 +825,7 @@
 
 *Polydictyum* C.Presl
 
-*Pteridrys* Christensen & Ching
+*Pteridrys* C.Chr. & Ching
 
 ##### Family **Oleandraceae** Ching ex Pic.Serm.
 
