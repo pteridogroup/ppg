@@ -321,9 +321,7 @@ dwc_to_tl <- function(
     # TODO fix these in Rhakhis
     # Remove bad taxa
     filter(
-      taxonID != "wfo-1000070090", # Todea Bernh., PPG I has Todea Willd. ex Bernh.
       taxonID != "wfo-0001114160", # Duplicate of Selaginella sanguinolenta (L.) Spring in different publication
-      taxonID != "wfo-0001110737", # Todea barbara, unplaced and lacks parent
       taxonID != "wfo-0001118486" # Todea papuana, unplaced and lacks parent
     )
 
