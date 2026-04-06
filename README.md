@@ -30,12 +30,10 @@ Anybody is welcome to contribute. All participants must adhere to the [Code of C
 
 ### Interactive development
 
-Run as your host user to avoid permission issues with git operations.
 Mount gitconfig and ssh for authentication:
 
 ```
 docker run --rm -dt \
-  --user $(id -u):$(id -g) \
   -v ${PWD}:/wd \
   -v $HOME/.gitconfig:/home/user/.gitconfig:ro \
   -v $HOME/.ssh:/home/user/.ssh:ro \

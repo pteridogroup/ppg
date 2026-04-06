@@ -7,7 +7,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 ############################
 RUN apt-get update \
   && apt-get install -y --no-install-recommends \
-       cron \
+  cron \
   && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 ####################################
@@ -51,16 +51,16 @@ ARG GID=1001
 
 # Create group and user with fixed UID/GID
 RUN groupadd -g ${GID} ${USERNAME} \
- && useradd  -m -u ${UID} -g ${GID} -s /bin/bash ${USERNAME}
+  && useradd  -m -u ${UID} -g ${GID} -s /bin/bash ${USERNAME}
 
 # Make sure the user can read site libs and write logs
 RUN chown -R ${USERNAME}:${USERNAME} /var/log/cron.log \
- && chmod 0644 /var/log/cron.log
+  && chmod 0644 /var/log/cron.log
 
 # User crontab: runs daily at midnight as ${USERNAME}
 # Option A: per-user crontab (preferred)
 RUN crontab -u ${USERNAME} -l 2>/dev/null; \
-    echo "0 0 * * * cd /wd && /usr/local/bin/make.sh >> /var/log/cron.log 2>&1" | crontab -u ${USERNAME} -
+  echo "0 0 * * * cd /wd && /usr/local/bin/make.sh >> /var/log/cron.log 2>&1" | crontab -u ${USERNAME} -
 
 # Option B (alternative): system cron.d entry with explicit user
 # RUN echo '0 0 * * *  '"${USERNAME}"'  cd /wd && /usr/local/bin/make.sh >> /var/log/cron.log 2>&1' \

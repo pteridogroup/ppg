@@ -9,5 +9,15 @@ if [ -d /wd ]; then
   echo "Ownership fixed."
 fi
 
+# Only start cron in background for interactive mode (bash)
+# For cron mode, let 'cron -f' run in foreground via exec
+if [ "$1" = "bash" ]; then
+  if ! pgrep -x cron > /dev/null; then
+    echo "Starting cron service for interactive mode..."
+    cron
+    echo "Cron started."
+  fi
+fi
+
 # Execute the main command
 exec "$@"
