@@ -149,6 +149,8 @@
 
 *Plenasium* C.Presl
 
+*Todea* Willd. ex Bernh.
+
 ### Order **Hymenophyllales** A.B.Frank
 
 ##### Family **Hymenophyllaceae** Mart.
@@ -639,7 +641,7 @@
 
 *Ephemeropteris* R.C.Moran & Sundue
 
-*Pseudathyrium* Newman
+*Pseudathyrium* Newm.
 
 ##### Family **Onocleaceae** Pic.Serm.
 
@@ -657,7 +659,7 @@
 
 *Austroblechnum* Gasper & V.A.O.Dittrich
 
-*Blechnidium* T.Moore
+*Blechnidium* Moore
 
 *Blechnopsis* C.Presl
 
@@ -825,7 +827,7 @@
 
 *Polydictyum* C.Presl
 
-*Pteridrys* C.Chr. & Ching
+*Pteridrys* Christensen & Ching
 
 ##### Family **Oleandraceae** Ching ex Pic.Serm.
 
