@@ -317,13 +317,7 @@ dwc_to_tl <- function(
     ppg |>
     # Only keeping higher, accepted taxa
     filter(taxonRank %in% higher_tax_levels) |>
-    filter(taxonomicStatus == "accepted") |>
-    # TODO fix these in Rhakhis
-    # Remove bad taxa
-    filter(
-      taxonID != "wfo-0001114160", # Duplicate of Selaginella sanguinolenta (L.) Spring in different publication
-      taxonID != "wfo-0001118486" # Todea papuana, unplaced and lacks parent
-    )
+    filter(taxonomicStatus == "accepted")
 
   # Identify higher taxonomic levels actually used
   higher_tax_levels_used <- higher_tax_levels[
