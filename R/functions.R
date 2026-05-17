@@ -413,6 +413,7 @@ set_taxon_priority <- function(ppg, families_in_phy_order) {
     "Osmundales",
     "Hymenophyllales",
     "Gleicheniales",
+    "Matoniales",
     "Schizaeales",
     "Salviniales",
     "Cyatheales",
