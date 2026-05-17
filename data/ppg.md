@@ -15,7 +15,7 @@
 
 *Phylloglossum* Kunze
 
-###### Subfamily **Lycopodielloideae** W.H.Wagner & Beitel ex B.Øllg.
+###### Subfamily **Lycopodielloideae** W.H.Wagner & Beitel ex B.Øllg.
 
 *Brownseya* Li Bing Zhang, L.D.Sheph., D.K.Chen, X.M.Zhou & H.He
 
@@ -197,6 +197,8 @@
 
 *Stromatopteris* Mett.
 
+### Order **Matoniales** Pic.Serm. ex Reveal
+
 ##### Family **Matoniaceae** C.Presl
 
 *Matonia* R.Br. ex Wall.
@@ -367,11 +369,13 @@
 
 *Doryopteris* J.Sm.
 
-*Estrella* Windham
+*Estrellita* Windham
 
 *Gaga* Pryer, Fay W.Li & Windham
 
 *Hemionitis* L.
+
+*Kirkpatrickia* Li Bing Zhang, X.M.Zhou & Jing Zhao
 
 *Lytoneuron* (Klotzsch) Yesilyurt
 
@@ -398,6 +402,8 @@
 *Quechuapteris* Windham
 
 *Trachypteris* André
+
+*Windhamia* Li Bing Zhang, X.M.Zhou & Jing Zhao
 
 *Ynesmexia* Fauskee & Windham
 
@@ -641,7 +647,7 @@
 
 *Ephemeropteris* R.C.Moran & Sundue
 
-*Pseudathyrium* Newm.
+*Pseudathyrium* Newman
 
 ##### Family **Onocleaceae** Pic.Serm.
 
@@ -659,7 +665,7 @@
 
 *Austroblechnum* Gasper & V.A.O.Dittrich
 
-*Blechnidium* Moore
+*Blechnidium* T.Moore
 
 *Blechnopsis* C.Presl
 
@@ -681,7 +687,7 @@
 
 *Lomaridium* C.Presl
 
-*Lomariocycas* (J.Sm.) Gasper & V.A.O.Dittrich
+*Lomariocycas* (J.Sm.) Gasper & A.R.Sm.
 
 *Neoblechnum* Gasper & V.A.O.Dittrich
 
@@ -827,7 +833,7 @@
 
 *Polydictyum* C.Presl
 
-*Pteridrys* Christensen & Ching
+*Pteridrys* C.Chr. & Ching
 
 ##### Family **Oleandraceae** Ching ex Pic.Serm.
 
