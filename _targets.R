@@ -13,9 +13,10 @@ tar_plan(
   tar_target(
     wfo_backbone_zip,
     download_wfo_backbone(
-      url = "https://list.worldfloraonline.org/rhakhis/api/downloads/dwc/_uber.zip", # nolint
+      url = "https://rhakhis-live.rbge.info/api/downloads/dwc/_uber.zip", # nolint
       dest = "_targets/user/_uber.zip"
     ),
+    cue = tar_cue(mode = "always"),
     format = "file"
   ),
   # Load and clean PPG data ----
