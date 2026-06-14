@@ -311,9 +311,9 @@
 
 ##### Family **Lindsaeaceae** M.R.Schomb.
 
-*× Lindsaeosoria* W.H.Wagner
-
 *Lindsaea* Dryand. ex Sm.
+
+*Lindsaeosoria* W.H.Wagner
 
 *Nesolindsaea* Lehtonen & Christenh.
 
@@ -549,13 +549,7 @@
 
 *× Abacopterella* T.E.Almeida & A.R.Field
 
-*× Chrinephrium* Nakaike
-
-*× Chrismatopteris* Quansah & D.S.Edwards
-
 *× Christelliopsis* Miles K.Thomas
-
-*× Glaphyrocyclosorus* Xia Wan & Li Bing Zhang
 
 *Abacopteris* Fée
 
