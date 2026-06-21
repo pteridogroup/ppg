@@ -65,7 +65,7 @@
 
 ### Order **Equisetales** DC. ex Bercht. & J.Presl
 
-##### Family **Equisetaceae** Michx. ex DC.
+##### Family **Equisetaceae** Rich. ex DC.
 
 *Equisetum* L.
 
@@ -311,9 +311,9 @@
 
 ##### Family **Lindsaeaceae** M.R.Schomb.
 
-*Lindsaea* Dryand. ex Sm.
+*× Lindsaeosoria* W.H.Wagner
 
-*Lindsaeosoria* W.H.Wagner
+*Lindsaea* Dryand. ex Sm.
 
 *Nesolindsaea* Lehtonen & Christenh.
 
