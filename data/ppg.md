@@ -803,6 +803,10 @@
 
 *Thysanosoria* A.Gepp
 
+##### Family **Cryptocaulaceae** Sundue, T.Fujiw., Limpan. & L.Y.Kuo
+
+*Cryptocaulon* Vongthavone, Tagane, Sundue & T.Fujiw.
+
 ##### Family **Nephrolepidaceae** Pic.Serm.
 
 *Nephrolepis* Schott
