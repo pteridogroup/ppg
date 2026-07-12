@@ -23,7 +23,7 @@ library(taxlist)
 library(taxnames)
 conflicted::conflict_prefer("filter", "dplyr")
 
-tar_load(c(ppg_tl, ppg, families_in_phy_order), store = here::here("_targets"))
+tar_load(c(ppg_tl, ppg, families_in_phy_order_patched), store = here::here("_targets"))
 ```
 
 ```{r}
@@ -51,7 +51,7 @@ indent_df <-
   ) |>
   select(level, indent)
 
-priority_sort <- set_taxon_priority(ppg, families_in_phy_order)
+priority_sort <- set_taxon_priority(ppg, families_in_phy_order_patched)
 
 # Print out as text
 ppg_tl |>

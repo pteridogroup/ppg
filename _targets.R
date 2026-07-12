@@ -31,11 +31,19 @@ tar_plan(
   phy_family = make_family_tree(),
   # Get families in 'phylogenetic' order
   families_in_phy_order = get_ladderized_tips(phy_family),
+  # patch to fix missing Cryptocaulaceae
+  # should be able to remove this after updating FTOL
+  families_in_phy_order_patched = append(
+    families_in_phy_order,
+    "Cryptocaulaceae",
+    after = which(families_in_phy_order == "Nephrolepidaceae")
+  ) |> unique(),
+
 
   # Format data ----
   # - convert DarwinCore format to dataframe in taxonomic order for printing
   #   (only includes accepted taxa at genus and higher)
-  ppg_tl = dwc_to_tl(ppg, families_in_phy_order),
+  ppg_tl = dwc_to_tl(ppg, families_in_phy_order_patched),
 
   # Output data files ----
   # - Taxonomic treatment (markdown)
