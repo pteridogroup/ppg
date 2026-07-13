@@ -18,6 +18,9 @@ jobs:
     timeout-minutes: 60
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+      # Parallel restore can silently drop a package from a dependency wave
+      # (rstudio/renv#1571); force sequential installs for determinism.
+      RENV_CONFIG_INSTALL_WORKERS: 1
     steps:
       - uses: actions/checkout@v7
 
