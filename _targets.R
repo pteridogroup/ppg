@@ -22,11 +22,6 @@ tar_plan(
   # Load and clean PPG data ----
   ppg_raw = load_ppg_from_wfo(wfo_backbone_zip),
   ppg = clean_ppg(ppg_raw),
-  tar_file_read(
-    ppgi_supp_data_raw,
-    "_targets/user/ppgi_data.xlsx",
-    readxl::read_xlsx(!!.x)
-  ),
   # Make family-level tree ---
   phy_family = make_family_tree(),
   # Get families in 'phylogenetic' order
