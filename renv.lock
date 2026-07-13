@@ -3143,7 +3143,14 @@
     "later": {
       "Package": "later",
       "Version": "1.4.8",
-      "Source": "Repository"
+      "Source": "Repository",
+      "Depends": [
+        "R (>= 3.5)"
+      ],
+      "Imports": [
+        "Rcpp (>= 1.0.10)",
+        "rlang"
+      ]
     },
     "lattice": {
       "Package": "lattice",
