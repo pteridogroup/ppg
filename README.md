@@ -26,9 +26,18 @@ Taxonomic proposals should be submitted as [issues](https://github.com/pteridogr
 
 Anybody is welcome to contribute. All participants must adhere to the [Code of Conduct](https://pteridogroup.github.io/coc.html). Please read the [Project Guidelines](https://pteridogroup.github.io/guidelines.html) before contributing.
 
+## Automated updates
+
+The data are refreshed daily by the `Update PPG data` GitHub Actions
+workflow (`.github/workflows/update-ppg.yml`), which runs the `targets`
+pipeline and commits any changed data files back to `main`. It can also be
+triggered manually from the Actions tab, or via
+`gh workflow run update-ppg.yml`.
+
 ## Running with Docker
 
-### Interactive development
+The Docker image is only for local, interactive development; it is not used
+by the automated update.
 
 Mount gitconfig and ssh for authentication:
 
@@ -45,25 +54,6 @@ Then attach to the container:
 
 ```
 docker exec -it $(docker ps -q --filter ancestor=joelnitta/ppg:latest) bash
-```
-
-### Cron job
-
-Run as root to enable the cron service, which will run the `targets` 
-workflow once per day. The cron jobs execute as a non-root user and the 
-entrypoint automatically fixes file ownership to match, preventing 
-permission issues.
-
-Gitconfig and ssh are needed to commit and push data files to GitHub.
-
-```
-docker run --rm -dt \
-  -v ${PWD}:/wd \
-  -v $HOME/.gitconfig:/home/user/.gitconfig:ro \
-  -v $HOME/.ssh:/home/user/.ssh:ro \
-  -w /wd \
-  --name ppg_make \
-  joelnitta/ppg:latest
 ```
 
 ## Data sources

@@ -1,0 +1,48 @@
+name: Update PPG data
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: 'renv'
+
+      - uses: r-lib/actions/setup-renv@v2
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: '1.9.38'
+
+      - name: Install gnparser CLI
+        run: |
+          GNP_VERSION=1.11.6
+          wget -q "https://github.com/gnames/gnparser/releases/download/v${GNP_VERSION}/gnparser-v${GNP_VERSION}-linux-x86.tar.gz"
+          tar xf "gnparser-v${GNP_VERSION}-linux-x86.tar.gz"
+          sudo mv gnparser /usr/local/bin/
+          rm "gnparser-v${GNP_VERSION}-linux-x86.tar.gz"
+
+      - name: Configure git identity
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run targets pipeline
+        run: Rscript -e 'targets::tar_make()'
