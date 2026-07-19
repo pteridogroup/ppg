@@ -96,3 +96,18 @@ release, to draft release notes for a version bump:
 5. Present as a short structured summary (row count delta, additions with
    names/ranks, removals, taxonomic status flips by name, other field-change
    counts) — this is the basis for the release description.
+6. Recommend which part of the version number should bump, based on the
+   `taxonRank` of every added/removed/changed row (use the rank from the
+   new row, or the old row if removed):
+   - Any change at genus-level-or-above (genus, subgenus, family, order,
+     class, etc.) → recommend a `GENUS` bump.
+   - Changes confined entirely to species-level-or-below (species,
+     subspecies, variety, form) → recommend a `SPECIES`-only bump.
+   - `MAJOR` bumps are for wholesale/structural revisions (e.g. the
+     eventual v2.0 declaration) — flag if the change set looks unusually
+     large or restructures a large fraction of the tree, but don't assume
+     one from a normal diff.
+   - This is a recommendation to surface alongside the summary, not an
+     automatic decision — the actual bump (including whether to bump at
+     all vs. leave it as a `DEV` increment) is made by the user (see
+     "Versioning" above).
