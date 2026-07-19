@@ -23,6 +23,12 @@ jobs:
       RENV_CONFIG_INSTALL_WORKERS: 1
     steps:
       - uses: actions/checkout@v7
+        with:
+          # gert::git_log() (used by the targets pipeline to record the last
+          # commit) fails on a shallow clone: libgit2's revwalk tries to
+          # reach the parent commit object that a shallow fetch deliberately
+          # omits, and errors with "object not found - no match for id".
+          fetch-depth: 0
 
       - name: Install system dependencies
         run: |
