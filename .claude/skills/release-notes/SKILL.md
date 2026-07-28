@@ -13,7 +13,15 @@ summary of what changed, and recommends which part of the version number to bump
 
 ## Procedure
 
-1. Find the last version tag: `git tag --sort=-creatordate | head -1`.
+1. Find the last *released* version with `gh release list -R pteridogroup/ppg --limit 1`
+   (the tag it reports, e.g. `v0.0.0.9008`) — don't use
+   `git tag --sort=-creatordate | head -1` for this. Stray/typo tags can exist (e.g.
+   `v0.0.0.90078` was a duplicate of `v0.0.0.9008` on the same commit — one extra digit,
+   no real GitHub release behind it) and can outrank the real release tag under
+   `--sort=-creatordate` when both share a commit/timestamp. `gh release list` reflects
+   what was actually published, so it's the authoritative source. Only fall back to the
+   git tag command if `gh` is unavailable, and in that case cross-check the result looks
+   sane (matches a real release) before using it.
 2. Extract both snapshots of the CSV for comparison:
    ```
    git show <last-tag>:data/ppg.csv > /tmp/ppg_old.csv
