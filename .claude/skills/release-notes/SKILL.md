@@ -89,11 +89,14 @@ version number and that they want to proceed — this step pushes a tag and publ
 public GitHub release, so never do it as a default continuation of the summary step.
 
 7. Confirm with the user: the exact version string to tag (e.g. `v0.0.0.9009`), and the
-   release notes text. Draft the notes in the same terse style as past releases (one line
-   like "Development version", plus one short sentence on the headline change — e.g. "Adds
-   Cryptocaulaceae" or "Removes nothogenera not currently recognized by PPG: ..." — not the
-   full diff dump from the summary step), but let the user edit it before anything is
-   published.
+   release notes text. Draft the notes as the structured summary from step 5 (row count
+   delta, new taxa by name/rank, the transition tally, other field-change counts) formatted
+   as markdown bullets — not the older terse one-liner style used by pre-9009 releases
+   (e.g. "Development version / Adds Cryptocaulaceae"). Leave the sanity-check arithmetic
+   out of the published notes — it's an internal QA step (step 4), not reader-facing
+   content. Don't shout rank names in caps (`genus`/`species`, not `GENUS`/`SPECIES`) in
+   prose meant for the release notes — the all-caps form is just this skill doc's shorthand
+   for the version-number field. Let the user edit the notes before anything is published.
 8. Once confirmed, from a clean working tree on `main` (verify with `git status`; if the
    version bump also involves non-`ppg.csv` changes like `README.md`, commit those first):
    ```
