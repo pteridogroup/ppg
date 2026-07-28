@@ -59,55 +59,9 @@ One row per taxon. Key columns (DwC terms):
 
 ## Task: prepare a release description (summarize changes since last version)
 
-When asked to summarize what changed in `data/ppg.csv` since the last
-release, to draft release notes for a version bump:
-
-1. Find the last version tag: `git tag --sort=-creatordate | head -1`.
-2. Extract both snapshots of the CSV for comparison:
-   ```
-   git show <last-tag>:data/ppg.csv > /tmp/ppg_old.csv
-   cp data/ppg.csv /tmp/ppg_new.csv
-   ```
-   (or substitute a different ref for "new" if comparing two arbitrary
-   points instead of tag-vs-working-tree).
-3. Diff by `taxonID` (not row order — rows get reordered/renumbered), using
-   pandas or similar:
-   - Added taxonIDs (new in the new file) — report scientificName,
-     taxonRank, taxonomicStatus for each.
-   - Removed taxonIDs (present in old, gone in new) — same, from the old
-     file.
-   - For taxonIDs in both: diff every column except `modified`. Rows where
-     only `modified` differs are pipeline noise — count them but don't
-     report as changes.
-   - For rows with real content changes, group by which column(s) changed
-     and report counts, then call out the interesting ones by name:
-     - `taxonomicStatus` transitions — tally as a small transition matrix
-       (e.g. `accepted → synonym: 10`) and list the `accepted ↔ synonym`
-       flips by name (these are the taxonomic decisions people most want
-       to see in release notes — `unchecked → *` is routine curation and
-       can just be a count).
-     - `scientificName` changes — list all of them by taxonID; these are
-       usually spelling corrections or hybrid-marker (`×`) fixes.
-     - `parentNameUsageID` / `acceptedNameUsageID` changes — these are
-       usually reclassification/re-parenting; a count is normally enough
-       detail unless the user wants specifics.
-4. Sanity-check the arithmetic (old row count + added − removed = new row
-   count) before presenting the summary.
-5. Present as a short structured summary (row count delta, additions with
-   names/ranks, removals, taxonomic status flips by name, other field-change
-   counts) — this is the basis for the release description.
-6. Recommend which part of the version number should bump, based on the
-   `taxonRank` of every added/removed/changed row (use the rank from the
-   new row, or the old row if removed):
-   - Any change at genus-level-or-above (genus, subgenus, family, order,
-     class, etc.) → recommend a `GENUS` bump.
-   - Changes confined entirely to species-level-or-below (species,
-     subspecies, variety, form) → recommend a `SPECIES`-only bump.
-   - `MAJOR` bumps are for wholesale/structural revisions (e.g. the
-     eventual v2.0 declaration) — flag if the change set looks unusually
-     large or restructures a large fraction of the tree, but don't assume
-     one from a normal diff.
-   - This is a recommendation to surface alongside the summary, not an
-     automatic decision — the actual bump (including whether to bump at
-     all vs. leave it as a `DEV` increment) is made by the user (see
-     "Versioning" above).
+Handled by the `release-notes` skill
+(`.claude/skills/release-notes/SKILL.md`, invocable as `/release-notes`):
+diffs `data/ppg.csv` against the last version tag by `taxonID`, summarizes
+additions/removals/taxonomic-status flips/other field changes, and
+recommends which part of the version number to bump. Invoke it whenever
+asked to summarize changes since the last release or draft release notes.
