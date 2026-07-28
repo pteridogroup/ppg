@@ -49,10 +49,24 @@ summary of what changed, and recommends which part of the version number to bump
 6. Recommend which part of the version number should bump, based on the `taxonRank` of
    every added/removed/changed row (use the rank from the new row, or the old row if
    removed):
-   - Any change at genus-level-or-above (genus, subgenus, family, order, class, etc.) →
-     recommend a `GENUS` bump.
-   - Changes confined entirely to species-level-or-below (species, subspecies, variety,
-     form) → recommend a `SPECIES`-only bump.
+   - Only changes touching an *accepted* taxon at genus rank or above (genus, family,
+     order, class, etc.) count toward a `GENUS` bump. Concretely, a row counts if it's at
+     genus-or-above rank AND either:
+     - it's a newly added row with `taxonomicStatus` = `accepted`,
+     - an existing row's `taxonomicStatus` transitions into or out of `accepted`
+       (`synonym/unchecked → accepted`, or `accepted → synonym/unchecked`), or
+     - an existing row that is (and remains) `accepted` has its `scientificName`,
+       `parentNameUsageID`, or `taxonRank` changed.
+   - A genus-or-above row that is added, removed, or edited while its `taxonomicStatus`
+     stays `synonym` (or `unchecked`) throughout does **not** count toward `GENUS` — it's
+     routine synonymy bookkeeping (e.g. filling in a previously-missing obsolete name),
+     not a change to the accepted classification. Fold it into the `SPECIES` bucket
+     instead.
+   - Changes confined to non-qualifying genus-or-above rows plus anything below genus rank
+     — subgenus, section, species, subspecies, variety, form (subgenus is *below* genus in
+     the hierarchy: class > order > family > genus > subgenus > species > subspecies >
+     variety > form, despite the name sounding genus-adjacent) — → recommend a
+     `SPECIES`-only bump.
    - `MAJOR` bumps are for wholesale/structural revisions (e.g. the eventual v2.0
      declaration) — flag if the change set looks unusually large or restructures a large
      fraction of the tree, but don't assume one from a normal diff.
