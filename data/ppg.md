@@ -451,7 +451,7 @@
 
 *Tryonia* Schuettp., J.Prado & A.T.Cochran
 
-###### Subfamily **Vittarioideae** Crabbe, Jermy & Mickel
+###### Subfamily **Vittarioideae** Link
 
 *Ananthacorus* Underw. & Maxon
 
