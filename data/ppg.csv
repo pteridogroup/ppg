@@ -80,7 +80,7 @@ wfo-0000139451,Struthiopteris javanica,Trevis.,species,NA,NA,"Atti Reale Ist. Ve
 wfo-0000139452,Struthiopteris lanceolata,(R.Br.) Ching,species,NA,NA,Sunyatsenia 5: 243 (1940),synonym,wfo-0001346662,2022-04-16,2024-12-16
 wfo-0000139453,Struthiopteris membranacea,(Colenso ex Hook.) Ching,species,NA,NA,Sunyatsenia 5: 243 (1940),synonym,wfo-0001346711,2022-04-16,2025-03-19
 wfo-0000139454,Struthiopteris mexiae,(Copel.) Ching,species,NA,NA,Sunyatsenia 5: 243 (1940),synonym,wfo-0001346664,2022-04-16,2024-12-16
-wfo-0000139455,Struthiopteris mucronulata,Trevis.,species,NA,NA,Atti Reale Ist. Veneto Sci. Lett. Arti III. 14. 572. 1869 (1869),unchecked,NA,2022-04-16,2024-06-04
+wfo-0000139455,Struthiopteris mucronulata,(Fée) Trevis.,species,NA,valid,"Atti Reale Ist. Veneto Sci. Lett. Arti ser. 3, 14: 572 (1869)",unchecked,NA,2022-04-16,2026-08-08
 wfo-0000139456,Struthiopteris nigra,(Colenso) Ching,species,NA,NA,Sunyatsenia 5: 243 (1940),synonym,wfo-0001346722,2022-04-16,2025-03-19
 wfo-0000139457,Struthiopteris opaca,(Mett.) Ching,species,NA,NA,Sunyatsenia 5: 243 (1940),synonym,wfo-0001346723,2022-04-16,2025-03-19
 wfo-0000139458,Struthiopteris penna-marina,(Poir.) Maxon & Morton,species,NA,NA,Bull. Torrey Bot. Club 66: 44 (1939),synonym,wfo-0001346640,2022-04-16,2025-12-16
@@ -17269,7 +17269,7 @@ wfo-0000163448,Lomaria milnei,Carruth.,species,NA,NA,Fl. Vit. [Seemann] 351 (187
 wfo-0000163449,Lomaria mollis,Zoll. & Moritzi,species,NA,NA,"Syst. Verz. [Zollinger] 40, 49 (1854)",synonym,wfo-0001422027,2022-04-16,2025-03-19
 wfo-0000163450,Lomaria moritziana,Klotzsch,species,NA,NA,Linnaea 20(3): 347 (1847),synonym,wfo-1000005211,2022-04-16,2025-03-19
 wfo-0000163451,Lomaria mucronata,Fée,species,NA,valid,"Crypt. Vasc. Bresil 1: 20, t.8, f.3 (1869)",synonym,wfo-0001318732,2022-04-16,2026-02-10
-wfo-0000163452,Lomaria mucronulata,Fée,species,NA,NA,"Mém. Foug., 5. Gen. Filic. 72 (1852)",synonym,wfo-0001318732,2022-04-16,2026-02-10
+wfo-0000163452,Lomaria mucronulata,Fée,species,NA,valid,"Mém. Foug., 5. Gen. Filic. 72 (1852)",unchecked,NA,2022-04-16,2026-08-08
 wfo-0000163453,Lomaria neocaledonica,Lind. & Fourn.,species,NA,NA,"Ill. Hort. 23: 132, t.251 (1876)",synonym,wfo-0001346823,2022-04-16,2025-03-19
 wfo-0000163454,Lomaria norfolkiana,Heward,species,NA,NA,London J. Bot. 1: 122 (1842),synonym,wfo-0001346713,2022-04-16,2024-12-16
 wfo-0000163455,Lomaria obtusata,Labill.,species,NA,NA,"Sert. Austro-Caledon. 4, t.6 (1824)",synonym,wfo-0001346827,2022-04-16,2025-03-19
@@ -20083,7 +20083,7 @@ wfo-0001108447,Blechnum australe,L.,species,wfo-4000004744,valid,Mant. Pl. 130 (
 wfo-0001108448,Lomaria australis,(L.) Link,species,NA,NA,Fil. Spec. 82. 1841. (1841),synonym,wfo-0001108447,2022-04-16,2024-12-16
 wfo-0001108449,Blechnum rigidum,Sw.,species,NA,NA,J. Bot. (Schrader) 1800(2): 75 (1801),synonym,wfo-0001108447,2022-04-16,2024-12-16
 wfo-0001108450,Lomaria pumila,Kaulf.,species,NA,NA,Enum. Filic. 151 (1824),synonym,wfo-0001108447,2022-04-16,2025-03-19
-wfo-0001108451,Lomaria minor,Link,species,NA,NA,Hort. Berol. 2: 80 (1833),synonym,wfo-0001108447,2022-04-16,2024-12-16
+wfo-0001108451,Lomaria minor,Link,species,NA,invalid,Hort. Berol. 2: 80 (1833),unchecked,NA,2022-04-16,2026-08-08
 wfo-0001108452,Mesothema australe,(L.) C.Presl,species,NA,NA,Epimel. Bot. 112 (1851),synonym,wfo-0001108447,2022-04-16,2025-03-19
 wfo-0001108453,Struthiopteris australis,(L.) Trevis.,species,NA,NA,"Atti Reale Ist. Veneto Sci. Lett. Arti ser. 3, 14: 572 (1869)",synonym,wfo-0001108447,2022-04-16,2025-03-19
 wfo-0001108454,Spicanta australis,(L.) Kuntze,species,NA,valid,Revis. Gen. Pl.2: 821 (1891),synonym,wfo-0001108447,2022-04-16,2026-08-05
@@ -62053,7 +62053,7 @@ wfo-4000022530,Lygodictyon,J.Sm.,genus,NA,NA,Gen. Fil. [Hooker] t. 111 B (1842),
 wfo-4000022532,Lygodium,Sw.,genus,wfo-7000000355,conserved,"J. Bot. (Schrader) 1800(2): 7, 106 (1801)",accepted,NA,2022-04-16,2025-03-19
 wfo-4000022709,Macroglena,(C.Presl) Copel.,genus,NA,NA,Philippine Journal of Science 67 1938,synonym,wfo-4000000052,2022-04-16,2024-12-16
 wfo-4000022753,Macroplethus,C.Presl,genus,NA,NA,Epimel. Bot. 141 (1851),synonym,wfo-4000021173,2022-04-16,2025-03-19
-wfo-4000022793,Macrothelypteris,(H.Ito) Ching,genus,wfo-6500000520,valid,Acta Phytotax. Sin. 8(4): 308. 1963 [18 Oct 1963],accepted,NA,2022-04-16,2024-12-16
+wfo-4000022793,Macrothelypteris,(H.Ito) Ching,genus,wfo-6500000520,valid,Acta Phytotax. Sin. 8(4): 308 (1963),accepted,NA,2022-04-16,2026-08-13
 wfo-4000023047,Mankyua,"B.Y.Sun, M.H.Kim & C.H.Kim",genus,wfo-6500000516,valid,Taxon 50(4): 1020 (2002),accepted,NA,2022-04-16,2024-12-16
 wfo-4000023109,Marattia,Sw.,genus,wfo-7000000362,valid,"Prodr. [O. P. Swartz] 8, 128 (1788)",accepted,NA,2022-04-16,2025-03-19
 wfo-4000023149,Marginaria,Bory,genus,NA,NA,Dict. Class. Hist. Nat. [Bory] 6: 587 (1824),synonym,wfo-4000030272,2022-04-16,2025-12-15
