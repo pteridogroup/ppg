@@ -21842,7 +21842,7 @@ wfo-0001110220,Marsilea mucronata,A.Braun,species,NA,NA,"Amer. J. Sci. Arts ser.
 wfo-0001110221,Marsilea oligospora,Goodd.,species,wfo-4000023208,valid,Bot. Gaz. 33: 66 (1902),accepted,NA,2022-04-16,2024-12-16
 wfo-0001110222,Calamistrum americanum,Kuntze,species,NA,NA,Revis. Gen. Pl. 2: 822 (1891),synonym,wfo-0001109032,2022-04-16,2024-12-16
 wfo-0001110223,Azolla mexicana,Schltdl. & Cham.,species,NA,NA,Linnaea 5(4): 625 (1830),synonym,wfo-0001280463,2022-04-16,2025-03-19
-wfo-0001110224,Athyrium alpestre,(Hoppe) Rylands,species,NA,NA,"Ferns Gr. Brit. (ed. 2) (Moore) 1: t.7. 1857, a sphalm.",unchecked,NA,2022-04-16,2025-12-15
+wfo-0001110224,Athyrium alpestre,(Hoppe) Rylands,species,NA,NA,"Ferns Gr. Brit. (ed. 2) (Moore) 1: t.7. 1857, a sphalm.",synonym,wfo-0001110194,2022-04-16,2026-08-16
 wfo-0001110225,Athyrium americanum,(Butters) Maxon,species,wfo-4000003575,valid,Amer. Fern J. 8(4): 120 (1919),accepted,NA,2022-04-16,2024-06-04
 wfo-0001110226,Mertensia coeruleo-glauca,Poir.,species,NA,NA,Encycl. [J. Lamarck & al.] Suppl. 3. 669 (1814),synonym,wfo-0001107458,2022-04-16,2025-03-19
 wfo-0001110227,Mertensia linearis,(Burm.f.) Fritsch,species,NA,NA,Bull. Herb. Boissier II. 1. 1092 (1901),synonym,wfo-0001107285,2022-04-16,2026-06-09
@@ -40408,7 +40408,7 @@ wfo-0001128893,Pteris ottaria,Bedd.,species,NA,NA,NA,unchecked,NA,2022-04-16,202
 wfo-0001128894,Microsorum alternifolium,(Willd.) Copel.,species,NA,NA,Gen. Fil. [Copeland] 197 (1947),synonym,wfo-0001107365,2022-04-16,2025-03-19
 wfo-0001128895,Cyathea nilgirensis,Holttum,species,NA,NA,Kew Bull. 19(3): 468 (1965),synonym,wfo-0000139687,2022-04-16,2025-03-19
 wfo-0001128896,Loxogramme linearis,Copel.,species,NA,NA,"Philipp. J. Sci., C 11: 45, t.2, f.8 (1916)",synonym,wfo-0001107336,2022-04-16,2025-03-19
-wfo-0001128897,Bolbitis presliana,(T.Moore) Ching,species,NA,NA,"Index Filic., Suppl. Tert. 49 (1934)",synonym,wfo-0000146787,2022-04-16,2025-03-19
+wfo-0001128897,Bolbitis presliana,(T.Moore) Ching,species,NA,superfluous,"Index Filic., Suppl. Tert. 49 (1934)",synonym,wfo-0000146787,2022-04-16,2026-08-18
 wfo-0001128898,Athyrium drepanophyllum,Bedd.,species,NA,NA,Suppl. Ferns Brit. Ind. 32 (1892),synonym,wfo-0001115221,2022-04-16,2025-03-19
 wfo-0001128899,Thelypteris pyrrorhachis,Kunze,species,NA,NA,NA,unchecked,NA,2022-04-16,2026-07-14
 wfo-0001128900,Isoetes × jeffreyi,D.M.Britton & D.F.Brunt.,species,wfo-4000019273,valid,Canad. J. Bot. 70: 451 (1992),accepted,NA,2022-04-16,2024-12-16
@@ -56299,7 +56299,7 @@ wfo-0001378740,Athyrium angustum var. rubellum,Butters,variety,NA,NA,Rhodora 19:
 wfo-0001378741,Athyrium angustum var. typicum,(Butters) Wherry,variety,NA,NA,Amer. Fern J. 27: 58. 1937,unchecked,NA,2022-04-16,2024-06-04
 wfo-0001378743,Athyrium asplenioides var. angustum,(Willd.) T.Moore,variety,NA,valid,Index Fil. : 179 (1860),synonym,wfo-0001110422,2022-04-16,2024-12-16
 wfo-0001378744,Athyrium asplenioides var. subtripinnatum,(Butters) Wherry,variety,NA,NA,Bartonia 21: 14. 1942,synonym,wfo-0001110421,2022-04-16,2024-12-16
-wfo-0001378745,Athyrium asplenioides var. typicum,Wherry,variety,NA,NA,Bartonia 21: 14. 1942,unchecked,NA,2022-04-16,2024-06-04
+wfo-0001378745,Athyrium asplenioides var. typicum,Wherry,variety,NA,illegitimate,Bartonia 21: 14 1942,synonym,wfo-0001110421,2022-04-16,2026-08-16
 wfo-0001378746,Athyrium distentifolium var. americanum,(Butters) B.Boivin,variety,NA,NA,Naturaliste Canad. 93(3): 272. 1966 [Jul ? 1966],synonym,wfo-1200107312,2022-04-16,2024-12-16
 wfo-0001378747,Athyrium distentifolium var. americanum,(Butters) Cronquist,variety,NA,NA,Vasc. Pl. Pacif. N. W. [C.L. Hitchcock & al.] 1: 63. 1969,synonym,wfo-1200107312,2022-04-16,2024-12-16
 wfo-0001378749,Athyrium filix-femina var. commune,Farw.,variety,NA,NA,Pap. Michigan Acad. Sci. 2: 13. 1923,synonym,wfo-0001110421,2022-04-16,2024-06-04
@@ -77083,7 +77083,7 @@ wfo-1000077194,Diplazium sect. Trichoneura,R.Wei & Sundue,section,NA,valid,Taxon
 wfo-1000077195,Diplazium sect. Dolichostegia,(W.M.Chu & Z.R.He) R.Wei,section,NA,valid,Taxon 74(1): 31 (2024),unchecked,NA,2025-01-09,2025-03-12
 wfo-1000077219,Isoetes sajanensis,Stepanov,species,NA,valid,Red Book Krasnoyarsk. Territ. [ed. 3] 2(2): 497 (2022),unchecked,NA,2025-01-09,2025-01-09
 wfo-1200110106,Spinulum annotinum subsp. dubium,"(Zoëga) J.H.Xue, Chepinoga & K.P.Ma",subspecies,wfo-0001279659,valid,Checkl. Vasc. Pl. N. Asia 2 (2024),accepted,NA,2025-01-09,2025-04-09
-wfo-1200110107,Athyrium asplenioides var. cyclosorum,"(Rupr.) J.H.Xue, Chepinoga & K.P.Ma",variety,NA,valid,Checkl. Vasc. Pl. N. Asia 10 (2024),unchecked,NA,2025-01-09,2025-01-09
+wfo-1200110107,Athyrium asplenioides var. cyclosorum,"(Rupr.) J.H.Xue, Chepinoga & K.P.Ma",variety,NA,valid,Checkl. Vasc. Pl. N. Asia 10 (2024),synonym,wfo-1000071413,2025-01-09,2026-08-16
 wfo-1000077268,Dryopteris × subdiffracta,H.J.Wei & Z.Y.Zuo,species,wfo-4000012657,valid,PhytoKeys 250: 12 (2024),accepted,NA,2025-01-09,2026-02-19
 wfo-1000077326,Pleopeltis glandulosa,"Arana, Slanis & Bulacio",species,wfo-4000030272,valid,Phytotaxa 677(2): 182 (2024),accepted,NA,2025-01-09,2025-04-09
 wfo-1000077328,Diplazium zangnanense,R.Wei & M.J.Lian,species,wfo-4000011939,valid,Nordic J. Bot. 2024(12)-e04334: 5 (2024),accepted,NA,2025-01-09,2025-12-02
