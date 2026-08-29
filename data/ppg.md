@@ -481,7 +481,7 @@
 
 *Blotiella* R.M.Tryon
 
-*Dennstaedtia* T.Moore
+*Dennstaedtia* Bernh.
 
 *Histiopteris* (J.Agardh) J.Sm.
 
