@@ -5357,7 +5357,7 @@ wfo-0000144793,Gleichenia barbula,C.Chr.,species,NA,NA,Dansk Bot. Ark. 9(3): 67 
 wfo-0000144794,Gleichenia bifurcata,Blume,species,NA,NA,Enum. Pl. Javae 2: 250 (1828),synonym,wfo-1000086339,2022-04-16,2026-02-01
 wfo-0000144795,Gleichenia borneensis,(Baker) C.Chr.,species,NA,NA,"Index Filic., Suppl. Tert. 106 (1934)",synonym,wfo-0001117736,2022-04-16,2025-03-19
 wfo-0000144796,Gleichenia brackenridgei,E.Fourn.,species,NA,NA,"Ann. Sci. Nat., Bot. sér. 5, 18: 269 (1873)",synonym,wfo-0000497585,2022-04-16,2025-06-04
-wfo-0000144797,Gleichenia brasiliana,Spreng.,species,NA,NA,"Syst. Veg., ed. 16 [Sprengel] 4(1): 27 (1827)",synonym,wfo-0001113964,2022-04-16,2025-03-19
+wfo-0000144797,Gleichenia brasiliana,(Desv.) Spreng.,species,NA,valid,"Syst. Veg., ed. 16 [Sprengel] 4(1): 27 (1827)",synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0000144798,Gleichenia caudata,Copel.,species,NA,NA,"Bull. Bernice P. Bishop Mus. 59: 9, t. 2 (1929)",synonym,wfo-0001373066,2022-04-16,2024-12-16
 wfo-0000144799,Gleichenia ciliata,Colenso,species,NA,NA,Trans. New Zealand Inst. 29: 414 (1897),synonym,wfo-0000497527,2022-04-16,2025-03-19
 wfo-0000144800,Gleichenia crassifolia,(Pr.) Copel.,species,NA,NA,Philipp. J. Sci. 1(Suppl. 4): 257 (1906),synonym,wfo-0001426028,2022-04-16,2024-12-16
@@ -5370,7 +5370,7 @@ wfo-0000144806,Gleichenia hamiltoniana,Zoll.,species,NA,NA,Syst. Verz. 47. 1854 
 wfo-0000144807,Gleichenia hawaiensis,(Nakai) C.Chr.,species,NA,illegitimate,"Index Filic., Suppl. Tert. : 106 (1934)",synonym,wfo-1200069412,2022-04-16,2024-12-16
 wfo-0000144808,Gleichenia hawaiensis,(Brack.) Hillebr.,species,NA,NA,Fl. Hawaiian Isl. 544. 1888 (1888),synonym,wfo-0000497494,2022-04-16,2024-12-16
 wfo-0000144809,Gleichenia hecistophylla,A.Cunn.,species,NA,NA,Compan. Bot. Mag. 2: 361 (1837),synonym,wfo-0001224656,2022-04-16,2025-03-19
-wfo-0000144810,Gleichenia hermannii,Hook. & Grev.,species,NA,illegitimate,Icon. Filic. t. 14 (1827),synonym,wfo-0001113964,2022-04-16,2024-12-16
+wfo-0000144810,Gleichenia hermannii,Hook. & Grev.,species,NA,illegitimate,Icon. Filic. t. 14 (1827),synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0000144811,Gleichenia hooglandii,Holttum,species,NA,NA,Blumea 14: 327 (1967),synonym,wfo-0001423265,2022-04-16,2024-12-16
 wfo-0000144812,Gleichenia impressa,Parris,species,NA,NA,Bot. J. Linn. Soc. 85(1): 30 (1982),synonym,wfo-0000497535,2022-04-16,2024-12-16
 wfo-0000144813,Gleichenia javanica,Spreng.,species,NA,NA,"Syst. Veg., ed. 16 [Sprengel] 4(1): 25 (1827)",synonym,wfo-1000086339,2022-04-16,2026-02-01
@@ -7151,7 +7151,7 @@ wfo-0000146612,Trichomanes pyramidale,Wall.,species,NA,NA,Numer. List [Wallich] 
 wfo-0000146613,Trichomanes rarum,(R.Br.) Poir.,species,NA,NA,"Encyclop?die M?thodique, Botanique Suppl. 5 (1817)",synonym,wfo-0001109729,2022-04-16,2025-03-19
 wfo-0000146614,Trichomanes recedens,Rosenst.,species,NA,NA,Meded. Rijks-Herb. 11: 2 (1912),synonym,wfo-0000145674,2022-04-16,2024-12-16
 wfo-0000146615,Trichomanes retusum,(Copel.) C.V.Morton,species,NA,NA,Contr. U.S. Natl. Herb. 38: 186 (1968),synonym,wfo-0000145986,2022-04-16,2025-03-19
-wfo-0000146616,Hemionitis callifolia,(Blume) C.Presl,species,NA,valid,Tent. Pterid. 221 (1836),synonym,wfo-0001125084,2022-04-16,2026-07-02
+wfo-0000146616,Hemionitis callifolia,(Blume) C.Presl,species,NA,valid,Tent. Pterid. 221 (1836),synonym,wfo-0001128390,2022-04-16,2026-09-03
 wfo-0000146617,Trichomanes rhomboidale,Christ,species,NA,NA,Bull. Herb. Boissier II. 6. 989. 1906. (err.) (1906),unchecked,NA,2022-04-16,2024-06-04
 wfo-0000146618,Trichomanes rhomboideum,J.Sm.,species,NA,NA,J. Bot. (Hooker) 3: 417 (1841),synonym,wfo-1200102454,2022-04-16,2024-12-16
 wfo-0000146619,Trichomanes ridleyi,Copel.,species,NA,NA,"Philipp. J. Sci. 51: 162, t.11, f.2-3 (1933)",synonym,wfo-0000145987,2022-04-16,2025-03-19
@@ -7207,7 +7207,7 @@ wfo-0000146669,Hemionitis falcata,Willd.,species,NA,NA,"Sp. Pl., ed. 4 [Willdeno
 wfo-0000146670,Trichomanes trinerve,Baker,species,NA,valid,Fl. Mauritius 465 (1877),synonym,wfo-0001330028,2022-04-16,2025-03-19
 wfo-0000146671,Trichomanes trinitense,Domin,species,NA,NA,"Mem. R. Szech. Soc. Sci. n.s. 2: t.5, f.4-5 (1929)",synonym,wfo-0001112330,2022-04-16,2025-03-19
 wfo-0000146672,Trichomanes truncatum,(Copel.) C.V.Morton,species,NA,NA,Contr. U.S. Natl. Herb. 38: 188 (1968),synonym,wfo-1000074998,2022-04-16,2025-03-19
-wfo-0000146673,Hemionitis falcata,(Blume) de Vriese,species,NA,valid,Ned. Kruidk. Arch. 1: 12 (1846),synonym,wfo-0001125084,2022-04-16,2026-07-02
+wfo-0000146673,Hemionitis falcata,(Blume) de Vriese,species,NA,NA,Ned. Kruidk. Arch. 1: 12 (1846),synonym,wfo-0001125084,2022-04-16,2026-09-03
 wfo-0000146674,Trichomanes ujhelyii,Kümmerle,species,NA,NA,Ann. Hist.-Nat. Mus. Natl. Hung. 10: 540 (1912),synonym,wfo-0001108976,2022-04-16,2024-12-16
 wfo-0000146675,Trichomanes ulei,Christ,species,wfo-4000039008,valid,Pl. Nov. Mineir. 2: 16 (1900),accepted,NA,2022-04-16,2024-06-04
 wfo-0000146676,Trichomanes umbrosum,Wall.,species,NA,NA,Numer. List [Wallich] n. 165 (1829),synonym,wfo-0001118119,2022-04-16,2025-03-19
@@ -10733,8 +10733,8 @@ wfo-0000150230,Polypodium zeyheri,Sieb.,species,NA,NA,Fl. Mart. exsicc. n. 135,s
 wfo-0000150231,Polypodium zeylanicum,(Fée) Mett.,species,NA,NA,"Abh. Senckenberg. Naturf. Ges. 2(1): 38, n. 21 (1856)",synonym,wfo-0000145452,2022-04-16,2025-03-19
 wfo-0000150232,Polypodium zollingerianum,Kunze,species,NA,NA,Bot. Zeitung (Berlin) 4: 422 (1846),synonym,wfo-0001115927,2022-04-16,2025-03-19
 wfo-0000150233,Psygmium elegans,C.Presl,species,NA,NA,"Tent. Pterid. 200, t.8, f.17 (1836)",synonym,wfo-0001343864,2022-04-16,2025-03-19
-wfo-0000150234,Pteropsis blumei,Fée,species,NA,NA,1851,synonym,wfo-0001128390,2022-04-16,2024-12-16
-wfo-0000150235,Pteropsis marginalis,(Blume) C.Presl,species,NA,NA,Tent. Pterid. 226 (1836),synonym,wfo-0001128390,2022-04-16,2025-05-22
+wfo-0000150234,Pteropsis blumei,Fée,species,NA,superfluous,1851,synonym,wfo-0001225946,2022-04-16,2026-09-03
+wfo-0000150235,Pteropsis marginalis,(Blume) C.Presl,species,NA,valid,Tent. Pterid. 226 (1836),synonym,wfo-0001225946,2022-04-16,2026-09-03
 wfo-0000150236,Pteropsis martinicensis,(Christ) Maxon,species,NA,NA,Contr. U.S. Natl. Herb. 16: 51 (1912),synonym,wfo-0001108667,2022-04-16,2025-05-06
 wfo-0000150237,Pteropsis wiesbaurii,(Sodiro) Maxon,species,NA,NA,Contr. U.S. Natl. Herb. 16: 51 (1912),synonym,wfo-0001116450,2022-04-16,2025-05-22
 wfo-0000150238,Psilogramme domingensis,Underw.,species,NA,NA,Bull. Torrey Bot. Club 29: 628 (1902),unchecked,NA,2022-04-16,2024-06-04
@@ -11134,7 +11134,7 @@ wfo-0000150635,Chrysodium diversifolium,Ettingsh.,species,NA,NA,"Beitr. Fläch.-
 wfo-0000150636,Chrysodium fasciculatum,E.Fourn.,species,NA,NA,"Ann. Sci. Nat., Bot. sér. 5, 18: 272 (1873)",synonym,wfo-0001107183,2022-04-16,2025-03-19
 wfo-0000150637,Chrysodium flagelliferum,(Wall. ex Hook. & Grev.) Mett.,species,NA,NA,Fil. Hort. Bot. Lips. 21 (1856),synonym,wfo-0001117296,2022-04-16,2025-05-22
 wfo-0000150638,Chrysodium fluviatile,Kuhn,species,NA,NA,Filic. Afr. [Kuhn] 51 (1868),synonym,wfo-0001111719,2022-04-16,2025-03-19
-wfo-0000150639,Taenitis blumei,(Fée) Hook.,species,NA,NA,Sp. Fil. [W. J. Hooker] 5: 187 (1864),synonym,wfo-0001128390,2022-04-16,2025-05-22
+wfo-0000150639,Taenitis blumei,(Fée) Hook.,species,NA,superfluous,Sp. Fil. [W. J. Hooker] 5: 187 (1864),synonym,wfo-0001225946,2022-04-16,2026-09-03
 wfo-0000150640,Chrysodium gaboonense,Kuhn,species,NA,NA,Filic. Afr. [Kuhn] 51 (1868),synonym,wfo-0001111720,2022-04-16,2025-03-19
 wfo-0000150641,Chrysodium harlandii,Hance,species,NA,NA,"J. Linn. Soc., Bot. 13: 138 (1872)",synonym,wfo-0001117200,2022-04-16,2024-12-16
 wfo-0000150642,Chrysodium heterocliton,Kuhn,species,NA,NA,Ann. Mus. Bot. Lugduno-Batavi 4: 294 (1869),synonym,wfo-0001117296,2022-04-16,2024-06-04
@@ -17420,7 +17420,7 @@ wfo-0000163599,Stenochlaena juglandifolia,C.Presl,species,NA,NA,Epimel. Bot. 164
 wfo-0000163600,Stenochlaena laurifolia,C.Presl,species,NA,NA,Epimel. Bot. 164 (1851),synonym,wfo-0001115653,2022-04-16,2025-03-19
 wfo-0000353886,Jenkinsia cristata,Wall.,species,NA,NA,Hort. Suburb. Calcutt. 544 1845,unchecked,NA,2022-04-16,2024-06-04
 wfo-0000373592,Mertensia hawaiensis,Nakai,species,NA,illegitimate,Bot. Mag. (Tokyo) 39: 181. 1925,synonym,wfo-1200069412,2022-04-16,2024-12-16
-wfo-0000373594,Mertensia hookeri,J.Sm.,species,NA,NA,London J. Bot. 2: 381 (1843),synonym,wfo-0001113964,2022-04-16,2025-03-19
+wfo-0000373594,Mertensia hookeri,J.Sm.,species,NA,valid,London J. Bot. 2: 381 (1843),synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0000373596,Mertensia latissima,Fée,species,NA,NA,"Crypt. Vasc. Bresil 1: 203, t.73, f.1 (1869)",synonym,wfo-0001112041,2022-04-16,2025-03-19
 wfo-0000373597,Mertensia hermannii,Poir.,species,NA,NA,Encycl. [J. Lamarck & al.] Suppl. 3. 670 (1814),synonym,wfo-0001107285,2022-04-16,2025-03-19
 wfo-0000373598,Mertensia furcata,(L.) Willd.,species,NA,NA,Kongl. Vetensk. Acad. Nya Handl. 25: 166 (1804),synonym,wfo-0001277514,2022-04-16,2025-05-22
@@ -17436,7 +17436,7 @@ wfo-0000373611,Mertensia excelsa,J.Sm.,species,NA,NA,London J. Bot. 2: 381 (1843
 wfo-0000373625,Mertensia crassifolia,C.Presl,species,NA,NA,Abh. Königl. Böhm. Ges. Wiss. 5(5): 339 (1848),synonym,wfo-0001426028,2022-04-16,2025-03-19
 wfo-0000373626,Mertensia cryptocarpa,Gay,species,NA,NA,Fl. Chil. [Gay] 6: 539,synonym,wfo-0001281802,2022-04-16,2025-03-19
 wfo-0000373628,Mertensia discolor,Schrad.,species,NA,NA,Gött. Gel. Anz. 863 (1824),synonym,wfo-0001107285,2022-04-16,2025-03-19
-wfo-0000373629,Mertensia emarginata,Raddi,species,NA,NA,"Pl. Bras. Nov. Gen. 1: 72, t.6 (1825)",synonym,wfo-0001113964,2022-04-16,2025-03-19
+wfo-0000373629,Mertensia emarginata,Raddi,species,NA,superfluous,"Pl. Bras. Nov. Gen. 1: 72, t.6 (1825)",synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0000373630,Mertensia cunninghamii,J.Sm.,species,NA,NA,London J. Bot. 2: 381 (1843),synonym,wfo-0000497527,2022-04-16,2025-03-19
 wfo-0000373634,Mertensia acutifolia,Gay,species,NA,NA,Fl. Chil. [Gay] 6: 540,synonym,wfo-0001281803,2022-04-16,2025-03-19
 wfo-0000373635,Mertensia circinnata,(Sw.) Poir.,species,NA,NA,Encycl. [J. Lamarck & al.] Suppl. 3. 669 (1814),synonym,wfo-0001128796,2022-04-16,2025-05-22
@@ -20406,12 +20406,12 @@ wfo-0001108770,Lepidotis longifolia,P.Beauv.,species,NA,NA,Prodr. Aethéogam. 10
 wfo-0001108771,Huperzia perreriana,Tardieu,species,NA,valid,"Adansonia sér. 2, 10: 20, t.2, f.1-4 (1970)",synonym,wfo-0001334916,2022-04-16,2025-03-19
 wfo-0001108772,Huperzia megastachya,(Baker) Tardieu,species,NA,valid,"Adansonia sér. 2, 10: 18 (1970)",synonym,wfo-0001334898,2022-04-16,2025-03-19
 wfo-0001108773,Urostachys megastachys,(Baker) Herter ex Nessel,species,NA,NA,Bärlappgewächse 210 1939 [as megastachys],synonym,wfo-0001334898,2022-04-16,2026-02-27
-wfo-0001108774,Lycopodium cernuostachys,Herter,species,NA,NA,Bot. Jahrb. Syst. 43: 29 1909,unchecked,NA,2022-04-16,2022-04-20
+wfo-0001108774,Lycopodium cernuostachys,Herter,species,NA,NA,Bot. Jahrb. Syst. 43: 29 1909,unchecked,NA,2022-04-16,2026-09-04
 wfo-0001108775,Lycopodium cernuum,L.,species,NA,valid,Sp. Pl. 2: 1103 (1753),synonym,wfo-0001114065,2022-04-16,2026-03-24
 wfo-0001108776,Lycopodium boryanum,A.Rich.,species,NA,NA,Sert. Astrol. 42 1834,synonym,wfo-0001114065,2022-04-16,2024-12-16
 wfo-0001108777,Lycopodium heeschii,Müll.Hal.,species,NA,NA,Bot. Zeitung (Berlin) 19(24): 164 (1861),synonym,wfo-0001114065,2022-04-16,2025-03-19
 wfo-0001108778,Lycopodium affine,Bory,species,NA,valid,"Voy. Iles Afrique 2: 204, 262 (1804)",synonym,wfo-0001226141,2022-04-16,2026-03-23
-wfo-0001108779,Lycopodium repens,Sessé & Moc.,species,NA,NA,"Fl. Mexic., ed. 2 239 (1894)",unchecked,NA,2022-04-16,2026-03-23
+wfo-0001108779,Lycopodium repens,Sessé & Moc.,species,NA,NA,"Fl. Mexic., ed. 2 239 (1894)",unchecked,NA,2022-04-16,2026-09-04
 wfo-0001108780,Lycopodium trichiatum,Bory,species,NA,NA,Voy. Iles Afrique 1: 350 (1804),synonym,wfo-0001107342,2022-04-16,2025-03-19
 wfo-0001108781,Lycopodium ciliatum,(P.Beauv.) Sw.,species,NA,illegitimate,Syn. Fil. : 179 (1806),synonym,wfo-0001107342,2022-04-16,2024-12-16
 wfo-0001108782,Lycopodium suberectum,Lowe,species,NA,valid,Trans. Cambridge Philos. Soc. 4: 9 (1831),synonym,wfo-0001108733,2022-04-16,2025-03-19
@@ -20544,7 +20544,7 @@ wfo-0001108908,Lophosoria quadripinnata,(J.F.Gmel.) C.Chr.,species,wfo-400002223
 wfo-0001108909,Nephelea portoricensis,(Kuhn) R.M.Tryon,species,NA,NA,Contr. Gray Herb. 200: 40 (1970),synonym,wfo-0001265855,2022-04-16,2024-12-16
 wfo-0001108910,Dicranopteris emarginata,W.J.Rob.,species,NA,NA,Bull. Torrey Bot. Club 39: 240 (1912),synonym,wfo-1200069412,2022-04-16,2025-03-19
 wfo-0001108911,Dicranopteris flexuosa,(Schrad.) Underw.,species,wfo-4000011525,valid,Bull. Torrey Bot. Club 34: 254 (1907),accepted,NA,2022-04-16,2024-12-16
-wfo-0001108912,Dicranopteris pectinata,(Willd.) Underw.,species,NA,NA,Bull. Torrey Bot. Club 34: 260 (1907),synonym,wfo-0001113964,2022-04-16,2025-05-22
+wfo-0001108912,Dicranopteris pectinata,(Willd.) Underw.,species,NA,valid,Bull. Torrey Bot. Club 34: 260 (1907),synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0001108913,Dicranopteris sandwicensis,Degen.,species,NA,NA,Fl. Hawaiiensis [Degener] Fam. 5 (1940),synonym,wfo-1200069412,2022-04-16,2025-03-19
 wfo-0001108914,Equisetum arvense,L.,species,wfo-4000013663,valid,Sp. Pl. 2: 1061 (1753),accepted,NA,2022-04-16,2025-12-15
 wfo-0001108915,Equisetum × ferrissii,Clute,species,wfo-4000013663,valid,Fern Bull. 12: 22 (1904),accepted,NA,2022-04-16,2024-12-16
@@ -21562,7 +21562,7 @@ wfo-0001109937,Pteris quadriaurita var. setigera,Hook. ex Bedd.,variety,NA,NA,Sp
 wfo-0001109938,Pteris biaurita f. trachyrachis,Bonap.,form,NA,NA,Notes Pteridol. 5: 60 1917,synonym,wfo-0001107859,2022-04-16,2024-12-16
 wfo-0001109939,Litobrochia marginata,C.Presl,species,NA,NA,Tent. Pterid. 149 (1836),synonym,wfo-0001107864,2022-04-16,2024-12-16
 wfo-0001109940,Lycopodium complanatum f. pseudoverticillatum,Hildebr. ex Nessel,form,NA,NA,Bärlappgewächse 330 1939,synonym,wfo-0001123651,2022-04-16,2024-12-16
-wfo-0001109941,Lycopodium subverticillatum,Hildebrandt ex Tardieu,species,NA,NA,Fl. Madagasc. 13: 5 1971,unchecked,NA,2022-04-16,2022-04-20
+wfo-0001109941,Lycopodium subverticillatum,Hildebrandt ex Tardieu,species,NA,invalid,Fl. Madagasc. 13: 5 1971,synonym,wfo-0001123651,2022-04-16,2026-09-04
 wfo-0001109942,Lepidotis repens,P.Beauv.,species,NA,valid,Prodr. Aethéogam. 109 (1805),synonym,wfo-0001226141,2022-04-16,2026-03-23
 wfo-0001109943,Lycopodium clavatum var. borbonicum,Bory,variety,NA,NA,Voy. Iles Afrique 2: 205 (1804),synonym,wfo-0001107342,2022-04-16,2025-03-19
 wfo-0001109944,Lycopodium clavatum var. trichiatum,(Bory) Nessel,variety,NA,NA,Bärlappgewächse 31 (1939),synonym,wfo-0001107342,2022-04-16,2025-03-19
@@ -22259,7 +22259,7 @@ wfo-0001110639,Equisetum robustum,A.Braun ex Engelm.,species,NA,valid,Amer. J. B
 wfo-0001110640,Psilotum triquetrum,Sw.,species,NA,NA,"J. Bot. (Schrader) 1800(2): 8, 109 (1802)",synonym,wfo-0001109597,2022-04-16,2025-03-19
 wfo-0001110641,Psilotum floridanum,Michx.,species,NA,NA,Fl. Bor.-Amer. (Michaux) 2: 281 (1803),synonym,wfo-0001109597,2022-04-16,2025-03-19
 wfo-0001110642,Lycopodium nudum,L.,species,NA,NA,Sp. Pl. 2: 1100 (1753),synonym,wfo-0001109597,2022-04-16,2025-03-19
-wfo-0001110643,Lycopodium hoffmannia,Willd.,species,NA,NA,Mag. Bot. 6: 17 1789,unchecked,NA,2022-04-16,2022-04-20
+wfo-0001110643,Lycopodium hoffmannia,Willd.,species,NA,NA,Mag. Bot. 6: 17 1789,unchecked,NA,2022-04-16,2026-09-04
 wfo-0001110644,Lycopodium appressum,Petrov,species,NA,NA,Fl. Iakut. : 37 (1930),unchecked,NA,2022-04-16,2026-07-06
 wfo-0001110645,Lycopodium lucidulum var. porophilum,(F.E.Lloyd & Underw.) Clute,variety,NA,NA,"Fern Allies 111, 262. 1905",synonym,wfo-0001116195,2022-04-16,2024-12-16
 wfo-0001110646,Lycopodium inundatum var. bigelovii,Tuck.,variety,NA,valid,Amer. J. Sci. Arts 45: 47 (1843),synonym,wfo-0001116202,2022-04-16,2026-03-14
@@ -23650,8 +23650,8 @@ wfo-0001112040,Mertensia rigida,Kunze,species,NA,NA,Linnaea 9(1): 16 (1834),syno
 wfo-0001112041,Dicranopteris nervosa,(Kaulf.) Maxon,species,wfo-4000011525,valid,Contr. U.S. Natl. Herb. 24: 49 (1922),accepted,NA,2022-04-16,2025-05-22
 wfo-0001112042,Mertensia nervosa,Kaulf.,species,NA,NA,Enum. Filic. 37 (1824),synonym,wfo-0001112041,2022-04-16,2025-03-19
 wfo-0001112043,Gleichenia nervosa,(Kaulf.) Spreng.,species,NA,NA,"Syst. Veg., ed. 16 [Sprengel] 4(1): 25 (1827)",synonym,wfo-0001112041,2022-04-16,2025-03-19
-wfo-0001112044,Mertensia pectinata,Willd.,species,NA,NA,Kongl. Vetensk. Acad. Handl. 25: 168 (1804),synonym,wfo-0001113964,2022-04-16,2024-12-16
-wfo-0001112045,Gleichenia pectinata,(Willd.) C.Presl,species,NA,NA,Reliq. Haenk. 1: 71 (1825),synonym,wfo-0001113964,2022-04-16,2024-12-16
+wfo-0001112044,Mertensia pectinata,Willd.,species,NA,valid,Kongl. Vetensk. Acad. Handl. 25: 168 (1804),synonym,wfo-0001113964,2022-04-16,2026-09-02
+wfo-0001112045,Gleichenia pectinata,(Willd.) C.Presl,species,NA,valid,Reliq. Haenk. 1: 71 (1825),synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0001112046,Dicksonia cicutaria,Sw.,species,NA,NA,J. Bot. (Schrader) 1800(2): 91 (1801),synonym,wfo-0001109566,2022-04-16,2024-12-16
 wfo-0001112047,Dicksonia rubiginosa,Kaulf.,species,NA,NA,Enum. Filic. 226 (1824),synonym,wfo-0001109566,2022-04-16,2025-03-19
 wfo-0001112048,Dennstaedtia rubiginosa,(Kaulf.) T.Moore,species,NA,NA,Index Fil. (T.Moore) 2: xcvii (1857),synonym,wfo-0001109566,2022-04-16,2025-03-19
@@ -25562,7 +25562,7 @@ wfo-0001113960,Ornithopteris speciosa,(C.Presl) C.F.Reed,species,NA,NA,"Bol. Soc
 wfo-0001113961,Danaea media,Liebm.,species,NA,NA,Kongel. Danske Vidensk.-Selsk. Skr. V(1): 306 (seors. 154) (1849),synonym,wfo-0001109021,2022-04-16,2025-03-19
 wfo-0001113962,Lygodium mexicanum,C.Presl,species,NA,NA,Reliq. Haenk. 1: 72 (1825),synonym,wfo-0001111971,2022-04-16,2024-12-16
 wfo-0001113963,Lygodium commutatum,C.Presl,species,NA,NA,Suppl. Tent. Pterid. 110 (1845),synonym,wfo-0001111971,2022-04-16,2025-03-19
-wfo-0001113964,Gleichenella pectinata,(Willd.) Ching,species,wfo-4000015735,valid,Sunyatsenia 5: 276 (1940),accepted,NA,2022-04-16,2024-12-16
+wfo-0001113964,Gleichenella pectinata,(Willd.) Ching,species,wfo-4000015735,valid,Sunyatsenia 5: 276 (1940),accepted,NA,2022-04-16,2026-09-02
 wfo-0001113965,Gleichenia palmata,(Schaffn.) T.Moore,species,NA,NA,Index Fil. (T.Moore) 20: 380 (1862),synonym,wfo-0001277514,2022-04-16,2025-03-19
 wfo-0001113966,Gleichenia underwoodiana,(Maxon) C.Chr.,species,NA,NA,"Index Filic., Suppl. (1906-1912) 1906-1912: 44 (1913)",synonym,wfo-0001113171,2022-04-16,2025-03-19
 wfo-0001113967,Leptocionium abruptum,C.Presl,species,NA,NA,Gefässbundel Farrn 29 (1847),synonym,wfo-0001113023,2022-04-16,2025-03-19
@@ -26366,7 +26366,7 @@ wfo-0001114767,Soromanes caenopteris,(Kunze) Christ,species,NA,NA,"Bull. Herb. B
 wfo-0001114768,Acrostichum hartii,Baker,species,NA,valid,J. Bot. 26: 371 (1888),synonym,wfo-0001114760,2022-04-16,2026-07-19
 wfo-0001114769,Polybotrya hartii,(Baker) C.Chr.,species,NA,NA,Index Filic. 11 (1905),synonym,wfo-0001114760,2022-04-16,2025-03-19
 wfo-0001114770,Polybotrya crassa,C.V.Morton,species,NA,valid,"Fieldiana, Bot. 28(1): 13 (1951)",synonym,wfo-0001114760,2022-04-16,2026-07-19
-wfo-0001114771,Polybotrya polybotryoides,(Baker) Christ.,species,wfo-4000030692,valid,Bull. Herb. Boissier II(1): 70 (1901),accepted,NA,2022-04-16,2025-03-19
+wfo-0001114771,Polybotrya polybotryoides,(Baker) Christ,species,wfo-4000030692,valid,Bull. Herb. Boissier II(1): 70 (1901),accepted,NA,2022-04-16,2026-08-31
 wfo-0001114772,Acrostichum polybotryoides,Baker,species,NA,valid,J. Bot. 19: 207 (1881),synonym,wfo-0001114771,2022-04-16,2026-07-18
 wfo-0001114773,Bommeria elegans,(Davenp.) Ranker & Haufler,species,wfo-4000004948,valid,Amer. Fern J. 80: 2 (1990),accepted,NA,2022-04-16,2024-12-16
 wfo-0001114774,Hemionitis elegans,Davenp.,species,NA,NA,"Gard. & Forest 4: 484, fig. 75 (1891)",synonym,wfo-0001114773,2022-04-16,2025-03-19
@@ -29592,7 +29592,7 @@ wfo-0001118015,Huperzia arctica,(Tolm.) Sipliv.,species,NA,NA,Novosti Sist. Vyss
 wfo-0001118016,Huperzia petrovii,Sipliv.,species,NA,valid,Novosti Sist. Vyssh. Rast. 10: 346 (1973),synonym,wfo-0001358926,2022-04-16,2024-12-16
 wfo-0001118017,Huperzia selago var. serrata,(Thunb.) Á.Löve & D.Löve,variety,NA,NA,Univ. Colorado Stud. 17: 5 (1965),synonym,wfo-0001125374,2022-04-16,2024-12-16
 wfo-0001118018,Lycopodium selago subsp. arcticum,Tolm.,subspecies,NA,NA,Bot. Mater. Gerb. Bot. Inst. Komarova Akad. Nauk S.S.S.R. 20: 39 (1960),synonym,wfo-0001358926,2022-04-16,2024-12-16
-wfo-0001118019,Lycopodium arcticum,Grossh.,species,NA,NA,NA,unchecked,NA,2022-04-16,2024-10-04
+wfo-0001118019,Lycopodium arcticum,Grossh.,species,NA,NA,NA,synonym,wfo-0001358926,2022-04-16,2026-09-04
 wfo-0001118020,Pyrrosia eleagnifolia,(Bory) Hovenkamp,species,wfo-4000032323,valid,Blumea 30(1): 208 (1984),accepted,NA,2022-04-16,2024-12-16
 wfo-0001118021,Pyrrosia foveolata,(Alston) C.V.Morton,species,wfo-4000032323,valid,Contr. U.S. Natl. Herb. 38: 234 (1973),accepted,NA,2022-04-16,2025-03-19
 wfo-0001118022,Pyrrosia foveolata var. lauterbachii,(Christ) Hovenkamp,variety,wfo-0001118021,valid,Blumea 30(1): 208 (1984),accepted,NA,2022-04-16,2024-12-16
@@ -30722,7 +30722,7 @@ wfo-0001119161,Lycopodiella camporum,B.Øllg. & P.G.Windisch,species,NA,valid,"B
 wfo-0001119162,Lycopodiella caroliniana,(L.) Pic.Serm.,species,NA,valid,Webbia 23(1): 165 (1968),synonym,wfo-0001116201,2022-04-16,2024-12-16
 wfo-0001119163,Pseudolycopodiella meridionalis,(Underw. & F.E.Lloyd) Holub,species,wfo-4000031578,valid,Folia Geobot. Phytotax. 18: 442 (1983),accepted,NA,2022-04-16,2024-12-16
 wfo-0001119164,Lycopodiella caroliniana var. meridionalis,(Underw. & F.E.Lloyd) B.Øllg. & P.G.Windisch,variety,NA,valid,Bradea 5(1): 27 (1987),synonym,wfo-0001119163,2022-04-16,2026-03-23
-wfo-0001119165,Lycopodium paradoxum,Mart.,species,NA,valid,"Icon. Pl. Crypt. 38, t 20 (1838)",unchecked,NA,2022-04-16,2026-07-06
+wfo-0001119165,Lycopodium paradoxum,Mart.,species,NA,valid,"Icon. Pl. Crypt. 38, t 20 (1838)",synonym,wfo-0001119167,2022-04-16,2026-09-04
 wfo-0001119166,Lycopodium carolinianum var. paradoxum,(Spring) Christ,variety,NA,NA,Pl. Nov. Mineir. 2: 42 (1900),synonym,wfo-0001119167,2022-04-16,2026-07-06
 wfo-0001119167,Pseudolycopodiella paradoxa,(Mart.) Holub,species,wfo-4000031578,valid,Folia Geobot. Phytotax. 18: 442 (1983),accepted,NA,2022-04-16,2024-12-16
 wfo-0001119168,Lycopodiella caroliniana var. paradoxa,(Mart.) B.Øllg. & P.G.Windisch,variety,NA,valid,Bradea 5: 27 (1987),synonym,wfo-0001119167,2022-04-16,2026-07-06
@@ -31647,7 +31647,7 @@ wfo-0001120091,Thelypteris erythrothrix,A.R.Sm.,species,NA,valid,"Fieldiana, Bot
 wfo-0001120092,Selaginella goudotiana var. abyssinica,(Spring) Bizzarri,variety,NA,valid,Webbia 29: 585 (1975),synonym,wfo-0001120062,2022-04-16,2024-12-16
 wfo-0001120093,Odontosoria africana,F.Ballard,species,wfo-4000026608,valid,"Kew Bull. 12(1): 143, f.1 (1957)",accepted,NA,2022-04-16,2024-12-16
 wfo-0001120094,Cheilanthes tinaei,Tod.,species,NA,NA,Giorn. Sci. Nat. Econ. Palermo 1: 217 (1866),synonym,wfo-1000079488,2022-04-16,2025-10-21
-wfo-0001120096,Gleichenia nitida,C.Presl,species,NA,NA,Reliq. Haenk. 1: 70 (1825),synonym,wfo-0001113964,2022-04-16,2024-12-16
+wfo-0001120096,Gleichenia nitida,C.Presl,species,NA,valid,Reliq. Haenk. 1: 70 (1825),synonym,wfo-0001108911,2022-04-16,2026-09-03
 wfo-0001120097,Huperzia beiteliana,Mickel,species,wfo-4000018438,valid,"Brittonia 44: 312, f.1A-E (1992)",accepted,NA,2022-04-16,2025-03-19
 wfo-0001120098,Ophioglossum dudadae,Mickel,species,NA,NA,"Brittonia 44: 313, f.1F (1992)",synonym,wfo-0001425723,2022-04-16,2025-03-19
 wfo-0001120099,Selaginella basipilosa,Valdespino,species,wfo-4000034966,valid,"Brittonia 44: 314, f.2A-C,G (1992)",accepted,NA,2022-04-16,2025-03-19
@@ -33217,10 +33217,9 @@ wfo-0001121669,Anemia pumilio,Mickel,species,NA,valid,"Brittonia 33: 428, fig (1
 wfo-0001121670,Anemia × didicusana,L.D.Gómez,species,wfo-4000002042,valid,Brenesia 18: 156 (1981),accepted,NA,2022-04-16,2025-03-19
 wfo-0001121671,Lygodium × fayae,Jermy & T.G.Walker,species,wfo-4000022532,valid,"Bull. Brit. Mus. (Nat. Hist.), Bot. 13(2): 252 (1985)",accepted,NA,2022-04-16,2025-03-19
 wfo-0001121673,Schizaea occidentalis,Gris.,species,NA,NA,Cat. Pl. Cub. [Grisebach] 273 (1866),synonym,wfo-0001109623,2022-04-16,2025-03-19
-wfo-0001121674,Gleichenia linearis var. depauperata,Christ,variety,NA,NA,"Bull. Herb. Boissier ser. 2, 5: 14 (1905)",synonym,wfo-0001113964,2022-04-16,2025-03-19
-wfo-0001121675,Gleichenia pectinata var. sublinearis,Christ,variety,NA,NA,"Bull. Herb. Boissier ser. 2, 6: 282 (1906)",synonym,wfo-0001113964,2022-04-16,2025-03-19
-wfo-0001121676,Mertensia glaucescens,Willd.,species,NA,NA,"Sp. Pl., ed. 4 [Willdenow] 5: 72 (1810)",synonym,wfo-0001113964,2022-04-16,2025-03-19
-wfo-0001121677,Mertensia glaucescens var. mexicanum,Fée,variety,NA,NA,"Mém. Foug., 11. Hist. Foug. Antil. : 121 (1866)",synonym,wfo-0001113964,2022-04-16,2024-06-04
+wfo-0001121674,Gleichenia linearis var. depauperata,Christ,variety,NA,valid,"Bull. Herb. Boissier ser. 2, 5: 14 (1905)",synonym,wfo-0001113964,2022-04-16,2026-09-02
+wfo-0001121675,Gleichenia pectinata var. sublinearis,Christ,variety,NA,valid,"Bull. Herb. Boissier ser. 2, 6: 282 (1906)",synonym,wfo-0001113964,2022-04-16,2026-09-02
+wfo-0001121676,Mertensia glaucescens,Humb. & Bonpl. ex Willd.,species,NA,valid,"Sp. Pl., ed. 4 [Willdenow] 5: 72 (1810)",synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0001121678,Sticherus fulvus,(Desv.) Ching,species,wfo-4000036680,valid,Sunyatsenia 5: 283 (1940),accepted,NA,2022-04-16,2024-12-16
 wfo-0001121679,Dicranopteris mellifera,Underw.,species,NA,NA,Bull. Torrey Bot. Club 34: 259 (1907),synonym,wfo-0001119807,2022-04-16,2024-12-16
 wfo-0001121680,Gleichenia mellifera,Christ,species,NA,NA,"Bull. Herb. Boissier ser. 2, 6: 281 (1906)",synonym,wfo-0001119807,2022-04-16,2025-03-19
@@ -34594,7 +34593,7 @@ wfo-0001123050,Dryopteris urophylla,(Mett.) C.Chr.,species,NA,NA,Index Filic. 29
 wfo-0001123051,Dryopteris viridis,Ching,species,NA,NA,Bull. Fan Mem. Inst. Biol. Bot. 8: 474 (1938),synonym,wfo-0001117000,2022-04-16,2025-03-19
 wfo-0001123052,Dryopteris xylodes,(Kunze) Christ,species,NA,NA,Notul. Syst. (Paris) 1: 41. 1909,unchecked,NA,2022-04-16,2024-11-08
 wfo-0001123053,Dryopteris yenpingensis,C.Chr. & Ching,species,wfo-4000012657,valid,"Bull. Fan Mem. Inst. Biol., Bot. 8: 450 (1938)",accepted,NA,2022-04-16,2025-12-15
-wfo-0001123054,Lycopodium hieronymii,Herter,species,NA,NA,Hedwigia 49: 89 (1910),unchecked,NA,2022-04-16,2024-06-04
+wfo-0001123054,Lycopodium hieronymi,Herter,species,NA,valid,Hedwigia 49: 89 (1910),unchecked,NA,2022-04-16,2026-09-04
 wfo-0001123055,Dryopteris yungtzeensis,Ching,species,NA,NA,Bull. Fan Mem. Inst. Biol. Bot. 11: 60 (1941),synonym,wfo-0001116334,2022-04-16,2025-03-19
 wfo-0001123056,Lycopodium christensenianum,Christ ex Herter,species,NA,NA,Hedwigia 49: 89 (1910),synonym,wfo-0001125437,2022-04-16,2024-12-16
 wfo-0001123057,Egenolfia sinensis,(Baker) Maxon,species,NA,NA,Proc. Biol. Soc. Washington 36: 173 (1923),synonym,wfo-0000146793,2022-04-16,2025-03-19
@@ -35336,7 +35335,7 @@ wfo-0001123794,Pteris wallichiana var. wallichiana,NA,variety,NA,NA,NA,synonym,w
 wfo-0001123795,Pteris wallichiana var. yunnanensis,(Christ) Ching & S.H.Wu,variety,NA,NA,Fl. Reipubl. Popularis Sin. 3(1): 83 (1990),synonym,wfo-0001115644,2022-04-16,2024-12-16
 wfo-0001123796,Pteris austrosinica,(Ching) Ching,species,NA,NA,Acta Phytotax. Sin. 10: 302 (1965),synonym,wfo-0001115644,2022-04-16,2024-12-16
 wfo-0001123797,Pteris finotii var. obtusa,Tagawa,variety,NA,NA,Acta Phytotax. Geobot. 16(3): 72–73 1956,synonym,wfo-0001123768,2022-04-16,2024-12-16
-wfo-0001123798,Lycopodium atrovirens,C.Presl,species,NA,NA,"Reliq. Haenk. 1(1): 79, t. 12, f. 2 1825",unchecked,NA,2022-04-16,2022-04-20
+wfo-0001123798,Lycopodium atrovirens,C.Presl,species,NA,valid,"Reliq. Haenk. 1(1): 79, t. 12, f. 2 1825",synonym,wfo-0001330089,2022-04-16,2026-09-04
 wfo-0001123799,Belvisia formosana,(Ogata) Ching,species,NA,NA,Acta Phytotax. Sin. 10: 301 (1965),synonym,wfo-0000148429,2022-04-16,2025-03-19
 wfo-0001123800,Belvisia hymenolepioides,(Christ) Ching,species,NA,NA,Acta Phytotax. Sin. 10: 301 (1965),synonym,wfo-0000148412,2022-04-16,2025-03-19
 wfo-0001123801,Lunathyrium coreanum,(Christ) Ching,species,NA,NA,Acta Phytotax. Sin. 10(4): 301 (1965),synonym,wfo-0001226852,2022-04-16,2025-03-19
@@ -39045,9 +39044,8 @@ wfo-0001127526,Thelypteris totta var. hirsuta,(Mett.) C.V.Morton,variety,NA,NA,C
 wfo-0001127527,Dicranopteris williamsii,Maxon,species,NA,NA,Amer. Fern J. 2: 21 (1912),synonym,wfo-0001118962,2022-04-16,2024-12-16
 wfo-0001127528,Mertensia pumila,Mart.,species,NA,NA,"Icon. Pl. Crypt. 111 (t. 60, fig. 2.) (1834)",synonym,wfo-0001108911,2022-04-16,2024-06-04
 wfo-0001127529,Mertensia scalpturata,Fée,species,NA,NA,"Crypt. Vasc. Bresil 1: 199, t.72, f.1 (1889)",synonym,wfo-0001108911,2022-04-16,2025-03-19
-wfo-0001127530,Mertensia brasiliana,Desv.,species,NA,NA,Mag. Neuesten Entdeck. Gesammten Naturk. Ges. Naturf. Freunde Berlin 5: 329 (1811),synonym,wfo-0001113964,2022-04-16,2025-03-19
-wfo-0001127531,Mertensia glaucescens var. cubense,Fée,variety,NA,NA,"Mém. Foug., 11. Hist. Foug. Antil. : 121 (1866)",synonym,wfo-0001113964,2022-04-16,2024-06-04
-wfo-0001127532,Mertensia elata,Desv.,species,NA,NA,Mém. Soc. Linn. Paris 6(2): 201 (1827),synonym,wfo-0001113964,2022-04-16,2024-12-16
+wfo-0001127530,Mertensia brasiliana,Desv.,species,NA,valid,Mag. Neuesten Entdeck. Gesammten Naturk. Ges. Naturf. Freunde Berlin 5: 329 (1811),synonym,wfo-0001113964,2022-04-16,2026-09-02
+wfo-0001127532,Mertensia elata,Desv.,species,NA,valid,Mém. Soc. Linn. Paris 6(2): 201 (1827),synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0001127533,Dryopteris lepidocaulis,(Hook.) Kuntze,species,NA,NA,Revis. Gen. Pl. 2: 813 (1891),synonym,wfo-0001117056,2022-04-16,2024-12-16
 wfo-0001127534,Asplenium bicrenatum,Liebm.,species,NA,NA,Kongel. Danske Vidensk.-Selsk. Skr. V(1): 245 (seors. 93) (1849),synonym,wfo-0001109356,2022-04-16,2025-03-19
 wfo-0001127535,Asplenium insigne,Liebm.,species,NA,NA,"Kongel. Danske Vidensk. Selsk. Skr., Naturvidensk. Math. Afh. V. 1. 246 (seors. 94). 1849 (1849)",synonym,wfo-0001109359,2022-04-16,2024-12-16
@@ -40855,7 +40853,7 @@ wfo-0001221496,Hymenophyllum pastoensis,Hook. ex Baker,species,wfo-4000018687,va
 wfo-0001221498,Gleichenia pubescens,(Humb. & Bonpl. ex Willd.) Kunth,species,NA,NA,Nov. Gen. Sp. [H.B.K.] 1: 29 (1815),synonym,wfo-0001111999,2022-04-16,2025-05-22
 wfo-0001221506,Gleichenia blepharolepis,Sodiro,species,NA,NA,Recens. Crypt. Vasc. Quit. 5 (1883),synonym,wfo-0001231873,2022-04-16,2025-03-19
 wfo-0001221507,Gleichenia pubescens var. blepharolepis,Sodiro,variety,NA,NA,Anales Univ. Centr. Ecuador 6: 376 (1892),synonym,wfo-0001231873,2022-04-16,2024-12-16
-wfo-0001221508,Gleichenia glaucescens,Kunth,species,NA,NA,Nov. Gen. Sp. [H.B.K.] 1: 29 (1815),synonym,wfo-0001113964,2022-04-16,2025-03-19
+wfo-0001221508,Gleichenia glaucescens,(Humb. & Bonpl. ex Willd.) Kunth,species,NA,valid,Nov. Gen. Sp. [H.B.K.] 1: 29 (1815),synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0001221514,Dicksonia sprucei,Baker,species,NA,NA,J. Bot. 15: 162 (1877),synonym,wfo-0001112123,2022-04-16,2024-12-16
 wfo-0001221515,Dicksonia adiantoides var. coronata,Sodiro,variety,NA,NA,Recens. Crypt. Vasc. Quit. 23 (1883),synonym,wfo-0001112109,2022-04-16,2025-03-19
 wfo-0001221517,Adiantum sinuosum,Gardner,species,wfo-4000000695,valid,Icon. Pl. 6: t. 504 (1843),accepted,NA,2022-04-16,2025-03-19
@@ -41556,7 +41554,7 @@ wfo-0001225944,Gymnopteris feei,T.Moore,species,NA,NA,Index Fil. (T.Moore) 1: xx
 wfo-0001225945,Holcosorus pentagonus,T.Moore,species,NA,NA,Index Fil. (T.Moore) 1: xxx (1857),synonym,wfo-0000150275,2022-04-16,2025-03-19
 wfo-0001225946,Antrophyum marginale,Blume,species,wfo-4000002538,valid,Enum. Pl. Javae 2: 111 (1828),accepted,NA,2022-04-16,2024-12-16
 wfo-0001225947,Antrophyum niphoboloides,Kunze,species,NA,NA,Bot. Zeitung (Berlin) 6: 209 (1848),synonym,wfo-0001115571,2022-04-16,2024-12-16
-wfo-0001225948,Taenitis marginalis,(Blume) T.Moore,species,NA,NA,Index Fil. (T.Moore) 1: xxx (1857),synonym,wfo-0001128390,2022-04-16,2025-05-22
+wfo-0001225948,Taenitis marginalis,(Blume) T.Moore,species,NA,valid,Index Fil. (T.Moore) 1: xxx (1857),synonym,wfo-0001225946,2022-04-16,2026-09-03
 wfo-0001225949,Taenitis niphoboloides,(Kunze) T.Moore,species,NA,NA,Index Filic. (T. Moore) 30 (1857),synonym,wfo-0001115571,2022-04-16,2024-12-16
 wfo-0001225950,Schizolepton rigidum,(Hook.) T.Moore,species,NA,NA,Index Fil. (T.Moore) 1: xxx (1857),synonym,wfo-1000070086,2022-04-16,2025-03-19
 wfo-0001225951,Lomagramma pteroides,J.Sm.,species,wfo-4000022096,valid,J. Bot. (Hooker) 3: 402 (1841),accepted,NA,2022-04-16,2025-03-19
@@ -41745,7 +41743,7 @@ wfo-0001226166,Lycopodium coriaceum,Rolleri,species,NA,NA,"Revista Mus. La Plata
 wfo-0001226167,Huperzia coriacea,(Rolleri) Rolleri & Deferrari,species,NA,NA,"Notas Mus. La Plata, Bot. 21, Bot. 100: 156 (1988)",synonym,wfo-0001333459,2022-04-16,2024-12-16
 wfo-0001226168,Huperzia densifolia,(Baker) Rolleri & Deferrari,species,NA,NA,"Not. Mus. La Plata, Bot. 21(100): 156 (1988)",synonym,wfo-0001039432,2022-04-16,2025-03-19
 wfo-0001226169,Huperzia leptodon,(Herter) Rolleri & Deferrari,species,NA,NA,"Notas Mus. La Plata, Bot. 21, Bot. 100: 156 (1988)",synonym,wfo-0001039432,2022-04-16,2024-12-16
-wfo-0001226170,Lycopodium leptodon,(Herter) Maxon ex C.V.Morton,species,NA,NA,Amer. Fern J. 54: 72 (1964),unchecked,NA,2022-04-16,2024-06-04
+wfo-0001226170,Lycopodium leptodon,(Herter) Maxon ex C.V.Morton,species,NA,NA,Amer. Fern J. 54(2): 72 (1964),synonym,wfo-0001039432,2022-04-16,2026-09-04
 wfo-0001226171,Huperzia parvifolia,(Nessel & Hoehne) Rolleri & Deferrari,species,NA,NA,"Notas Mus. La Plata, Bot. 21, Bot. 100: 156 (1988)",unchecked,NA,2022-04-16,2024-10-04
 wfo-0001226172,Urostachys parvifolius,(Raddi) Herter ex Nessel & Hoehne,species,NA,NA,"Arch. Bot. Sao Paulo 2: 395, t.10, f.2 (1927)",synonym,wfo-0001039432,2022-04-16,2025-03-19
 wfo-0001226174,Huperzia polyclada,(Sodiro) Rolleri & Deferrari,species,NA,NA,"Notas Mus. La Plata, Bot. 21, Bot. 100: 156 (1988)",synonym,wfo-1000075047,2022-04-16,2024-12-16
@@ -43563,7 +43561,7 @@ wfo-0001230977,Lepisorus myriosorus,Ching,species,NA,NA,Wuyi Sci. J. 1: 11 (1981
 wfo-0001230979,Colysis subsessilifolia,Ching,species,NA,NA,Wuyi Sci. J. 1: 11 (1981),synonym,wfo-0001335504,2022-04-16,2024-12-16
 wfo-0001230980,Phymatopsis tarningensis,Ching,species,NA,NA,Wuyi Sci. J. 1: 10 (1981),synonym,wfo-1200106024,2022-04-16,2024-12-16
 wfo-0001230981,Phymatopsis wuyishanica,Ching & Shing,species,NA,NA,Wuyi Sci. J. 1: 10 (1981),synonym,wfo-0001337494,2022-04-16,2024-12-16
-wfo-0001230983,Acropterygium pectinatum,(Willd.) Nakai,species,NA,NA,Bull. Natl. Sci. Mus. Tokyo 29: 6 (1950),synonym,wfo-0001113964,2022-04-16,2025-03-19
+wfo-0001230983,Acropterygium pectinatum,(Willd.) Nakai,species,NA,valid,Bull. Natl. Sci. Mus. Tokyo 29: 6 (1950),synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0001230984,Craspedophyllum marginatum,(Hook. & Grev.) Copel.,species,NA,NA,Philipp. J. Sci. 67: 27 (1938),synonym,wfo-0001226593,2022-04-16,2025-03-19
 wfo-0001230985,Davallodes hirsutum,(J.Sm.) Copel.,species,NA,NA,NA,synonym,wfo-1000074485,2022-04-16,2025-04-08
 wfo-0001230986,Microlepia hirsuta,(J.Sm.) C.Presl,species,NA,NA,Epimel. Bot. 97 (1851),synonym,wfo-1000074485,2022-04-16,2025-04-08
@@ -44401,7 +44399,7 @@ wfo-0001232549,Lepidomicrosorium nanchuanense,Ching & Z.Y.Liu,species,NA,NA,"Bul
 wfo-0001232554,Sphenomeris intermedia,"S.J.Lin, M.Kato & K.Iwats.",species,NA,NA,J. Jap. Bot. 69(3): 137 (1994),synonym,wfo-0001336227,2022-04-16,2025-03-19
 wfo-0001232557,Dicranopteris rigida,(Kunze) Nakai,species,NA,NA,Bull. Natl. Sci. Mus. Tokyo 29: 69 (1950),synonym,wfo-0001108911,2022-04-16,2025-03-19
 wfo-0001232558,Gleichenia grandis,T.Moore,species,NA,NA,Index Fil. (T.Moore) 20: 378 (1862),synonym,wfo-0001111986,2022-04-16,2025-03-19
-wfo-0001232559,Mertensia nitida,C.Presl,species,NA,NA,Tent. Pterid. 51 (1836),synonym,wfo-0001113964,2022-04-16,2025-03-19
+wfo-0001232559,Mertensia nitida,(C.Presl) C.Presl,species,NA,valid,Tent. Pterid. 51 (1836),synonym,wfo-0001108911,2022-04-16,2026-09-03
 wfo-0001232560,Dicranopteris pubescens,(Kunth) Conz.,species,NA,NA,Fl. Taxon Mex. (Conzatti) 1(2): 129 (1939),synonym,wfo-0001111999,2022-04-16,2025-03-19
 wfo-0001232562,Gleichenia immersa,Spreng.,species,NA,NA,"Syst. Veg., ed. 16 [Sprengel] 4(1): 27 (1827)",synonym,wfo-0001111999,2022-04-16,2025-03-19
 wfo-0001232563,Sticherus lehmannii,(Hieron.) Nakai,species,NA,NA,Bull. Natl. Sci. Mus. Tokyo 29: 21 (1950),synonym,wfo-0001124277,2022-04-16,2024-12-16
@@ -48207,7 +48205,7 @@ wfo-0001264139,Bernhardia oahuensis,Müll.Berol.,species,NA,NA,Bot. Zeitung (Ber
 wfo-0001264140,Selaginella sarmentosa,Liebm.,species,NA,NA,NA,unchecked,NA,2022-04-16,2023-11-24
 wfo-0001264141,Selaginella chilensis,(Willd.) Spring,species,NA,valid,Mém. Acad. Roy. Sci. Belgique24: 141 (1849),synonym,wfo-0001231591,2022-04-16,2026-08-05
 wfo-0001264142,Lycopodium chilense,Willd.,species,NA,NA,1810,synonym,wfo-0001231591,2022-04-16,2024-12-16
-wfo-0001264143,Lycopodium circinale,Cham. & Schltdl.,species,NA,NA,Linnaea 5: 622 1830,unchecked,NA,2022-04-16,2023-11-24
+wfo-0001264143,Lycopodium circinale,Cham. & Schltdl.,species,NA,NA,Linnaea 5: 622 1830,unchecked,NA,2022-04-16,2026-09-04
 wfo-0001264144,Selaginella faucium,Liebm.,species,NA,NA,Mexic. Pl. 1: 148 1872,synonym,wfo-0001121295,2022-04-16,2024-12-16
 wfo-0001264145,Selaginella undulata,Liebm. ex E.Fourn.,species,NA,invalid,Mexic. Pl. 1: 148 (1872),synonym,wfo-0001113285,2022-04-16,2024-12-16
 wfo-0001264146,Selaginella subsplendens,C.Presl,species,wfo-4000034966,valid,"Abh. Königl. Böhm. Ges. Wiss. ser. 5, 3: 582 (1845)",accepted,NA,2022-04-16,2025-03-19
@@ -49672,7 +49670,7 @@ wfo-0001275135,Lycopodiella maniculata,B.Øllg.,species,NA,valid,Nordic J. Bot. 
 wfo-0001275136,Huperzia cleefiana,B.Øllg.,species,NA,valid,Nordic J. Bot. 23(1): 34 (-35; fig.) (2004),synonym,wfo-0001333445,2022-04-16,2025-03-19
 wfo-0001275169,Polypodium eleutherophlebium,(Fée) Mett.,species,NA,NA,"Abh. Senckenberg. Naturf. Ges. 2(1): 75, n. 115 (1856)",synonym,wfo-0001279611,2022-04-16,2025-03-19
 wfo-0001275259,Cyrtomium laetevirens,(Hiyama) Nakaike,species,wfo-4000010535,valid,New Fl. Jap. Pterid. 840 (1992),accepted,NA,2022-04-16,2025-03-19
-wfo-0001275315,Dicranopteris nitida,(C.Presl) Nakai,species,NA,NA,Bull. Natl. Sci. Mus. Tokyo 29: 68 (1950),synonym,wfo-0001113964,2022-04-16,2025-03-19
+wfo-0001275315,Dicranopteris nitida,(C.Presl) Nakai,species,NA,valid,Bull. Natl. Sci. Mus. Tokyo 29: 68 (1950),synonym,wfo-0001108911,2022-04-16,2026-09-03
 wfo-0001275329,Gleichenia affinis var. packensis,Hieron.,variety,NA,NA,Hedwigia 48: 286 (1909),synonym,wfo-0001112017,2022-04-16,2024-12-16
 wfo-0001275403,Pyrrosia pannosa,(Mett. ex Kuhn) Ching,species,wfo-4000032323,valid,Bull. Chin. Bot. Soc. 1: 58 (1935),accepted,NA,2022-04-16,2025-03-19
 wfo-0001275404,Polypodium pannosum,Mett.; Kuhn,species,NA,NA,Linnaea 36(2): 141 (1869),synonym,wfo-0001275403,2022-04-16,2025-03-19
@@ -51967,13 +51965,13 @@ wfo-0001328279,Lycopodioides xiphophylla,(Baker) Kuntze,species,NA,NA,Revis. Gen
 wfo-0001328280,Lycopodium asperulum,Mart.,species,NA,NA,Fl. Bras. (Martius) 1(2): 127 (1840),synonym,wfo-0001115102,2022-04-16,2025-03-19
 wfo-0001328281,Lycopodium barbatum,Christ,species,NA,illegitimate,"Bull. Herb. Boissier ser. 2, 5: 254 (1905)",synonym,wfo-0001116185,2022-04-16,2025-03-19
 wfo-0001328282,Lycopodium breve,Herter,species,NA,NA,"Bot. Jahrb. Syst. 43(1-2, Beibl. 98): 33, 43 (1909)",synonym,wfo-0001039350,2022-04-16,2024-12-16
-wfo-0001328283,Lycopodium distinctissimum,Herter ex Nessel,species,NA,NA,Bärlappgewächse : 132 (1939),unchecked,NA,2022-04-16,2024-06-04
-wfo-0001328284,Lycopodium diversifolium,Nutt.,species,NA,NA,Handb. Fern-Allies : 19 (1887),unchecked,NA,2022-04-16,2024-06-04
-wfo-0001328285,Lycopodium elegantulum,Maxon ex Nessel,species,NA,NA,Bärlappgewächse : 159 (1939),unchecked,NA,2022-04-16,2024-06-04
-wfo-0001328286,Lycopodium fuertesii,Herter ex Nessel,species,NA,NA,Bärlappgewächse : 154 (1939),unchecked,NA,2022-04-16,2024-06-04
-wfo-0001328287,Lycopodium grenadense,Jenman ex Nessel,species,NA,NA,Bärlappgewächse : 152 (1939),unchecked,NA,2022-04-16,2024-06-04
-wfo-0001328288,Lycopodium hochreutineri,Rosenst. ex Nessel,species,NA,NA,Bärlappgewächse : 300 (1939),unchecked,NA,2022-04-16,2024-06-04
-wfo-0001328289,Lycopodium itatiaicum,Christ ex Nessel,species,NA,NA,Bärlappgewächse : 127 (1939),unchecked,NA,2022-04-16,2024-06-04
+wfo-0001328283,Lycopodium distinctissimum,Herter ex Nessel,species,NA,invalid,Bärlappgewächse : 132 (1939),unchecked,NA,2022-04-16,2026-09-04
+wfo-0001328284,Lycopodium diversifolium,Nutt.,species,NA,invalid,Handb. Fern-Allies : 19 (1887),unchecked,NA,2022-04-16,2026-09-04
+wfo-0001328285,Lycopodium elegantulum,Maxon ex Nessel,species,NA,invalid,Bärlappgewächse 159 (1939),unchecked,NA,2022-04-16,2026-09-04
+wfo-0001328286,Lycopodium fuertesii,Herter ex Nessel,species,NA,invalid,Bärlappgewächse 154 (1939),unchecked,NA,2022-04-16,2026-09-04
+wfo-0001328287,Lycopodium grenadense,Jenman ex Nessel,species,NA,invalid,Bärlappgewächse : 152 (1939),unchecked,NA,2022-04-16,2026-09-04
+wfo-0001328288,Lycopodium hochreutineri,Rosenst. ex Nessel,species,NA,invalid,Bärlappgewächse 300 (1939),unchecked,NA,2022-04-16,2026-09-04
+wfo-0001328289,Lycopodium itatiaicum,Christ ex Nessel,species,NA,invalid,Bärlappgewächse 127 (1939),unchecked,NA,2022-04-16,2026-09-04
 wfo-0001328290,Lycopodium luetzelburgii,Rosenst.,species,NA,NA,Repert. Spec. Nov. Regni Veg. 20: 95 (1924),synonym,wfo-0001317315,2022-04-16,2024-12-16
 wfo-0001328291,Lycopodium meridense,Mett. ex Herter,species,NA,NA,"Bot. Jahrb. Syst. 43(1-2, Beibl. 98): 37 (1909)",unchecked,NA,2022-04-16,2024-06-04
 wfo-0001328292,Lycopodium mettenianum,Hieron. ex Nessel,species,NA,NA,Bärlappgewächse : 244 (1939),unchecked,NA,2022-04-16,2024-06-04
@@ -52453,7 +52451,7 @@ wfo-0001330923,Ophioglossum malviae,M.Patel & M.N.Reddy,species,wfo-4000026939,v
 wfo-0001330943,Lycopodium tetragonostachyum,Wall.,species,NA,invalid,Numer. List [Wallich] no. 124 (1829),synonym,wfo-0001119983,2022-04-16,2025-03-19
 wfo-0001330944,Lycopodium semicordatum,Wall.,species,NA,invalid,Numer. List [Wallich] no. 126 (1829),synonym,wfo-0001421980,2022-04-16,2024-12-16
 wfo-0001330945,Lycopodium argenteum,Wall.,species,NA,invalid,Numer. List n.° 127 (1829),synonym,wfo-0001330095,2022-04-16,2024-12-16
-wfo-0001330946,Lycopodium heyneanum,Wall.,species,NA,invalid,Numer. List n.° 132 (1829),unchecked,NA,2022-04-16,2024-06-04
+wfo-0001330946,Lycopodium heyneanum,Wall.,species,NA,invalid,Numer. List no. 132 (1829),unchecked,NA,2022-04-16,2026-09-04
 wfo-0001330947,Lycopodium subdiaphanum,Wall.,species,NA,invalid,Numer. List [Wallich] no. 136 (1829),synonym,wfo-0001117707,2022-04-16,2024-12-16
 wfo-0001330956,Equisetum scoparium,Wall.,species,NA,invalid,Numer. List : n.° 398 (1829),unchecked,NA,2022-04-16,2024-06-04
 wfo-0001330989,Ophioglossum gujaratense,"S.M.Patil, R.N.Kachh., R.S.Patel & K.S.Rajput",species,wfo-4000026939,valid,Phytotaxa 351(4): 274 (2018),accepted,NA,2022-04-16,2025-03-19
@@ -54401,7 +54399,7 @@ wfo-0001370456,Davallia pyxidata var. pyxidata,NA,variety,NA,NA,NA,unchecked,NA,
 wfo-0001370464,Davallia solida var. caudata,(Cav.) Alderw.,variety,NA,NA,Malayan Ferns (1908),synonym,wfo-0001111449,2022-04-16,2025-03-19
 wfo-0001370474,Davallia solida var. lindleyi,(Hook.) Alderw.,variety,NA,NA,Malayan Ferns (1908),synonym,wfo-0001111449,2022-04-16,2025-03-19
 wfo-0001370478,Davallia solida var. ornata,Alderw.,variety,NA,NA,Malayan Ferns (1908),synonym,wfo-0001111449,2022-04-16,2025-03-19
-wfo-0001370557,Lycopodium aristatum var. tristachyum,(Pursh) Hook.,variety,NA,NA,NA,unchecked,NA,2022-04-16,2024-10-04
+wfo-0001370557,Lycopodium aristatum var. tristachyum,(Pursh) Hook.,variety,NA,NA,NA,synonym,wfo-0001116200,2022-04-16,2026-09-04
 wfo-0001370558,Polystichum platyphyllum var. klotzschii,Rosenst.,variety,wfo-0001113150,valid,NA,accepted,NA,2022-04-16,2024-12-16
 wfo-0001370565,Aspidium sanctum var. portoricense,Kuhn,variety,NA,invalid,Bot. Jahrb. Syst. 24(1): 115 (1897),synonym,wfo-1000044579,2022-04-16,2025-03-19
 wfo-0001370606,Lycopodium saururus var. inflexus,(Silveira) Nessel & Hoehne,variety,NA,NA,NA,synonym,wfo-0001317368,2022-04-16,2024-12-16
@@ -54990,7 +54988,7 @@ wfo-0001373492,Lycopodium scariosum var. patagonicum,Speg. ex Nessel,variety,NA,
 wfo-0001373494,Asplenium nidus var. multilobum,F.M.Bailey,variety,NA,NA,Queensland Agric. J. (1897),synonym,wfo-0001109990,2022-04-16,2025-03-19
 wfo-0001373495,Lycopodium selago var. densum,Wallr.,variety,NA,NA,Fl. Crypt. Germ. 32 (1831),synonym,wfo-0001443415,2022-04-16,2025-03-19
 wfo-0001373497,Lycopodium selago var. recurvum,(Kit. ex Willd.) Desv.,variety,NA,NA,Mém. Soc. Linn. Paris 6(2): 180 (1827),synonym,wfo-0001358926,2022-04-16,2024-12-16
-wfo-0001373498,Lycopodium selago var. typicum,Wherry,variety,NA,NA,Bartonia 21: 16 (1942),unchecked,NA,2022-04-16,2024-06-04
+wfo-0001373498,Lycopodium selago var. typicum,Wherry,variety,NA,invalid,Bartonia 21: 16 (1942),synonym,wfo-0001443415,2022-04-16,2026-09-04
 wfo-0001373499,Lycopodium struthioloides var. margaritae,Nessel,variety,NA,NA,Bärlappgewächse 171 (1939),synonym,wfo-0001125431,2022-04-16,2025-03-19
 wfo-0001373500,Lycopodium subulatum var. obtusifolium,Kuhn ex Urb.,variety,NA,NA,Bot. Jahrb. Syst. 24(1): 149 (1897),synonym,wfo-0001039436,2022-04-16,2024-12-16
 wfo-0001373501,Lycopodium subulatum var. rubens,Spring,variety,NA,NA,Mém. Acad. Roy. Sci. Belgique 24: 32 (1849),synonym,wfo-0001039436,2022-04-16,2024-12-16
@@ -58180,7 +58178,7 @@ wfo-0001411094,Marginaria piloselloides var. tecta,Farw.,variety,NA,NA,Amer. Mid
 wfo-0001411095,Marginaria polypodioides var. burchellii,Farw.,variety,NA,NA,Amer. Midl. Naturalist 12: 299 (1931),synonym,wfo-0001422122,2022-04-16,2025-03-19
 wfo-0001411096,Marginaria polypodioides var. squalida,Farw.,variety,NA,NA,Amer. Midl. Naturalist 12: 299 (1931),synonym,wfo-0000162858,2022-04-16,2025-03-19
 wfo-0001411102,Marsilea vestita var. oligospora,(Goodd.) Dorn,variety,NA,NA,Vasc. Pl. Wyoming 295 (1988),synonym,wfo-0001110221,2022-04-16,2025-03-19
-wfo-0001411130,Mertensia dichotoma var. lherminieri,Fée,variety,NA,NA,"Mém. Foug., 11. Hist. Foug. Antil. 121 (1866)",synonym,wfo-0001113964,2022-04-16,2025-03-19
+wfo-0001411130,Mertensia dichotoma var. lherminieri,Fée,variety,NA,valid,"Mém. Foug., 11. Hist. Foug. Antil. 121 (1866)",synonym,wfo-0001113964,2022-04-16,2026-09-02
 wfo-0001411159,Microsorum spectrum var. pentadactylum,(Hillebr.) D.D.Palmer,variety,wfo-0000148684,valid,Amer. Fern J. 92(2): 103 (2002),accepted,NA,2022-04-16,2025-03-19
 wfo-0001411296,Nephrodium acrostichoides var. crispum,Hopkins,variety,NA,NA,Fern Bull. 15: 7 (1907),synonym,wfo-0001109261,2022-04-16,2025-03-19
 wfo-0001411297,Nephrodium crinitum var. glaucescens,Sodiro,variety,NA,valid,Crypt. Vasc. Quit. 251 (1893),synonym,wfo-0001109552,2022-04-16,2025-03-19
@@ -64433,7 +64431,7 @@ wfo-1000041568,Lycopodium goliathense,Alderw.,species,NA,NA,"Bull. Jard. Bot. Bu
 wfo-1000041569,Lycopodium beccarii,Alderw.,species,NA,NA,"Bull. Jard. Bot. Buitenzorg Ser. 2, VII: 29 (1912)",synonym,wfo-0001328389,2022-12-01,2025-03-19
 wfo-1000041570,Lycopodium campestre,Alderw.,species,NA,NA,"Bull. Jard. Bot. Buitenzorg Ser. 2, XXIV: 3 (1917)",synonym,wfo-0001328392,2022-12-01,2025-03-19
 wfo-1000041571,Lycopodium rubricaule,Alderw.,species,NA,NA,"Bull. Jard. Bot. Buitenzorg Ser. 2, XXIV: 3 (1917)",synonym,wfo-1200067803,2022-12-01,2025-03-19
-wfo-1000041572,Lycopodium crebre,Alderw.,species,NA,NA,"Bull. Jard. Bot. Buitenzorg Ser. 2, XXIV: 4. 1917 [Feb 1917]",unchecked,NA,2022-12-01,2024-06-04
+wfo-1000041572,Lycopodium crebre,Alderw.,species,NA,NA,"Bull. Jard. Bot. Buitenzorg Ser. 2, XXIV: 4 (1917)",synonym,wfo-0001334856,2022-12-01,2026-09-04
 wfo-1000041573,Lycopodium versteegii,Alderw.,species,NA,NA,"Bull. Jard. Bot. Buitenzorg Ser. 2, XXIV: 4 (1917)",synonym,wfo-0001334895,2022-12-01,2025-03-19
 wfo-1000041574,Lycopodium hygrophilum,Alderw.,species,NA,NA,"Bull. Jard. Bot. Buitenzorg Ser. 2, XXIV: 5. 1917 [Feb 1917]",unchecked,NA,2022-12-01,2024-06-04
 wfo-1000041575,Lycopodium pachystachyon,Spring,species,NA,NA,Bull. Acad. Roy. Sci. Bruxelles 8(2): 518 (1841),synonym,wfo-0001226138,2022-12-01,2026-03-01
@@ -64504,8 +64502,8 @@ wfo-1000044505,Mucura bipinnata,(Cav.) L.A.Triana & Sundue,species,wfo-410000205
 wfo-1000044506,Mucura globulifera,(Poir.) L.A.Triana & Sundue,species,wfo-4100002053,valid,Taxon 72(1): 40. 2022 [14 Dec 2022] [epublished],accepted,NA,2023-03-01,2024-12-16
 wfo-1200027623,Antrophyum plantagineum var. angustatum,(Brack.) T.Moore,variety,NA,NA,Index Fil. (T.Moore) 5: 82,synonym,wfo-0001125082,2023-03-01,2025-03-19
 wfo-1200027624,Antrophyum plantagineum var. lessonii,(Bory) Hook. & Arn.,variety,NA,NA,Bot. Beechey Voy. 74 (1832),synonym,wfo-0001125082,2023-03-01,2025-03-19
-wfo-1200027625,Antrophyum reticulatum var. falcatum,(Blume) T.Moore,variety,NA,NA,Index Fil. (T.Moore) 5: 82,synonym,wfo-0001125084,2023-03-01,2026-07-02
-wfo-1200027626,Antrophyum reticulatum var. callifolium,(Blume) T.Moore,variety,NA,NA,Index Fil. (T.Moore) 5: 82,synonym,wfo-0001125084,2023-03-01,2026-07-02
+wfo-1200027625,Antrophyum reticulatum var. falcatum,(Blume) T.Moore,variety,NA,NA,Index Fil. (T.Moore) 5: 82,synonym,wfo-0001125084,2023-03-01,2026-09-03
+wfo-1200027626,Antrophyum reticulatum var. callifolium,(Blume) T.Moore,variety,NA,NA,Index Fil. (T.Moore) 5: 82,synonym,wfo-0001128390,2023-03-01,2026-09-03
 wfo-1000044579,Amauropelta cruciata,"(L.) Boudrie, Cremers & Viane",species,wfo-4000001490,valid,J. Bot. Soc. Bot. France 103: 11 (2022),accepted,NA,2023-03-01,2025-03-19
 wfo-1000044580,Blotiella aurita,"(L.) Boudrie, Cremers & Viane",species,wfo-4000004817,valid,J. Bot. Soc. Bot. France 103: 51 (2022),accepted,NA,2023-03-01,2025-03-19
 wfo-1000044584,Pecluma struthionis,"(L.) Boudrie, Cremers & Viane",species,wfo-4000028385,valid,J. Bot. Soc. Bot. France 103: 82 (2022),accepted,NA,2023-03-01,2025-03-19
@@ -65790,7 +65788,7 @@ wfo-1200101340,Abacopteris triphylla var. parishii,(Bedd.) Ching,variety,NA,NA,B
 wfo-1200101341,Abacopteris triphylla var. simplicifolia,Ching,variety,NA,NA,Bull. Fan Mem. Inst. Biol. Bot. 8(4): 243 (1938),synonym,wfo-1000027246,2024-08-13,2025-03-19
 wfo-1000067091,Abrodictyum cylindratum,Dubuisson,species,wfo-4000000052,valid,Phytotaxa 327(3): 209 (2017),accepted,NA,2024-08-13,2025-03-19
 wfo-1000067092,Abrodictyum parviflorum,(Poir.) Bauret & Dubuisson,species,wfo-4000000052,valid,Phytotaxa 327(3): 211 (2017),accepted,NA,2024-08-13,2025-03-19
-wfo-1200101342,Acropterygium pectinatum var. sublineare,(Christ) Nakai,variety,NA,NA,Bull. Natl. Sci. Mus. Tokyo 29: 7 (1950),synonym,wfo-0001113964,2024-08-13,2025-03-19
+wfo-1200101342,Acropterygium pectinatum var. sublineare,(Christ) Nakai,variety,NA,valid,Bull. Natl. Sci. Mus. Tokyo 29: 7 (1950),synonym,wfo-0001113964,2024-08-13,2026-09-02
 wfo-1200101343,Acrostichum alatum f. minutum,Kuhn,form,NA,NA,Bot. Jahrb. Syst. 24(1): 138 (1897),synonym,wfo-0001114885,2024-08-13,2025-03-19
 wfo-1200101344,Acrostichum alienum var. flagellum,Jenman,variety,NA,NA,J. Bot. 19: 54 (1881),synonym,wfo-0001109507,2024-08-13,2025-03-19
 wfo-1200101345,Acrostichum alienum var. semipinnatifidum,(Hook.) Baker,variety,NA,NA,Syn. Fil. (Hooker & Baker) 419 (1868),synonym,wfo-0001115006,2024-08-13,2025-03-19
@@ -66150,7 +66148,7 @@ wfo-1200101537,Dicksonia punctilobula f. schizophylla,Clute,form,NA,NA,Fern Bull
 wfo-1200101538,Dicksonia sellowiana var. arachneosa,Sodiro,variety,NA,NA,Anales Univ. Centr. Ecuador 7: 83 (1893),synonym,wfo-1200002515,2024-08-13,2025-03-19
 wfo-1200101539,Dicksonia sellowiana var. spruceana,(Mett. ex Kuhn) Baker,variety,NA,NA,"Syn. Fil. (Hooker & Baker), ed. 2. 461 (1874)",synonym,wfo-1200002516,2024-08-13,2025-03-19
 wfo-1200101540,Dicranopteris flexuosa f. monstrosa,(Hieron.) Nakai,form,NA,NA,Bull. Natl. Sci. Mus. Tokyo 29: 60 (1950),synonym,wfo-0001108911,2024-08-13,2025-03-19
-wfo-1200101541,Dicranopteris linearis var. lherminieri,(Fée) Nakai,variety,NA,NA,Bull. Natl. Sci. Mus. Tokyo 29: 66 (1950),synonym,wfo-0001113964,2024-08-13,2025-03-19
+wfo-1200101541,Dicranopteris linearis var. lherminieri,(Fée) Nakai,variety,NA,valid,Bull. Natl. Sci. Mus. Tokyo 29: 66 (1950),synonym,wfo-0001113964,2024-08-13,2026-09-02
 wfo-1200101542,Dicranopteris squamulosa var. gunckeliana,Looser,variety,NA,NA,Revista Univ. (Santiago) 47: 23 (1962),synonym,wfo-0001383292,2024-08-13,2025-03-19
 wfo-1000067260,Didymoglossum pinnatinervium,(Jenman) Pic.Serm.,species,wfo-4000011648,valid,Webbia 28: 469 (1973),accepted,NA,2024-08-13,2026-07-15
 wfo-1200101543,Didymoglossum reptans var. muscoides,(Sw.) E.Fourn.,variety,NA,NA,Mexic. Pl. 1: 60 (1872),synonym,wfo-0001112259,2024-08-13,2025-03-19
@@ -69032,7 +69030,7 @@ wfo-1200103258,Gleichenia hirta var. lanuginosa,(Alderw.) Holttum,variety,NA,NA,
 wfo-1200103259,Gleichenia hirta var. ornamentalis,(Rosenst.) Holttum,variety,NA,NA,Reinwardtia 4: 269 (1957),synonym,wfo-0001381186,2024-08-13,2024-12-16
 wfo-1200103260,Gleichenia hirta var. paleacea,C.Chr.,variety,NA,NA,Gard. Bull. Straits Settlem. 7: 212 (1934),synonym,wfo-0001375266,2024-08-13,2024-12-16
 wfo-1200103261,Gleichenia hirta var. virescens,(Hieron.) Holttum,variety,NA,NA,Reinwardtia 4: 270 (1957),synonym,wfo-1200101635,2024-08-13,2024-12-16
-wfo-1000068556,Gleichenia hookeri,J.Sm.,species,NA,NA,(1843),synonym,wfo-0001113964,2024-08-13,2024-12-16
+wfo-1000068556,Gleichenia hookeri,J.Sm.,species,NA,NA,(1843),synonym,wfo-0001113964,2024-08-13,2026-09-02
 wfo-1200103262,Gleichenia laevigata var. bracteata,Alderw.,variety,NA,NA,Malayan Ferns Fern Allies 85 (1917),synonym,wfo-1000086339,2024-08-13,2026-02-01
 wfo-1200103263,Gleichenia linearis var. altissima,Holttum,variety,NA,NA,Rev. Fl. Malaya 2: 69 (1955) (fide Fraser-Jenkins 2008),synonym,wfo-0001124455,2024-08-13,2024-12-16
 wfo-1200103264,Gleichenia linearis var. montana,Holttum,variety,NA,NA,"Rev. Fl. Malaya 2: 69 (1955), descr. angl. (fide Fraser-Jenkins 1997)",synonym,wfo-0001124455,2024-08-13,2024-12-16
@@ -69906,7 +69904,7 @@ wfo-1000068971,Lycopodium apus,Gmel.,species,NA,superfluous,Prodr. Aethéogam. 1
 wfo-1000068972,Lycopodium archboldianum,(Nessel) Alston,species,NA,valid,J. Bot.77: 290 (1939),synonym,wfo-0001328385,2024-08-13,2026-08-05
 wfo-1000068973,Lycopodium arcitenentis,Herter,species,NA,NA,"Est. Bot. Reg. Uruguaya 20 [Index Lycopod.]: 5 (1949), nom. nov. for Lycopodium curvifolium Colenso",synonym,wfo-0001123675,2024-08-13,2024-12-16
 wfo-1000068974,Lycopodium aristei,(Nessel) Rolleri,species,NA,NA,"Revista Mus. La Plata, Secc. Bot. 13: 94 (1981)",synonym,wfo-1000058263,2024-08-13,2024-12-16
-wfo-1000068975,Lycopodium atrivirens,C.Presl,species,NA,valid,Reliq. Haenk.1: 79 (1825),synonym,wfo-0001330089,2024-08-13,2026-08-05
+wfo-1000068975,Lycopodium atrovirens,C.Presl,species,NA,valid,Reliq. Haenk. 1: 79 (1825),synonym,wfo-0001330089,2024-08-13,2026-09-04
 wfo-1000068976,Lycopodium banayanicum,(Herter) Copel.,species,NA,NA,Univ. Calif. Publ. Bot. 12: 384 (1931),synonym,wfo-0001334851,2024-08-13,2026-02-26
 wfo-1000068977,Lycopodium belangeri,Bory,species,NA,NA,Voy. Indes Or. [Bélanger] 2(1): 12 (1833),synonym,wfo-0001119978,2024-08-13,2026-03-06
 wfo-1000068978,Lycopodium bicolor,Warb.,species,NA,NA,Monsunia 1: 129 (1900),synonym,wfo-0001109675,2024-08-13,2024-12-16
@@ -70099,9 +70097,9 @@ wfo-1200103828,Meniscium hosei var. sumbensis,Alderw.,variety,NA,NA,Bull. Dépt.
 wfo-1000069077,Meniscium juergensenii,Fée,species,NA,NA,Mém. Foug. 5 (Gen. Filic.): 223 (1852),synonym,wfo-0001113244,2024-08-13,2024-12-16
 wfo-1000069078,Meniscium schreberi,Rich.,species,NA,NA,"Actes Soc. Hist. Nat. Paris 1: 114 (1792), nomen",synonym,wfo-0001110449,2024-08-13,2024-12-16
 wfo-1000069079,Meniscium x,NA,species,NA,NA,NA,unchecked,NA,2024-08-13,2024-12-14
-wfo-1200103829,Mertensia glaucescens var. cubensis,Fée,variety,NA,NA,Mém. Foug. 11 (Hist. Foug. Antil.): 121 (1866),synonym,wfo-0001113964,2024-08-13,2024-12-16
-wfo-1200103830,Mertensia glaucescens var. mexicana,Fée,variety,NA,NA,Mém. Foug. 11 (Hist. Foug. Antil.): 121 (1866),synonym,wfo-0001113964,2024-08-13,2024-12-16
-wfo-1000069080,Mertensia hermanii,Hook. & Grev.,species,NA,NA,non (R. Br.) Poir.,synonym,wfo-0001113964,2024-08-13,2024-12-16
+wfo-1200103829,Mertensia glaucescens var. cubensis,Fée,variety,NA,valid,Mém. Foug. 11 (Hist. Foug. Antil.): 121 (1866),synonym,wfo-0001113964,2024-08-13,2026-09-02
+wfo-1200103830,Mertensia glaucescens var. mexicana,Fée,variety,NA,valid,Mém. Foug. 11 (Hist. Foug. Antil.): 121 (1866),synonym,wfo-0001113964,2024-08-13,2026-09-02
+wfo-1000069080,Mertensia hermanii,Hook. & Grev.,species,NA,NA,non (R. Br.) Poir.,synonym,wfo-0001113964,2024-08-13,2026-09-02
 wfo-1200103831,Mertensia spissa var. pubigera,(Blume) Nakai,variety,NA,NA,Bot. Mag. (Tokyo) 39: 180 (1925) (non Fée),synonym,wfo-0000144771,2024-08-13,2024-12-16
 wfo-1000069081,Mesoneuron chlamydophorum,(Rosenst. ex C.Chr.) Ching,species,NA,NA,Acta Phytotax. Sin. 8: 325 (1963),synonym,wfo-0001118347,2024-08-13,2024-12-16
 wfo-4100004485,Mesopleuria,T.Moore,genus,NA,NA,Index Fil. [T. Moore] 36 (1857),synonym,wfo-4000000695,2024-08-13,2024-12-16
@@ -72212,7 +72210,7 @@ wfo-1200105047,Cyclodium varians,C.V.Morton ex Vareschi,species,NA,invalid,NA,sy
 wfo-1200105048,Cystopteris fragilis subsp. huteri,(Hausm. ex Milde) Grint.,subspecies,wfo-0001107276,valid,Fl. Republ. Popul. Român. 1: 89 (1952),accepted,NA,2024-08-13,2024-12-16
 wfo-1200105049,Davallia denticulata,Kuhn,species,wfo-4000010866,valid,Filices Africanae (1868),accepted,NA,2024-08-13,2025-03-19
 wfo-1200105050,Davallodes borneensis,(Hook.) Copel.,species,NA,valid,Philipp. J. Sci. 34: 250 (1927),synonym,wfo-0000140461,2024-08-13,2025-04-08
-wfo-1200105051,Dennstaedtia,T.Moore,genus,NA,valid,"Index Fil. [T. Moore] 97 (1859), nom. cons.",synonym,wfo-4000011137,2024-08-13,2026-08-25
+wfo-1200105051,Dennstaedtia,T.Moore,genus,NA,invalid,Index Fil. [T. Moore] 97 (1859),synonym,wfo-4000011137,2024-08-13,2026-08-30
 wfo-1200105052,Deparia chinensis,(Ching) X.S.Guo & C.Du,species,wfo-4000011154,valid,Checkl. Shaanxi Vasc. Pl. 18 (2016),accepted,NA,2024-08-13,2024-12-16
 wfo-1200105053,Deparia polyrhizon,(Baker) Seriz.,species,wfo-4000011154,valid,J. Jap. Bot. 54(6): 180 (1979),accepted,NA,2024-08-13,2024-12-16
 wfo-1200105054,Dicksonia youngiae,Hook. & Baker,species,wfo-4000011468,valid,Syn. Fil. (Hooker & Baker) 1867,accepted,NA,2024-08-13,2024-12-16
@@ -76112,7 +76110,7 @@ wfo-1000074379,Gymnogramma ruiziana,(Fée) Mett.,species,NA,NA,Fil. Hort. Bot. L
 wfo-1000074380,Dryopteris fauriei,(Holttum & P.J.Edwards) Li Bing Zhang,species,NA,NA,"Phytotaxa 71: 17-27 (2012), nom. illeg., non Kodama 1914",synonym,wfo-0001425527,2024-09-13,2024-12-16
 wfo-1000074381,Nephrodium patens,Jenman,species,NA,NA,Bull. Dept. Jam. n. s. 8. 165 (1896),synonym,wfo-1000028324,2024-09-13,2024-12-16
 wfo-1000074382,Equisetum arenarium,Newman,species,NA,valid,"Hist. Brit. Ferns, ed. 2.47 (1844)",synonym,wfo-0001111186,2024-09-13,2026-08-05
-wfo-1000074383,Mertensia emarginata,Brack.,species,NA,illegitimate,"U.S. Expl. Exped., Filic. 16: 297, t. 42 (1854)",synonym,wfo-1200069412,2024-09-13,2024-12-16
+wfo-1000074383,Mertensia emarginata,Brack.,species,NA,NA,"U.S. Expl. Exped., Filic. 16: 297, t. 42 (1854)",synonym,wfo-1200069412,2024-09-13,2026-09-02
 wfo-1000074384,Nephrodium crenatum,Baker,species,NA,NA,Fl. Maurit. 497 (1877),synonym,wfo-0001108318,2024-09-13,2024-12-16
 wfo-1000074385,Hymenophyllum polyanthos,Hook.,species,NA,illegitimate,Night. Ocean. Sketch. App. 132 (1835),synonym,wfo-1000075002,2024-09-13,2024-12-16
 wfo-1000074386,Lycopodium filiforme,Wall. ex Roxb.,species,NA,valid,Calcutta J. Nat. Hist.4: 473 (1844),synonym,wfo-0001125446,2024-09-13,2026-08-05
@@ -76563,7 +76561,7 @@ wfo-1000074918,Lycopodium pulcherrimum,Wall.,species,NA,NA,Numer. List [Wallich]
 wfo-1000074919,Lycopodium repandum,Desv.,species,NA,NA,Encycl. [J. Lamarck & al.] Suppl. 3. [2]: 558 (1814),synonym,wfo-0001119983,2024-09-13,2025-03-19
 wfo-1000074920,Lycopodium robustum,Fuertes ex Nessel,species,NA,NA,Bärlappgewächse 242 (1939),synonym,wfo-0001333497,2024-09-13,2025-03-19
 wfo-1000074921,Meniscium salicifolium,Wall.,species,NA,NA,Numer. List [Wallich] n. 63 (1829),synonym,wfo-1000027248,2024-09-13,2025-03-19
-wfo-1000074922,Mertensia canescens,Kaulf.,species,NA,NA,Enum. Filic. 38 (1824),synonym,wfo-0001113964,2024-09-13,2025-03-19
+wfo-1000074922,Mertensia canescens,Kaulf.,species,NA,valid,Enum. Filic. 38 (1824),synonym,wfo-0001113964,2024-09-13,2026-09-02
 wfo-1000074923,Mertensia hawaiensis,Brack.,species,NA,NA,"U.S. Expl. Exped., Filic. 16: 295 (1854)",synonym,wfo-0000497494,2024-09-13,2025-03-19
 wfo-1000074924,Mertensia pubescens,(Willd. ex Roem. & Schult.) DC.,species,NA,NA,Prodr. [A. P. de Candolle] 10: 90 (1846),synonym,wfo-0001111999,2024-09-13,2025-03-19
 wfo-1000074925,Micropolypodium zurquinum,Copel.,species,NA,NA,Novon 2: 423 (1992),synonym,wfo-0001043301,2024-09-13,2025-03-19
@@ -77724,7 +77722,7 @@ wfo-1000092347,Doryopteris longula,(Mett.; Kuhn) Brade,species,NA,valid,Arch. Ja
 wfo-1000092518,Isoetes austrocaroliniana,J.F.Matthews & Heafner,species,NA,valid,S. E. Biol.57: 254 (2010),unchecked,NA,2026-08-04,2026-08-05
 wfo-1000092551,Hippochaete naegelianum,(W.Koch ex Rothm.) Rothm.,species,NA,valid,Feddes Repert. Spec. Nov. Regni Veg.54: 81 (1944),unchecked,NA,2026-08-04,2026-08-05
 wfo-1000092676,Asplenium gibbyae,"H.Schneid., Hong M.Liu & J.C.Vogel",species,NA,valid,Fern Gaz.22(7): 293 (2026),unchecked,NA,2026-08-04,2026-08-05
-wfo-1000092811,Lycopodium arcitenensis,Herter,species,NA,valid,Estud. Bot. Reg. Uruguay20: 5 (1949),unchecked,NA,2026-08-04,2026-08-05
+wfo-1000092811,Lycopodium arcitenensis,Herter,species,NA,valid,Estud. Bot. Reg. Uruguay 20: 5 (1949),synonym,wfo-0001123675,2026-08-04,2026-09-04
 wfo-1000092819,Lycopodioides breynioides,(Baker) Kuntze,species,NA,valid,Revis. Gen. Pl.2: 826 (1891),unchecked,NA,2026-08-04,2026-08-05
 wfo-1000092824,Ophioglossum konkanensis,S.Patil & M.Dongare,species,NA,valid,Field Guide Pterid. Northern W. Ghats130 (2017),unchecked,NA,2026-08-04,2026-08-05
 wfo-1000092838,Lycopodioides phillipsiana,(Spring) Kuntze,species,NA,valid,Revis. Gen. Pl.2: 827 (1891),unchecked,NA,2026-08-04,2026-08-05
