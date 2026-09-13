@@ -223,6 +223,8 @@
 
 *Microschizaea* C.F.Reed
 
+*Neoschizaea* D.V.S.Silva, A.C.P.Santiago & T.E.Almeida
+
 *Schizaea* Sm.
 
 ##### Family **Anemiaceae** Link
