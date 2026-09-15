@@ -111,6 +111,9 @@ public GitHub release, so never do it as a default continuation of the summary s
     `https://zenodo.org/api/records/?q=<github-repo-search>`, or by asking the user) and
     edit the release notes to add it: `gh release edit <version> --notes-file <file>`.
     Add a `**DOI:** [<doi>](https://doi.org/<doi>)` line — this repo's README carries a
-    separate, unchanging *concept* DOI badge that always points to the latest release, so
-    don't touch README.md for this; the version-specific DOI only goes in that release's
-    notes.
+    separate, unchanging *concept* DOI badge that always points to the latest release
+    (there's no way to make a static badge auto-track the latest version DOI, so the
+    concept DOI is the stand-in), so don't touch README.md for this; the version-specific
+    DOI only goes in that release's notes. The README badge is a static `img.shields.io`
+    badge, not one of Zenodo's own generated SVGs — those returned 403s when tried for the
+    v2.0.0 release.

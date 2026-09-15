@@ -1,6 +1,6 @@
 # ppg
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22760360.svg)](https://doi.org/10.5281/zenodo.22760360)
+[![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.22760360-blue.svg)](https://doi.org/10.5281/zenodo.22760360)
 
 This repo houses the Pteridophyte Phylogeny Group (PPG) taxonomic database for ferns and lycophytes.
 
