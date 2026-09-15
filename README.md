@@ -1,5 +1,7 @@
 # ppg
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22760360.svg)](https://doi.org/10.5281/zenodo.22760360)
+
 This repo houses the Pteridophyte Phylogeny Group (PPG) taxonomic database for ferns and lycophytes.
 
 [Issues](https://github.com/pteridogroup/ppg/issues) are used to discuss taxonomic proposals by the PPG community, which are voted on monthly. All proposals are relative to [PPG I (2016)](https://doi.org/10.1111/jse.12229). To propose a taxonomic change, use the [taxonomic proposal template](https://github.com/pteridogroup/ppg/issues/new?assignees=&labels=taxonomic+proposal&template=taxonomic-proposal.yml). Proposals that pass by a 2/3 majority will be implemented in the taxonomic database. 

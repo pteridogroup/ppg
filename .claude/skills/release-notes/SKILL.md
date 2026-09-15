@@ -105,3 +105,12 @@ public GitHub release, so never do it as a default continuation of the summary s
    gh release create <version> --title "PPG <version>" --notes "<release notes>"
    ```
 9. Report the release URL back to the user.
+10. Zenodo mints a version-specific DOI for the release automatically, but only *after*
+    the GitHub release is created — so it can't be included in the notes at step 7/8.
+    Once the release exists, fetch the DOI (e.g. via the Zenodo API,
+    `https://zenodo.org/api/records/?q=<github-repo-search>`, or by asking the user) and
+    edit the release notes to add it: `gh release edit <version> --notes-file <file>`.
+    Add a `**DOI:** [<doi>](https://doi.org/<doi>)` line — this repo's README carries a
+    separate, unchanging *concept* DOI badge that always points to the latest release, so
+    don't touch README.md for this; the version-specific DOI only goes in that release's
+    notes.
