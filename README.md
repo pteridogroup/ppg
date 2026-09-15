@@ -16,7 +16,25 @@ A human readable summary of the same data is available as [a plain text file](da
 
 ## Versioning
 
-The data are currently being updated to reflect changes that have taken place since [PPG I (2016)](https://doi.org/10.1111/jse.12229). Once this is done, a version number starting with 2 (i.e., PPG II) will be assigned. Therefore, **these data should not be taken as the official PPG II system until a version number is assigned >= 2**.
+As of **v2.0.0**, this repository contains the official PPG II taxonomic system, reflecting changes to the classification of ferns and lycophytes since [PPG I (2016)](https://doi.org/10.1111/jse.12229). See the PPG II publication for details. *(citation to be added)*
+
+Version numbers follow a four-part scheme, `MAJOR.GENUS.SPECIES.DEV`:
+
+- `MAJOR` — a wholesale revision of the classification, such as the
+  transition from PPG I to PPG II.
+- `GENUS` — bumped when a release changes the accepted classification at
+  genus rank or above (e.g., a genus is added, merged, split, or
+  resurrected from synonymy).
+- `SPECIES` — bumped when a release includes at least one change at species
+  rank or below (new species, synonymy changes, name corrections, etc.)
+  without any genus-or-above change.
+- `DEV` — identifies an in-progress development version between full
+  releases; it is dropped from the version number once a release is
+  issued (e.g. `v0.0.0.9009` was a dev version; `v2.0.0` is a release).
+
+Most commits on `main` are automated daily data updates and are not
+individually version-tagged; issuing a new version is a separate, manual
+decision.
 
 ## Contributing
 
