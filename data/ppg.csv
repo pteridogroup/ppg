@@ -136,7 +136,7 @@ wfo-0000139507,Alsophila albosetacea,Bedd.,species,NA,NA,Ferns. br. Ind. Suppl. 
 wfo-0000139508,Alsophila alderwereltii,(Copel.) R.M.Tryon,species,wfo-4000001400,valid,Contr. Gray Herb. 200: 32 (1970),accepted,NA,2022-04-16,2024-12-16
 wfo-0000139509,Alsophila alleniae,(Holttum) R.M.Tryon,species,wfo-4000001400,valid,Contr. Gray Herb. 200: 32 (1970),accepted,NA,2022-04-16,2024-12-16
 wfo-0000139510,Alsophila alta,(Copel.) R.M.Tryon,species,wfo-4000001400,valid,Contr. Gray Herb. 200: 36 (1970),accepted,NA,2022-04-16,2024-12-16
-wfo-0000139511,Alsophila althiopica,Diels,species,NA,NA,"Nat. Pfl. 1(4): 135. 1899, err. typ.",unchecked,NA,2022-04-16,2025-12-15
+wfo-0000139511,Alsophila althiopica,Diels,species,NA,NA,"Nat. Pfl. 1(4): 135. 1899, err. typ.",unchecked,NA,2022-04-16,2026-09-24
 wfo-0000139512,Alsophila amazonica,Linden,species,NA,NA,Cat. Gén. 87: ? (1871),unchecked,NA,2022-04-16,2024-06-04
 wfo-0000139514,Alsophila aneitensis,(Hook.) R.M.Tryon,species,wfo-4000001400,valid,Contr. Gray Herb. 200: 36 (1970),accepted,NA,2022-04-16,2024-12-16
 wfo-0000139515,Alsophila aperta,Fée,species,NA,NA,"Crypt. Vasc. Bresil 1: 158, t.54, f.2 (1869)",synonym,wfo-0001119589,2022-04-16,2025-03-19
@@ -389,7 +389,7 @@ wfo-0000139763,Alsophila tenuisecta,Bl.; Moore,species,NA,NA,Index Fil. (T.Moore
 wfo-0000139764,Adiantum altissimum,Bojer,species,NA,NA,Hortus Maurit. 405 (1837),synonym,wfo-0001107641,2022-04-16,2025-03-19
 wfo-0000139765,Alsophila ternatea,(Alderw.) R.M.Tryon,species,wfo-4000001400,valid,Contr. Gray Herb. 200: 36 (1970),accepted,NA,2022-04-16,2024-12-16
 wfo-0000139766,Alsophila tijucensis,Fée,species,NA,NA,"Crypt. Vasc. Bresil 1: 173, t.73, f.1 (1869)",synonym,wfo-0001112423,2022-04-16,2025-03-19
-wfo-0000139767,Alsophila tricolor,(Colenso) R.M.Tryon,species,wfo-4000001400,valid,Contr. Gray Herb. 200: 37 (1970),accepted,NA,2022-04-16,2024-12-16
+wfo-0000139767,Alsophila tricolor,(Colenso) R.M.Tryon,species,NA,valid,Contr. Gray Herb. 200: 37 (1970),synonym,wfo-1200112586,2022-04-16,2026-09-21
 wfo-0000139768,Alsophila tristis,Bl.; Moore,species,NA,NA,Index Fil. (T.Moore) 4: 58 (1857),synonym,wfo-0001231474,2022-04-16,2025-03-19
 wfo-0000139769,Alsophila tristis,Bl.; C.Chr.,species,NA,NA,Ind. 48.,unchecked,NA,2022-04-16,2024-06-04
 wfo-0000139770,Alsophila tristis,(Blume) Blume,species,NA,NA,Index Fil. (1857),synonym,wfo-0001231474,2022-04-16,2025-05-22
@@ -509,7 +509,7 @@ wfo-0000139884,Cyathea croftii,Holttum,species,wfo-4000010177,valid,Kew Bull. 37
 wfo-0000139885,Cyathea ctenitoides,(Lellinger) Christenh.,species,wfo-4000010177,valid,Phytotaxa 1: 39 (2009),accepted,NA,2022-04-16,2024-12-16
 wfo-0000139886,Cyathea cumingii,Baker,species,NA,valid,"Syn. Fil. (Hooker & Baker), ed. 2. 453 (1874)",synonym,wfo-0001124387,2022-04-16,2025-03-19
 wfo-0000139887,Adiantum amelianum,Glaziou,species,NA,NA,J. Bot. 20: 309 (1882),synonym,wfo-0001280786,2022-04-16,2025-03-19
-wfo-0000139888,Cyathea dealbata,(G.Forst.) Sw.,species,NA,valid,J. Bot. (Schrader) 1800(2): 94 (1801),synonym,wfo-0000139767,2022-04-16,2024-12-16
+wfo-0000139888,Cyathea dealbata,(G.Forst.) Sw.,species,NA,valid,J. Bot. (Schrader) 1800(2): 94 (1801),synonym,wfo-1200112586,2022-04-16,2026-09-21
 wfo-0000139889,Cyathea decipiens,(J.Scott) Clarke & Baker,species,NA,NA,"J. Linn. Soc., Bot. 24: 409 (1888)",synonym,wfo-0001126562,2022-04-16,2025-03-19
 wfo-0000139890,Cyathea deckenii,Kuhn & Decken,species,NA,NA,"Reisen Ost Afr. [Decken] 3(3, Bot.): 57 (1879)",synonym,wfo-0000139559,2022-04-16,2025-03-19
 wfo-0000139891,Cyathea decora,Domin,species,NA,NA,Acta Bot. Bohem. 9: 109 (1930),synonym,wfo-0001108908,2022-04-16,2024-12-16
@@ -532,7 +532,7 @@ wfo-0000139907,Cyathea excelsa,Kunze,species,NA,illegitimate,Bot. Zeitung (Berli
 wfo-0000139908,Adiantum americanum,Nieuwl.,species,NA,NA,Amer. Midl. Naturalist 2: 280 (1912),synonym,wfo-0001107191,2022-04-16,2024-12-16
 wfo-0000139909,Allosorus argyrophyllus,(Sw.) C.Presl,species,NA,NA,Tent. Pterid. 153 (1836),synonym,wfo-0001107936,2022-04-16,2025-05-22
 wfo-0000139910,Cyathea exilis,Holttum,species,NA,valid,Kew Bull. 41(3): 532 (1986),synonym,wfo-1000020407,2022-04-16,2024-12-16
-wfo-0000139911,Cyathea falciloba,Domin,species,NA,NA,Pteridophyta 262 (1929),synonym,wfo-0000139767,2022-04-16,2025-03-19
+wfo-0000139911,Cyathea falciloba,Domin,species,NA,NA,Pteridophyta 262 (1929),synonym,wfo-1200112586,2022-04-16,2026-09-21
 wfo-0000139912,Cyathea fallacina,Domin,species,NA,NA,Acta Bot. Bohem. 9: 115 (1930),synonym,wfo-0001119458,2022-04-16,2024-12-16
 wfo-0000139913,Allosorus asper,(Baker) Kuntze,species,NA,NA,Revis. Gen. Pl. 2: 806 (1891),synonym,wfo-0001337805,2022-04-16,2025-05-22
 wfo-0000139914,Cyathea farinosa,(H.Karst.) Domin,species,wfo-4000010177,valid,Pteridophyta 262 (1929),accepted,NA,2022-04-16,2025-05-22
@@ -629,7 +629,7 @@ wfo-0000140005,Cyathea lobata,Copel.,species,NA,NA,"Philipp. J. Sci. 81: 15, t.1
 wfo-0000140006,Allosorus crispatulus,Kuntze,species,NA,NA,Revis. Gen. Pl. 2: 806 (1891),synonym,wfo-0000144417,2022-04-16,2024-12-16
 wfo-0000140007,Cyathea loddigesii,(Kunze) Domin,species,NA,NA,Pteridophyta 262 (1929),synonym,wfo-0001391285,2022-04-16,2025-05-22
 wfo-0000140008,Cyathea longipaleata,Alston,species,NA,NA,J. Bot. 78: 226 (1940),synonym,wfo-1000067133,2022-04-16,2025-03-19
-wfo-0000140009,Cyathea loubetiana,Domin,species,NA,NA,Pteridophyta 262 (1929),synonym,wfo-0000139645,2022-04-16,2025-03-19
+wfo-0000140009,Cyathea loubetiana,(L.Linden) Domin,species,NA,NA,Pteridophyta 262 (1929),synonym,wfo-0000139645,2022-04-16,2026-09-24
 wfo-0000140010,Cyathea macarthurii,(F.Muell.) Benth.,species,NA,NA,Fl. Austral. (1878),synonym,wfo-0000139582,2022-04-16,2025-03-19
 wfo-0000140011,Cyathea macarthurii,(F.Muell.) Baker,species,NA,NA,J. Bot. 12: 280 (1874),synonym,wfo-0000139582,2022-04-16,2024-06-04
 wfo-0000140012,Cyathea malegassica,Domin,species,NA,NA,Acta Bot. Bohem. 9: 133 (1930),synonym,wfo-1200002579,2022-04-16,2024-12-16
@@ -775,7 +775,7 @@ wfo-0000140153,Cyathea thurstonii,Baker,species,NA,NA,J. Bot. 24: 182 (1886),syn
 wfo-0000140154,Allosorus melanolepis,Decne.,species,NA,NA,Arch. Mus. 2: 189 (1841),synonym,wfo-0001043625,2022-04-16,2025-03-19
 wfo-0000140155,Cyathea trichomanoides,Christenh.,species,wfo-4000010177,valid,Phytotaxa 1: 41 (2009),accepted,NA,2022-04-16,2024-12-16
 wfo-0000140156,Cyathea trichophlebia,Domin,species,NA,NA,Pteridophyta 263 (1929),synonym,wfo-0001119458,2022-04-16,2025-03-19
-wfo-0000140157,Cyathea tricolor,Colenso,species,NA,NA,Trans. New Zealand Inst. 15: 304 (1883),synonym,wfo-0000139767,2022-04-16,2025-03-19
+wfo-0000140157,Cyathea tricolor,Colenso,species,NA,NA,Trans. New Zealand Inst. 15: 304 (1883),synonym,wfo-1200112586,2022-04-16,2026-09-21
 wfo-0000140158,Cyathea trinitensis,Domin,species,wfo-4000010177,valid,Pteridophyta 264 (1929),accepted,NA,2022-04-16,2025-03-19
 wfo-0000140159,Cyathea tristis,(Blume) Domin,species,NA,NA,Pteridophyta 263 (1929),synonym,wfo-0001231474,2022-04-16,2025-05-22
 wfo-0000140160,Cyathea truncata,(Brack.) Copel.,species,NA,NA,"Philipp. J. Sci., C 4: 39 (1909)",synonym,wfo-0000140395,2022-04-16,2025-05-22
@@ -858,7 +858,7 @@ wfo-0000140240,Adiantum arborescens,Poir.,species,NA,valid,Encycl. [J. Lamarck &
 wfo-0000140241,Allosorus pringlei,Farw.,species,NA,NA,Amer. Midl. Naturalist 12: 285 (1931),unchecked,NA,2022-04-16,2024-12-11
 wfo-0000140242,Allosorus pruinatus,Farw.,species,NA,NA,Amer. Midl. Naturalist 12(8): 284 (1931),synonym,wfo-1000079694,2022-04-16,2025-10-11
 wfo-0000140243,Hemitelia extensa,C.Presl,species,NA,NA,Abh. Königl. Böhm. Ges. Wiss. V(5): 351 (1848),synonym,wfo-0000139749,2022-04-16,2025-03-19
-wfo-0000140244,Hemitelia falciloba,Colenso,species,NA,NA,Trans. New Zealand Inst. 24: 394 (1892),synonym,wfo-0000139767,2022-04-16,2025-03-19
+wfo-0000140244,Hemitelia falciloba,Colenso,species,NA,NA,Trans. New Zealand Inst. 24: 394 (1892),synonym,wfo-1200112586,2022-04-16,2026-09-21
 wfo-0000140245,Hemitelia gardneriana,C.Presl,species,NA,NA,Abh. Königl. Böhm. Ges. Wiss. V(5): 320 (1848),synonym,wfo-1200002580,2022-04-16,2025-03-19
 wfo-0000140246,Hemitelia guianensis,Hook.,species,NA,NA,Icon. Pl. 7: t.648 (1844),synonym,wfo-0001116162,2022-04-16,2025-03-19
 wfo-0000140247,Hemitelia hombersleyi,Maxon,species,NA,NA,J. Wash. Acad. Sci. 25: 528 (fig.) (1935),synonym,wfo-0000157703,2022-04-16,2025-01-23
@@ -9888,7 +9888,7 @@ wfo-0000149370,Polypodium damunense,Rosenst.,species,NA,NA,Repert. Spec. Nov. Re
 wfo-0000149371,Polypodium daucifolium,Poir.,species,NA,NA,Encycl. [J. Lamarck & al.] 5: 542 (1804),synonym,wfo-0001425785,2022-04-16,2025-03-19
 wfo-0000149372,Polypodium davalliaceum,F.Muell. & Baker,species,NA,NA,J. Bot. 28: 108 (1890),synonym,wfo-0000145484,2022-04-16,2024-12-16
 wfo-0000149373,Polypodium davidi,Franch.,species,NA,NA,Nouv. Arch. Mus. Hist. Nat. 2(10): 119. 1887,synonym,wfo-0001253991,2022-04-16,2024-06-04
-wfo-0000149374,Polypodium dealbatum,G.Forst.,species,NA,NA,Fl. Ins. Austr. 83 (1786),synonym,wfo-0000139767,2022-04-16,2025-03-19
+wfo-0000149374,Polypodium dealbatum,G.Forst.,species,NA,NA,Fl. Ins. Austr. 83 (1786),synonym,wfo-1200112586,2022-04-16,2026-09-21
 wfo-0000149375,Polypodium debile,Baker,species,NA,NA,Syn. Fil. (Hooker & Baker) 313 (1867),synonym,wfo-0000152943,2022-04-16,2025-03-19
 wfo-0000149376,Polypodium decurrenti-adnatum,Rosenst.,species,NA,NA,Repert. Spec. Nov. Regni Veg. 12: 248 (1913),synonym,wfo-0001337490,2022-04-16,2024-12-16
 wfo-0000149377,Polypodium deliculatum,M.Martens & Galeotti,species,NA,NA,"Nouv. Mém. Acad. Roy. Sci. Bruxelles 15: 35, t. 7 (1842)",unchecked,NA,2022-04-16,2024-12-13
@@ -66901,7 +66901,7 @@ wfo-1200101761,Alsophila contaminans var. microloba,Christ,variety,NA,NA,NA,syno
 wfo-1200101762,Alsophila contaminans var. robusta,Christ,variety,NA,NA,NA,synonym,wfo-0001256920,2024-08-13,2024-12-16
 wfo-1200101763,Alsophila contaminans var. setulosa,Hassk.,variety,NA,NA,NA,synonym,wfo-0001256920,2024-08-13,2024-12-16
 wfo-1200101764,Alsophila contaminans var. squamulata,Christ,variety,NA,NA,NA,synonym,wfo-0001256920,2024-08-13,2024-12-16
-wfo-1200101765,Alsophila dealbata var. tricolor,(Colenso) Domin,variety,NA,NA,Biblioth. Bot. 20(85): 27 (1913),synonym,wfo-0000139767,2024-08-13,2024-12-16
+wfo-1200101765,Alsophila dealbata var. tricolor,(Colenso) Domin,variety,NA,NA,Biblioth. Bot. 20(85): 27 (1913),synonym,wfo-1200112586,2024-08-13,2026-09-21
 wfo-1000067839,Alsophila fumata,Klotzsch,species,NA,illegitimate,"Sp. Fil. [W. J. Hooker] 1: 42 (1842), nom. illeg., et ex Salomon, Nomencl. Gefäßkrypt. Gefäßkrypt. 28 (1883), nom. nud.",synonym,wfo-0001119964,2024-08-13,2024-12-16
 wfo-1200101766,Alsophila glauca var. celebica,Rosenst.,variety,NA,NA,NA,synonym,wfo-0001256920,2024-08-13,2024-12-16
 wfo-1200101767,Alsophila glauca var. densa,Rosenst.,variety,NA,NA,NA,synonym,wfo-0001256920,2024-08-13,2024-12-16
@@ -77291,7 +77291,7 @@ wfo-1000080875,Physematium pallidum,(Copel.) Ponce & Arana,species,NA,valid,Will
 wfo-1000080939,Asplenium latipinnulum,H.Ding & K.W.Xu,species,NA,valid,Phytotaxa 698(2): 137 (2025),unchecked,NA,2025-05-01,2025-05-06
 wfo-1200112561,Asplenium filix-femina var. dentatum,Döll,variety,NA,valid,Rhein. Fl. 12 (1843),unchecked,NA,2025-05-01,2025-05-06
 wfo-1200112562,Asplenium filix-femina var. multidentatum,Döll,variety,NA,valid,Rhein. Fl. 12 (1843),unchecked,NA,2025-05-01,2025-05-06
-wfo-1200112586,Alsophila dealbata,(G.Forst.) Corda,species,NA,valid,"Vers. Fl. Vorwelt 2(7-8, App.): XXIX (1838)",unchecked,NA,2025-05-01,2025-05-06
+wfo-1200112586,Alsophila dealbata,(G.Forst.) Corda,species,wfo-4000001400,valid,"Vers. Fl. Vorwelt 2(7-8, App.): XXIX (1838)",accepted,NA,2025-05-01,2026-09-21
 wfo-1200112591,Osmunda bromeliifolia,(C.Presl) J.S.Gardner,species,NA,valid,"Geol. Mag. Dec. 2, 6: 153 (1879)",unchecked,NA,2025-05-01,2025-05-06
 wfo-1200112635,Aspidium unitum var. hirsuta,Mett.,variety,NA,NA,Ann. Mus. Bot. Lugduno-Batavi 1: 230 (1864),unchecked,NA,2025-05-02,2025-05-06
 wfo-1000081097,Antrophyum falcatum,Mart. & Gal.Mem.,species,NA,NA,"Nouv. Mém. Acad. Roy. Sci. Bruxelles 15: 49, t.12 (1842)",synonym,wfo-0001113321,2025-05-02,2026-07-06
