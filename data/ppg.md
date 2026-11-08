@@ -935,6 +935,8 @@
 
 *Parrisia* Shalisko & Sundue
 
+*Phaneroloma* G.S.Armstr. & D.J.Ohlsen
+
 *Prosaptia* C.Presl
 
 *Rouhania* Li Bing Zhang, X.M.Zhou, Jian Jun Yang & Liang Zhang
