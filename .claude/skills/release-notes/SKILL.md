@@ -107,8 +107,13 @@ public GitHub release, so never do it as a default continuation of the summary s
 9. Report the release URL back to the user.
 10. Zenodo mints a version-specific DOI for the release automatically, but only *after*
     the GitHub release is created — so it can't be included in the notes at step 7/8.
-    Once the release exists, fetch the DOI (e.g. via the Zenodo API,
-    `https://zenodo.org/api/records/?q=<github-repo-search>`, or by asking the user) and
+    Once the release exists, don't wait for the user to hand you the DOI — check Zenodo
+    yourself right after step 9 and poll until it appears (it normally takes only a few
+    minutes at most): query the Zenodo API
+    (`https://zenodo.org/api/records/?q=<github-repo-search>&sort=mostrecent`, or the
+    repo's Zenodo page) every ~30–60 seconds, and match the record whose version equals
+    the new release tag so you don't pick up the previous release's DOI. If it hasn't
+    appeared after ~10 minutes, tell the user and ask them to paste it. Then
     edit the release notes to add it: `gh release edit <version> --notes-file <file>`.
     Add a `**DOI:** [<doi>](https://doi.org/<doi>)` line — this repo's README carries a
     separate, unchanging *concept* DOI badge that always points to the latest release
