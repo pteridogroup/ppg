@@ -55,6 +55,43 @@ load_ppg_from_wfo <- function(wfo_backbone_zip) {
   ppg
 }
 
+#' Check for Taxa That Are Their Own Accepted Name
+#'
+#' Stops with a descriptive error if any row has an `acceptedNameUsageID`
+#' identical to its own `taxonID`. The data come from the live Rhakhis export,
+#' so such rows are errors in Rhakhis that must be fixed there (not patched
+#' in this pipeline).
+#'
+#' @param ppg A data frame of PPG data with Darwin Core columns.
+#'
+#' @return `ppg`, invisibly, if no problem rows are found.
+check_self_accepted <- function(ppg) {
+  bad <- ppg |>
+    filter(
+      !is.na(acceptedNameUsageID),
+      taxonID == acceptedNameUsageID
+    )
+  if (nrow(bad) == 0) {
+    return(invisible(ppg))
+  }
+  details <- paste0(
+    "  - ", bad$taxonID, " ", bad$scientificName,
+    " (rank: ", bad$taxonRank,
+    ", status: ", bad$taxonomicStatus,
+    ", parent: ", bad$parentNameUsageID, ")",
+    collapse = "\n"
+  )
+  stop(
+    nrow(bad), " taxon/taxa in the WFO/Rhakhis export are listed as their ",
+    "own accepted name (acceptedNameUsageID == taxonID):\n", details, "\n",
+    "This is a data error in Rhakhis (e.g. a synonym of itself, or an ",
+    "accepted name with a stray acceptedNameUsageID). Fix it in Rhakhis, ",
+    "then re-run. Look up the current state at ",
+    "https://rhakhis-live.rbge.info",
+    call. = FALSE
+  )
+}
+
 #' Clean and Validate PPG Taxonomic Data
 #'
 #' This function processes raw PPG (Pteridophyte Phylogeny Group) taxonomic
@@ -112,6 +149,9 @@ clean_ppg <- function(ppg_raw) {
       ),
       nomenclaturalStatus = str_to_lower(nomenclaturalStatus)
     ) |>
+    # Give a clear error for self-referencing accepted names before the
+    # generic dwctaxon validation
+    check_self_accepted() |>
     # Validate
     dwctaxon::dct_validate(
       valid_tax_status = "accepted, synonym, unchecked, variant",
